@@ -141,10 +141,11 @@ export const uniones = [
       'Ajustar con formón o guillame hasta que entre con presión de la mano, sin martillo.',
       'Encolar ambas superficies y apretar con sargentos comprobando la escuadra.',
     ],
+    // Pata vista de lado con la caja en corte; el travesaño entra de izquierda a derecha.
     svg: {
-      a: 'M150 30 H240 V130 H150 V100 H180 V60 H150 Z',
-      b: 'M30 55 H150 V65 H180 V95 H150 V105 H30 Z',
-      dx: -70, dy: 0,
+      a: 'M150 10 H215 V150 H150 V95 H185 V65 H150 Z',
+      b: 'M30 55 H150 V65 H185 V95 H150 V105 H30 Z',
+      dx: -60, dy: 0,
     },
   },
   {
@@ -163,10 +164,12 @@ export const uniones = [
       'Serrar y vaciar las espigas con formón, cortando desde ambas caras.',
       'Probar en seco, ajustar y encolar.',
     ],
+    // Vista de las colas: la pieza de espigas entra perpendicular al dibujo,
+    // por eso se anima "desde el frente" (escala) y no deslizando.
     svg: {
       a: 'M30 40 H140 V48 L170 42 V78 L140 72 V88 L170 82 V118 L140 112 V120 H30 Z',
       b: 'M140 40 H240 V120 H140 V112 L170 118 V82 L140 88 V72 L170 78 V42 L140 48 Z',
-      dx: 0, dy: 0, bdx: 60,
+      dx: 0, dy: -12, frente: true,
     },
   },
   {
@@ -184,10 +187,11 @@ export const uniones = [
       'Eliminar el material con formón y nivelar el fondo.',
       'Encolar y reforzar con tornillo o clavija si lo requiere.',
     ],
+    // Vista lateral de una unión en esquina: cada pieza pierde la mitad de su espesor.
     svg: {
       a: 'M20 80 H130 V100 H190 V120 H20 Z',
-      b: 'M130 40 H190 V100 H130 Z',
-      dx: 0, dy: -45,
+      b: 'M130 80 H250 V120 H190 V100 H130 Z',
+      dx: 0, dy: -50,
     },
   },
   {
@@ -205,10 +209,12 @@ export const uniones = [
       'Taladrar con una profundidad algo mayor que la mitad de la clavija.',
       'Encolar agujeros y clavijas, unir y prensar.',
     ],
+    // Agujeros dibujados en corte para que se vea dónde entran las clavijas.
     svg: {
       a: 'M30 50 H140 V110 H30 Z',
+      agujeros: 'M112 63 H140 V73 H112 Z M112 87 H140 V97 H112 Z',
       b: 'M140 50 H250 V110 H140 Z M115 64 H140 V72 H115 Z M115 88 H140 V96 H115 Z',
-      dx: 0, dy: 0, bdx: 55,
+      dx: 55, dy: 0,
     },
   },
   {
@@ -226,8 +232,9 @@ export const uniones = [
       'Limpiar el fondo con guillame para un apoyo plano.',
       'Encolar y prensar.',
     ],
+    // Lateral con la canal hacia abajo (1/3 del espesor) y el estante encajado.
     svg: {
-      a: 'M20 90 H120 V70 H145 V90 H250 V130 H20 Z',
+      a: 'M20 70 H120 V90 H145 V70 H250 V130 H20 Z',
       b: 'M120 10 H145 V90 H120 Z',
       dx: 0, dy: -45,
     },
@@ -247,9 +254,10 @@ export const uniones = [
       'Comprobar el ajuste en seco.',
       'Encolar y clavar o atornillar.',
     ],
+    // Tapa con el escalón en el extremo inferior y el lateral alojado en él.
     svg: {
-      a: 'M40 40 H200 V100 H170 V130 H40 Z',
-      b: 'M170 100 H200 V150 H170 Z',
+      a: 'M40 50 H220 V75 H190 V100 H40 Z',
+      b: 'M190 75 H220 V145 H190 Z',
       dx: 0, dy: 40,
     },
   },

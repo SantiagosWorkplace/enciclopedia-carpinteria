@@ -15,6 +15,15 @@ const secciones = [
 export default function App() {
   const [scroll, setScroll] = useState(0)
   const [orden, setOrden] = useState('nombre')
+  const [unidad, setUnidad] = useState(() => {
+    try { return localStorage.getItem('unidad') || 'metrico' } catch { return 'metrico' }
+  })
+
+  const cambiarUnidad = () => {
+    const nueva = unidad === 'metrico' ? 'imperial' : 'metrico'
+    setUnidad(nueva)
+    try { localStorage.setItem('unidad', nueva) } catch { /* sin almacenamiento */ }
+  }
 
   useEffect(() => {
     const onScroll = () => {
@@ -55,7 +64,7 @@ export default function App() {
           <Reveal>
             <span className="eyebrow">Capítulo I</span>
             <h2>Maderas</h2>
-            <p className="lead">Cada especie tiene su carácter. Pasa el ratón para inclinar la tarjeta y haz clic para ver su ficha técnica.</p>
+            <p className="lead">Cada especie tiene su carácter. Pasa el ratón para inclinar la tarjeta y haz clic para ver su ficha técnica. En la ficha, toca el valor de dureza para alternar entre kN y lbf.</p>
             <div className="sort">
               Ordenar por:
               <button className={orden === 'nombre' ? 'active' : ''} onClick={() => setOrden('nombre')}>Nombre</button>
@@ -65,7 +74,7 @@ export default function App() {
           <div className="wood-grid">
             {ordenadas.map((m, i) => (
               <Reveal key={m.id} delay={(i % 4) * 80}>
-                <WoodCard madera={m} />
+                <WoodCard madera={m} unidad={unidad} onCambiarUnidad={cambiarUnidad} />
               </Reveal>
             ))}
           </div>

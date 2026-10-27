@@ -7,16 +7,23 @@ export default function JointViewer() {
   const [unida, setUnida] = useState(false)
   const [hechos, setHechos] = useState([])
 
+  // Cada vez que cambia la unión, las piezas arrancan separadas y se ensamblan solas.
   useEffect(() => {
-    setUnida(false)
-    setHechos([])
-    const t = setTimeout(() => setUnida(true), 600)
+    const t = setTimeout(() => setUnida(true), 500)
     return () => clearTimeout(t)
   }, [activa])
 
+  const elegir = (u) => {
+    if (u.id === activa.id) return
+    setUnida(false)
+    setHechos([])
+    setActiva(u)
+  }
+
   const { svg } = activa
-  const dx = unida ? 0 : (svg.bdx ?? svg.dx)
-  const dy = unida ? 0 : svg.dy
+  const separada = svg.frente
+    ? `translate(${svg.dx}px, ${svg.dy}px) scale(1.18)`
+    : `translate(${svg.dx}px, ${svg.dy}px)`
   const toggle = (i) => setHechos((h) => (h.includes(i) ? h.filter((x) => x !== i) : [...h, i]))
   const progreso = Math.round((hechos.length / activa.pasos.length) * 100)
 
@@ -29,7 +36,7 @@ export default function JointViewer() {
             role="tab"
             aria-selected={u.id === activa.id}
             className={u.id === activa.id ? 'active' : ''}
-            onClick={() => setActiva(u)}
+            onClick={() => elegir(u)}
           >
             {u.nombre}
           </button>
@@ -38,7 +45,7 @@ export default function JointViewer() {
 
       <div className="joint-body" key={activa.id}>
         <div className="joint-visual">
-          <svg viewBox="0 0 270 160">
+          <svg viewBox="0 0 270 160" className={unida ? 'unida' : ''}>
             <defs>
               <pattern id="vetaA" width="40" height="12" patternUnits="userSpaceOnUse">
                 <rect width="40" height="12" fill="#d7a96f" />
@@ -49,13 +56,16 @@ export default function JointViewer() {
                 <path d="M6 0 Q2 10 6 20 T6 40" stroke="#7e4b27" strokeWidth="1" fill="none" />
               </pattern>
             </defs>
-            <path d={svg.a} fill="url(#vetaA)" stroke="#5a3a1e" strokeWidth="1.5" />
+            <path d={svg.a} className="pieza pieza-a" fill="url(#vetaA)" stroke="#5a3a1e" strokeWidth="1.5" />
+            {svg.agujeros && <path d={svg.agujeros} className="agujero" />}
+            <path d={svg.b} className="fantasma" />
             <path
               d={svg.b}
+              className="pieza pieza-b"
               fill="url(#vetaB)"
               stroke="#3d2412"
               strokeWidth="1.5"
-              style={{ transform: `translate(${dx}px, ${dy}px)`, transition: 'transform 0.9s cubic-bezier(.6,-0.3,.3,1.4)' }}
+              style={{ transform: unida ? 'none' : separada, opacity: unida ? 1 : svg.frente ? 0.55 : 1 }}
             />
           </svg>
           <button className="btn" onClick={() => setUnida(!unida)}>

@@ -1,9 +1,15 @@
 import { useRef, useState } from 'react'
 
 const MAX_JANKA = 3600
+const LBF_A_KN = 4.448 / 1000
+
+const formatJanka = (lbf, unidad) =>
+  unidad === 'metrico'
+    ? `${(lbf * LBF_A_KN).toLocaleString('es-AR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} kN`
+    : `${lbf.toLocaleString('es-AR')} lbf`
 
 // Tarjeta con inclinación 3D; al hacer clic gira y muestra la ficha técnica.
-export default function WoodCard({ madera }) {
+export default function WoodCard({ madera, unidad, onCambiarUnidad }) {
   const ref = useRef(null)
   const [flipped, setFlipped] = useState(false)
 
@@ -20,16 +26,25 @@ export default function WoodCard({ madera }) {
     ref.current.style.setProperty('--rx', '0deg')
     ref.current.style.setProperty('--ry', '0deg')
   }
+  const onKeyDown = (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      setFlipped(!flipped)
+    }
+  }
 
   const [c1, c2] = madera.color
 
   return (
-    <button
+    <div
       ref={ref}
+      role="button"
+      tabIndex={0}
       className={`wood-card ${flipped ? 'flipped' : ''}`}
       onMouseMove={onMove}
       onMouseLeave={onLeave}
       onClick={() => setFlipped(!flipped)}
+      onKeyDown={onKeyDown}
       aria-pressed={flipped}
     >
       <div className="wood-card-inner">
@@ -43,7 +58,22 @@ export default function WoodCard({ madera }) {
         </div>
         <div className="face back">
           <h4>{madera.nombre}</h4>
-          <Stat label="Dureza Janka" value={`${madera.janka} lbf`} pct={madera.janka / MAX_JANKA} show={flipped} />
+          <Stat
+            label="Dureza Janka"
+            value={
+              <button
+                className="unit-toggle"
+                tabIndex={flipped ? 0 : -1}
+                title={unidad === 'metrico' ? 'Cambiar a imperial (lbf)' : 'Cambiar a métrico (kN)'}
+                onClick={(e) => { e.stopPropagation(); onCambiarUnidad() }}
+                onKeyDown={(e) => e.stopPropagation()}
+              >
+                {formatJanka(madera.janka, unidad)} <span aria-hidden="true">⇄</span>
+              </button>
+            }
+            pct={madera.janka / MAX_JANKA}
+            show={flipped}
+          />
           <Stat label="Densidad" value={`${madera.densidad} kg/m³`} pct={madera.densidad / 1100} show={flipped} />
           <Stat
             label="Trabajabilidad"
@@ -55,7 +85,7 @@ export default function WoodCard({ madera }) {
           <p className="notas">{madera.notas}</p>
         </div>
       </div>
-    </button>
+    </div>
   )
 }
 
