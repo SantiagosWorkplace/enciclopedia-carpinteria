@@ -82,9 +82,10 @@ const tejuelas = rango(11, (f) => {
   return d
 })
 
-export const construcciones = [
+const delMundo = [
   {
     id: 'platform',
+    grupos: ['mundo', 'seco'],
     nombre: 'Entramado ligero',
     local: 'Platform frame / balloon frame',
     region: 'Norteamérica',
@@ -115,6 +116,7 @@ export const construcciones = [
   },
   {
     id: 'japon',
+    grupos: ['mundo'],
     nombre: 'Casa tradicional japonesa',
     local: 'Minka · jiku-gumi (estructura de pilares y vigas)',
     region: 'Japón',
@@ -145,6 +147,7 @@ export const construcciones = [
   },
   {
     id: 'fachwerk',
+    grupos: ['mundo'],
     nombre: 'Entramado de madera europeo',
     local: 'Fachwerk · timber framing · colombage',
     region: 'Alemania, Inglaterra, Francia',
@@ -183,6 +186,7 @@ export const construcciones = [
   },
   {
     id: 'troncos',
+    grupos: ['mundo'],
     nombre: 'Casa de troncos',
     local: 'Blockhaus · izba · log cabin',
     region: 'Escandinavia, Rusia, Alpes, Canadá',
@@ -209,6 +213,7 @@ export const construcciones = [
   },
   {
     id: 'china',
+    grupos: ['mundo'],
     nombre: 'Estructura tradicional china',
     local: 'Tailiang (vigas apiladas) y dougong (ménsulas)',
     region: 'China, Corea y su área de influencia',
@@ -243,6 +248,7 @@ export const construcciones = [
   },
   {
     id: 'pilotes',
+    grupos: ['mundo'],
     nombre: 'Casa sobre pilotes',
     local: 'Rumah panggung · bahay kubo · ruean thai',
     region: 'Sudeste asiático',
@@ -268,6 +274,7 @@ export const construcciones = [
   },
   {
     id: 'chiloe',
+    grupos: ['mundo'],
     nombre: 'Palafito chilote',
     local: 'Palafitos y arquitectura en madera de Chiloé',
     region: 'Chiloé, Chile',
@@ -293,6 +300,7 @@ export const construcciones = [
   },
   {
     id: 'clt',
+    grupos: ['mundo', 'seco'],
     nombre: 'Madera contralaminada',
     local: 'CLT · cross-laminated timber',
     region: 'Europa (Austria, Alemania) y hoy todo el mundo',
@@ -327,4 +335,127 @@ export const construcciones = [
       { parte: 'cimiento', nombre: 'Fundación', valor: 'hormigón, con barrera contra la humedad bajo la madera' },
     ],
   },
+]
+
+// ---------- Steel framing ----------
+const montantesAcero = rango(23, (i) => {
+  const x = 0.6 + i * 0.4
+  if (i >= 9 && i <= 11) return R(x, 0.29, 0.04, 1.2 - 0.29) // bajo el antepecho
+  return R(x, 0.29, 0.04, 2.6)
+})
+
+// ---------- Tabique de placa de yeso ----------
+const montantesYeso = rango(13, (i) => {
+  const x = 0.8 + i * 0.48
+  if (i === 3) return R(x, 2.085, 0.035, 0.48) // sobre la puerta
+  return R(x, 0.035, 0.035, 2.53)
+})
+const lana = L(Array.from({ length: 14 }, (_, i) => [i % 2 ? 9.2 : 8.05, 0.85 + i * 0.18]))
+
+// ---------- Paneles SIP ----------
+const panelesSip = rango(7, (k) => R(0.8 + k * 1.22, 0.3, 1.22, 2.44))
+const juntasSip = rango(6, (k) => R(0.8 + (k + 1) * 1.22 - 0.04, 0.3, 0.08, 2.44))
+
+const enSeco = [
+  {
+    id: 'steel',
+    grupos: ['seco'],
+    nombre: 'Steel framing',
+    local: 'Entramado de perfiles de acero galvanizado liviano',
+    region: 'Norteamérica, Australia, Latinoamérica',
+    epoca: 'Desde la década de 1990 en vivienda',
+    resumen: 'La misma lógica del entramado ligero de madera, pero con perfiles de chapa galvanizada atornillados. Se combina con madera en placas OSB o fenólicas, revestimientos y aberturas.',
+    clima: 'Cualquiera, con aislación entre montantes y barrera de vapor. No se pudre ni lo atacan insectos.',
+    curiosidad: 'Muchas herramientas son las mismas que en carpintería (nivel, escuadra, atornillador), pero los cortes se hacen con tijera de chapa, sierra de disco para metal o amoladora.',
+    persona: { x: 9.75 },
+    partes: [
+      { id: 'platea', nombre: 'Platea de hormigón', d: R(0.4, 0, 9.4, 0.25) },
+      { id: 'soleras', nombre: 'Soleras (PGU)', d: R(0.6, 0.25, 9.0, 0.04) + ' ' + R(0.6, 2.89, 9.0, 0.04) },
+      { id: 'montantes', nombre: 'Montantes (PGC)', d: montantesAcero },
+      { id: 'vano', nombre: 'Dintel y antepecho', d: R(3.84, 2.45, 1.56, 0.44) + ' ' + R(3.84, 1.2, 1.56, 0.04) },
+      {
+        id: 'cruces',
+        nombre: 'Cruces de San Andrés (fleje)',
+        d: L([[0.6, 0.29], [2.2, 2.89]]) + ' ' + L([[2.2, 0.29], [0.6, 2.89]]) + ' ' + L([[7.8, 0.29], [9.4, 2.89]]) + ' ' + L([[9.4, 0.29], [7.8, 2.89]]),
+      },
+      { id: 'cercha', nombre: 'Cerchas de acero', d: L([[0.3, 2.93], [5.0, 5.9], [9.7, 2.93]], true) + ' ' + L([[2.65, 2.93], [5.0, 5.9], [7.35, 2.93]]) },
+    ],
+    medidas: [
+      { parte: 'montantes', nombre: 'Montantes PGC', valor: '90 – 200 mm de alma × 40 mm de ala, chapa de 0,9 – 1,6 mm' },
+      { parte: 'montantes', nombre: 'Separación entre ejes', valor: '40 o 60 cm, coincidente con placas de 1,20 m' },
+      { parte: 'soleras', nombre: 'Soleras PGU', valor: 'perfil U del mismo ancho que el montante' },
+      { parte: 'cruces', nombre: 'Rigidización', valor: 'flejes en cruz o placas OSB de 11 mm atornilladas' },
+      { parte: 'platea', nombre: 'Anclaje a la platea', valor: 'varillas roscadas o anclajes químicos' },
+      { parte: null, nombre: 'Galvanizado', valor: 'Z275 = 275 g/m² de zinc (ambas caras)' },
+      { parte: null, nombre: 'Tornillos', valor: 'autoperforantes: punta mecha para chapa gruesa, punta aguja para placas' },
+      { parte: null, nombre: 'Aislación', valor: 'lana de vidrio o mineral de 50 – 150 mm entre montantes' },
+    ],
+  },
+  {
+    id: 'drywall',
+    grupos: ['seco'],
+    nombre: 'Tabique de placa de yeso',
+    local: 'Drywall · tabiquería seca (Durlock, Pladur, Knauf)',
+    region: 'Todo el mundo',
+    epoca: 'Desde mediados del siglo XX',
+    resumen: 'Divisiones interiores y cielorrasos de placas de yeso atornilladas a una estructura de perfiles de chapa (o de listones de madera). Se terminan con cinta y masilla en las juntas.',
+    clima: 'Interior. Hay placas resistentes a la humedad para baños y cocinas, y resistentes al fuego.',
+    curiosidad: 'Comparte con la carpintería el trazado, la plomada y el nivel. En construcción con madera se usa la misma placa sobre montantes de madera.',
+    persona: { x: 7.15 },
+    partes: [
+      { id: 'losa', nombre: 'Losa existente', d: R(0.4, 2.6, 6.8, 0.2) },
+      { id: 'soleras', nombre: 'Soleras', d: R(0.8, 0, 6.0, 0.035) + ' ' + R(0.8, 2.565, 6.0, 0.035) },
+      { id: 'montantes', nombre: 'Montantes', d: montantesYeso },
+      { id: 'puerta', nombre: 'Vano de puerta', d: R(1.76, 2.05, 0.96, 0.035) },
+      { id: 'placas', nombre: 'Placas de yeso (a junta trabada)', d: R(3.7, 0.035, 1.2, 2.4) + ' ' + R(4.9, 0.035, 1.2, 2.4) + ' ' + R(6.1, 0.035, 0.7, 2.4) + ' ' + R(3.7, 2.435, 3.1, 0.13) },
+      { id: 'detalle', nombre: 'Corte del tabique (no a escala)', d: R(7.7, 0.8, 0.22, 2.6) + ' ' + R(9.32, 0.8, 0.22, 2.6) + ' ' + R(7.92, 0.8, 1.4, 2.6) + ' ' + lana },
+    ],
+    medidas: [
+      { parte: 'montantes', nombre: 'Montantes', valor: '35, 70 o 100 mm, chapa galvanizada de ≈ 0,5 mm' },
+      { parte: 'montantes', nombre: 'Separación entre ejes', valor: '40 – 48 cm según fabricante y uso' },
+      { parte: 'placas', nombre: 'Placas', valor: '1,20 × 2,40 m · espesor 9,5 / 12,5 / 15 mm' },
+      { parte: 'placas', nombre: 'Tipos de placa', valor: 'estándar, resistente a la humedad y resistente al fuego' },
+      { parte: 'detalle', nombre: 'Espesor terminado', valor: '≈ 95 mm (montante de 70 + 2 placas de 12,5)' },
+      { parte: 'detalle', nombre: 'Aislación acústica', valor: 'lana de vidrio de 50 – 70 mm en la cavidad' },
+      { parte: 'soleras', nombre: 'Fijación de soleras', valor: 'tarugos o fijaciones cada ≈ 60 cm' },
+      { parte: null, nombre: 'Juntas', valor: 'cinta de papel + masilla en 2 – 3 manos, lijado fino' },
+    ],
+  },
+  {
+    id: 'sip',
+    grupos: ['seco'],
+    nombre: 'Paneles SIP',
+    local: 'Structural insulated panels · paneles estructurales aislados',
+    region: 'Norteamérica, Europa, Chile, Argentina',
+    epoca: 'Desde la década de 1950',
+    resumen: 'Paneles sándwich de dos placas de OSB con un núcleo aislante de espuma. Son estructura, aislación y base de revestimiento en una sola pieza, y se montan muy rápido.',
+    clima: 'Fríos y templados: el núcleo continuo evita puentes térmicos.',
+    curiosidad: 'Se trabaja casi como madera: sierra circular, caladora, fresadora y clavadora. Los paneles suelen traer canales para cables ya hechos.',
+    persona: { x: 9.75 },
+    partes: [
+      { id: 'platea', nombre: 'Platea de hormigón', d: R(0.6, 0, 9.0, 0.25) },
+      { id: 'solera', nombre: 'Solera de madera tratada', d: R(0.8, 0.25, 8.54, 0.05) },
+      { id: 'paneles', nombre: 'Paneles de muro', d: panelesSip },
+      { id: 'juntas', nombre: 'Juntas con lengüeta (spline)', d: juntasSip },
+      { id: 'vanos', nombre: 'Ventana y puerta', d: R(3.3, 1.2, 1.4, 1.1) + ' ' + R(6.0, 0.3, 0.9, 2.05) },
+      { id: 'techo', nombre: 'Paneles de techo', d: L([[0.4, 2.74], [5.07, 5.2], [9.74, 2.74]]) + ' ' + L([[0.4, 2.99], [5.07, 5.45], [9.74, 2.99]]) + ' ' + L([[0.4, 2.74], [0.4, 2.99]]) + ' ' + L([[9.74, 2.74], [9.74, 2.99]]) },
+    ],
+    medidas: [
+      { parte: 'paneles', nombre: 'Composición', valor: 'OSB de 11 mm + núcleo de EPS o PUR + OSB de 11 mm' },
+      { parte: 'paneles', nombre: 'Espesor del panel', valor: '≈ 115 – 300 mm' },
+      { parte: 'paneles', nombre: 'Tamaño', valor: '1,22 m de ancho · 2,44 m a más de 6 m de largo' },
+      { parte: 'juntas', nombre: 'Uniones entre paneles', valor: 'lengüeta de OSB o madera, sellada con espuma y atornillada' },
+      { parte: 'solera', nombre: 'Solera', valor: 'madera tratada, anclada a la platea' },
+      { parte: 'techo', nombre: 'Techo', valor: 'los mismos paneles, apoyados en vigas o cumbrera' },
+      { parte: null, nombre: 'Cuidado', valor: 'proteger los cantos de OSB de la humedad durante la obra' },
+    ],
+  },
+]
+
+export const construcciones = [...delMundo, ...enSeco]
+
+export const gruposConstruccion = [
+  { id: 'todas', nombre: 'Todas' },
+  { id: 'mundo', nombre: 'Tradiciones del mundo' },
+  { id: 'seco', nombre: 'Construcción en seco' },
 ]

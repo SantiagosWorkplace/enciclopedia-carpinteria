@@ -123,22 +123,3 @@ export const maderas = [
     notas: 'Extremadamente dura y pesada. Pretaladrar siempre; requiere herramientas de carburo.',
   },
 ]
-
-export const categorias = ['Todas', 'Medición', 'Corte', 'Cepillado', 'Talla', 'Sujeción', 'Eléctricas']
-
-export const herramientas = [
-  { nombre: 'Escuadra de carpintero', cat: 'Medición', icono: '📐', desc: 'Comprueba y traza ángulos de 90°. Verificarla periódicamente invirtiéndola sobre una línea.' },
-  { nombre: 'Gramil', cat: 'Medición', icono: '📏', desc: 'Traza líneas paralelas a un canto. Más preciso que el lápiz porque corta las fibras.' },
-  { nombre: 'Falsa escuadra', cat: 'Medición', icono: '📐', desc: 'Copia y transfiere cualquier ángulo, por ejemplo la pendiente de las colas de milano.' },
-  { nombre: 'Serrucho de costilla', cat: 'Corte', icono: '🪚', desc: 'Hoja rígida reforzada para cortes finos y rectos en uniones.' },
-  { nombre: 'Sierra japonesa (ryoba)', cat: 'Corte', icono: '🪚', desc: 'Corta al tirar, lo que permite hojas más finas. Un lado para cortar a favor de la veta y otro a contraveta.' },
-  { nombre: 'Cepillo nº 4', cat: 'Cepillado', icono: '🪵', desc: 'Cepillo de alisar de uso general. La cuchilla debe sobresalir apenas para virutas finas.' },
-  { nombre: 'Cepillo de rebajos', cat: 'Cepillado', icono: '🪵', desc: 'Cuchilla a todo el ancho de la suela para trabajar escalones y rebajos.' },
-  { nombre: 'Formón', cat: 'Talla', icono: '🔪', desc: 'Vaciado de cajas y ajuste fino. Siempre cortar alejando las manos del filo.' },
-  { nombre: 'Gubia', cat: 'Talla', icono: '🔪', desc: 'Formón de hoja curva para tallado y vaciados cóncavos.' },
-  { nombre: 'Sargento', cat: 'Sujeción', icono: '🗜️', desc: 'Prensa de apriete para encolados. Usar tacos para no marcar la pieza.' },
-  { nombre: 'Banco de carpintero', cat: 'Sujeción', icono: '🛠️', desc: 'Superficie plana y pesada con tornillos y topes para sujetar el trabajo.' },
-  { nombre: 'Fresadora (router)', cat: 'Eléctricas', icono: '⚙️', desc: 'Molduras, ranuras y rebajos. Avanzar en contra del giro de la fresa.' },
-  { nombre: 'Sierra de mesa', cat: 'Eléctricas', icono: '⚙️', desc: 'Cortes rectos repetibles. Usar siempre cuchillo divisor, protector y empujador.' },
-  { nombre: 'Lijadora orbital', cat: 'Eléctricas', icono: '⚙️', desc: 'Lijado sin marcas en espiral. Avanzar por grano: 80 → 120 → 180 → 220.' },
-]

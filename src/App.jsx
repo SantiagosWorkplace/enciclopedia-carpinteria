@@ -21,6 +21,12 @@ export default function App() {
     try { return localStorage.getItem('unidad') || 'metrico' } catch { return 'metrico' }
   })
 
+  const [obra, setObra] = useState('todas')
+  const verHerramientas = (id) => {
+    setObra(id)
+    document.getElementById('herramientas').scrollIntoView({ behavior: 'smooth' })
+  }
+
   const cambiarUnidad = () => {
     const nueva = unidad === 'metrico' ? 'imperial' : 'metrico'
     setUnidad(nueva)
@@ -97,10 +103,10 @@ export default function App() {
           <Reveal>
             <span className="eyebrow">Capítulo III</span>
             <h2>Herramientas</h2>
-            <p className="lead">De la escuadra a la fresadora: para qué sirve cada una y cómo usarla bien.</p>
+            <p className="lead">De la escuadra a la grúa: más de 70 herramientas manuales, eléctricas, neumáticas y a combustión, móviles o estacionarias. Filtra por el sistema que vas a construir para ver todo lo que necesitas.</p>
           </Reveal>
           <Reveal delay={100}>
-            <ToolGrid />
+            <ToolGrid obra={obra} setObra={setObra} />
           </Reveal>
         </section>
 
@@ -108,10 +114,10 @@ export default function App() {
           <Reveal>
             <span className="eyebrow">Capítulo IV</span>
             <h2>Construcciones del mundo</h2>
-            <p className="lead">Cómo se construye con madera en distintas culturas y climas. Todos los planos están a la misma escala y en sistema métrico, para comparar de verdad una casa con otra. Pasa el ratón por una medida para ver a qué pieza corresponde.</p>
+            <p className="lead">Cómo se construye con madera en distintas culturas y climas, y los sistemas de construcción en seco que la combinan con acero, yeso y paneles. Todos los planos están a la misma escala y en sistema métrico, para comparar de verdad una casa con otra. Pasa el ratón por una medida para ver a qué pieza corresponde.</p>
           </Reveal>
           <Reveal delay={100}>
-            <WorldBuilds />
+            <WorldBuilds onVerHerramientas={verHerramientas} />
           </Reveal>
         </section>
       </main>

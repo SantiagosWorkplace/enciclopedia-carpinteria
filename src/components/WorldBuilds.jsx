@@ -1,24 +1,47 @@
 import { useState } from 'react'
-import { construcciones, persona, barraEscala, ANCHO, ALTO, SUELO } from '../construcciones.js'
+import { construcciones, gruposConstruccion, persona, barraEscala, ANCHO, ALTO, SUELO } from '../construcciones.js'
+import { herramientas, energias } from '../herramientas.js'
 
 const escala = barraEscala(2)
+const PLURAL = {
+  Manual: ['manual', 'manuales'],
+  Eléctrica: ['eléctrica', 'eléctricas'],
+  Neumática: ['neumática', 'neumáticas'],
+  Combustión: ['a combustión', 'a combustión'],
+}
 
 // Sistemas constructivos del mundo dibujados como planos, todos a la misma escala.
-export default function WorldBuilds() {
+export default function WorldBuilds({ onVerHerramientas }) {
+  const [grupo, setGrupo] = useState('todas')
   const [activa, setActiva] = useState(construcciones[0])
   const [foco, setFoco] = useState(null)
   const [verPersona, setVerPersona] = useState(true)
 
+  const visibles = construcciones.filter((c) => grupo === 'todas' || c.grupos.includes(grupo))
   const elegir = (c) => {
     setActiva(c)
     setFoco(null)
   }
+  const elegirGrupo = (g) => {
+    setGrupo(g)
+    const lista = construcciones.filter((c) => g === 'todas' || c.grupos.includes(g))
+    if (!lista.includes(activa)) elegir(lista[0])
+  }
   const nombreFoco = activa.partes.find((p) => p.id === foco)?.nombre
+  const suyas = herramientas.filter((h) => h.usos.includes(activa.id))
+  const porEnergia = energias
+    .map((e) => [e, suyas.filter((h) => h.energia === e).length])
+    .filter(([, n]) => n > 0)
 
   return (
     <div className="builds">
+      <div className="joint-tabs build-groups">
+        {gruposConstruccion.map((g) => (
+          <button key={g.id} className={g.id === grupo ? 'active' : ''} onClick={() => elegirGrupo(g.id)}>{g.nombre}</button>
+        ))}
+      </div>
       <div className="build-picker">
-        {construcciones.map((c) => (
+        {visibles.map((c) => (
           <button key={c.id} className={c.id === activa.id ? 'active' : ''} onClick={() => elegir(c)}>
             <strong>{c.nombre}</strong>
             <span>{c.region}</span>
@@ -59,7 +82,7 @@ export default function WorldBuilds() {
 
             <path d={escala.linea} className="escala" />
             {escala.marcas.map((m) => (
-              <text key={m.texto} x={m.x} y={m.y + 10} className="escala-texto">{m.texto}</text>
+              <text key={m.texto} x={m.x + 3} y={m.y + 10} className="escala-texto">{m.texto}</text>
             ))}
           </svg>
           <figcaption>
@@ -96,6 +119,14 @@ export default function WorldBuilds() {
           <div className="notas-build">
             <p><strong>Clima:</strong> {activa.clima}</p>
             <p><strong>Dato:</strong> {activa.curiosidad}</p>
+          </div>
+
+          <div className="build-tools">
+            <div>
+              <strong>{suyas.length} herramientas</strong> para este sistema
+              <span>{porEnergia.map(([e, n]) => `${n} ${PLURAL[e][n > 1 ? 1 : 0]}`).join(' · ')}</span>
+            </div>
+            <button className="btn" onClick={() => onVerHerramientas(activa.id)}>Ver en el catálogo →</button>
           </div>
         </div>
       </div>
