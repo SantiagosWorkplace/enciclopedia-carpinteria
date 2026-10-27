@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { construcciones, gruposConstruccion, persona, barraEscala, ANCHO, ALTO, SUELO } from '../construcciones.js'
 import { herramientas, energias } from '../herramientas.js'
+import { ir, conQuery } from '../router.js'
 
 const escala = barraEscala(2)
 const PLURAL = {
@@ -10,10 +11,14 @@ const PLURAL = {
   Combustión: ['a combustión', 'a combustión'],
 }
 
+const verHerramientas = (id) => ir(conQuery('#/herramientas-manuales/catalogo', { obra: id }))
+
 // Sistemas constructivos del mundo dibujados como planos, todos a la misma escala.
-export default function WorldBuilds({ onVerHerramientas }) {
-  const [grupo, setGrupo] = useState('todas')
-  const [activa, setActiva] = useState(construcciones[0])
+export default function WorldBuilds({ grupoInicial = 'todas', onVerHerramientas = verHerramientas }) {
+  const [grupo, setGrupo] = useState(grupoInicial)
+  const [activa, setActiva] = useState(
+    () => construcciones.find((c) => grupoInicial === 'todas' || c.grupos.includes(grupoInicial))
+  )
   const [foco, setFoco] = useState(null)
   const [verPersona, setVerPersona] = useState(true)
 

@@ -1,0 +1,14 @@
+// Componentes interactivos que un artículo puede insertar con { tipo: 'interactivo', id }.
+import EspeciesGrid from './components/EspeciesGrid.jsx'
+import JointViewer from './components/JointViewer.jsx'
+import ToolGrid from './components/ToolGrid.jsx'
+import WorldBuilds from './components/WorldBuilds.jsx'
+import CalculadoraMovimiento from './components/CalculadoraMovimiento.jsx'
+
+export const interactivos = {
+  especies: EspeciesGrid,
+  uniones: JointViewer,
+  herramientas: ToolGrid,
+  construcciones: WorldBuilds,
+  'calculadora-movimiento': CalculadoraMovimiento,
+}

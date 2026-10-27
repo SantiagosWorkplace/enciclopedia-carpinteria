@@ -5,12 +5,13 @@ import { construcciones } from '../construcciones.js'
 const nombreObra = Object.fromEntries(construcciones.map((c) => [c.id, c.nombre]))
 const iconoEnergia = { Manual: '✋', Eléctrica: '⚡', Neumática: '💨', Combustión: '⛽' }
 
-// Catálogo con filtros combinables; `obra` lo controla App para poder llegar
-// aquí desde el capítulo de construcciones.
-export default function ToolGrid({ obra, setObra }) {
+// Catálogo con filtros combinables. Los valores iniciales llegan desde el
+// artículo que lo inserta, y el sistema constructivo también por ?obra= en la URL.
+export default function ToolGrid({ energiaInicial = 'Todas', movilidadInicial = 'Todas', query = {} }) {
   const [funcion, setFuncion] = useState('Todas')
-  const [energia, setEnergia] = useState('Todas')
-  const [movilidad, setMovilidad] = useState('Todas')
+  const [energia, setEnergia] = useState(energiaInicial)
+  const [movilidad, setMovilidad] = useState(movilidadInicial)
+  const [obra, setObra] = useState(query.obra && nombreObra[query.obra] ? query.obra : 'todas')
   const [q, setQ] = useState('')
 
   const lista = herramientas.filter((h) =>
