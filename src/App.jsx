@@ -4,12 +4,14 @@ import Reveal from './components/Reveal.jsx'
 import WoodCard from './components/WoodCard.jsx'
 import JointViewer from './components/JointViewer.jsx'
 import ToolGrid from './components/ToolGrid.jsx'
+import WorldBuilds from './components/WorldBuilds.jsx'
 import { maderas } from './data.js'
 
 const secciones = [
   { id: 'maderas', titulo: 'Maderas' },
   { id: 'uniones', titulo: 'Uniones' },
   { id: 'herramientas', titulo: 'Herramientas' },
+  { id: 'construcciones', titulo: 'Construcciones' },
 ]
 
 export default function App() {
@@ -99,6 +101,17 @@ export default function App() {
           </Reveal>
           <Reveal delay={100}>
             <ToolGrid />
+          </Reveal>
+        </section>
+
+        <section id="construcciones" className="alt">
+          <Reveal>
+            <span className="eyebrow">Capítulo IV</span>
+            <h2>Construcciones del mundo</h2>
+            <p className="lead">Cómo se construye con madera en distintas culturas y climas. Todos los planos están a la misma escala y en sistema métrico, para comparar de verdad una casa con otra. Pasa el ratón por una medida para ver a qué pieza corresponde.</p>
+          </Reveal>
+          <Reveal delay={100}>
+            <WorldBuilds />
           </Reveal>
         </section>
       </main>

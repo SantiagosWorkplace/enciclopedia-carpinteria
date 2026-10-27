@@ -1,0 +1,218 @@
+// Uniones de carpintería. Cada `svg` describe dos piezas en coordenadas del
+// dibujo (viewBox 270 × 160): `a` queda fija y `b` entra siguiendo `entrada`
+// (desplazamiento en px y giro en grados desde la posición final).
+
+export const uniones = [
+  {
+    id: 'caja-espiga',
+    nombre: 'Caja y espiga',
+    ingles: 'Mortise & tenon',
+    angulo: '90°',
+    dificultad: 3,
+    resistencia: 5,
+    herramientas: ['Gramil', 'Formón', 'Serrucho de costilla', 'Escuadra'],
+    descripcion: 'La unión clásica de marcos, mesas y sillas. Una lengüeta (espiga) entra ajustada en un hueco (caja).',
+    pasos: [
+      'Marcar con gramil el grosor de la espiga: aproximadamente 1/3 del espesor de la pieza.',
+      'Trazar la caja con el mismo ajuste del gramil, para que ambas piezas coincidan.',
+      'Vaciar la caja con formón o taladro, trabajando desde el centro hacia las líneas.',
+      'Serrar las mejillas de la espiga por el lado de desperdicio de la línea.',
+      'Ajustar con formón o guillame hasta que entre con presión de la mano, sin martillo.',
+      'Encolar ambas superficies y apretar con sargentos comprobando la escuadra.',
+    ],
+    // Pata vista de lado con la caja en corte; el travesaño entra de izquierda a derecha.
+    svg: {
+      a: 'M150 10 H215 V150 H150 V95 H185 V65 H150 Z',
+      b: 'M30 55 H150 V65 H185 V95 H150 V105 H30 Z',
+      entrada: { dx: -75, dy: -22, rot: -14 },
+    },
+  },
+  {
+    id: 'cola-milano',
+    nombre: 'Cola de milano',
+    ingles: 'Dovetail',
+    angulo: '1:6 – 1:8 (≈ 7 – 9,5°)',
+    dificultad: 5,
+    resistencia: 5,
+    herramientas: ['Falsa escuadra', 'Sierra de costilla', 'Formón', 'Gramil'],
+    descripcion: 'Colas en forma de trapecio que se trancan mecánicamente. Típica de cajones y cajas finas.',
+    pasos: [
+      'Marcar la línea base con gramil en ambas piezas, igual al espesor de la otra.',
+      'Trazar las colas con una pendiente de 1:6 (blandas) o 1:8 (duras).',
+      'Serrar las colas respetando el lado de desperdicio.',
+      'Usar las colas como plantilla para marcar las espigas en la otra pieza.',
+      'Serrar y vaciar las espigas con formón, cortando desde ambas caras.',
+      'Probar en seco, ajustar y encolar.',
+    ],
+    // Vista de las colas: la pieza de espigas entra perpendicular al dibujo,
+    // por eso se anima "desde el frente" (escala) y no deslizando.
+    svg: {
+      a: 'M30 40 H140 V48 L170 42 V78 L140 72 V88 L170 82 V118 L140 112 V120 H30 Z',
+      b: 'M140 40 H240 V120 H140 V112 L170 118 V82 L140 88 V72 L170 78 V42 L140 48 Z',
+      entrada: { dx: 18, dy: -18, rot: 6, escala: 1.22 },
+    },
+  },
+  {
+    id: 'inglete',
+    nombre: 'Inglete',
+    ingles: 'Miter joint',
+    angulo: '45°',
+    dificultad: 2,
+    resistencia: 2,
+    herramientas: ['Caja de ingletes', 'Sierra de costilla', 'Escuadra de 45°', 'Sargento de esquina'],
+    descripcion: 'Dos piezas cortadas a 45° que forman una esquina de 90° sin mostrar la testa. Típica de marcos y molduras.',
+    pasos: [
+      'Marcar la longitud por el canto largo de cada pieza.',
+      'Cortar a 45° con caja de ingletes o ingletadora, siempre del lado de desperdicio.',
+      'Probar en seco: ambos cortes deben sumar 90°; corregir con cepillo y tabla de ingletes.',
+      'La testa absorbe mucha cola: dar una primera mano diluida y dejar orear.',
+      'Prensar con sargento de esquina y reforzar con galletas, clavijas o lengüetas si soporta carga.',
+    ],
+    // Esquina de un marco: la pieza vertical baja en diagonal, perpendicular al corte.
+    svg: {
+      a: 'M20 100 H170 L200 130 H20 Z',
+      b: 'M170 20 H200 V130 L170 100 Z',
+      entrada: { dx: 42, dy: -42, rot: 18 },
+    },
+  },
+  {
+    id: 'boca-pajaro',
+    nombre: 'Boca de pájaro',
+    ingles: 'Birdsmouth',
+    angulo: 'Pendiente del techo (aquí 30°)',
+    dificultad: 3,
+    resistencia: 4,
+    herramientas: ['Falsa escuadra', 'Serrucho', 'Cartabón', 'Formón'],
+    descripcion: 'Entalladura en un cabio (viga inclinada del techo) para que apoye plano sobre la solera del muro. Combina un corte horizontal (asiento) y uno vertical (talón).',
+    pasos: [
+      'Determinar la pendiente del techo, por ejemplo 30°, y ajustar la falsa escuadra.',
+      'Marcar el talón: un corte vertical, a plomo, sobre la cara del cabio.',
+      'Marcar el asiento horizontal: su ancho debe coincidir con el ancho de la solera.',
+      'No entallar más de 1/3 del canto del cabio para no debilitarlo.',
+      'Cortar con serrucho sin pasar las líneas y limpiar el encuentro con formón.',
+      'Presentar sobre la solera y fijar con clavos lanceros o herrajes.',
+    ],
+    // Cabio a 30° que asienta sobre la solera (arriba) apoyada en el montante.
+    svg: {
+      a: 'M136 95 H160 V113 H136 Z M136 113 H160 V165 H136 Z',
+      b: 'M40 -6.6 L260 120.4 L240 155 L160 108.9 L160 95 L136 95 L20 28 Z',
+      entrada: { dx: -20, dy: -42, rot: -9 },
+    },
+  },
+  {
+    id: 'empalme',
+    nombre: 'Empalme en bisel',
+    ingles: 'Scarf joint',
+    angulo: 'Bisel 1:4 – 1:8',
+    dificultad: 4,
+    resistencia: 4,
+    herramientas: ['Sierra de costilla', 'Formón', 'Gramil', 'Falsa escuadra'],
+    descripcion: 'Une dos vigas por sus extremos para lograr una pieza más larga. El corte inclinado aumenta la superficie de encolado y los topes impiden que se deslicen. La carpintería japonesa (tsugite) lleva esta idea a diseños muy complejos.',
+    pasos: [
+      'Definir la longitud del bisel: entre 4 y 8 veces el canto de la viga.',
+      'Marcar el bisel y los topes en ambas piezas a partir de la misma plantilla.',
+      'Serrar el bisel por el lado de desperdicio y los topes a escuadra.',
+      'Ajustar con formón y cepillo hasta que las caras asienten sin luz.',
+      'Encolar y asegurar con clavijas o pernos pasantes perpendiculares al bisel.',
+    ],
+    // Dos vigas a tope con bisel y topes en los extremos.
+    svg: {
+      a: 'M20 60 H220 V72 L60 98 V110 H20 Z',
+      b: 'M220 60 H262 V110 H60 V98 L220 72 Z',
+      entrada: { dx: 48, dy: -44, rot: 7 },
+    },
+  },
+  {
+    id: 'media-madera',
+    nombre: 'Media madera',
+    ingles: 'Half lap',
+    angulo: '90° / 180°',
+    dificultad: 2,
+    resistencia: 3,
+    herramientas: ['Serrucho', 'Formón', 'Gramil'],
+    descripcion: 'Se rebaja la mitad del espesor de cada pieza para que se superpongan a ras.',
+    pasos: [
+      'Marcar el ancho de la pieza que se cruzará.',
+      'Ajustar el gramil a la mitad del espesor y marcar ambas piezas.',
+      'Realizar varios cortes de sierra hasta la línea de profundidad.',
+      'Eliminar el material con formón y nivelar el fondo.',
+      'Encolar y reforzar con tornillo o clavija si lo requiere.',
+    ],
+    // Vista lateral de una unión en esquina: cada pieza pierde la mitad de su espesor.
+    svg: {
+      a: 'M20 80 H130 V100 H190 V120 H20 Z',
+      b: 'M130 80 H250 V120 H190 V100 H130 Z',
+      entrada: { dx: 34, dy: -58, rot: 16 },
+    },
+  },
+  {
+    id: 'espigas',
+    nombre: 'Unión con clavijas',
+    ingles: 'Dowel joint',
+    angulo: '180°',
+    dificultad: 2,
+    resistencia: 3,
+    herramientas: ['Taladro', 'Guía para clavijas', 'Centradores'],
+    descripcion: 'Cilindros de madera encolados en agujeros alineados de ambas piezas.',
+    pasos: [
+      'Marcar la posición de las clavijas en una pieza.',
+      'Taladrar con guía para mantener la perpendicularidad.',
+      'Transferir posiciones a la otra pieza con centradores.',
+      'Taladrar con una profundidad algo mayor que la mitad de la clavija.',
+      'Encolar agujeros y clavijas, unir y prensar.',
+    ],
+    // Agujeros dibujados en corte para que se vea dónde entran las clavijas.
+    svg: {
+      a: 'M30 50 H140 V110 H30 Z',
+      agujeros: 'M112 63 H140 V73 H112 Z M112 87 H140 V97 H112 Z',
+      b: 'M140 50 H250 V110 H140 Z M115 64 H140 V72 H115 Z M115 88 H140 V96 H115 Z',
+      entrada: { dx: 62, dy: -16, rot: -10 },
+    },
+  },
+  {
+    id: 'ranura',
+    nombre: 'Ranura (dado)',
+    ingles: 'Dado / housing',
+    angulo: '90°',
+    dificultad: 2,
+    resistencia: 3,
+    herramientas: ['Fresadora', 'Sierra de mesa', 'Guillame'],
+    descripcion: 'Una canal transversal donde se aloja otra pieza. Ideal para estantes de librerías.',
+    pasos: [
+      'Marcar el ancho exacto usando la propia pieza del estante.',
+      'Ajustar la profundidad: alrededor de 1/3 del espesor del lateral.',
+      'Fresar o serrar los laterales y vaciar el centro.',
+      'Limpiar el fondo con guillame para un apoyo plano.',
+      'Encolar y prensar.',
+    ],
+    // Lateral con la canal hacia abajo (1/3 del espesor) y el estante encajado.
+    svg: {
+      a: 'M20 70 H120 V90 H145 V70 H250 V130 H20 Z',
+      b: 'M120 10 H145 V90 H120 Z',
+      entrada: { dx: 30, dy: -52, rot: 14 },
+    },
+  },
+  {
+    id: 'rebajo',
+    nombre: 'Rebajo',
+    ingles: 'Rabbet',
+    angulo: '90°',
+    dificultad: 1,
+    resistencia: 2,
+    herramientas: ['Cepillo de rebajos', 'Fresadora', 'Sierra de mesa'],
+    descripcion: 'Escalón en el canto de una pieza para alojar otra. Usado en traseras de muebles y cajas.',
+    pasos: [
+      'Definir ancho (espesor de la pieza que entra) y profundidad (≈ 1/2 del espesor).',
+      'Marcar con gramil en canto y cara.',
+      'Cortar con cepillo de rebajos, fresadora o dos pasadas de sierra.',
+      'Comprobar el ajuste en seco.',
+      'Encolar y clavar o atornillar.',
+    ],
+    // Tapa con el escalón en el extremo inferior y el lateral alojado en él.
+    svg: {
+      a: 'M40 50 H220 V75 H190 V100 H40 Z',
+      b: 'M190 75 H220 V145 H190 Z',
+      entrada: { dx: 34, dy: 40, rot: -16 },
+    },
+  },
+]

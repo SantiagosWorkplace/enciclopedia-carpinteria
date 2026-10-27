@@ -11,7 +11,10 @@ npm run dev
 
 ## Estructura
 
-- `src/data.js` — todo el contenido (maderas, uniones con pasos, herramientas). Para añadir entradas basta con editar este archivo.
+- `src/data.js` — maderas y herramientas.
+- `src/uniones.js` — uniones con sus pasos y la geometría de cada dibujo.
+- `src/construcciones.js` — sistemas constructivos del mundo; los planos se escriben en metros y comparten escala (40 px = 1 m).
+- `src/components/WorldBuilds.jsx` — capítulo de construcciones con planos que se dibujan solos y medidas enlazadas a cada pieza.
 - `src/components/GrainCanvas.jsx` — fondo animado de vetas que reacciona al ratón.
 - `src/components/WoodCard.jsx` — tarjetas con inclinación 3D que giran para mostrar la ficha técnica.
 - `src/components/JointViewer.jsx` — diagramas de uniones que se ensamblan y pasos que se marcan.
