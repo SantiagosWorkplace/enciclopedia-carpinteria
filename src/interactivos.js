@@ -4,6 +4,8 @@ import JointViewer from './components/JointViewer.jsx'
 import ToolGrid from './components/ToolGrid.jsx'
 import WorldBuilds from './components/WorldBuilds.jsx'
 import CalculadoraMovimiento from './components/CalculadoraMovimiento.jsx'
+import CalculadoraVolumen from './components/CalculadoraVolumen.jsx'
+import CalculadoraHumedad from './components/CalculadoraHumedad.jsx'
 
 export const interactivos = {
   especies: EspeciesGrid,
@@ -11,4 +13,6 @@ export const interactivos = {
   herramientas: ToolGrid,
   construcciones: WorldBuilds,
   'calculadora-movimiento': CalculadoraMovimiento,
+  'calculadora-volumen': CalculadoraVolumen,
+  'calculadora-humedad': CalculadoraHumedad,
 }

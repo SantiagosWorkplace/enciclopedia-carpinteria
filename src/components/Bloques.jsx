@@ -12,7 +12,7 @@ const PATRON = /(\*\*[^*]+\*\*|\*[^*]+\*|\[\[[^\]]+\]\]|\[[^\]]+\]\([^)]+\))/g
 export function Texto({ children }) {
   const partes = String(children).split(PATRON)
   return partes.map((p, i) => {
-    if (p.startsWith('**')) return <strong key={i}>{p.slice(2, -2)}</strong>
+    if (p.startsWith('**')) return <strong key={i}><Texto>{p.slice(2, -2)}</Texto></strong>
     if (p.startsWith('[[')) {
       const [visible, id = visible] = p.slice(2, -2).split('|')
       const entrada = glosarioPorId[id]
@@ -27,7 +27,7 @@ export function Texto({ children }) {
       const [, texto, href] = p.match(/\[([^\]]+)\]\(([^)]+)\)/)
       return <a key={i} href={href}>{texto}</a>
     }
-    if (p.startsWith('*') && p.length > 2) return <em key={i}>{p.slice(1, -1)}</em>
+    if (p.startsWith('*') && p.length > 2) return <em key={i}><Texto>{p.slice(1, -1)}</Texto></em>
     return <Fragment key={i}>{p}</Fragment>
   })
 }

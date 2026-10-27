@@ -464,7 +464,7 @@ section.alt .notas-build { background: var(--card); }
 .figura figcaption { font-size: .88rem; color: var(--muted); margin-top: .75rem; text-align: center; }
 .fig-leyenda text, .fig-nota { font: 13px var(--sans); fill: var(--ink); }
 .fig-titulo { font-weight: 700; }
-.fig-nota { font-size: 11px; fill: var(--muted); }
+.fig-nota, .fig-leyenda .fig-nota { font-size: 11px; fill: var(--muted); }
 .fig-letra { font: 700 12px var(--sans); fill: #fff; }
 .figura-falta { padding: 2rem; text-align: center; color: var(--muted); border: 2px dashed var(--line); border-radius: 12px; }
 .interactivo { margin: 1.5rem 0 2rem; }
@@ -509,6 +509,12 @@ section.alt .notas-build { background: var(--card); }
 .calc-campos strong { color: var(--ink); }
 .calc-campos select { font: inherit; padding: .45rem .7rem; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
 .calc-campos input { accent-color: var(--accent); }
+.calc-grilla { grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: start; }
+.calc-ancho { grid-column: 1 / -1; }
+.calc-num { display: flex; align-items: center; gap: .4rem; }
+.calc-num input { flex: 1; min-width: 0; font: inherit; color: var(--ink); padding: .45rem .7rem; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); }
+.calc-num em { font-style: normal; color: var(--muted); min-width: 1.8rem; }
+.calc-resultado b { color: var(--ink); }
 .calc-resultado { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: .2rem; background: var(--bg-alt); border-radius: 12px; padding: 1rem; color: var(--muted); }
 .calc-resultado > strong { font-family: var(--serif); font-size: 2.6rem; color: var(--accent-dark); line-height: 1.1; }
 .calc-resultado svg { width: 100%; max-width: 340px; margin-top: .5rem; color: var(--muted); }
@@ -521,7 +527,7 @@ footer { text-align: center; padding: 3rem 1rem; color: var(--muted); border-top
 @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 
 @media (max-width: 760px) {
-  .joint-body, .build-body, .calc, .art-layout.con-toc { grid-template-columns: 1fr; }
+  .joint-body, .build-body, .calc, .art-layout.con-toc { grid-template-columns: minmax(0, 1fr); }
   .art-toc { position: static; }
   .nav-links input { width: 120px; }
   .nav-links { gap: .75rem; }
