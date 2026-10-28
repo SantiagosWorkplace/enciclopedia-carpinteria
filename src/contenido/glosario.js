@@ -60,6 +60,20 @@ export const glosario = [
   t('poro', 'Poro', 'Sección de un vaso, la célula de las frondosas especializada en conducir agua. En el corte transversal se ve como un agujero.', 'madera/frondosas-coniferas'),
   t('separador', 'Separador', 'Listón seco y de espesor uniforme que se coloca entre las capas de una pila de madera para que circule el aire. También se llama rastrel.', 'madera/secado'),
   t('traqueida', 'Traqueida', 'Célula larga y cerrada que forma casi toda la madera de las coníferas. Conduce agua y da resistencia.', 'madera/frondosas-coniferas'),
+  t('alzado', 'Alzado', 'Vista de frente de una pieza o un mueble en un plano.', 'diseno/planos'),
+  t('centro-gravedad', 'Centro de gravedad', 'Punto donde se puede considerar concentrado todo el peso de un objeto. Si su vertical sale de la base de apoyo, el objeto vuelca.', 'diseno/seguridad-diseno'),
+  t('chambrana', 'Chambrana', 'Travesaño que une las patas de una silla o una mesa cerca del suelo para rigidizarlas.', 'diseno/sillas'),
+  t('cota', 'Cota', 'Medida indicada en un plano con una línea, sus extremos y un número. En carpintería se expresa en milímetros.', 'diseno/planos'),
+  t('descuadre', 'Descuadre', 'Deformación de un marco o una caja que pierde los ángulos rectos y se convierte en un paralelogramo.', 'diseno/estructura'),
+  t('escala', 'Escala', 'Relación entre el tamaño de un dibujo y el del objeto real. A escala 1:10, 1 cm del plano son 10 cm reales.', 'diseno/planos'),
+  t('faldon', 'Faldón', 'Pieza horizontal que une las patas de una mesa o una silla bajo el tablero o el asiento.', 'diseno/mesas'),
+  t('flecha', 'Flecha', 'Cuánto baja el centro de una pieza apoyada en sus extremos al cargarla.', 'diseno/estructura'),
+  t('luz', 'Luz', 'Distancia libre entre dos apoyos de un estante, una viga o un tablero.', 'diseno/estructura'),
+  t('montante', 'Montante', 'Pieza vertical de un bastidor, un respaldo o una estructura.', 'diseno/sillas'),
+  t('planta', 'Planta', 'Vista desde arriba de una pieza o un mueble en un plano.', 'diseno/planos'),
+  t('rebajo', 'Rebajo', 'Escalón cortado a lo largo del canto o del extremo de una pieza, abierto por un lado.', 'uniones/ranuras-rebajos'),
+  t('ranura', 'Ranura', 'Canal cortado en una pieza, cerrado por los dos lados, para alojar otra pieza o un fondo.', 'uniones/ranuras-rebajos'),
+  t('zocalo', 'Zócalo', 'Base retranqueada de un mueble de caja, que lo separa del suelo y deja lugar para los pies.', 'diseno/armarios'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))

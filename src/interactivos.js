@@ -6,6 +6,8 @@ import WorldBuilds from './components/WorldBuilds.jsx'
 import CalculadoraMovimiento from './components/CalculadoraMovimiento.jsx'
 import CalculadoraVolumen from './components/CalculadoraVolumen.jsx'
 import CalculadoraHumedad from './components/CalculadoraHumedad.jsx'
+import CalculadoraEstante from './components/CalculadoraEstante.jsx'
+import ListaCorte from './components/ListaCorte.jsx'
 
 export const interactivos = {
   especies: EspeciesGrid,
@@ -15,4 +17,6 @@ export const interactivos = {
   'calculadora-movimiento': CalculadoraMovimiento,
   'calculadora-volumen': CalculadoraVolumen,
   'calculadora-humedad': CalculadoraHumedad,
+  'calculadora-estante': CalculadoraEstante,
+  'lista-corte': ListaCorte,
 }

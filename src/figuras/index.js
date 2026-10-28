@@ -11,6 +11,12 @@ import Esfuerzos from './Esfuerzos.jsx'
 import CicloCarbono from './CicloCarbono.jsx'
 import CortesChapa from './CortesChapa.jsx'
 import Tableros from './Tableros.jsx'
+import MedidasCuerpo from './MedidasCuerpo.jsx'
+import Vuelco from './Vuelco.jsx'
+import PartesSilla from './PartesSilla.jsx'
+import PartesMesa from './PartesMesa.jsx'
+import PartesArmario from './PartesArmario.jsx'
+import Vistas from './Vistas.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -25,4 +31,10 @@ export const figuras = {
   'ciclo-carbono': CicloCarbono,
   'cortes-chapa': CortesChapa,
   tableros: Tableros,
+  'medidas-cuerpo': MedidasCuerpo,
+  vuelco: Vuelco,
+  'partes-silla': PartesSilla,
+  'partes-mesa': PartesMesa,
+  'partes-armario': PartesArmario,
+  vistas: Vistas,
 }

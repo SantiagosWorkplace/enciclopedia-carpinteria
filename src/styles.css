@@ -515,6 +515,25 @@ section.alt .notas-build { background: var(--card); }
 .calc-num input { flex: 1; min-width: 0; font: inherit; color: var(--ink); padding: .45rem .7rem; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); }
 .calc-num em { font-style: normal; color: var(--muted); min-width: 1.8rem; }
 .calc-resultado b { color: var(--ink); }
+.calc-ok { color: #15803d; font-weight: 600; }
+.calc-mal { color: #b91c1c; font-weight: 600; }
+.lista-corte { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 1rem; display: grid; gap: .75rem; }
+.lista-corte table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+.lista-corte th { text-align: left; padding: .45rem .4rem; color: var(--muted); font-weight: 600; background: var(--bg-alt); }
+.lista-corte td { padding: .3rem .4rem; border-top: 1px solid var(--line); }
+.lista-corte input, .lista-corte select { font: inherit; color: var(--ink); width: 100%; min-width: 4.5rem; padding: .35rem .5rem; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+.lista-corte td:first-child input { min-width: 9rem; }
+.lista-corte select { min-width: 6.8rem; }
+.lc-quitar { border: 0; background: none; color: var(--muted); font-size: 1.3rem; cursor: pointer; padding: 0 .4rem; }
+.lc-quitar:hover { color: #b91c1c; }
+.lc-pie { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; }
+.lc-pie label { display: grid; gap: .3rem; font-size: .88rem; color: var(--muted); min-width: 200px; }
+.lc-pie input { accent-color: var(--accent); }
+.btn-sec { font: inherit; font-weight: 600; color: var(--accent-dark); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: .5rem 1rem; cursor: pointer; }
+.btn-sec:hover { border-color: var(--accent); }
+.lc-totales { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .75rem; }
+.lc-totales > div { display: grid; gap: .15rem; text-align: center; background: var(--bg-alt); border-radius: 12px; padding: .9rem; color: var(--muted); font-size: .88rem; }
+.lc-totales strong { font-family: var(--serif); font-size: 1.9rem; color: var(--accent-dark); }
 .calc-resultado { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: .2rem; background: var(--bg-alt); border-radius: 12px; padding: 1rem; color: var(--muted); }
 .calc-resultado > strong { font-family: var(--serif); font-size: 2.6rem; color: var(--accent-dark); line-height: 1.1; }
 .calc-resultado svg { width: 100%; max-width: 340px; margin-top: .5rem; color: var(--muted); }
