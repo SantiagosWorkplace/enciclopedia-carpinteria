@@ -74,6 +74,18 @@ export const glosario = [
   t('rebajo', 'Rebajo', 'Escalón cortado a lo largo del canto o del extremo de una pieza, abierto por un lado.', 'uniones/ranuras-rebajos'),
   t('ranura', 'Ranura', 'Canal cortado en una pieza, cerrado por los dos lados, para alojar otra pieza o un fondo.', 'uniones/ranuras-rebajos'),
   t('zocalo', 'Zócalo', 'Base retranqueada de un mueble de caja, que lo separa del suelo y deja lugar para los pies.', 'diseno/armarios'),
+  t('barrido', 'Barrido', 'Curvatura de la hoja de una gubia, indicada con un número: cuanto mayor, más curva.', 'herramientas-manuales/formones-gubias'),
+  t('berbiqui', 'Berbiquí', 'Taladro manual con un manubrio en forma de manivela, para brocas de barrena. Da mucha fuerza a pocas vueltas.', 'herramientas-manuales/taladros-manuales'),
+  t('bisel', 'Bisel', 'Cara inclinada que forma el filo de un formón, una cuchilla o una pieza.', 'herramientas-manuales/afilado'),
+  t('contrahierro', 'Contrahierro', 'Pieza de acero atornillada sobre la cuchilla del cepillo que dobla y rompe la viruta y reduce los repelos.', 'herramientas-manuales/cepillos'),
+  t('falsa-escuadra', 'Falsa escuadra', 'Escuadra de hoja móvil que se fija en cualquier ángulo para trazarlo o copiarlo.', 'herramientas-manuales/medir-trazar'),
+  t('gramil', 'Gramil', 'Herramienta para trazar una línea paralela a un canto o una cara, a una distancia fija.', 'herramientas-manuales/medir-trazar'),
+  t('microbisel', 'Microbisel', 'Bisel secundario muy estrecho, unos grados más inclinado que el principal, que se afila solo en la punta del filo.', 'herramientas-manuales/afilado'),
+  t('rana', 'Rana', 'Pieza del cepillo metálico sobre la que apoya la cuchilla; fija su ángulo y la abertura de la boca.', 'herramientas-manuales/cepillos'),
+  t('rebaba', 'Rebaba', 'Lámina finísima de acero que se dobla hacia la cara opuesta al afilar. Indica que el bisel llegó hasta el filo.', 'herramientas-manuales/afilado'),
+  t('repelo', 'Repelo', 'Arranque de fibras al cepillar o cortar contra la veta, que deja la superficie astillada.', 'herramientas-manuales/cepillos'),
+  t('rascador', 'Cuchilla de rascar', 'Plancha fina de acero con una rebaba en el canto que saca virutas finísimas. Alisa sin repelos.', 'herramientas-manuales/escofinas-rascadores'),
+  t('triscado', 'Triscado', 'Inclinación alternada de los dientes de una sierra hacia uno y otro lado, para que el corte sea más ancho que la hoja y no se trabe.', 'herramientas-manuales/sierras'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))
