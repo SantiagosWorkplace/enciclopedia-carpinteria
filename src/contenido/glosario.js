@@ -95,6 +95,12 @@ export const glosario = [
   t('pinza', 'Pinza', 'Casquillo cónico partido que sujeta el vástago de la fresa en la fresadora.', 'electricas/fresadora'),
   t('rechazo', 'Rechazo', 'Retroceso violento de la pieza o de la herramienta cuando el disco o la fresa quedan atrapados en el corte.', 'electricas/seguridad-electricas'),
   t('sin-escobillas', 'Motor sin escobillas', 'Motor eléctrico controlado electrónicamente, sin carbones de contacto. Rinde más con la misma batería y casi no necesita mantenimiento.', 'electricas/bateria-cable'),
+  t('alimentador', 'Alimentador', 'Aparato con rodillos motorizados que empuja la pieza contra la tupí o la sierra, para que las manos queden lejos de la herramienta.', 'maquinas/tupi'),
+  t('contrapunto', 'Contrapunto', 'Parte móvil del torno, opuesta al cabezal, que sostiene el otro extremo de la pieza con una punta.', 'maquinas/torno'),
+  t('deriva', 'Deriva', 'Tendencia de una hoja de sierra de cinta a cortar ligeramente en diagonal respecto de la guía.', 'maquinas/sierra-cinta'),
+  t('empujador', 'Empujador', 'Pieza de madera o plástico con la que se empuja la madera cerca de una hoja o una cuchilla, sin acercar los dedos.', 'maquinas/seguridad-maquinas'),
+  t('mordida', 'Mordida', 'Escalón poco profundo que deja la regruesadora en los extremos de una tabla, donde solo la sujeta un rodillo.', 'maquinas/cepilladora'),
+  t('reaserrado', 'Reaserrado', 'Corte de una tabla por su espesor para obtener dos tablas más finas o chapas gruesas.', 'maquinas/sierra-cinta'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))

@@ -29,6 +29,11 @@ import PerfilesFresa from './PerfilesFresa.jsx'
 import SentidoFresado from './SentidoFresado.jsx'
 import Lijadoras from './Lijadoras.jsx'
 import Galletas from './Galletas.jsx'
+import SierraMesa from './SierraMesa.jsx'
+import CortesIngletadora from './CortesIngletadora.jsx'
+import SierraCinta from './SierraCinta.jsx'
+import CepilladoraRegruesadora from './CepilladoraRegruesadora.jsx'
+import PartesTorno from './PartesTorno.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -61,4 +66,9 @@ export const figuras = {
   'sentido-fresado': SentidoFresado,
   lijadoras: Lijadoras,
   galletas: Galletas,
+  'sierra-mesa': SierraMesa,
+  'cortes-ingletadora': CortesIngletadora,
+  'sierra-cinta': SierraCinta,
+  'cepilladora-regruesadora': CepilladoraRegruesadora,
+  'partes-torno': PartesTorno,
 }
