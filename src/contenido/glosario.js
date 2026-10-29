@@ -118,6 +118,12 @@ export const glosario = [
   t('empalme', 'Empalme', 'Unión de dos piezas por sus extremos para formar una más larga.', 'uniones/construccion'),
   t('tiempo-abierto', 'Tiempo abierto', 'Tiempo máximo entre la aplicación de la cola y el cierre de la unión. Pasado ese tiempo, la cola empieza a formar piel y pega mal.', 'uniones/encolado'),
   t('calzo', 'Calzo', 'Listón recto o levemente curvo que se prensa sobre la pieza para repartir la presión de las prensas y protegerla.', 'uniones/encolado'),
+  t('veta-corta', 'Veta corta', 'Zona de una pieza donde las fibras la cruzan de un canto al otro en poca distancia. Se quiebra con facilidad.', 'curvado/principios-curvado'),
+  t('fibra-neutra', 'Fibra neutra', 'Línea dentro de una pieza curvada o cargada que no se estira ni se comprime. Por fuera de ella la madera se estira, por dentro se comprime.', 'curvado/principios-curvado'),
+  t('fleje', 'Fleje', 'Lámina de acero con topes en los extremos que se apoya en la cara exterior de una pieza al curvarla al vapor, para que esa cara no se estire.', 'curvado/vapor'),
+  t('caja-vapor', 'Caja de vapor', 'Cajón o tubo al que llega vapor de agua, donde se calientan las piezas de madera antes de curvarlas.', 'curvado/vapor'),
+  t('recuperacion', 'Recuperación', 'Parte de la curva que una pieza pierde al sacarla del molde, cuando tiende a volver a su forma recta.', 'curvado/moldes'),
+  t('molde', 'Molde', 'Forma rígida sobre la que se curva o se lamina una pieza para darle su perfil.', 'curvado/moldes'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))

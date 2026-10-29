@@ -49,6 +49,11 @@ import Ingletes from './Ingletes.jsx'
 import EncolarCantos from './EncolarCantos.jsx'
 import EmpalmesEstructura from './EmpalmesEstructura.jsx'
 import PresionPrensa from './PresionPrensa.jsx'
+import CurvadoFibras from './CurvadoFibras.jsx'
+import CortesKerf from './CortesKerf.jsx'
+import CajaVapor from './CajaVapor.jsx'
+import Laminado from './Laminado.jsx'
+import TiposMolde from './TiposMolde.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -101,4 +106,9 @@ export const figuras = {
   'encolar-cantos': EncolarCantos,
   'empalmes-estructura': EmpalmesEstructura,
   'presion-prensa': PresionPrensa,
+  'curvado-fibras': CurvadoFibras,
+  'cortes-kerf': CortesKerf,
+  'caja-vapor': CajaVapor,
+  'laminado': Laminado,
+  'tipos-molde': TiposMolde,
 }

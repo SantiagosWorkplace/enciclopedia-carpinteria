@@ -10,6 +10,7 @@ import CalculadoraEstante from './components/CalculadoraEstante.jsx'
 import ListaCorte from './components/ListaCorte.jsx'
 import CalculadoraFresa from './components/CalculadoraFresa.jsx'
 import CalculadoraTorno from './components/CalculadoraTorno.jsx'
+import CalculadoraKerf from './components/CalculadoraKerf.jsx'
 
 export const interactivos = {
   especies: EspeciesGrid,
@@ -23,4 +24,5 @@ export const interactivos = {
   'lista-corte': ListaCorte,
   'calculadora-fresa': CalculadoraFresa,
   'calculadora-torno': CalculadoraTorno,
+  'calculadora-kerf': CalculadoraKerf,
 }
