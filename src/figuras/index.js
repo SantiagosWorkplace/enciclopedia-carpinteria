@@ -24,6 +24,11 @@ import ComprobarEscuadra from './ComprobarEscuadra.jsx'
 import Formones from './Formones.jsx'
 import Brocas from './Brocas.jsx'
 import Prensas from './Prensas.jsx'
+import ProfundidadDisco from './ProfundidadDisco.jsx'
+import PerfilesFresa from './PerfilesFresa.jsx'
+import SentidoFresado from './SentidoFresado.jsx'
+import Lijadoras from './Lijadoras.jsx'
+import Galletas from './Galletas.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -51,4 +56,9 @@ export const figuras = {
   'formones': Formones,
   'brocas': Brocas,
   'prensas': Prensas,
+  'profundidad-disco': ProfundidadDisco,
+  'perfiles-fresa': PerfilesFresa,
+  'sentido-fresado': SentidoFresado,
+  lijadoras: Lijadoras,
+  galletas: Galletas,
 }

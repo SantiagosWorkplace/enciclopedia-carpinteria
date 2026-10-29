@@ -86,6 +86,15 @@ export const glosario = [
   t('repelo', 'Repelo', 'Arranque de fibras al cepillar o cortar contra la veta, que deja la superficie astillada.', 'herramientas-manuales/cepillos'),
   t('rascador', 'Cuchilla de rascar', 'Plancha fina de acero con una rebaba en el canto que saca virutas finísimas. Alisa sin repelos.', 'herramientas-manuales/escofinas-rascadores'),
   t('triscado', 'Triscado', 'Inclinación alternada de los dientes de una sierra hacia uno y otro lado, para que el corte sea más ancho que la hoja y no se trabe.', 'herramientas-manuales/sierras'),
+  t('amperio-hora', 'Amperio-hora', 'Unidad de capacidad de una batería (Ah). Multiplicada por el voltaje da la energía en vatios-hora (Wh).', 'electricas/bateria-cable'),
+  t('cuchillo-divisor', 'Cuchillo divisor', 'Pieza de acero alineada detrás del disco de una sierra que mantiene abierto el corte y evita que la madera apriete el disco.', 'electricas/sierras-portatiles'),
+  t('embrague', 'Embrague', 'Mecanismo de un taladro atornillador que deja de transmitir fuerza al llegar al par elegido, para no pasar o romper el tornillo.', 'electricas/taladros'),
+  t('fresa', 'Fresa', 'Herramienta de corte giratoria que se monta en la fresadora. Su forma define el perfil que deja en la madera.', 'electricas/fresadora'),
+  t('galleta', 'Galleta', 'Pieza ovalada y plana de madera prensada que se encola en dos ranuras para unir y alinear piezas.', 'electricas/galletera'),
+  t('par', 'Par de apriete', 'Fuerza de giro que entrega una herramienta, en newton-metro (N·m).', 'electricas/taladros'),
+  t('pinza', 'Pinza', 'Casquillo cónico partido que sujeta el vástago de la fresa en la fresadora.', 'electricas/fresadora'),
+  t('rechazo', 'Rechazo', 'Retroceso violento de la pieza o de la herramienta cuando el disco o la fresa quedan atrapados en el corte.', 'electricas/seguridad-electricas'),
+  t('sin-escobillas', 'Motor sin escobillas', 'Motor eléctrico controlado electrónicamente, sin carbones de contacto. Rinde más con la misma batería y casi no necesita mantenimiento.', 'electricas/bateria-cable'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))
