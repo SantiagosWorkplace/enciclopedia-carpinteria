@@ -124,6 +124,15 @@ export const glosario = [
   t('caja-vapor', 'Caja de vapor', 'Cajón o tubo al que llega vapor de agua, donde se calientan las piezas de madera antes de curvarlas.', 'curvado/vapor'),
   t('recuperacion', 'Recuperación', 'Parte de la curva que una pieza pierde al sacarla del molde, cuando tiende a volver a su forma recta.', 'curvado/moldes'),
   t('molde', 'Molde', 'Forma rígida sobre la que se curva o se lamina una pieza para darle su perfil.', 'curvado/moldes'),
+  t('contrachapa', 'Contrachapa', 'Chapa que se pega en la cara oculta de un tablero para equilibrar la de la cara vista y evitar que se curve.', 'chapeado/soporte'),
+  t('cola-animal', 'Cola animal', 'Cola de origen animal que se usa caliente. Gelifica al enfriarse y se puede ablandar de nuevo con calor y humedad, por eso es reversible.', 'chapeado/chapeado-mano'),
+  t('martillo-chapear', 'Martillo de chapear', 'Herramienta de madera con una tira de latón en el borde que se arrastra apretando sobre la chapa para pegarla con cola caliente.', 'chapeado/chapeado-mano'),
+  t('libro-abierto', 'Libro abierto', 'Combinación de dos hojas de chapa consecutivas en la que una se da vuelta como la página de un libro, de modo que el dibujo queda en espejo.', 'chapeado/preparar-chapa'),
+  t('filete', 'Filete', 'Línea fina de madera, simple o de varias capas de colores, que se embute como adorno en una superficie o un canto.', 'chapeado/filetes'),
+  t('cenefa', 'Cenefa', 'Banda decorativa que rodea una superficie, a menudo de chapa con la veta cruzada o con un dibujo repetido.', 'chapeado/filetes'),
+  t('incrustacion', 'Incrustación', 'Pieza de madera u otro material embutida en un hueco poco profundo tallado en una superficie.', 'chapeado/filetes'),
+  t('marqueteria', 'Marquetería', 'Técnica de componer dibujos figurativos con chapas de distintos colores encajadas entre sí.', 'chapeado/marqueteria'),
+  t('parqueteria', 'Parquetería', 'Técnica de componer figuras geométricas repetidas con piezas de chapa o madera.', 'chapeado/parqueteria'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))

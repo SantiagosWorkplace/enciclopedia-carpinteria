@@ -54,6 +54,14 @@ import CortesKerf from './CortesKerf.jsx'
 import CajaVapor from './CajaVapor.jsx'
 import Laminado from './Laminado.jsx'
 import TiposMolde from './TiposMolde.jsx'
+import HerramientasChapeado from './HerramientasChapeado.jsx'
+import SoporteCompensado from './SoporteCompensado.jsx'
+import UnionesChapa from './UnionesChapa.jsx'
+import ChapeadoPrensa from './ChapeadoPrensa.jsx'
+import ChapeadoMano from './ChapeadoMano.jsx'
+import Filetes from './Filetes.jsx'
+import Marqueteria from './Marqueteria.jsx'
+import Parqueteria from './Parqueteria.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -111,4 +119,12 @@ export const figuras = {
   'caja-vapor': CajaVapor,
   'laminado': Laminado,
   'tipos-molde': TiposMolde,
+  'herramientas-chapeado': HerramientasChapeado,
+  'soporte-compensado': SoporteCompensado,
+  'uniones-chapa': UnionesChapa,
+  'chapeado-prensa': ChapeadoPrensa,
+  'chapeado-mano': ChapeadoMano,
+  'filetes': Filetes,
+  'marqueteria': Marqueteria,
+  'parqueteria': Parqueteria,
 }
