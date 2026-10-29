@@ -106,6 +106,18 @@ export const glosario = [
   t('perro', 'Perro', 'Taco de madera o metal que asoma de un agujero de la tapa del banco y sirve de tope para sujetar la pieza.', 'taller/banco'),
   t('tornillo-banco', 'Tornillo de banco', 'Mordaza montada en el banco que aprieta la pieza con un husillo. El de pecho va en el frente y el de cola, en un extremo.', 'taller/banco'),
   t('autocombustion', 'Autocombustión', 'Inflamación espontánea de un material sin llama externa, por el calor que genera una reacción química, como la de los aceites secantes al oxidarse.', 'taller/incendios'),
+  t('union-tope', 'Unión a tope', 'Unión en la que una pieza apoya su testa o su canto contra otra, sin cortes de encaje. Necesita refuerzo si encola una testa.', 'uniones/tope'),
+  t('media-madera', 'Media madera', 'Unión en la que cada pieza se rebaja la mitad de su espesor donde se cruza con la otra, para que las caras queden a ras.', 'uniones/media-madera'),
+  t('hombro', 'Hombro', 'Superficie que rodea la base de una espiga y apoya contra la cara de la otra pieza.', 'uniones/caja-espiga'),
+  t('mejilla', 'Mejilla', 'Cada una de las dos caras anchas de una espiga. Son las que más encolan contra las paredes de la caja.', 'uniones/caja-espiga'),
+  t('resalte', 'Resalte', 'Tramo corto y poco profundo de una espiga, junto al extremo de la pieza, que llena la caja sin abrirla hasta la testa.', 'uniones/caja-espiga'),
+  t('clavija', 'Clavija', 'Varilla cilíndrica de madera dura que se encola en dos agujeros alineados para unir dos piezas. También se llama tarugo.', 'uniones/clavijas-galletas'),
+  t('lengueta', 'Lengüeta', 'Saliente largo y estrecho en el canto de una pieza que entra en una ranura de otra. Si es un listón aparte, se llama lengüeta postiza.', 'uniones/ranuras-rebajos'),
+  t('machihembrado', 'Machihembrado', 'Unión de tablas por el canto en la que una lleva una lengüeta y la otra una ranura.', 'uniones/ranuras-rebajos'),
+  t('boca-pajaro', 'Boca de pájaro', 'Rebaje en forma de ángulo en la cara inferior de un cabio, que lo asienta sobre la solera.', 'uniones/construccion'),
+  t('empalme', 'Empalme', 'Unión de dos piezas por sus extremos para formar una más larga.', 'uniones/construccion'),
+  t('tiempo-abierto', 'Tiempo abierto', 'Tiempo máximo entre la aplicación de la cola y el cierre de la unión. Pasado ese tiempo, la cola empieza a formar piel y pega mal.', 'uniones/encolado'),
+  t('calzo', 'Calzo', 'Listón recto o levemente curvo que se prensa sobre la pieza para repartir la presión de las prensas y protegerla.', 'uniones/encolado'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))

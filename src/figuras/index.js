@@ -39,6 +39,16 @@ import BancoTrabajo from './BancoTrabajo.jsx'
 import SujecionBanco from './SujecionBanco.jsx'
 import AlmacenMadera from './AlmacenMadera.jsx'
 import TrianguloFuego from './TrianguloFuego.jsx'
+import SuperficiesEncolado from './SuperficiesEncolado.jsx'
+import RefuerzosTope from './RefuerzosTope.jsx'
+import MediasMaderas from './MediasMaderas.jsx'
+import VariantesEspiga from './VariantesEspiga.jsx'
+import TiposColaMilano from './TiposColaMilano.jsx'
+import RanurasRebajos from './RanurasRebajos.jsx'
+import Ingletes from './Ingletes.jsx'
+import EncolarCantos from './EncolarCantos.jsx'
+import EmpalmesEstructura from './EmpalmesEstructura.jsx'
+import PresionPrensa from './PresionPrensa.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -81,4 +91,14 @@ export const figuras = {
   'sujecion-banco': SujecionBanco,
   'almacen-madera': AlmacenMadera,
   'triangulo-fuego': TrianguloFuego,
+  'superficies-encolado': SuperficiesEncolado,
+  'refuerzos-tope': RefuerzosTope,
+  'medias-maderas': MediasMaderas,
+  'variantes-espiga': VariantesEspiga,
+  'tipos-cola-milano': TiposColaMilano,
+  'ranuras-rebajos': RanurasRebajos,
+  'ingletes': Ingletes,
+  'encolar-cantos': EncolarCantos,
+  'empalmes-estructura': EmpalmesEstructura,
+  'presion-prensa': PresionPrensa,
 }
