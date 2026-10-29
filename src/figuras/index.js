@@ -70,6 +70,17 @@ import CortarVeta from './CortarVeta.jsx'
 import EtapasRelieve from './EtapasRelieve.jsx'
 import EtapasBulto from './EtapasBulto.jsx'
 import TallaGeometrica from './TallaGeometrica.jsx'
+import PrepararSuperficie from './PrepararSuperficie.jsx'
+import PenetracionTinte from './PenetracionTinte.jsx'
+import Decolorantes from './Decolorantes.jsx'
+import AceitePelicula from './AceitePelicula.jsx'
+import Encerar from './Encerar.jsx'
+import Muneca from './Muneca.jsx'
+import CapasBarniz from './CapasBarniz.jsx'
+import NivelesBrillo from './NivelesBrillo.jsx'
+import PistolaPasadas from './PistolaPasadas.jsx'
+import ExteriorAgua from './ExteriorAgua.jsx'
+import TraposAceite from './TraposAceite.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -143,4 +154,15 @@ export const figuras = {
   'etapas-relieve': EtapasRelieve,
   'etapas-bulto': EtapasBulto,
   'talla-geometrica': TallaGeometrica,
+  'preparar-superficie': PrepararSuperficie,
+  'penetracion-tinte': PenetracionTinte,
+  'decolorantes': Decolorantes,
+  'aceite-pelicula': AceitePelicula,
+  'encerar': Encerar,
+  'muneca': Muneca,
+  'capas-barniz': CapasBarniz,
+  'niveles-brillo': NivelesBrillo,
+  'pistola-pasadas': PistolaPasadas,
+  'exterior-agua': ExteriorAgua,
+  'trapos-aceite': TraposAceite,
 }
