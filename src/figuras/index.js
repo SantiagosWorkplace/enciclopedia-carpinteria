@@ -34,6 +34,11 @@ import CortesIngletadora from './CortesIngletadora.jsx'
 import SierraCinta from './SierraCinta.jsx'
 import CepilladoraRegruesadora from './CepilladoraRegruesadora.jsx'
 import PartesTorno from './PartesTorno.jsx'
+import DistribucionTaller from './DistribucionTaller.jsx'
+import BancoTrabajo from './BancoTrabajo.jsx'
+import SujecionBanco from './SujecionBanco.jsx'
+import AlmacenMadera from './AlmacenMadera.jsx'
+import TrianguloFuego from './TrianguloFuego.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -71,4 +76,9 @@ export const figuras = {
   'sierra-cinta': SierraCinta,
   'cepilladora-regruesadora': CepilladoraRegruesadora,
   'partes-torno': PartesTorno,
+  'distribucion-taller': DistribucionTaller,
+  'banco-trabajo': BancoTrabajo,
+  'sujecion-banco': SujecionBanco,
+  'almacen-madera': AlmacenMadera,
+  'triangulo-fuego': TrianguloFuego,
 }

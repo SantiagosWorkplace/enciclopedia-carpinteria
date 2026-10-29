@@ -101,6 +101,11 @@ export const glosario = [
   t('empujador', 'Empujador', 'Pieza de madera o plástico con la que se empuja la madera cerca de una hoja o una cuchilla, sin acercar los dedos.', 'maquinas/seguridad-maquinas'),
   t('mordida', 'Mordida', 'Escalón poco profundo que deja la regruesadora en los extremos de una tabla, donde solo la sujeta un rodillo.', 'maquinas/cepilladora'),
   t('reaserrado', 'Reaserrado', 'Corte de una tabla por su espesor para obtener dos tablas más finas o chapas gruesas.', 'maquinas/sierra-cinta'),
+  t('gancho-banco', 'Gancho de banco', 'Tabla con un taco abajo en un extremo y otro arriba en el opuesto: se engancha al canto del banco y sostiene la pieza para serrar al través.', 'taller/sujecion-banco'),
+  t('gato', 'Gato', 'Pieza de hierro en forma de gancho que se mete en un agujero del banco y, con un golpe, aprieta la pieza contra la tapa.', 'taller/sujecion-banco'),
+  t('perro', 'Perro', 'Taco de madera o metal que asoma de un agujero de la tapa del banco y sirve de tope para sujetar la pieza.', 'taller/banco'),
+  t('tornillo-banco', 'Tornillo de banco', 'Mordaza montada en el banco que aprieta la pieza con un husillo. El de pecho va en el frente y el de cola, en un extremo.', 'taller/banco'),
+  t('autocombustion', 'Autocombustión', 'Inflamación espontánea de un material sin llama externa, por el calor que genera una reacción química, como la de los aceites secantes al oxidarse.', 'taller/incendios'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))
