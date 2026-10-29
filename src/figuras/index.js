@@ -62,6 +62,14 @@ import ChapeadoMano from './ChapeadoMano.jsx'
 import Filetes from './Filetes.jsx'
 import Marqueteria from './Marqueteria.jsx'
 import Parqueteria from './Parqueteria.jsx'
+import PerfilesGubia from './PerfilesGubia.jsx'
+import AfilarGubia from './AfilarGubia.jsx'
+import GranoTalla from './GranoTalla.jsx'
+import SujecionTalla from './SujecionTalla.jsx'
+import CortarVeta from './CortarVeta.jsx'
+import EtapasRelieve from './EtapasRelieve.jsx'
+import EtapasBulto from './EtapasBulto.jsx'
+import TallaGeometrica from './TallaGeometrica.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -127,4 +135,12 @@ export const figuras = {
   'filetes': Filetes,
   'marqueteria': Marqueteria,
   'parqueteria': Parqueteria,
+  'perfiles-gubia': PerfilesGubia,
+  'afilar-gubia': AfilarGubia,
+  'grano-talla': GranoTalla,
+  'sujecion-talla': SujecionTalla,
+  'cortar-veta': CortarVeta,
+  'etapas-relieve': EtapasRelieve,
+  'etapas-bulto': EtapasBulto,
+  'talla-geometrica': TallaGeometrica,
 }

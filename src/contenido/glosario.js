@@ -133,6 +133,21 @@ export const glosario = [
   t('incrustacion', 'Incrustación', 'Pieza de madera u otro material embutida en un hueco poco profundo tallado en una superficie.', 'chapeado/filetes'),
   t('marqueteria', 'Marquetería', 'Técnica de componer dibujos figurativos con chapas de distintos colores encajadas entre sí.', 'chapeado/marqueteria'),
   t('parqueteria', 'Parquetería', 'Técnica de componer figuras geométricas repetidas con piezas de chapa o madera.', 'chapeado/parqueteria'),
+  t('gubia-v', 'Gubia en V', 'Gubia de dos alas planas en ángulo, que abre un surco en V. Se usa para contornos y líneas.', 'talla/herramientas-talla'),
+  t('gubia-cuchara', 'Gubia de cuchara', 'Gubia de caña recta con una curva cerrada cerca del filo, para llegar al fondo de huecos hondos.', 'talla/herramientas-talla'),
+  t('cola-pez', 'Gubia de cola de pez', 'Gubia de caña fina cuya hoja se abre en abanico hacia el filo; nivela fondos y llega a los rincones.', 'talla/herramientas-talla'),
+  t('piedra-perfil', 'Piedra de perfil', 'Piedra de afilar pequeña con cantos redondeados o en cuña, que se usa por dentro de las gubias para quitar la rebaba.', 'talla/herramientas-talla'),
+  t('asentar', 'Asentar', 'Pulir el filo en un cuero con pasta de pulir, después de la piedra, para dejarlo pulido y sin rebaba.', 'talla/herramientas-talla'),
+  t('tornillo-tallista', 'Tornillo de tallista', 'Tornillo que se enrosca en la base de una talla, atraviesa el banco y se aprieta por debajo con una tuerca, para sujetar la pieza y poder girarla.', 'talla/sujetar-talla'),
+  t('bajorrelieve', 'Bajorrelieve', 'Relieve en el que el motivo sobresale poco del fondo y casi no tiene socavados.', 'talla/relieve'),
+  t('altorrelieve', 'Altorrelieve', 'Relieve en el que el motivo sobresale más de la mitad de su volumen, con los bordes socavados.', 'talla/relieve'),
+  t('socavado', 'Socavado', 'Corte por debajo del borde de una forma tallada, que la separa del fondo y le hace proyectar sombra.', 'talla/relieve'),
+  t('corte-parada', 'Corte de parada', 'Corte vertical que marca un límite, para que el corte siguiente se detenga ahí sin pasarse ni astillar.', 'talla/relieve'),
+  t('guimbarda', 'Guimbarda', 'Cepillo con una cuchilla que sobresale por debajo de la base a una altura regulable, para rebajar fondos a una profundidad pareja.', 'talla/relieve'),
+  t('luz-rasante', 'Luz rasante', 'Luz que llega casi paralela a la superficie y marca con sombras cualquier relieve o desnivel.', 'talla/relieve'),
+  t('talla-bulto', 'Talla de bulto', 'Escultura exenta, que se puede ver desde todos los lados.', 'talla/bulto'),
+  t('desbaste', 'Desbaste', 'Primera etapa de una talla, en la que se quita rápido la madera sobrante para acercarse a la forma.', 'talla/bulto'),
+  t('talla-geometrica', 'Talla geométrica', 'Decoración con muescas de facetas planas, quitadas con un cuchillo, que forman dibujos geométricos.', 'talla/geometrica'),
 ]
 
 export const glosarioPorId = Object.fromEntries(glosario.map((x) => [x.id, x]))
