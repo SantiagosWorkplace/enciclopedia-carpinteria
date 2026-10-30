@@ -43,6 +43,7 @@ export default {
       ],
     },
     { tipo: 'aviso', nivel: 'verificar', texto: 'Las fichas técnicas de muchas colas indican la presión recomendada en N/mm². Suele ser menor en maderas blandas que en duras.' },
+    { tipo: 'figura', id: 'calzo-diagonal', pie: 'La curvatura del calzo y el descuadre del marco están exagerados para que se vean.' },
 
     { tipo: 'h2', texto: 'La cola sobrante' },
     {

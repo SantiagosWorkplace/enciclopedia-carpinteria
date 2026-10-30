@@ -6,6 +6,7 @@ export default {
 
     { tipo: 'h2', texto: 'Clavijas' },
     { tipo: 'p', texto: 'La [[clavija]] es una varilla cilíndrica de madera dura, normalmente haya, encolada mitad en cada pieza. Las de fábrica tienen estrías para que salgan el aire y la cola sobrante, y las puntas achaflanadas para entrar con facilidad.' },
+    { tipo: 'figura', id: 'union-clavijas', pie: 'Clavijas de 8 × 40 mm en tablas de 20 mm, a escala. Dos ya están encoladas; la tercera está fuera de su agujero.' },
     {
       tipo: 'tabla',
       titulo: 'Medidas habituales de clavijas',

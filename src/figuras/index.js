@@ -118,6 +118,10 @@ import PasosColaMilano from './PasosColaMilano.jsx'
 import PasosEspiga from './PasosEspiga.jsx'
 import RanuraDetenida from './RanuraDetenida.jsx'
 import PasosMediaMadera from './PasosMediaMadera.jsx'
+import UnionClavijas from './UnionClavijas.jsx'
+import AngulosInglete from './AngulosInglete.jsx'
+import EncoladoInglete from './EncoladoInglete.jsx'
+import CalzoDiagonal from './CalzoDiagonal.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -239,4 +243,8 @@ export const figuras = {
   'pasos-espiga': PasosEspiga,
   'ranura-detenida': RanuraDetenida,
   'pasos-media-madera': PasosMediaMadera,
+  'union-clavijas': UnionClavijas,
+  'angulos-inglete': AngulosInglete,
+  'encolado-inglete': EncoladoInglete,
+  'calzo-diagonal': CalzoDiagonal,
 }

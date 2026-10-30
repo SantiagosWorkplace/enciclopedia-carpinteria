@@ -23,6 +23,7 @@ export default {
     { tipo: 'aviso', nivel: 'nota', texto: 'En los ingletes de madera maciza, cada pieza encoge y se hincha a lo ancho, pero casi nada a lo largo. Si el aire se seca, la junta se abre por el vértice interior. Si se humedece, se abre por fuera. Cuanto más anchas las piezas, más se nota.' },
 
     { tipo: 'h2', texto: 'El ángulo exacto' },
+    { tipo: 'figura', id: 'angulos-inglete', pie: 'La línea de trazos es el corte a escuadra y la continua, el corte a inglete. El arco marca el ángulo entre los dos.' },
     {
       tipo: 'lista',
       items: [
@@ -46,6 +47,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Encolado' },
+    { tipo: 'figura', id: 'encolado-inglete', pie: 'Marcos vistos desde arriba. Las diagonales se miden de esquina exterior a esquina exterior.' },
     {
       tipo: 'pasos',
       items: [
