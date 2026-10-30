@@ -50,6 +50,12 @@ export default {
     { tipo: 'p', texto: 'Mide en varios puntos y en el centro de la tabla, nunca en la testa. Por encima del punto de saturación de las fibras, ningún medidor portátil es preciso.' },
 
     { tipo: 'h2', texto: 'Secado al aire' },
+    {
+      tipo: 'foto', src: 'fotos/madera/pilas-secado-1907.jpg', ancho: 1000, alto: 786,
+      alt: 'Fotografía antigua de pilas altas de tablas con separadores en un aserradero',
+      pie: 'Pilas de tablas con separadores, secándose al aire en un aserradero de Idaho (Estados Unidos), en 1907.',
+      credito: { autor: 'Steve Shook from Moscow, Idaho, USA', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Stickering_Lumber,_Potlatch_Lumber_Company,_1907_-_Potlatch,_Idaho_(18598423695).jpg' },
+    },
     { tipo: 'p', texto: 'Es el método tradicional y el que puede usar cualquier taller. Es lento y solo llega a la humedad de equilibrio del aire exterior, pero bien hecho da madera de muy buena calidad.' },
     { tipo: 'figura', id: 'pila-secado', pie: 'Pila de secado vista de costado. Los separadores alineados transmiten el peso en vertical hasta los apoyos.' },
     {

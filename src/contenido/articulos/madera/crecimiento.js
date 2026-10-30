@@ -34,6 +34,12 @@ export default {
     { tipo: 'aviso', nivel: 'nota', texto: 'El tronco solo engorda en el cámbium y solo se alarga en las puntas de tallos y ramas. Por eso un clavo en un tronco a 1,5 m del suelo sigue a 1,5 m aunque el árbol crezca: lo que hace es quedar cada vez más adentro.' },
 
     { tipo: 'h2', texto: 'Anillos de crecimiento' },
+    {
+      tipo: 'foto', src: 'fotos/madera/troncos-pino.jpg', ancho: 1000, alto: 667,
+      alt: 'Testas de troncos de pino apilados, con los anillos de crecimiento y la corteza a la vista',
+      pie: 'Testas de troncos de pino. Se ven los anillos de crecimiento, la corteza y las grietas radiales que abre el secado desde el centro.',
+      credito: { autor: 'Radomianin', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Pine_log_cross-sections,_Teutendorf,_2016-09-17.jpg' },
+    },
     { tipo: 'p', texto: 'En los climas con estaciones marcadas, el cámbium trabaja a ritmos distintos a lo largo del año. En primavera, cuando el árbol necesita mover mucha agua, forma la [[madera temprana|madera-temprana]]: células grandes, de paredes finas, clara y liviana. Hacia el verano y el otoño forma la [[madera tardía|madera-tardia]]: células pequeñas, de paredes gruesas, más oscura y densa. En invierno se detiene.' },
     { tipo: 'p', texto: 'El contraste entre la madera tardía de un año y la temprana del siguiente dibuja un [[anillo]] por año. Contando los anillos en la base del tronco se puede saber la edad del árbol.' },
     { tipo: 'aviso', nivel: 'nota', texto: 'En los trópicos, donde el clima cambia poco a lo largo del año, los anillos pueden ser difusos o seguir las estaciones de lluvia en lugar de los años. No siempre sirven para contar la edad.' },

@@ -3,6 +3,20 @@ import { glosarioPorId } from '../contenido/glosario.js'
 import { figuras } from '../figuras/index.js'
 import { interactivos } from '../interactivos.js'
 
+// Fotos con licencia libre, guardadas en public/fotos. Cada una lleva autor y licencia.
+function Foto({ f }) {
+  return <img src={import.meta.env.BASE_URL + f.src} alt={f.alt} width={f.ancho} height={f.alto} loading="lazy" decoding="async" />
+}
+
+function Credito({ c }) {
+  return (
+    <span className="credito">
+      Foto: <a href={c.fuente} target="_blank" rel="noopener noreferrer">{c.autor}</a>
+      {' · '}<a href={c.licenciaUrl} target="_blank" rel="noopener noreferrer">{c.licencia}</a>
+    </span>
+  )
+}
+
 export const slug = (texto) =>
   texto.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
@@ -94,6 +108,27 @@ export default function Bloques({ bloques, query }) {
           </figure>
         )
       }
+      case 'foto':
+        return (
+          <figure key={i} className="foto">
+            <Foto f={b} />
+            {b.pie && <figcaption><Texto>{b.pie}</Texto><Credito c={b.credito} /></figcaption>}
+          </figure>
+        )
+      case 'galeria':
+        return (
+          <figure key={i} className="foto galeria">
+            <div className="galeria-grilla">
+              {b.fotos.map((f) => (
+                <figure key={f.src}>
+                  <Foto f={f} />
+                  <figcaption><Texto>{f.pie}</Texto><Credito c={f.credito} /></figcaption>
+                </figure>
+              ))}
+            </div>
+            {b.pie && <figcaption><Texto>{b.pie}</Texto></figcaption>}
+          </figure>
+        )
       case 'interactivo': {
         const Componente = interactivos[b.id]
         return Componente

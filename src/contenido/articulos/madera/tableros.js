@@ -6,6 +6,14 @@ export default {
 
     { tipo: 'h2', texto: 'Los tableros principales' },
     { tipo: 'figura', id: 'tableros', pie: 'Cara superior y sección de cada tablero. Los espesores no están a escala y las densidades son aproximadas.' },
+    {
+      tipo: 'galeria',
+      pie: 'Dos tableros vistos de cerca.',
+      fotos: [
+        { src: 'fotos/madera/contrachapado.jpg', alt: 'Canto de un tablero contrachapado con sus capas a la vista', pie: 'Contrachapado: en el canto se ven las chapas encoladas con la veta cruzada.', ancho: 800, alto: 599, credito: { autor: 'Rotor DB at English Wikipedia', licencia: 'CC BY-SA 3.0', licenciaUrl: 'http://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Plywood.jpg' } },
+        { src: 'fotos/madera/osb.jpg', alt: 'Superficie de un tablero OSB con virutas largas de madera', pie: 'OSB: virutas largas y planas, prensadas con cola.', ancho: 800, alto: 533, credito: { autor: 'Lionel Allorge', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Oriented_strand_board_at_Courtab%C5%93uf_2011.jpg' } },
+      ],
+    },
     { tipo: 'h3', texto: 'Contrachapado' },
     { tipo: 'p', texto: 'El [[contrachapado]] se forma con chapas de desenrollo encoladas con la veta cruzada a 90° entre capas. Siempre lleva un número impar de chapas, simétrico respecto de la central, para que las tensiones se equilibren y el tablero no se curve. Según el país se llama también multilaminado, terciado, compensado o triplay.' },
     {

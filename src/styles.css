@@ -466,6 +466,15 @@ section.alt .notas-build { background: var(--card); }
 .fig-titulo { font-weight: 700; }
 .fig-nota, .fig-leyenda .fig-nota { font-size: 11px; fill: var(--muted); }
 .fig-letra { font: 700 12px var(--sans); fill: #fff; }
+.foto { margin: 1.5rem 0; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: .75rem; }
+.foto img { width: 100%; height: auto; max-height: 520px; object-fit: contain; display: block; border-radius: 10px; }
+.foto figcaption { font-size: .88rem; color: var(--muted); margin-top: .6rem; text-align: center; }
+.foto .credito { display: block; font-size: .75rem; margin-top: .25rem; opacity: .85; }
+.foto .credito a { color: inherit; }
+.galeria-grilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .75rem; }
+.galeria-grilla figure { margin: 0; }
+.galeria-grilla img { aspect-ratio: 4 / 3; max-height: none; object-fit: cover; }
+.galeria-grilla figcaption { margin-top: .35rem; }
 .figura-falta { padding: 2rem; text-align: center; color: var(--muted); border: 2px dashed var(--line); border-radius: 12px; }
 .interactivo { margin: 1.5rem 0 2rem; }
 .ver-tambien { margin-top: 3rem; padding: 1.25rem; border-radius: 14px; background: var(--bg-alt); }

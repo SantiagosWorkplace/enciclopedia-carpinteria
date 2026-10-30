@@ -36,6 +36,12 @@ export default {
 
     { tipo: 'h2', texto: 'Espesores y presentaciones' },
     {
+      tipo: 'foto', src: 'fotos/madera/hojas-chapa.jpg', ancho: 800, alto: 600,
+      alt: 'Tres hojas de chapa de madera de distinto color sobre un fondo blanco',
+      pie: 'Hojas de chapa de distintas especies. La de arriba tiene un dibujo moteado; las otras dos, veta recta.',
+      credito: { autor: 'Neri.jp', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Feuilles_de_placage.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Chapa natural:** el espesor más común es de ≈ 0,5 a 0,7 mm. Las chapas más gruesas, cerca de 1 mm o más, toleran mejor el lijado.',
