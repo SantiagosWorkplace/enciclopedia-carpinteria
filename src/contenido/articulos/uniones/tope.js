@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'En la [[unión a tope|union-tope]], una pieza apoya su testa o su canto contra otra, sin cortes de encaje. Es la más rápida de hacer y la más débil si se confía solo en la cola, porque en general encola una testa. Con el refuerzo adecuado, alcanza para cajas de taller, muebles de tablero, zócalos y estructuras ocultas.' },
 
     { tipo: 'h2', texto: 'Cortes que cierran sin luz' },
+    { tipo: 'figura', id: 'testa-escuadra', pie: 'La hoja de la escuadra apoya junto a la testa. En los dos sentidos no debe verse luz entre la hoja y la madera.' },
     {
       tipo: 'lista',
       items: [

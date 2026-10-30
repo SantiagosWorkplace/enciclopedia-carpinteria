@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'No existe la mejor unión, sino la adecuada para cada caso. Una unión tiene que resistir los esfuerzos que va a recibir, respetar el movimiento de la madera y verse como corresponde al mueble. Además, tiene que poder hacerse con las herramientas y el tiempo disponibles.' },
 
     { tipo: 'h2', texto: 'Las cuatro preguntas' },
+    { tipo: 'figura', id: 'esfuerzos-union', pie: 'Las flechas rojas son las fuerzas; las verdes, el cambio de ancho del tablero con la humedad. En el cajón, el frente oscuro tiene las espigas y el lateral, las colas.' },
     {
       tipo: 'pasos',
       items: [

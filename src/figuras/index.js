@@ -124,6 +124,8 @@ import EncoladoInglete from './EncoladoInglete.jsx'
 import CalzoDiagonal from './CalzoDiagonal.jsx'
 import PrensadoTablero from './PrensadoTablero.jsx'
 import EstriboViga from './EstriboViga.jsx'
+import TestaEscuadra from './TestaEscuadra.jsx'
+import EsfuerzosUnion from './EsfuerzosUnion.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -251,4 +253,6 @@ export const figuras = {
   'calzo-diagonal': CalzoDiagonal,
   'prensado-tablero': PrensadoTablero,
   'estribo-viga': EstriboViga,
+  'testa-escuadra': TestaEscuadra,
+  'esfuerzos-union': EsfuerzosUnion,
 }
