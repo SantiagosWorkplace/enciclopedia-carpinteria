@@ -122,6 +122,8 @@ import UnionClavijas from './UnionClavijas.jsx'
 import AngulosInglete from './AngulosInglete.jsx'
 import EncoladoInglete from './EncoladoInglete.jsx'
 import CalzoDiagonal from './CalzoDiagonal.jsx'
+import PrensadoTablero from './PrensadoTablero.jsx'
+import EstriboViga from './EstriboViga.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -247,4 +249,6 @@ export const figuras = {
   'angulos-inglete': AngulosInglete,
   'encolado-inglete': EncoladoInglete,
   'calzo-diagonal': CalzoDiagonal,
+  'prensado-tablero': PrensadoTablero,
+  'estribo-viga': EstriboViga,
 }

@@ -33,6 +33,7 @@ export default {
 
     { tipo: 'h2', texto: 'Herrajes de estructura' },
     { tipo: 'p', texto: 'En la construcción actual, muchas uniones tradicionales se reemplazan o se refuerzan con piezas metálicas galvanizadas, diseñadas y ensayadas para cada carga:' },
+    { tipo: 'figura', id: 'estribo-viga', pie: 'Viga de 70 × 200 mm y vigueta de 45 × 170 mm, a ras por arriba. El estribo se clava a la viga por sus alas y a la vigueta por sus costados.' },
     {
       tipo: 'lista',
       items: [

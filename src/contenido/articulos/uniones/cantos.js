@@ -30,6 +30,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Encolar y prensar' },
+    { tipo: 'figura', id: 'prensado-tablero', pie: 'La prensa del centro va arriba y se aprieta primero; las de los extremos van abajo, y de ellas solo se ven las mordazas. A lo largo de cada junta sale un cordón de gotas de cola.' },
     {
       tipo: 'pasos',
       items: [
