@@ -5,6 +5,12 @@ export default {
     { tipo: 'p', texto: 'El formón es la herramienta más simple del taller y una de las más versátiles: limpia uniones, talla cajas, ajusta hombros, rebaja y redondea. Su eficacia depende casi por completo de un filo bien afilado y de una técnica que mantenga las dos manos detrás de él.' },
 
     { tipo: 'h2', texto: 'Tipos de formón' },
+    {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/formon.jpg', ancho: 1000, alto: 233,
+      alt: 'Formón de banco con mango de madera',
+      pie: 'Formón de banco con mango de madera, fabricado en Suecia hacia 1950.',
+      credito: { autor: 'R. Henrik Nilsson', licencia: 'CC BY 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Ca_1950s_bench_chisel_by_Jernbolaget_Eskilstuna_Sweden.jpg' },
+    },
     { tipo: 'figura', id: 'formones', pie: 'Tres formones típicos con su sección transversal, y los barridos más comunes de las gubias.' },
     {
       tipo: 'tabla',

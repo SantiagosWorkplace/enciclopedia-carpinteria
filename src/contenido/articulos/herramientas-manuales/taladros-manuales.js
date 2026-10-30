@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Herramientas' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/berbiqui.jpg', ancho: 1000, alto: 527,
+      alt: 'Berbiquí antiguo de metal con una broca colocada',
+      pie: 'Berbiquí antiguo con su broca, de la colección del Museo de Arte de Cleveland. El brazo curvo da mucha fuerza de giro.',
+      credito: { autor: 'Museo de Arte de Cleveland', licencia: 'CC0', licenciaUrl: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Unknown_artist_-_Brace_and_Bit_-_1920.71_-_Cleveland_Museum_of_Art.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**[[Berbiquí|berbiqui]]:** manubrio en forma de manivela con una pieza para apoyar el pecho o la mano. Hace agujeros grandes, de 6 a 40 mm o más, con brocas de barrena. Tiene mucha fuerza y muy buen control.',

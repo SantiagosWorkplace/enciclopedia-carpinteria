@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Tipos de prensa' },
     { tipo: 'figura', id: 'prensas', pie: 'Las prensas más comunes, esquemáticas. En las metálicas, en rojo, el mango o el gatillo que aprieta.' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/prensas.jpg', ancho: 900, alto: 900,
+      alt: 'Varias prensas sobre un banco de madera',
+      pie: 'Sargentos, prensas de apriete rápido y pinzas de resorte sobre el banco.',
+      credito: { autor: 'Michaelkurek011', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Woodworking_clamps.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Prensas y sargentos',
       columnas: ['Tipo', 'Cómo aprieta', 'Uso'],

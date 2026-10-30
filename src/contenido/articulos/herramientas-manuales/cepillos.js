@@ -20,6 +20,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos de cepillo' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/cepillo-6.jpg', ancho: 1000, alto: 626,
+      alt: 'Cepillo metálico de banco sobre una tabla de pino',
+      pie: 'Cepillo metálico n.º 6, de unos 45 cm: un tamaño entre el garlopín y la garlopa. Delante se ve el pomo y atrás el mango.',
+      credito: { autor: 'Andrew Fogg', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Stanley_No.6_Fore_plane.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Cepillos más usados',
       columnas: ['Cepillo', 'Largo aprox.', 'Uso'],

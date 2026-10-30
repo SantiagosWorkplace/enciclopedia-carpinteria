@@ -21,6 +21,12 @@ export default {
 
     { tipo: 'h2', texto: 'Herramientas para trazar' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/gramil.jpg', ancho: 1000, alto: 669,
+      alt: 'Mano que desliza un gramil por el canto de un tablero',
+      pie: 'Gramil apoyado contra el canto: la punta marca una línea paralela a ese canto.',
+      credito: { autor: 'Jordanhill School D&T Dept', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Using_a_marking_gauge_to_strike_a_line_on_MDF.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Escuadra de carpintero:** hoja de acero en un cabo de madera o metal, para trazar líneas a 90° del canto. La escuadra combinada agrega una regla deslizante, un nivel y un ángulo de 45°.',

@@ -19,6 +19,14 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos de sierra' },
     {
+      tipo: 'galeria',
+      pie: 'Dos sierras de costilla.',
+      fotos: [
+        { src: 'fotos/herramientas-manuales/sierra-espigas.jpg', alt: 'Sierra de costilla con mango de madera y lomo metálico', pie: 'Sierra de costilla para espigas: el lomo rígido mantiene la hoja recta.', ancho: 800, alto: 600, credito: { autor: 'Luke Milburn', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Tenon_Saw.jpg' } },
+        { src: 'fotos/herramientas-manuales/sierra-colas.jpg', alt: 'Sierra de costilla pequeña con lomo de latón', pie: 'Sierra de costilla para colas: más corta y de dientes más finos.', ancho: 800, alto: 600, credito: { autor: 'Luke Milburn', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Dovetail_Saw.jpg' } },
+      ],
+    },
+    {
       tipo: 'tabla',
       titulo: 'Sierras de mano',
       columnas: ['Sierra', 'Uso', 'Dientes por pulgada (25,4 mm)'],

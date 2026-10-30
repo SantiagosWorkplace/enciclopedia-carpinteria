@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Escofinas y limas' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/escofina.jpg', ancho: 1000, alto: 750,
+      alt: 'Escofina con mango de madera apoyada sobre un listón',
+      pie: 'Escofina con mango de madera: sus dientes sueltos arrancan madera rápido y dejan una superficie áspera.',
+      credito: { autor: 'Luke Milburn', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Rasp_with_wooden_handle.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Escofina:** dientes individuales, levantados uno a uno con un punzón. Quita material rápido y deja una superficie áspera. Las escofinas picadas a mano, con dientes en posiciones irregulares, cortan más suave y no dejan surcos.',
