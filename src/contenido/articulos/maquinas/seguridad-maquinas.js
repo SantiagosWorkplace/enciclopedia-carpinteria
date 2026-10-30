@@ -47,6 +47,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Accesorios de seguridad' },
+    { tipo: 'figura', id: 'accesorios-seguridad', pie: 'El empujador y el bloque de empuje, de costado, llevan la pieza hasta el final del corte. El peine de presión, visto desde arriba, tiene los dedos inclinados hacia el avance: deja pasar la pieza y frena su retroceso.' },
     {
       tipo: 'tabla',
       titulo: 'Accesorios',

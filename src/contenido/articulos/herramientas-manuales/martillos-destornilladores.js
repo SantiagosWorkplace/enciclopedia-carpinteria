@@ -48,6 +48,7 @@ export default {
 
     { tipo: 'h2', texto: 'Destornilladores y puntas' },
     { tipo: 'p', texto: 'La regla de oro es que la punta encaje justa en la cabeza del tornillo. Una punta pequeña o del tipo equivocado se sale de la ranura, la destroza y raya la pieza.' },
+    { tipo: 'figura', id: 'puntas-destornillador', pie: 'Cabezas de tornillo vistas desde arriba. La Pozidriv se distingue de la Phillips por las cuatro rayas finas entre los brazos de la cruz.' },
     {
       tipo: 'tabla',
       titulo: 'Tipos de punta',

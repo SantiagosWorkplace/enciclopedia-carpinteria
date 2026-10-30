@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'El taladro de columna hace lo que a mano es difícil: agujeros perfectamente perpendiculares, a una profundidad exacta y repetibles cientos de veces. Es la herramienta para las cazoletas de bisagras, los agujeros de clavijas, los vaciados con brocas Forstner y los agujeros en ángulo con una mesa inclinada.' },
 
     { tipo: 'h2', texto: 'Partes' },
+    { tipo: 'figura', id: 'taladro-columna', pie: 'Un taladro de columna de banco visto de costado. La mesa auxiliar de madera protege la mesa metálica y lleva una guía para repetir agujeros.' },
     {
       tipo: 'lista',
       items: [

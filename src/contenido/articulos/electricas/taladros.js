@@ -19,6 +19,7 @@ export default {
     { tipo: 'aviso', nivel: 'consejo', texto: 'Para carpintería, la combinación más útil es un taladro atornillador y un atornillador de impacto de la misma plataforma: uno taladra y el otro atornilla, sin cambiar brocas a cada rato.' },
 
     { tipo: 'h2', texto: 'Controles del taladro atornillador' },
+    { tipo: 'figura', id: 'taladro-atornillador', pie: 'Un taladro atornillador a batería de costado. El embrague y el selector de velocidad se ajustan antes de empezar; el gatillo regula la velocidad mientras se trabaja.' },
     {
       tipo: 'lista',
       items: [

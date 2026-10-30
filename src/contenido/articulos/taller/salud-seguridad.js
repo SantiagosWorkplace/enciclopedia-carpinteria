@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'La carpintería es un oficio para toda la vida, y para disfrutarlo hay que llegar a viejo con los diez dedos, buena vista, buen oído y pulmones sanos. La mayoría de los daños no vienen de un accidente espectacular sino de exposiciones pequeñas y repetidas: polvo, ruido, posturas y productos químicos.' },
 
     { tipo: 'h2', texto: 'Protección personal' },
+    { tipo: 'figura', id: 'proteccion-personal', pie: 'La protección básica para la cabeza: gafas, protección auditiva y mascarilla contra el polvo. Para vapores de acabados hace falta un respirador con filtros.' },
     {
       tipo: 'tabla',
       titulo: 'Qué usar y cuándo',

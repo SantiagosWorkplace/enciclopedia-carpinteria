@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'El cepillo eléctrico es un rodillo con dos cuchillas que gira a gran velocidad bajo una base partida en dos. Quita madera muy rápido y es el aliado del carpintero de obra: ajustar puertas, rebajar vigas, enderezar tablas de construcción o achaflanar cantos. No reemplaza a una cepilladora ni a un cepillo de mano para dejar superficies finas.' },
 
     { tipo: 'h2', texto: 'Partes y ajustes' },
+    { tipo: 'figura', id: 'cepillo-electrico', pie: 'Sección con la pasada muy exagerada. La base delantera apoya sobre la madera sin cepillar y la trasera sobre la ya cepillada: la diferencia de altura entre las dos es la profundidad de pasada.' },
     {
       tipo: 'lista',
       items: [

@@ -24,6 +24,7 @@ export default {
     { tipo: 'p', texto: 'Para que alguien se siente en la cabecera de una mesa rectangular, la tapa debe sobresalir de las patas unos 30 cm, o las patas deben quedar lo bastante separadas para que entren las rodillas.' },
 
     { tipo: 'h2', texto: 'Asientos' },
+    { tipo: 'figura', id: 'medidas-mesa-silla', pie: 'Silla de comedor y mesa de costado, a escala. Entre el asiento y la tapa de la mesa quedan ≈ 27 – 30 cm, y el faldón deja libres al menos 18 – 20 cm para las piernas.' },
     {
       tipo: 'tabla',
       titulo: 'Asientos',

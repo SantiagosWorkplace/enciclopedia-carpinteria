@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'Las herramientas a batería han mejorado tanto que hoy reemplazan a las de cable en casi todos los trabajos de obra y montaje. Pero no siempre son la mejor opción: para trabajos largos y de mucha potencia en el taller, el cable sigue siendo más barato y no se detiene nunca.' },
 
     { tipo: 'h2', texto: 'Cómo leer una batería' },
+    { tipo: 'figura', id: 'leer-bateria', pie: 'Dos baterías de la misma plataforma de 18 V. La de 5 Ah guarda el doble de energía que la de 2,5 Ah: dura el doble, pero es más grande y pesada.' },
     {
       tipo: 'datos',
       items: [

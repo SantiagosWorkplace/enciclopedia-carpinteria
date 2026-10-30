@@ -58,6 +58,7 @@ export default {
         'Repite en los cuatro bordes largos: una cuchilla tiene cuatro filos.',
       ],
     },
+    { tipo: 'figura', id: 'rebaba-rascador', pie: 'Secciones del canto, muy ampliadas. La rebaba es un gancho diminuto que se vuelca hacia la cara con el bruñidor; con ella, la cuchilla saca virutas en vez de polvo.' },
     { tipo: 'h3', texto: 'Cómo se usa' },
     {
       tipo: 'lista',

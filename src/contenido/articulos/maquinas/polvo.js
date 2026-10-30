@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'El polvo que se ve en el suelo del taller molesta, pero el peligroso es el que no se ve: partículas finísimas que flotan durante horas y llegan hasta lo más profundo de los pulmones. Respirarlo un día no se nota; respirarlo durante años causa alergias, asma y otras enfermedades. Controlarlo es parte del trabajo.' },
 
     { tipo: 'h2', texto: 'Por qué el polvo fino es peligroso' },
+    { tipo: 'figura', id: 'tamano-polvo', pie: 'Esquema sin escala proporcional. Las partículas más finas, que no se ven, son las que llegan más adentro de los pulmones y las que más tiempo flotan en el aire.' },
     {
       tipo: 'tabla',
       titulo: 'Tamaño de las partículas',

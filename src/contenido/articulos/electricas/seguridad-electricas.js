@@ -36,6 +36,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'El rechazo' },
+    { tipo: 'figura', id: 'rechazo-apoyo', pie: 'Un tablero visto de frente, cortado con sierra circular. Apoyado solo en los extremos, el centro cede, el corte se cierra sobre el disco y la sierra salta hacia atrás. Apoyado a los dos lados del corte, el corte queda abierto.' },
     { tipo: 'p', texto: 'El [[rechazo]] es el accidente típico de las sierras circulares, las fresadoras y las amoladoras. Cuando el disco queda apretado en el corte o sus dientes muerden de golpe la madera, la energía del giro lanza la herramienta hacia atrás, hacia el usuario, o arranca la pieza de las manos.' },
     {
       tipo: 'lista',

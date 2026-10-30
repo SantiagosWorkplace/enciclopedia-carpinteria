@@ -32,6 +32,7 @@ export default {
     { tipo: 'aviso', nivel: 'verificar', texto: 'Las máquinas industriales suelen ser trifásicas, de 380 – 400 V, y no se pueden conectar a la red monofásica de una vivienda sin un convertidor. Comprueba la alimentación antes de comprar una máquina usada.' },
 
     { tipo: 'h2', texto: 'Iluminación' },
+    { tipo: 'figura', id: 'iluminacion-taller', pie: 'Corte de un taller. Varias luminarias reparten la luz general sin sombras duras, y una lámpara de trabajo ilumina el banco desde un costado para que la mano no tape la pieza.' },
     {
       tipo: 'tabla',
       titulo: 'Niveles de luz recomendados',

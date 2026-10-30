@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'Los errores más caros de un mueble no se cometen con la sierra sino antes, en el papel: una mesa demasiado alta, un cajón que no abre porque choca con la puerta, una estantería que se comba. Un proceso de diseño ordenado permite descubrir esos problemas cuando corregirlos cuesta solo una goma de borrar.' },
 
     { tipo: 'h2', texto: 'Las etapas' },
+    { tipo: 'figura', id: 'etapas-diseno', pie: 'Las nueve etapas, agrupadas en tres fases. El orden no es rígido: una maqueta puede obligar a volver al boceto, y medir el lugar puede cambiar la necesidad.' },
     {
       tipo: 'pasos',
       items: [

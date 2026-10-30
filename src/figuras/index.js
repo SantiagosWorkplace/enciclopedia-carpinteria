@@ -98,6 +98,20 @@ import CazoletaMontaje from './CazoletaMontaje.jsx'
 import HerrajesDesmontables from './HerrajesDesmontables.jsx'
 import Cierres from './Cierres.jsx'
 import CorrederasCajon from './CorrederasCajon.jsx'
+import PuntasDestornillador from './PuntasDestornillador.jsx'
+import RebabaRascador from './RebabaRascador.jsx'
+import TaladroAtornillador from './TaladroAtornillador.jsx'
+import CepilloElectrico from './CepilloElectrico.jsx'
+import LeerBateria from './LeerBateria.jsx'
+import TupiAvance from './TupiAvance.jsx'
+import TaladroColumna from './TaladroColumna.jsx'
+import TamanoPolvo from './TamanoPolvo.jsx'
+import RechazoApoyo from './RechazoApoyo.jsx'
+import AccesoriosSeguridad from './AccesoriosSeguridad.jsx'
+import ProteccionPersonal from './ProteccionPersonal.jsx'
+import IluminacionTaller from './IluminacionTaller.jsx'
+import MedidasMesaSilla from './MedidasMesaSilla.jsx'
+import EtapasDiseno from './EtapasDiseno.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -199,4 +213,18 @@ export const figuras = {
   'herrajes-desmontables': HerrajesDesmontables,
   'cierres': Cierres,
   'correderas-cajon': CorrederasCajon,
+  'puntas-destornillador': PuntasDestornillador,
+  'rebaba-rascador': RebabaRascador,
+  'taladro-atornillador': TaladroAtornillador,
+  'cepillo-electrico': CepilloElectrico,
+  'leer-bateria': LeerBateria,
+  'tupi-avance': TupiAvance,
+  'taladro-columna': TaladroColumna,
+  'tamano-polvo': TamanoPolvo,
+  'rechazo-apoyo': RechazoApoyo,
+  'accesorios-seguridad': AccesoriosSeguridad,
+  'proteccion-personal': ProteccionPersonal,
+  'iluminacion-taller': IluminacionTaller,
+  'medidas-mesa-silla': MedidasMesaSilla,
+  'etapas-diseno': EtapasDiseno,
 }
