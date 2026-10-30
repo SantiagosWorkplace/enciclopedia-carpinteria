@@ -31,14 +31,14 @@ export default function CortesIngletadora() {
   return (
     <svg className="fig-leyenda" viewBox="0 0 480 236" role="img" aria-label="Cortes recto, a inglete, en bisel y compuesto sobre un listón">
       {cortes.map((c, i) => {
-        const x = 20 + (i % 2) * 240
-        const y = 74 + Math.floor(i / 2) * 112
+        const x = 50 + (i % 2) * 240
+        const y = 52 + Math.floor(i / 2) * 116
         return (
           <g key={c.titulo}>
             <Liston fx={c.fx} ox={x} oy={y} />
-            <text x={x + 180} y={y - 26} className="fig-titulo">{c.titulo}</text>
+            <text x={x + 70} y={y + 22} textAnchor="middle" className="fig-titulo">{c.titulo}</text>
             {c.nota.split(': ').map((linea, k) => (
-              <text key={linea} x={x + 180} y={y - 11 + k * 13} className="fig-nota">{linea}</text>
+              <text key={linea} x={x + 70} y={y + 37 + k * 14} textAnchor="middle" className="fig-nota">{linea}</text>
             ))}
           </g>
         )

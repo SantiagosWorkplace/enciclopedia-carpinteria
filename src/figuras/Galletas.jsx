@@ -37,7 +37,8 @@ export default function Galletas() {
         <text x="90" y="96" textAnchor="middle" className="fig-nota">Ranuras un poco más largas:</text>
         <text x="90" y="109" textAnchor="middle" className="fig-nota">permiten ajustar a lo largo</text>
       </g>
-      <text x="360" y="200" textAnchor="middle" className="fig-nota">Las galletas tienen ≈ 4 mm de espesor y se hinchan con la cola</text>
+      <text x="360" y="180" textAnchor="middle" className="fig-nota">Las galletas tienen ≈ 4 mm de espesor</text>
+      <text x="360" y="194" textAnchor="middle" className="fig-nota">y se hinchan con la cola</text>
     </svg>
   )
 }

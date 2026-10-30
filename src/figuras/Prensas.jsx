@@ -29,7 +29,7 @@ const prensas = [
     ),
   },
   {
-    titulo: 'De barra', nota: 'O de tubo; anchos grandes',
+    titulo: 'De barra', nota: 'Anchos grandes',
     d: (
       <>
         <rect x="-50" y="60" width="104" height="8" {...metal} />
@@ -53,7 +53,7 @@ const prensas = [
     ),
   },
   {
-    titulo: 'De cinta', nota: 'Marcos y cajas',
+    titulo: 'De cinta', nota: 'Para marcos',
     d: (
       <>
         <rect x="-34" y="34" width="68" height="68" fill="none" stroke="#d9a86b" strokeWidth="10" />

@@ -15,7 +15,7 @@ const barridos = [
 
 export default function Formones() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 300" role="img" aria-label="Formones de banco, de mortajar y de ajustar con su sección, y barridos de gubias">
+    <svg className="fig-leyenda" viewBox="0 0 480 304" role="img" aria-label="Formones de banco, de mortajar y de ajustar con su sección, y barridos de gubias">
       {formones.map((f, i) => {
         const y = 30 + i * 56
         const largo = 130 * (f.largo || 1)
@@ -43,7 +43,7 @@ export default function Formones() {
           </g>
         )
       })}
-      <text x="240" y="298" textAnchor="middle" className="fig-nota">Cuanto mayor el número, más curva la hoja; el n.º 1 es plano como un formón</text>
+      <text x="240" y="298" textAnchor="middle" className="fig-nota">Cuanto mayor el número, más curva la hoja; el n.º 1 es plano</text>
     </svg>
   )
 }

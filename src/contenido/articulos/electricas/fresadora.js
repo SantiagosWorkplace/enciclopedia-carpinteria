@@ -20,7 +20,7 @@ export default {
       items: [
         ['Potencia', '≈ 700 – 1000 W las compactas; 1400 – 2300 W las grandes'],
         ['Velocidad', '≈ 8000 – 30 000 rpm, regulable'],
-        ['[[Pinzas|pinza]]', '6, 8 y 12 mm, o ¼" y ½". El vástago de la fresa debe coincidir exactamente con la pinza.'],
+        ['Pinzas', 'Las [[pinzas|pinza]] más comunes son de 6, 8 y 12 mm, o ¼" y ½". El vástago de la fresa debe coincidir exactamente con la pinza.'],
       ],
     },
 

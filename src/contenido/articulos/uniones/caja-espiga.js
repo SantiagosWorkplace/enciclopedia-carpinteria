@@ -46,7 +46,7 @@ export default {
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'En la espiga con clavija, el agujero de la espiga se perfora 1 – 2 mm más cerca del hombro que el de la pata. Al meter la clavija, tira de la espiga y cierra los hombros con fuerza. Se llama espiga tirada.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'En travesaños muy anchos, una sola espiga ancha encoge con la humedad y se afloja. Se divide en dos espigas con un resalte entre ellas.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'En travesaños muy anchos, una sola espiga ancha encoge con la humedad y se afloja. Se divide en dos espigas con un [[resalte]] entre ellas.' },
 
     { tipo: 'h2', texto: 'Cómo se hace' },
     {

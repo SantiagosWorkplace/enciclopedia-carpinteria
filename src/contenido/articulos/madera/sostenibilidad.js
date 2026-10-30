@@ -25,8 +25,8 @@ export default {
         ['Cómo verificar', 'Buscar el código del certificado en la base de datos pública de FSC', 'Buscar el código en la base de datos pública de PEFC'],
       ],
     },
-    { tipo: 'p', texto: 'Ejemplos de sistemas nacionales reconocidos por PEFC son CERTFOR en Chile, CERFLOR en Brasil y CERFOAR en Argentina. La lista completa y vigente se consulta en la web de PEFC.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Un sello sin código no vale nada. Pide al vendedor el código de certificado que figura en la factura o la etiqueta, del tipo «FSC-C000000», y comprueba en la web del sistema que está vigente y cubre ese producto.' },
+    { tipo: 'p', texto: 'Ejemplos de sistemas nacionales reconocidos por [[PEFC|pefc]] son CERTFOR en Chile, CERFLOR en Brasil y CERFOAR en Argentina. La lista completa y vigente se consulta en la web de PEFC.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Un sello sin código no vale nada. Pide al vendedor el código de certificado que figura en la factura o la etiqueta, del tipo «FSC-C000000» del [[FSC|fsc]], y comprueba en la web del sistema que está vigente y cubre ese producto.' },
 
     { tipo: 'h2', texto: 'Especies protegidas' },
     { tipo: 'p', texto: 'La convención [[CITES|cites]] regula el comercio internacional de especies amenazadas. Las maderas aparecen en tres apéndices:' },

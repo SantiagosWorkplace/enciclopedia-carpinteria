@@ -50,8 +50,8 @@ export default {
     {
       tipo: 'datos',
       items: [
-        ['[[Módulo de rotura|mor]] (MOR)', 'Resistencia a flexión: la tensión a la que se rompe una pieza apoyada en los extremos y cargada en el centro. En N/mm², que es lo mismo que megapascales (MPa).'],
-        ['[[Módulo de elasticidad|moe]] (MOE)', 'Rigidez: cuánto se dobla una pieza bajo una carga, antes de romperse. En GPa o en N/mm² (1 GPa = 1000 N/mm²). Decide cuánto se va a curvar un estante.'],
+        ['Módulo de rotura (MOR)', 'Resistencia a flexión, también llamada [[módulo de rotura|mor]]: la tensión a la que se rompe una pieza apoyada en los extremos y cargada en el centro. En N/mm², que es lo mismo que megapascales (MPa).'],
+        ['Módulo de elasticidad (MOE)', 'Rigidez, medida por el [[módulo de elasticidad|moe]]: cuánto se dobla una pieza bajo una carga, antes de romperse. En GPa o en N/mm² (1 GPa = 1000 N/mm²). Decide cuánto se va a curvar un estante.'],
         ['Compresión paralela', 'Tensión máxima a lo largo de la veta, en N/mm².'],
         ['Dureza Janka', 'En kN o en lbf, sobre la cara de la tabla.'],
       ],

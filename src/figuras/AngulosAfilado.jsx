@@ -32,7 +32,7 @@ export default function AngulosAfilado() {
       <text x="60" y={ESPALDA - 12} className="fig-titulo">Espalda: plana y pulida</text>
       <text x="60" y={CARA + 22} className="fig-titulo">Bisel primario</text>
       <text x="60" y={CARA + 36} className="fig-nota">Se hace en la piedra gruesa o media</text>
-      <text x="60" y="186" className="fig-nota">Ángulos muy exagerados en espesor; el filo real mide pocas décimas de milímetro.</text>
+      <text x="60" y="186" className="fig-nota">Ángulos exagerados; el filo real mide pocas décimas de milímetro.</text>
     </svg>
   )
 }

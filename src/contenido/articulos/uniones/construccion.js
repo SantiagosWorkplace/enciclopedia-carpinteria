@@ -25,7 +25,7 @@ export default {
       tipo: 'lista',
       items: [
         '**Boca de pájaro:** la profundidad del corte suele limitarse a ≈ 1/3 del canto del cabio, para no debilitarlo.',
-        '**Empalmes:** se ubican sobre un apoyo o cerca de él, donde la viga trabaja menos. Un empalme en el centro de un vano es el lugar más débil.',
+        '**Empalmes:** se ubican sobre un apoyo o cerca de él, donde la viga trabaja menos. Un [[empalme]] en el centro de un vano es el lugar más débil.',
         '**Clavijas:** de madera dura y seca, de 20 – 30 mm de diámetro en entramados grandes. La espiga tirada, con el agujero desplazado, aprieta la unión sin prensas.',
       ],
     },

@@ -71,7 +71,7 @@ export default function Vistas() {
       {cara([[0, 20, 40], [60, 20, 40], [60, 40, 40], [0, 40, 40]], '#f1d4a4')}
       <ellipse cx="0" cy="0" rx="5" ry="5" fill="#5b3a1e" transform={`matrix(${S} 0 ${0.5 * S} ${-0.5 * S} ${OX + S * 30 + 0.5 * S * 10} ${OY - S * 20 - 0.5 * S * 10})`} />
       <text x="372" y="168" textAnchor="middle" className="fig-titulo">Perspectiva</text>
-      <text x="306" y={OY + 10} className="fig-nota">frente</text>
+      <text x="306" y={OY + 8} className="fig-nota">frente</text>
 
       {/* Tipos de línea */}
       <g transform="translate(24 262)">

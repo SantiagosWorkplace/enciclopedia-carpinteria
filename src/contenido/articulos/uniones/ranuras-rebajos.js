@@ -49,7 +49,7 @@ export default {
       tipo: 'lista',
       items: [
         '**Fondos y paneles flotantes:** el fondo de madera maciza se mueve con la humedad. No se encola: queda libre en la ranura, con holgura a lo ancho. Los de contrachapado se pueden encolar.',
-        '**Machihembrado:** si se monta en una época seca, se deja una pequeña separación entre tablas para que puedan hincharse cuando suba la humedad. Si se monta en una época húmeda, van casi juntas.',
+        '**Machihembrado:** si el [[machihembrado]] se monta en una época seca, se deja una pequeña separación entre tablas para que puedan hincharse cuando suba la humedad. Si se monta en una época húmeda, van casi juntas.',
         '**Lengüeta postiza:** de contrachapado, porque una de madera maciza con la veta a lo largo se parte con facilidad.',
         '**Estantes en ranura:** la ranura los sostiene en toda su profundidad y además mantiene derechos los laterales.',
       ],

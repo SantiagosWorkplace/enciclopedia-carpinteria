@@ -45,10 +45,10 @@ export default function CepilladoraRegruesadora() {
       <Rodillo cx={396} cy={84} r={9} cuchillas={false} />
       <path d="M250 70 H300" {...flecha} />
       <line x1="446" y1="96" x2="446" y2="118" stroke="#1d4ed8" strokeWidth="1.4" />
-      <text x="452" y="111" style={{ fill: '#1d4ed8' }} className="fig-nota">espesor</text>
-      <text x="316" y="62" textAnchor="middle" className="fig-nota">arrastre</text>
-      <text x="356" y="58" textAnchor="middle" className="fig-nota">cuchillas</text>
-      <text x="396" y="62" textAnchor="middle" className="fig-nota">arrastre</text>
+      <text x="446" y="91" textAnchor="middle" style={{ fill: '#1d4ed8' }} className="fig-nota">espesor</text>
+      <text x="316" y="66" textAnchor="middle" className="fig-nota">arrastre</text>
+      <text x="356" y="50" textAnchor="middle" className="fig-nota">cuchillas</text>
+      <text x="396" y="66" textAnchor="middle" className="fig-nota">arrastre</text>
       <text x="364" y="196" textAnchor="middle" className="fig-titulo">Regruesadora</text>
       <text x="364" y="212" textAnchor="middle" className="fig-nota">Iguala el espesor; copia la cara de abajo</text>
     </svg>
