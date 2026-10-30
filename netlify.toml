@@ -1,0 +1,8 @@
+# Publicación en Netlify: compila con Vite y sirve la carpeta dist.
+# El sitio usa rutas con # (#/capitulo/articulo), así que no hacen falta redirecciones.
+[build]
+  command = "npm run validar && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
