@@ -10,7 +10,7 @@ export default {
       tipo: 'lista',
       items: [
         '**Textura fina y pareja:** la gubia corta igual en toda la superficie. En maderas con anillos muy marcados, la parte blanda se hunde y la dura salta.',
-        '**Veta recta:** la veta revirada o entrecruzada se levanta y obliga a cambiar la dirección de corte a cada paso. Se explica en [Propiedades de la madera](#/madera/propiedades).',
+        '**Veta recta:** la veta revirada o entrecruzada se levanta y obliga a cambiar la dirección de corte a cada paso. Se explica en [Propiedades mecánicas](#/madera/propiedades).',
         '**Sin resina ni aceites en exceso:** embotan el filo y manchan.',
         '**Estable y seca:** una madera bien seca no se raja con el tiempo. Ver [Secado de la madera](#/madera/secado).',
         '**Color según el acabado:** las maderas claras y sin dibujo resaltan la forma y se pueden pintar. En maderas con veta muy vistosa, el dibujo compite con el tallado.',

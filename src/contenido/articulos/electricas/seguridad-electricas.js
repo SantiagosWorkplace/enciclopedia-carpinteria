@@ -47,7 +47,7 @@ export default {
         'Con la fresadora, se avanza en el mismo sentido del giro.',
       ],
     },
-    { tipo: 'p', texto: 'Cómo evitarlo con cada herramienta se explica en [Sierras circulares, caladoras y de sable](#/electricas/sierras-portatiles) y en [La fresadora](#/electricas/fresadora).' },
+    { tipo: 'p', texto: 'Cómo evitarlo con cada herramienta se explica en [Sierras circulares, caladoras y de sable](#/electricas/sierras-portatiles) y en [La fresadora (router)](#/electricas/fresadora).' },
 
     { tipo: 'h2', texto: 'Electricidad' },
     {

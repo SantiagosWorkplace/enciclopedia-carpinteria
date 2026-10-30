@@ -34,7 +34,7 @@ export default {
 
     { tipo: 'h2', texto: 'Galletas' },
     { tipo: 'figura', id: 'galletas', pie: 'Las galletas más comunes, a escala, y una unión de canto con una galleta en sección.' },
-    { tipo: 'p', texto: 'La [[galleta]] se encola en dos ranuras de media luna cortadas con la galletera. Las ranuras son algo más largas que la galleta, y eso deja ajustar las piezas unos milímetros a lo largo antes de prensar. Por eso es la forma más rápida y tolerante de unir tableros, cantos y cajas. Ver [La galletera](#/electricas/galletera).' },
+    { tipo: 'p', texto: 'La [[galleta]] se encola en dos ranuras de media luna cortadas con la galletera. Las ranuras son algo más largas que la galleta, y eso deja ajustar las piezas unos milímetros a lo largo antes de prensar. Por eso es la forma más rápida y tolerante de unir tableros, cantos y cajas. Ver [Galletera y espigadoras](#/electricas/galletera).' },
 
     { tipo: 'h2', texto: 'Espigas planas sueltas' },
     { tipo: 'p', texto: 'Una máquina con una fresa oscilante abre cajas alargadas en las dos piezas, y una espiga plana de madera, fabricada a medida, las une. Es una caja y espiga suelta hecha en segundos: resiste casi como una espiga tallada y alinea como una clavija. Las mismas cajas se pueden hacer con una fresadora y una guía, y espigas cortadas de una tira de madera dura.' },

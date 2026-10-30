@@ -88,6 +88,16 @@ import RoturaVidrio from './RoturaVidrio.jsx'
 import ApoyoPiedra from './ApoyoPiedra.jsx'
 import CapasTapizado from './CapasTapizado.jsx'
 import GraparTela from './GraparTela.jsx'
+import AplicarCola from './AplicarCola.jsx'
+import PartesTornillo from './PartesTornillo.jsx'
+import Pretaladrar from './Pretaladrar.jsx'
+import TiposClavo from './TiposClavo.jsx'
+import ClavarTecnica from './ClavarTecnica.jsx'
+import TiposBisagra from './TiposBisagra.jsx'
+import CazoletaMontaje from './CazoletaMontaje.jsx'
+import HerrajesDesmontables from './HerrajesDesmontables.jsx'
+import Cierres from './Cierres.jsx'
+import CorrederasCajon from './CorrederasCajon.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -179,4 +189,14 @@ export const figuras = {
   'apoyo-piedra': ApoyoPiedra,
   'capas-tapizado': CapasTapizado,
   'grapar-tela': GraparTela,
+  'aplicar-cola': AplicarCola,
+  'partes-tornillo': PartesTornillo,
+  'pretaladrar': Pretaladrar,
+  'tipos-clavo': TiposClavo,
+  'clavar-tecnica': ClavarTecnica,
+  'tipos-bisagra': TiposBisagra,
+  'cazoleta-montaje': CazoletaMontaje,
+  'herrajes-desmontables': HerrajesDesmontables,
+  'cierres': Cierres,
+  'correderas-cajon': CorrederasCajon,
 }

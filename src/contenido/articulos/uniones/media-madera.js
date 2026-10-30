@@ -44,6 +44,6 @@ export default {
         '**A contraveta:** en piezas anchas que se cruzan, la cola sufre con el movimiento de la madera. Por encima de ≈ 10 cm de ancho, mejor fijarla con tornillos o clavijas y poca cola.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'El ancho a partir del cual una unión a contraveta empieza a dar problemas depende de la especie, del corte de la tabla y de los cambios de humedad del lugar. Ver [Movimiento de la madera](#/madera/movimiento).' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'El ancho a partir del cual una unión a contraveta empieza a dar problemas depende de la especie, del corte de la tabla y de los cambios de humedad del lugar. Ver [El movimiento de la madera](#/madera/movimiento).' },
   ],
 }

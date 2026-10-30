@@ -27,7 +27,7 @@ export default {
         '**Cuanto más cerrada la curva, más finas las láminas.** Para radios pequeños se usan láminas de 1,5 – 2 mm; para curvas suaves, de 3 – 6 mm.',
         '**Prueba rápida:** dobla una lámina en seco sobre el molde. Si se adapta sin crujir ni astillarse, sirve.',
         '**Más láminas, menos recuperación.** La pieza recupera menos su forma recta cuantas más láminas tiene, aunque sean más finas.',
-        '**Chapas de fábrica:** para piezas muy curvas o muy finas se pueden usar chapas, que ya vienen del espesor justo. Ver [Chapas](#/madera/chapas).',
+        '**Chapas de fábrica:** para piezas muy curvas o muy finas se pueden usar chapas, que ya vienen del espesor justo. Ver [Chapas de madera](#/madera/chapas).',
       ],
     },
     { tipo: 'aviso', nivel: 'verificar', texto: 'Algunas guías citan que la [[recuperación|recuperacion]] disminuye aproximadamente con el cuadrado del número de láminas. Es una aproximación: mídela con una pieza de prueba en tu molde.' },

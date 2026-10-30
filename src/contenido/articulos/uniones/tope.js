@@ -35,7 +35,7 @@ export default {
       items: [
         '**Tornillos en la testa:** agarran mucho menos que en la veta lateral, porque la rosca corta las fibras en lugar de abrazarlas. Usa tornillos más largos y no los aprietes de más.',
         '**Tableros de partículas y MDF:** usa tornillos para aglomerado, de rosca gruesa, y pretaladra siempre. Atornillar cerca del canto sin pretaladro lo abre en capas.',
-        '**Clavijas y galletas:** quedan ocultas y convierten la unión en una de las más prácticas para muebles de tablero. Ver [Clavijas y galletas](#/uniones/clavijas-galletas).',
+        '**Clavijas y galletas:** quedan ocultas y convierten la unión en una de las más prácticas para muebles de tablero. Ver [Clavijas, galletas y espigas planas](#/uniones/clavijas-galletas).',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Una testa absorbe la cola y queda seca. Pasa una mano de cola diluida en la testa, espera unos minutos y vuelve a encolar antes de armar: la segunda mano queda en la superficie.' },
