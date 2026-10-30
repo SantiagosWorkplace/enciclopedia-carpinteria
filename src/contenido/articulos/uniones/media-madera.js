@@ -20,6 +20,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Cómo se hace' },
+    { tipo: 'figura', id: 'pasos-media-madera', pie: 'En los pasos 1, 2 y 4, la pieza vista de canto; en el 3, desde arriba, con el formón entrando por un canto. En el 4, dos reglas comprueban que las caras quedan a ras.' },
     {
       tipo: 'pasos',
       items: [

@@ -21,6 +21,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Medidas habituales' },
+    { tipo: 'figura', id: 'ranura-detenida', pie: 'Lateral de 18 mm con una ranura detenida y el estante separado. El recorte del estante cubre el final redondeado o escuadrado de la ranura.' },
     {
       tipo: 'datos',
       items: [

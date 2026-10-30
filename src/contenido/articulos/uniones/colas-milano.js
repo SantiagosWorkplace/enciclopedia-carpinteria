@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'La [[cola de milano|cola-milano]] traba dos piezas con formas de trapecio que encajan entre sí. Las colas se ensanchan hacia el extremo, y una vez armadas, la pieza de colas no puede separarse en la dirección de su largo aunque no tenga cola. Es la unión más resistente para esquinas de cajas y cajones, y una muestra de oficio cuando queda a la vista.' },
 
     { tipo: 'h2', texto: 'Colas y espigas' },
+    { tipo: 'figura', id: 'partes-cola-milano', pie: 'La pieza de colas está levantada para mostrar las espigas. Las líneas de trazos son las del gramil.' },
     {
       tipo: 'lista',
       items: [
@@ -41,6 +42,7 @@ export default {
     { tipo: 'aviso', nivel: 'nota', texto: 'Con más pendiente, la traba es mayor pero las puntas de las colas quedan con veta corta y se pueden quebrar. Con menos, se debilita la traba. La pendiente 1:6 a 1:8 es el equilibrio habitual.' },
 
     { tipo: 'h2', texto: 'Cómo se hace una pasante a mano' },
+    { tipo: 'figura', id: 'pasos-cola-milano', pie: 'Los pasos 1 a 3 en la pieza de colas, vista de cara. En el 4, la pieza de colas apoya sobre la testa de la de espigas y la cuchilla marca el contorno de cada cola.' },
     {
       tipo: 'pasos',
       items: [

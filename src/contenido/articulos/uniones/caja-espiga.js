@@ -5,6 +5,7 @@ export default {
     { tipo: 'p', texto: 'La [[caja]] y [[espiga]] es la unión clásica de marcos, mesas, sillas y puertas. La espiga, tallada en el extremo de una pieza, entra ajustada en la caja, un hueco abierto en la otra. Resiste muy bien la palanca y el descuadre porque la espiga queda sujeta en toda su longitud. Además encola sus dos [[mejillas|mejilla]], de veta larga, contra las paredes de la caja.' },
 
     { tipo: 'h2', texto: 'Las partes' },
+    { tipo: 'figura', id: 'partes-caja-espiga', pie: 'El travesaño está separado de la pata. La línea de trazos marca por dónde entra la espiga en la caja.' },
     {
       tipo: 'lista',
       items: [
@@ -49,6 +50,7 @@ export default {
     { tipo: 'aviso', nivel: 'nota', texto: 'En travesaños muy anchos, una sola espiga ancha encoge con la humedad y se afloja. Se divide en dos espigas con un [[resalte]] entre ellas.' },
 
     { tipo: 'h2', texto: 'Cómo se hace' },
+    { tipo: 'figura', id: 'pasos-espiga', pie: 'En los pasos 1 y 3, el travesaño visto de canto; en el 2, de cara, con la sierra delante. En el 4, la pata está cortada para ver la caja.' },
     {
       tipo: 'pasos',
       items: [

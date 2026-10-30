@@ -112,6 +112,12 @@ import ProteccionPersonal from './ProteccionPersonal.jsx'
 import IluminacionTaller from './IluminacionTaller.jsx'
 import MedidasMesaSilla from './MedidasMesaSilla.jsx'
 import EtapasDiseno from './EtapasDiseno.jsx'
+import PartesCajaEspiga from './PartesCajaEspiga.jsx'
+import PartesColaMilano from './PartesColaMilano.jsx'
+import PasosColaMilano from './PasosColaMilano.jsx'
+import PasosEspiga from './PasosEspiga.jsx'
+import RanuraDetenida from './RanuraDetenida.jsx'
+import PasosMediaMadera from './PasosMediaMadera.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -227,4 +233,10 @@ export const figuras = {
   'iluminacion-taller': IluminacionTaller,
   'medidas-mesa-silla': MedidasMesaSilla,
   'etapas-diseno': EtapasDiseno,
+  'partes-caja-espiga': PartesCajaEspiga,
+  'partes-cola-milano': PartesColaMilano,
+  'pasos-cola-milano': PasosColaMilano,
+  'pasos-espiga': PasosEspiga,
+  'ranura-detenida': RanuraDetenida,
+  'pasos-media-madera': PasosMediaMadera,
 }
