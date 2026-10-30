@@ -81,6 +81,13 @@ import NivelesBrillo from './NivelesBrillo.jsx'
 import PistolaPasadas from './PistolaPasadas.jsx'
 import ExteriorAgua from './ExteriorAgua.jsx'
 import TraposAceite from './TraposAceite.jsx'
+import PerfilesMetal from './PerfilesMetal.jsx'
+import FijarMetal from './FijarMetal.jsx'
+import MontajeVidrio from './MontajeVidrio.jsx'
+import RoturaVidrio from './RoturaVidrio.jsx'
+import ApoyoPiedra from './ApoyoPiedra.jsx'
+import CapasTapizado from './CapasTapizado.jsx'
+import GraparTela from './GraparTela.jsx'
 
 export const figuras = {
   'direcciones-contraccion': Direcciones,
@@ -165,4 +172,11 @@ export const figuras = {
   'pistola-pasadas': PistolaPasadas,
   'exterior-agua': ExteriorAgua,
   'trapos-aceite': TraposAceite,
+  'perfiles-metal': PerfilesMetal,
+  'fijar-metal': FijarMetal,
+  'montaje-vidrio': MontajeVidrio,
+  'rotura-vidrio': RoturaVidrio,
+  'apoyo-piedra': ApoyoPiedra,
+  'capas-tapizado': CapasTapizado,
+  'grapar-tela': GraparTela,
 }
