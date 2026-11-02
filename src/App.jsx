@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
-import { useRuta, ir, conQuery } from './router.js'
+import { useRuta } from './router.js'
 import { capitulos, buscarArticulo } from './contenido/indice.js'
 import Portada from './paginas/Portada.jsx'
 import Capitulo from './paginas/Capitulo.jsx'
 import Articulo from './paginas/Articulo.jsx'
 import Glosario from './paginas/Glosario.jsx'
 import Buscar from './paginas/Buscar.jsx'
+import Buscador from './components/Buscador.jsx'
 
 const SITIO = 'Enciclopedia de Carpintería'
 const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
@@ -43,11 +44,6 @@ export default function App() {
     setQ(p0 === 'buscar' ? query.q || '' : '')
   }, [claveRuta, query.q])
 
-  const buscar = (e) => {
-    e.preventDefault()
-    if (q.trim()) ir(conQuery('#/buscar', { q: q.trim() }))
-  }
-
   return (
     <>
       <div className="read-progress" style={{ transform: `scaleX(${scroll})` }} />
@@ -56,9 +52,7 @@ export default function App() {
         <div className="nav-links">
           <a href="#/?ir=indice">Índice</a>
           <a href="#/glosario">Glosario</a>
-          <form onSubmit={buscar} role="search">
-            <input type="search" placeholder="Buscar…" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Buscar en la enciclopedia" />
-          </form>
+          <Buscador q={q} setQ={setQ} />
         </div>
       </nav>
 

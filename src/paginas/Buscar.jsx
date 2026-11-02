@@ -3,6 +3,7 @@ import Migas from '../components/Migas.jsx'
 import { glosario } from '../contenido/glosario.js'
 import { enlace } from '../router.js'
 import { buscar, cargarIndice, normalizar, resaltar, terminos } from '../busqueda.js'
+import { sugerir } from '../components/Buscador.jsx'
 
 function Resaltado({ texto, q }) {
   return resaltar(texto, q).map(([t, marca], i) => (marca ? <mark key={i}>{t}</mark> : <Fragment key={i}>{t}</Fragment>))
@@ -26,6 +27,8 @@ export default function Buscar({ query }) {
         return ts.every((alternativas) => alternativas.some((t) => n.includes(t)))
       })
     : []
+
+  const parecidos = q && indice && !articulos.length && !terminosGlos.length ? sugerir(q, 5) : []
 
   return (
     <div className="pagina">
@@ -70,7 +73,21 @@ export default function Buscar({ query }) {
       )}
 
       {q && indice && articulos.length === 0 && terminosGlos.length === 0 && (
-        <p className="empty">No hay resultados. Prueba con otra palabra o revisa el <a href="#/?ir=indice">índice</a>.</p>
+        <>
+          <p className="empty">No hay resultados exactos para «{q}».</p>
+          {parecidos.length > 0 ? (
+            <>
+              <h2 className="buscar-sub">Quizás buscabas</h2>
+              <ul className="buscar-glos">
+                {parecidos.map((e) => (
+                  <li key={e.href}><a href={e.href}><strong>{e.titulo}</strong></a> — {e.tipo.toLowerCase()}{e.tipo === 'Artículo' ? ` de ${e.detalle}` : ''}</li>
+                ))}
+              </ul>
+            </>
+          ) : (
+            <p>Prueba con otra palabra o revisa el <a href="#/?ir=indice">índice</a>.</p>
+          )}
+        </>
       )}
     </div>
   )

@@ -24,7 +24,7 @@ const raiz = (t) => {
 }
 
 // Palabras de todos los días que en el oficio se dicen de otra forma.
-const SINONIMOS = {
+export const SINONIMOS = {
   pegar: ['peg', 'encol', 'adhesiv'], pegamento: ['adhesiv', 'encol'], cola: ['cola', 'encol', 'adhesiv'],
   pintar: ['pint'], pintura: ['pint'], lijar: ['lij'], lija: ['lij'], lijado: ['lij'],
   cortar: ['cort', 'serr', 'sierra'], serrar: ['serr', 'sierra'], unir: ['union', 'ensambl'], juntar: ['union', 'ensambl'],

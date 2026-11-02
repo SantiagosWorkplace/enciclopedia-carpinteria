@@ -582,3 +582,17 @@ footer { text-align: center; padding: 3rem 1rem; color: var(--muted); border-top
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Sugerencias del buscador */
+.buscador { position: relative; }
+.sugerencias {
+  position: absolute; right: 0; top: calc(100% + .4rem); z-index: 60; width: min(380px, 92vw);
+  list-style: none; margin: 0; padding: .35rem; background: var(--card); border: 1px solid var(--line);
+  border-radius: 14px; box-shadow: 0 12px 32px rgba(60, 35, 15, .18);
+}
+.sugerencias li { padding: .5rem .65rem; border-radius: 10px; cursor: pointer; display: grid; grid-template-columns: auto 1fr; column-gap: .5rem; }
+.sugerencias li.activo { background: #f3e4cf; }
+.sugerencias strong { font-size: .92rem; }
+.sug-tipo { grid-row: span 2; align-self: start; font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); padding-top: .2rem; min-width: 4.6rem; }
+.sug-detalle { grid-column: 2; font-size: .8rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sugerencias .sug-todo { display: block; font-size: .85rem; color: var(--accent-dark); border-top: 1px solid var(--line); margin-top: .25rem; border-radius: 0 0 10px 10px; }
