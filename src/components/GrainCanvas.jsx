@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react'
 
 // Fondo animado: vetas de madera que ondulan y forman un nudo donde está el ratón.
+// En pantallas táctiles, sin ratón, el nudo pasea solo por la pantalla y va hacia
+// donde se toca.
 export default function GrainCanvas() {
   const ref = useRef(null)
 
@@ -11,6 +13,10 @@ export default function GrainCanvas() {
     let w, h, raf
     let mouse = { x: 0.7, y: 0.5 }
     let t = 0
+    const tactil = window.matchMedia('(hover: none), (pointer: coarse)').matches
+    // Punto al que se dirige el nudo, siempre dentro de un margen de la pantalla.
+    const nuevoDestino = () => ({ x: 0.12 + Math.random() * 0.76, y: 0.15 + Math.random() * 0.7 })
+    let destino = nuevoDestino()
 
     const resize = () => {
       const dpr = window.devicePixelRatio || 1
@@ -40,6 +46,17 @@ export default function GrainCanvas() {
         ctx.lineWidth = i % 7 === 0 ? 2.5 : 1
         ctx.stroke()
       }
+      if (tactil && !reduce) {
+        const dx = destino.x - mouse.x
+        const dy = destino.y - mouse.y
+        const d = Math.hypot(dx, dy)
+        if (d < 0.01) destino = nuevoDestino()
+        else {
+          // Avanza hacia el destino con velocidad suave, más lenta al llegar.
+          const paso = Math.min(d, 0.0008 + d * 0.004)
+          mouse = { x: mouse.x + (dx / d) * paso, y: mouse.y + (dy / d) * paso }
+        }
+      }
       if (!reduce) {
         t += 0.004
         raf = requestAnimationFrame(draw)
@@ -51,12 +68,22 @@ export default function GrainCanvas() {
       mouse = { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height }
       if (reduce) draw()
     }
+    const onTouch = (e) => {
+      const r = canvas.getBoundingClientRect()
+      const p = e.touches[0]
+      if (!p) return
+      const x = (p.clientX - r.left) / r.width
+      const y = (p.clientY - r.top) / r.height
+      if (x >= 0 && x <= 1 && y >= 0 && y <= 1) destino = { x, y }
+    }
 
     resize()
     draw()
     window.addEventListener('resize', resize)
-    window.addEventListener('mousemove', onMove)
+    if (tactil) window.addEventListener('touchstart', onTouch, { passive: true })
+    else window.addEventListener('mousemove', onMove)
     return () => {
+      window.removeEventListener('touchstart', onTouch)
       cancelAnimationFrame(raf)
       window.removeEventListener('resize', resize)
       window.removeEventListener('mousemove', onMove)
