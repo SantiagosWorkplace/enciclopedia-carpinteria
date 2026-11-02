@@ -27,7 +27,7 @@ const contornoColas = [
 const piezaColas = prisma(contornoColas, 'y', H - T + E, H + E, 'z')
 
 const etiquetas = [
-  { titulo: 'Colas', nota: 'Más anchas en el extremo', x: 20, y: 44, en: [60, H + E, 12] },
+  { titulo: 'Colas', nota: 'Más anchas en el extremo', x: 12, y: 30, en: [60, H + E, 12] },
   { titulo: 'Línea base', nota: 'Al espesor de la otra pieza', x: 334, y: 40, en: [100, H + E, 0] },
   { titulo: 'Espigas', nota: 'Se ven en la testa', x: 20, y: 150, en: [40, H, 9] },
   { titulo: 'Media espiga', nota: 'Cierra el borde', x: 334, y: 190, en: [118, H, 9] },
