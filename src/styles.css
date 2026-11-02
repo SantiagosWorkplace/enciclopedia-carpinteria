@@ -71,7 +71,7 @@ button { font: inherit; cursor: pointer; }
   background: var(--accent); transform: scaleX(0); transform-origin: right; transition: transform .3s;
 }
 .nav a:hover::after { transform: scaleX(1); transform-origin: left; }
-.nav .logo { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; margin: 0; }
+.nav .logo { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; margin: 0; white-space: nowrap; }
 .nav .logo::after { display: none; }
 
 /* Hero */
@@ -562,12 +562,21 @@ footer { text-align: center; padding: 3rem 1rem; color: var(--muted); border-top
 @media (max-width: 760px) {
   .joint-body, .build-body, .calc, .art-layout.con-toc { grid-template-columns: minmax(0, 1fr); }
   .art-toc { position: static; }
-  .nav-links input { width: 120px; }
+  .nav-links input { width: 100px; }
+  .nav .logo { font-size: 1.02rem; }
   .nav-links { gap: .75rem; }
   .cap-head { flex-direction: column; gap: .5rem; }
   .art-nav { grid-template-columns: 1fr; }
   .art-nav .siguiente { grid-column: 1; }
   .nav a { margin-left: .75rem; font-size: .9rem; }
+}
+
+/* Teléfonos: el logo y los enlaces entran en una sola fila. */
+@media (max-width: 420px) {
+  .nav .logo { font-size: .95rem; }
+  .nav-links { gap: .5rem; }
+  .nav-links a { font-size: .82rem; margin-left: 0; }
+  .nav-links input { width: 84px; padding: .35rem .6rem; }
 }
 
 /* En pantallas angostas las figuras no se achican por debajo de 460 px, para que

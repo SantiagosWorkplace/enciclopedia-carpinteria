@@ -1,4 +1,6 @@
-# Enciclopedia de Carpintería
+# Taller Atenea
+
+Enciclopedia de carpintería interactiva y gratuita: https://taller-atenea.netlify.app
 
 Enciclopedia interactiva sobre maderas, uniones y herramientas. React + Vite, HTML, CSS y JavaScript.
 

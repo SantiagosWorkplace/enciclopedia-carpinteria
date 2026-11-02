@@ -8,7 +8,7 @@ import Glosario from './paginas/Glosario.jsx'
 import Buscar from './paginas/Buscar.jsx'
 import Buscador from './components/Buscador.jsx'
 
-const SITIO = 'Enciclopedia de Carpintería'
+const SITIO = 'Taller Atenea'
 const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
     const capitulo = capitulos.find((c) => c.id === p0)
     const articulo = capitulo && p1 ? buscarArticulo(p0, p1).articulo : null
     const titulo = articulo?.titulo || capitulo?.titulo || { glosario: 'Glosario', buscar: 'Búsqueda' }[p0]
-    document.title = titulo ? `${titulo} · ${SITIO}` : `${SITIO} · El oficio de la madera`
+    document.title = titulo ? `${titulo} · ${SITIO}` : `${SITIO} · Enciclopedia de carpintería`
     const descripcion = articulo?.resumen || capitulo?.intro || DESCRIPCION
     document.querySelector('meta[name="description"]')?.setAttribute('content', descripcion)
     setQ(p0 === 'buscar' ? query.q || '' : '')
@@ -48,7 +48,7 @@ export default function App() {
     <>
       <div className="read-progress" style={{ transform: `scaleX(${scroll})` }} />
       <nav className="nav">
-        <a href="#/" className="logo">⟁ Taller</a>
+        <a href="#/" className="logo">⟁ Taller Atenea</a>
         <div className="nav-links">
           <a href="#/?ir=indice">Índice</a>
           <a href="#/glosario">Glosario</a>
