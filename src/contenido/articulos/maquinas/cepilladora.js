@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/cepillos', 'electricas/cepillo-electrico', 'madera/defectos', 'maquinas/seguridad-maquinas'],
   bloques: [
     { tipo: 'p', texto: 'Para que una pieza quede plana, a escuadra y al espesor exacto, en el taller se usan dos máquinas que trabajan en equipo. La **cepilladora**, también llamada labradora, deja plana una cara y escuadra un canto con ella. La **regruesadora** copia esa cara plana en la cara opuesta y deja toda la pieza al mismo espesor. En Europa son muy comunes las máquinas combinadas que hacen las dos cosas.' },

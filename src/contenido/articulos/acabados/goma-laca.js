@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['acabados/barnices', 'acabados/ceras', 'acabados/tintes', 'acabados/seguridad-acabados'],
   bloques: [
     { tipo: 'p', texto: 'La [[goma laca|goma-laca]] es una resina natural que segrega un pequeño insecto sobre las ramas de algunos árboles de la India y del sudeste asiático. Disuelta en alcohol, forma una película fina y transparente que seca en minutos. Es el acabado clásico de los muebles finos, un sellador que se agarra a casi todo y el mejor producto para retoques.' },

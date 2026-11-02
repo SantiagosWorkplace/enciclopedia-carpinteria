@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['taller/banco', 'herramientas-manuales/prensas', 'herramientas-manuales/sierras', 'herramientas-manuales/cepillos'],
   bloques: [
     { tipo: 'p', texto: 'Una pieza que se mueve no se puede trabajar con precisión, y una pieza sostenida con la mano deja una sola mano para la herramienta. Sujetar bien la pieza es la mitad de la técnica de cualquier trabajo a mano, y también una cuestión de seguridad.' },

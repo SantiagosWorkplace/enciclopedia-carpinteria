@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['chapeado/parqueteria', 'chapeado/filetes', 'madera/chapas', 'chapeado/chapeado-prensa'],
   bloques: [
     { tipo: 'p', texto: 'La [[marquetería|marqueteria]] compone dibujos figurativos, como flores, paisajes, animales o escenas, con chapas de distintos colores cortadas y encajadas como un rompecabezas. El dibujo se arma por separado y después se pega como una sola hoja sobre el soporte.' },

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['acabados/ceras', 'acabados/barnices', 'acabados/seguridad-acabados', 'taller/incendios'],
   bloques: [
     { tipo: 'p', texto: 'El aceite es el acabado más sencillo: entra en la madera, la oscurece un poco, resalta la veta y deja un tacto natural, sin película de plástico. Protege poco contra el agua y los golpes, pero se aplica sin equipos y se repara con otra mano en cualquier momento.' },
@@ -27,7 +27,7 @@ export default {
     {
       tipo: 'foto', src: 'fotos/acabados/aceite-linaza.jpg', ancho: 1000, alto: 750,
       alt: 'Caja de madera de pino recién aceitada junto a un frasco de aceite de linaza',
-      pie: 'Caja de pino aceitada con aceite de linaza: el aceite oscurece y aviva la veta. Al lado, el frasco.',
+      pie: 'Caja de madera aceitada con aceite de linaza: el aceite oscurece y aviva la veta. Al lado, el frasco.',
       credito: { autor: 'Ylænelle', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Application_of_linseed_oil.jpg' },
     },
     {

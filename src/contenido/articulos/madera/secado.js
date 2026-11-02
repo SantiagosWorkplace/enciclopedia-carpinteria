@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/movimiento', 'madera/defectos', 'madera/aserrado', 'taller/almacenaje'],
   bloques: [
     { tipo: 'p', texto: 'Un árbol recién cortado está lleno de agua: en la albura de muchas coníferas, el agua pesa más que la propia madera. Antes de trabajarla hay que bajar esa humedad hasta el nivel del lugar donde va a vivir el mueble. Si no, la pieza se seguirá secando ya armada, y se encogerá, se torcerá o se rajará.' },

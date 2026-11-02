@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/seguridad-electricas', 'maquinas/sierra-mesa', 'maquinas/polvo', 'taller/salud-seguridad'],
   bloques: [
     { tipo: 'p', texto: 'Las máquinas estacionarias tienen motores más potentes que las portátiles y la pieza se lleva hasta la herramienta, con las manos. Eso las hace precisas y productivas, y también responsables de los accidentes más graves del taller: amputaciones en la sierra de mesa, la cepilladora y la tupí. Casi todos se evitan con protectores bien puestos, empujadores y una manera de trabajar que nunca acerque los dedos a la cuchilla.' },

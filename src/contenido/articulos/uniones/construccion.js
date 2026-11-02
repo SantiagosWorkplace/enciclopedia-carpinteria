@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['uniones/visor', 'construccion/mundo', 'construccion/en-seco', 'diseno/estructura'],
   bloques: [
     { tipo: 'p', texto: 'Las uniones de construcción unen vigas, pilares, cabios y soleras de techos, entramados, pérgolas y galpones. Las piezas son grandes, las cargas también, y las uniones casi siempre trabajan a compresión: una pieza apoya sobre otra. La cola tiene poco papel; las sostienen el encaje, las clavijas, los pernos y los herrajes metálicos.' },
@@ -10,7 +10,7 @@ export default {
     {
       tipo: 'foto', src: 'fotos/uniones/techo-entramado.jpg', ancho: 900, alto: 1200,
       alt: 'Techo interior de una casa con estructura de vigas de madera a la vista',
-      pie: 'Techo de entramado de madera a la vista: vigas, pares y tornapuntas unidos con ensambles.',
+      pie: 'Techo de entramado de madera a la vista, con vigas, pares y tornapuntas.',
       credito: { autor: 'Bpickartz', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Goshen_timber_frame_roof_system.jpg' },
     },
     {

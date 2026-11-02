@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/crecimiento', 'madera/movimiento', 'madera/secado', 'madera/chapas'],
   bloques: [
     { tipo: 'p', texto: 'La forma en que se sierra un tronco decide tres cosas de cada tabla: cuánto se va a mover, qué dibujo va a tener la veta y cuánto va a costar. Dos tablas de la misma especie pueden comportarse de forma muy distinta solo por la parte del tronco de la que salieron.' },
@@ -25,7 +25,7 @@ export default {
     { tipo: 'p', texto: 'Se sacan tablas de una cara, se gira la troza un cuarto de vuelta, se sacan de la siguiente y así sucesivamente. El aserrador puede ir eligiendo la mejor cara en cada vuelta y dejar los defectos en el centro, que sale como una viga con la médula. Casi todas las tablas salen tangenciales.' },
     { tipo: 'h3', texto: 'c. Radial o al cuarto' },
     { tipo: 'p', texto: 'La troza se divide primero en cuatro. Cada cuarto se sierra alternando sus dos caras planas para que los cortes queden lo más cerca posible de los radios. Las tablas son más estrechas, se desperdicia más y lleva más trabajo, por eso son más caras. A cambio, son las más estables.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Existe también el aserrado radial "en abanico", con cada corte siguiendo un radio exacto. Da las tablas radiales perfectas, pero con forma de cuña y mucho desperdicio, así que casi no se usa.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Existe también el aserrado radial «en abanico», con cada corte siguiendo un radio exacto. Da las tablas radiales perfectas, pero con forma de cuña y mucho desperdicio, así que casi no se usa.' },
 
     { tipo: 'h2', texto: 'Cómo reconocer el corte de una tabla' },
     { tipo: 'p', texto: 'No hace falta saber cómo se aserró el tronco: basta con mirar la testa de la tabla y ver el ángulo de los anillos con la cara.' },
@@ -56,7 +56,7 @@ export default {
         '**Cepillada:** pasada por la cepilladora, en dos o en las cuatro caras.',
       ],
     },
-    { tipo: 'p', texto: 'En muchos países las medidas todavía se nombran en pulgadas (1" = 25,4 mm). La medida nombrada suele ser la de la pieza en bruto: una tabla "de 1 pulgada", una vez cepillada, queda más delgada.' },
+    { tipo: 'p', texto: 'En muchos países las medidas todavía se nombran en pulgadas (1" = 25,4 mm). La medida nombrada suele ser la de la pieza en bruto: una tabla «de 1 pulgada», una vez cepillada, queda más delgada.' },
     { tipo: 'aviso', nivel: 'verificar', texto: 'Cuánto pierde una pieza al cepillarse depende del país y del aserradero. Una tabla de 1" en bruto suele quedar entre ≈ 19 y 22 mm. Pide siempre las medidas reales en milímetros.' },
     { tipo: 'h3', texto: 'Volumen: metros cúbicos y pies tablares' },
     { tipo: 'p', texto: 'La madera se cobra por volumen. El sistema métrico usa el metro cúbico (m³). En Argentina, Uruguay, Estados Unidos y otros países también se usa el [[pie tablar|pie-tablar]]: un pie por un pie por una pulgada, equivalente a ≈ 2,36 litros, es decir, 0,00236 m³.' },

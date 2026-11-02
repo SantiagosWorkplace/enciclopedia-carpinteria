@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/formones-gubias', 'herramientas-manuales/afilado', 'talla/sujetar-talla', 'talla/relieve'],
   bloques: [
     { tipo: 'p', texto: 'Para tallar no hacen falta muchas herramientas, pero sí que estén muy bien afiladas. La herramienta principal es la gubia, un formón de hoja curva. La acompañan la [[gubia en V|gubia-v]], algunos formones de talla, un mazo y, para la talla geométrica y las figuras pequeñas, un cuchillo.' },

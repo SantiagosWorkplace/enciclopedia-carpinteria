@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/seguridad-electricas', 'herramientas-manuales/sierras', 'maquinas/sierra-mesa', 'madera/tableros'],
   bloques: [
     { tipo: 'p', texto: 'La sierra circular, la caladora y la sierra de sable llevan el corte a la pieza: a una placa de tablero que no cabe en la sierra de mesa, a una viga ya colocada o a una curva en una tabla. Bien usadas cortan rápido y recto; mal usadas, son las herramientas portátiles más peligrosas del taller.' },

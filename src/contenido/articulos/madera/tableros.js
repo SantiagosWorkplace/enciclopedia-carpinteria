@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/chapas', 'madera/movimiento', 'construccion/en-seco', 'herrajes/tornillos'],
   bloques: [
     { tipo: 'p', texto: 'Los tableros manufacturados se fabrican descomponiendo la madera en chapas, listones, virutas, partículas o fibras, y volviéndola a unir con cola y presión. El resultado pierde parte del carácter de la madera maciza, pero gana lo que a ella le falta: grandes medidas, espesor uniforme y un movimiento casi nulo con la humedad.' },
@@ -10,7 +10,7 @@ export default {
       tipo: 'galeria',
       pie: 'Dos tableros vistos de cerca.',
       fotos: [
-        { src: 'fotos/madera/contrachapado.jpg', alt: 'Canto de un tablero contrachapado con sus capas a la vista', pie: 'Contrachapado: en el canto se ven las chapas encoladas con la veta cruzada.', ancho: 800, alto: 599, credito: { autor: 'Rotor DB at English Wikipedia', licencia: 'CC BY-SA 3.0', licenciaUrl: 'http://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Plywood.jpg' } },
+        { src: 'fotos/madera/contrachapado.jpg', alt: 'Canto de un tablero contrachapado con sus capas a la vista', pie: 'Contrachapado: en el canto se ven las chapas encoladas con la veta cruzada.', ancho: 800, alto: 599, credito: { autor: 'Rotor DB at English Wikipedia', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Plywood.jpg' } },
         { src: 'fotos/madera/osb.jpg', alt: 'Superficie de un tablero OSB con virutas largas de madera', pie: 'OSB: virutas largas y planas, prensadas con cola.', ancho: 800, alto: 533, credito: { autor: 'Lionel Allorge', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Oriented_strand_board_at_Courtab%C5%93uf_2011.jpg' } },
       ],
     },
@@ -92,7 +92,7 @@ export default {
       ],
       nota: 'Los formatos cambian según el país y el fabricante. El formato de 2440 × 1220 mm viene de las medidas imperiales de 8 × 4 pies.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Mide siempre el espesor real del tablero antes de cortar ranuras y encastres: un contrachapado "de 18" puede tener 17,5 mm o 18,5 mm.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Mide siempre el espesor real del tablero antes de cortar ranuras y encastres: un contrachapado «de 18» puede tener 17,5 mm o 18,5 mm.' },
 
     { tipo: 'h2', texto: 'Tableros con acabado' },
     {

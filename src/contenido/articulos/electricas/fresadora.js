@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/seguridad-electricas', 'maquinas/tupi', 'uniones/ranuras-rebajos', 'uniones/colas-milano'],
   bloques: [
     { tipo: 'p', texto: 'La fresadora, también llamada router o fresadora de superficie, es probablemente la herramienta eléctrica más versátil del taller. Con la fresa adecuada y una guía hace ranuras, rebajos, molduras, colas de milano, cajas para bisagras, copias exactas de una plantilla y cantos enrasados.' },
@@ -56,7 +56,7 @@ export default {
       items: [
         '**Canto de frente a ti:** de izquierda a derecha.',
         '**En la mesa de fresar,** con la fresa hacia arriba, la pieza avanza de derecha a izquierda contra la guía.',
-        'Avanzar a favor del giro, el llamado fresado en concordancia, hace que la fresadora "salga corriendo" a lo largo de la pieza. Solo lo usan profesionales en pasadas finísimas para evitar astillas.',
+        'Avanzar a favor del giro, el llamado fresado en concordancia, hace que la fresadora «salga corriendo» a lo largo de la pieza. Solo lo usan profesionales en pasadas finísimas para evitar astillas.',
       ],
     },
     { tipo: 'aviso', nivel: 'seguridad', texto: 'Sujeta la pieza con prensas y la fresadora con las dos manos. Espera a que la fresa se detenga del todo antes de levantarla de la pieza o apoyarla en el banco.' },

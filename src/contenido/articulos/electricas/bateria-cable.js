@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/taladros', 'electricas/seguridad-electricas', 'electricas/catalogo-electricas'],
   bloques: [
     { tipo: 'p', texto: 'Las herramientas a batería han mejorado tanto que hoy reemplazan a las de cable en casi todos los trabajos de obra y montaje. Pero no siempre son la mejor opción: para trabajos largos y de mucha potencia en el taller, el cable sigue siendo más barato y no se detiene nunca.' },
@@ -14,7 +14,7 @@ export default {
         ['Energía (Wh)', '= voltaje × capacidad. Una batería de 18 V y 5 Ah guarda 90 Wh. Es la mejor medida para comparar.'],
       ],
     },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Algunos fabricantes anuncian el voltaje máximo sin carga y otros el nominal: "20 V máx." y "18 V" suelen ser la misma batería. Del mismo modo, "12 V máx." equivale a 10,8 V nominales.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Algunos fabricantes anuncian el voltaje máximo sin carga y otros el nominal: «20 V máx.» y «18 V» suelen ser la misma batería. Del mismo modo, «12 V máx.» equivale a 10,8 V nominales.' },
 
     { tipo: 'h2', texto: 'Batería o cable' },
     {

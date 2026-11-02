@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['maquinas/seguridad-maquinas', 'herramientas-manuales/afilado', 'acabados/aceites', 'madera/secado'],
   bloques: [
     { tipo: 'p', texto: 'En el torno, la pieza gira y la herramienta queda quieta en la mano. Así se hacen patas, balaustres, mangos, cuencos, platos y tapas. Es una de las técnicas más gratificantes de la carpintería y también una de las que exige más respeto: una pieza que se suelta o se parte sale despedida con mucha fuerza.' },
@@ -64,7 +64,7 @@ export default {
         'Acerca el apoyo a 3 – 6 mm de la pieza y gira la pieza con la mano para comprobar que no toca.',
         'Párate fuera de la línea de la pieza al encender y empieza a velocidad baja.',
         'Apoya la herramienta en el apoyo **antes** de tocar la pieza, con el bisel frotando la madera, y levanta el mango poco a poco hasta que el filo empiece a cortar.',
-        'Trabaja de diámetros mayores a menores, "cuesta abajo" respecto de la veta.',
+        'Trabaja de diámetros mayores a menores, «cuesta abajo» respecto de la veta.',
         'Detén el torno para ajustar el apoyo y para medir con el compás de espesores.',
       ],
     },

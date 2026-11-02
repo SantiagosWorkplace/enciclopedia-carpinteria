@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['uniones/clavijas-galletas', 'uniones/cantos', 'uniones/ingletes', 'madera/tableros'],
   bloques: [
     { tipo: 'p', texto: 'La galletera es una pequeña sierra circular que corta ranuras en forma de media luna. En ellas se encola una [[galleta]], una pieza ovalada de madera prensada, que une las dos piezas y sobre todo las **alinea**. Es la forma más rápida de unir tableros, encolar tablas por el canto sin escalones o armar cajas de tablero.' },

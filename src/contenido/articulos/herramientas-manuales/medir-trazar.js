@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['diseno/planos', 'herramientas-manuales/sierras', 'uniones/caja-espiga', 'herramientas-manuales/catalogo'],
   bloques: [
     { tipo: 'p', texto: 'Una unión precisa empieza en una línea precisa. Si el trazado está desviado medio milímetro, ninguna sierra ni formón lo va a corregir. Trazar bien es cuestión de pocas herramientas, de una buena referencia y de un hábito: medir lo menos posible y transferir las medidas directamente de una pieza a otra.' },
@@ -55,7 +55,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Marca la cara de referencia con un lazo o una línea que llegue al canto de referencia, y el canto con una "V" o una flecha.',
+        'Marca la cara de referencia con un lazo o una línea que llegue al canto de referencia, y el canto con una «V» o una flecha.',
         'Apoya siempre el cabo de la escuadra y la guía del gramil en la cara o el canto de referencia.',
         'En piezas que forman un conjunto, como las cuatro patas de una mesa, marca un triángulo de carpintero sobre todas juntas: indica su posición y orientación de un vistazo.',
       ],
@@ -71,6 +71,6 @@ export default {
         '**Marca el desperdicio:** raya con una cruz la parte que se va a quitar. Evita cortar del lado equivocado de la línea.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Al cortar, la línea es la frontera: la sierra va del lado del desperdicio y "deja" la línea en la pieza. Así siempre queda un poco de material para el ajuste final.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Al cortar, la línea es la frontera: la sierra va del lado del desperdicio y «deja» la línea en la pieza. Así siempre queda un poco de material para el ajuste final.' },
   ],
 }

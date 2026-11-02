@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/frondosas-coniferas', 'madera/aserrado', 'madera/movimiento', 'madera/defectos'],
   bloques: [
     { tipo: 'p', texto: 'Cada tabla conserva la historia del árbol del que salió. La posición de los anillos, el color, los nudos y la forma en que se mueve al secar se explican por cómo creció ese árbol. Entender esa anatomía es lo que permite elegir bien una pieza y prever cómo se va a comportar.' },
@@ -12,7 +12,7 @@ export default {
       items: [
         ['Celulosa', '≈ 40 – 50 % de la madera seca. Largas cadenas que forman las fibras y dan resistencia a la tracción.'],
         ['Hemicelulosas', '≈ 20 – 30 %. Unen la celulosa y son las primeras en absorber agua.'],
-        ['Lignina', '≈ 20 – 30 %. El "cemento" que endurece las paredes y da rigidez.'],
+        ['Lignina', '≈ 20 – 30 %. El «cemento» que endurece las paredes y da rigidez.'],
         ['Extractivos', 'Pocas unidades por ciento. Resinas, taninos, aceites y colorantes que dan color, olor y durabilidad.'],
       ],
     },
@@ -70,7 +70,7 @@ export default {
       ],
       nota: 'Pinos, robles, nogales y cerezos tienen albura y duramen bien diferenciados. En el abeto, la pícea, la haya o el tilo la diferencia de color es mínima o nula.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para exterior, usa duramen de especies durables o madera tratada. "Madera de cedro" o "de lapacho" no garantiza nada si la pieza es de albura: mira el color de los cantos y pregunta al proveedor.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para exterior, usa duramen de especies durables o madera tratada. «Madera de cedro» o «de lapacho» no garantiza nada si la pieza es de albura: mira el color de los cantos y pregunta al proveedor.' },
 
     { tipo: 'h2', texto: 'Radios medulares' },
     { tipo: 'p', texto: 'Además de las células que corren a lo largo del tronco, hay bandas de células que van de la médula hacia la corteza: los [[radios medulares|radio]]. Transportan y guardan nutrientes en dirección radial.' },

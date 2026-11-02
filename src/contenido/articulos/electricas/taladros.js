@@ -1,8 +1,8 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/taladros-manuales', 'herrajes/tornillos', 'electricas/bateria-cable', 'maquinas/taladro-columna'],
   bloques: [
-    { tipo: 'p', texto: 'Bajo el nombre de "taladro" se venden herramientas muy distintas: el taladro atornillador, el percutor para paredes, el atornillador de impacto y el rotomartillo. Cada una golpea, gira y aprieta de una forma diferente, y elegir la equivocada se paga con tornillos pasados, brocas rotas o agujeros que no avanzan.' },
+    { tipo: 'p', texto: 'Bajo el nombre de «taladro» se venden herramientas muy distintas: el taladro atornillador, el percutor para paredes, el atornillador de impacto y el rotomartillo. Cada una golpea, gira y aprieta de una forma diferente, y elegir la equivocada se paga con tornillos pasados, brocas rotas o agujeros que no avanzan.' },
 
     { tipo: 'h2', texto: 'Tipos' },
     {

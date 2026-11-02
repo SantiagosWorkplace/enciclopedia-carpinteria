@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['madera/propiedades', 'diseno/seguridad-diseno', 'uniones/elegir-union', 'madera/tableros'],
   bloques: [
     { tipo: 'p', texto: 'Un mueble es una pequeña estructura: recibe cargas y tiene que llevarlas hasta el suelo sin romperse, sin doblarse demasiado y sin volcar. No hace falta hacer cálculos de ingeniería para diseñar bien, pero sí entender qué le pasa a cada pieza cuando se usa.' },
@@ -44,7 +44,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Descuadre: el enemigo de las cajas y los bastidores' },
-    { tipo: 'p', texto: 'Un rectángulo de cuatro piezas unidas en las esquinas se deforma con facilidad en un paralelogramo: es el [[descuadre]]. Le pasa a una estantería sin trasera que se balancea, a una mesa que "baila" o a una silla que se afloja. Hay tres formas de evitarlo:' },
+    { tipo: 'p', texto: 'Un rectángulo de cuatro piezas unidas en las esquinas se deforma con facilidad en un paralelogramo: es el [[descuadre]]. Le pasa a una estantería sin trasera que se balancea, a una mesa que «baila» o a una silla que se afloja. Hay tres formas de evitarlo:' },
     {
       tipo: 'lista',
       items: [

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['talla/herramientas-talla', 'talla/maderas-talla', 'talla/relieve', 'herramientas-manuales/medir-trazar'],
   bloques: [
     { tipo: 'p', texto: 'La [[talla geométrica|talla-geometrica]] decora una superficie con pequeñas muescas: triángulos, rombos, curvas y estrellas que se quitan de un solo golpe de cuchillo. Cada muesca deja dos o tres facetas planas que la luz pinta de tonos distintos, y su repetición forma rosetas, cenefas y mosaicos. Es la decoración tradicional de muchos baúles, cajas, cucharas y platos de madera.' },
@@ -35,7 +35,7 @@ export default {
     {
       tipo: 'foto', src: 'fotos/talla/talla-geometrica.jpg', ancho: 1000, alto: 666,
       alt: 'Manos que tallan muescas en una tabla clara con un cuchillo corto',
-      pie: 'Talla geométrica: el cuchillo corto saca pequeñas muescas triangulares. El pulgar de la otra mano empuja la hoja.',
+      pie: 'Talla geométrica: un cuchillo corto saca pequeñas muescas de la superficie de la tabla.',
       credito: { autor: 'Jonathunder', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:ChipCarving.JPG' },
     },
     {

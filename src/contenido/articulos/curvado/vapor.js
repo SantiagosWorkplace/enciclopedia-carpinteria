@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['curvado/principios-curvado', 'curvado/moldes', 'diseno/sillas', 'madera/secado'],
   bloques: [
     { tipo: 'p', texto: 'El calor y la humedad ablandan la lignina, la sustancia que mantiene unidas las fibras de la madera. Una pieza maciza que pasó el tiempo suficiente en vapor se dobla sobre un molde casi como si fuera cuero. Al enfriarse y secarse, conserva la forma. Así se hacen los respaldos curvos de las sillas, los aros de las mecedoras y las costillas de los botes.' },

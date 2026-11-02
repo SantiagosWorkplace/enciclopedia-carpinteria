@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/tableros', 'madera/aserrado', 'chapeado/preparar-chapa', 'chapeado/soporte'],
   bloques: [
     { tipo: 'p', texto: 'Una [[chapa]] es una lámina de madera de menos de un milímetro hasta unos pocos milímetros de espesor. Pegada sobre un tablero estable, permite usar las maderas más vistosas en superficies grandes, sin el movimiento de la madera maciza y con una fracción del material. De un solo tronco valioso pueden salir cientos de metros cuadrados de chapa.' },

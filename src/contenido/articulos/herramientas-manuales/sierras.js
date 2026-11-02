@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/medir-trazar', 'herramientas-manuales/afilado', 'uniones/colas-milano', 'electricas/sierras-portatiles'],
   bloques: [
     { tipo: 'p', texto: 'Las sierras de mano siguen siendo imprescindibles en el taller: son silenciosas, precisas, no levantan polvo fino y permiten cortes que ninguna máquina hace con tanta facilidad, como las colas de milano o los ajustes finales de una espiga.' },

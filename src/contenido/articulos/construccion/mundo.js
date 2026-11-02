@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['construccion/en-seco', 'uniones/construccion', 'herramientas-manuales/catalogo'],
   bloques: [
     { tipo: 'p', texto: 'Cada cultura resolvió la vivienda con la madera de sus bosques y según su clima: aleros profundos donde llueve mucho, pisos elevados donde hay humedad o inundaciones, muros macizos donde hace frío.' },

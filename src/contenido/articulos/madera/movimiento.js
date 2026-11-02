@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/secado', 'madera/aserrado', 'diseno/mesas', 'uniones/elegir-union'],
   bloques: [
     { tipo: 'p', texto: 'La madera nunca deja de moverse. Aunque esté seca, cortada y barnizada, gana y pierde agua según el aire que la rodea, y con ella cambia de tamaño. Casi todas las grietas, tableros abarquillados y uniones rotas de un mueble se deben a no haber tenido en cuenta este movimiento.' },
@@ -40,7 +40,7 @@ export default {
     { tipo: 'p', texto: 'Esta diferencia explica el problema de las uniones *a contraveta*: si se encola rígidamente una pieza con la veta a lo largo sobre otra con la veta a lo ancho, una no se mueve y la otra sí, y algo termina cediendo.' },
 
     { tipo: 'h2', texto: 'Cómo se deforma cada corte' },
-    { tipo: 'p', texto: 'Como la contracción tangencial es mayor que la radial, al secarse los anillos "intentan enderezarse". El resultado depende de dónde salió la pieza del tronco:' },
+    { tipo: 'p', texto: 'Como la contracción tangencial es mayor que la radial, al secarse los anillos «intentan enderezarse». El resultado depende de dónde salió la pieza del tronco:' },
     { tipo: 'figura', id: 'deformaciones-tronco', pie: 'Línea de puntos: pieza recién cortada. Relleno: la misma pieza seca. Las deformaciones están exageradas.' },
     {
       tipo: 'lista',

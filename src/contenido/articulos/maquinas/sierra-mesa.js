@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['maquinas/seguridad-maquinas', 'electricas/sierras-portatiles', 'maquinas/ingletadora', 'uniones/ranuras-rebajos'],
   bloques: [
     { tipo: 'p', texto: 'La sierra de mesa es el centro de muchos talleres: corta tablas al hilo a un ancho exacto, escuadra piezas, hace ranuras, rebajos, espigas y biseles. Es también la máquina que más accidentes causa, casi siempre por rechazo o por acercar la mano a la hoja. Bien ajustada y usada con sus accesorios, es segura y muy precisa.' },

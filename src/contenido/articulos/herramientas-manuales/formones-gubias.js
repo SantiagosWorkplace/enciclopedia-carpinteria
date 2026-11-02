@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/afilado', 'uniones/caja-espiga', 'uniones/colas-milano', 'talla/herramientas-talla'],
   bloques: [
     { tipo: 'p', texto: 'El formón es la herramienta más simple del taller y una de las más versátiles: limpia uniones, talla cajas, ajusta hombros, rebaja y redondea. Su eficacia depende casi por completo de un filo bien afilado y de una técnica que mantenga las dos manos detrás de él.' },

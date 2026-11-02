@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['curvado/vapor', 'curvado/laminado', 'madera/propiedades', 'madera/defectos'],
   bloques: [
     { tipo: 'p', texto: 'Una pieza curva se puede recortar de una tabla ancha o se puede curvar. Recortarla es sencillo, pero corta las fibras: en los tramos donde la veta cruza la pieza de lado a lado queda [[veta corta|veta-corta]], que se quiebra con un golpe. Una pieza curvada mantiene las fibras enteras siguiendo la curva, y por eso es más fuerte, más liviana y gasta menos madera.' },
@@ -21,7 +21,7 @@ export default {
     {
       tipo: 'foto', src: 'fotos/curvado/mecedora-thonet.jpg', ancho: 1000, alto: 750,
       alt: 'Mecedora de madera curvada con asiento y respaldo de rejilla',
-      pie: 'Mecedora de madera curvada al vapor, de las fábricas Thonet y Mundus, en la Galería de Moravia (Brno).',
+      pie: 'Mecedora de madera curvada al vapor, de Thonet-Mundus, en la Galería de Moravia (Brno).',
       credito: { autor: 'Dominik Matus', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Moravsk%C3%A1_galerie_02_-_Thonet-Mundus_k%C5%99eslo.jpg' },
     },
     {

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['talla/sujetar-talla', 'talla/maderas-talla', 'herramientas-manuales/escofinas-rascadores', 'maquinas/sierra-cinta'],
   bloques: [
     { tipo: 'p', texto: 'La [[talla de bulto|talla-bulto]] es la escultura exenta: una figura que se ve desde todos los lados, como un animal, una persona o una forma abstracta. Se parte de un bloque y se quita todo lo que sobra. A diferencia del relieve, no hay un fondo que sostenga la forma: cada parte tiene que resistir por sí misma.' },

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['uniones/ingletes', 'maquinas/sierra-mesa', 'maquinas/seguridad-maquinas', 'diseno/lista-corte'],
   bloques: [
     { tipo: 'p', texto: 'La ingletadora es una sierra circular montada sobre un brazo que baja sobre la pieza. Corta listones, molduras y tablas a lo ancho con ángulos exactos y repetibles. Es la herramienta de los marcos, los zócalos, las molduras de techo y las piezas de estructura.' },

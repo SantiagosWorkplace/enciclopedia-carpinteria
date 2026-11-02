@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['acabados/lacas-pintura', 'acabados/barnices', 'acabados/seguridad-acabados', 'maquinas/polvo'],
   bloques: [
     { tipo: 'p', texto: 'La pistola pulveriza el acabado en gotas finísimas que caen sobre la pieza y se unen en una película pareja, sin marcas de pincel. Es rápida en superficies grandes y llega a rincones y tallas. A cambio, exige preparar bien el producto, ventilar y practicar la técnica.' },

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['herrajes/clavos', 'herrajes/tornillos', 'herramientas-manuales/taladros-manuales', 'electricas/taladros'],
   bloques: [
     { tipo: 'p', texto: 'Martillos y destornilladores parecen las herramientas más fáciles de usar, y por eso se usan mal: clavos doblados, tablas rajadas, cabezas de tornillo destrozadas y superficies marcadas. Elegir el peso y la punta adecuados resuelve casi todo.' },

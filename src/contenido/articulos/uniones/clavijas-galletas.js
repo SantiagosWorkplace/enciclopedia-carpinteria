@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/galletera', 'uniones/tope', 'uniones/cantos', 'herramientas-manuales/taladros-manuales'],
   bloques: [
     { tipo: 'p', texto: 'Clavijas, galletas y espigas planas convierten una unión a tope en una unión firme y, sobre todo, alineada. Las tres se encolan en agujeros o ranuras hechos en las dos piezas, y las tres quedan ocultas. Son las uniones más usadas en muebles de tablero y muy prácticas en madera maciza.' },

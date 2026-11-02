@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['acabados/preparacion', 'acabados/lacas-pintura', 'acabados/pistola', 'acabados/exterior'],
   bloques: [
     { tipo: 'p', texto: 'El barniz forma una película dura y transparente sobre la madera. Es el acabado que más protege contra el agua, el roce, el calor y los productos de limpieza, por eso se usa en mesas, encimeras, suelos y puertas. Su desventaja es que, si se raya hasta la madera, la reparación se nota.' },

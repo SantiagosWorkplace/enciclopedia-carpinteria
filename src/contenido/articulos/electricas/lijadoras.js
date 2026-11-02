@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['acabados/preparacion', 'herramientas-manuales/escofinas-rascadores', 'maquinas/polvo', 'electricas/seguridad-electricas'],
   bloques: [
     { tipo: 'p', texto: 'Lijar es la parte menos glamorosa de la carpintería y una de las que más se notan en el resultado. Una lijadora adecuada, con la secuencia de granos correcta y buena aspiración, deja la madera lista para el acabado en una fracción del tiempo que llevaría a mano.' },

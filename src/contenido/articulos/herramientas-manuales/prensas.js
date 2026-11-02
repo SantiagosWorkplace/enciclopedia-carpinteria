@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['uniones/encolado', 'uniones/cantos', 'taller/sujecion-banco', 'herrajes/adhesivos'],
   bloques: [
     { tipo: 'p', texto: 'En carpintería nunca sobran prensas. Sirven para sujetar la pieza mientras se trabaja y, sobre todo, para mantener las uniones apretadas mientras fragua la cola. Saber cuántas usar, dónde ponerlas y cuánto apretar marca la diferencia entre un encolado limpio y uno torcido.' },

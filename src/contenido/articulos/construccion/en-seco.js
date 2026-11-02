@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['construccion/mundo', 'madera/tableros', 'herramientas-manuales/catalogo'],
   bloques: [
     { tipo: 'p', texto: 'La construcción en seco reemplaza el agua de la mezcla por piezas que se atornillan, clavan o encastran: estructuras de madera o de chapa de acero, placas de yeso, tableros y paneles. La obra es más limpia y rápida, y muchas herramientas son las mismas que las de carpintería.' },

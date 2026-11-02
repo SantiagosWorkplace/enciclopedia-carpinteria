@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/cepillos', 'acabados/preparacion', 'talla/bulto', 'herramientas-manuales/afilado'],
   bloques: [
     { tipo: 'p', texto: 'Escofinas y limas dan forma a curvas y volúmenes donde el cepillo no llega. La cuchilla de rascar hace lo contrario: deja lisas, sin repelos, las superficies donde el cepillo arranca fibras. Juntas cubren buena parte del trabajo entre el corte y el acabado.' },

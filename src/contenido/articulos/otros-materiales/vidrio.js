@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-30',
+  actualizado: '2026-11-02',
   relacionados: ['diseno/armarios', 'uniones/ranuras-rebajos', 'diseno/mesas', 'otros-materiales/metal'],
   bloques: [
     { tipo: 'p', texto: 'El vidrio aparece en puertas de vitrinas, estantes, tapas de mesas y espejos. En general, los cortes, los cantos y los agujeros los hace el vidriero: al carpintero le toca elegir el tipo y el espesor, dejar el alojamiento correcto y montarlo de forma que no se rompa ni vibre.' },
@@ -75,7 +75,7 @@ export default {
       tipo: 'foto', src: 'fotos/otros-materiales/cortavidrios.jpg', ancho: 1000, alto: 404,
       alt: 'Cortavidrios con mango de madera y una ruedita en la punta',
       pie: 'Cortavidrios: la ruedita de la punta raya el vidrio. Las muescas del cabezal sirven para partir tiras finas.',
-      credito: { autor: 'Rasbak', licencia: 'CC BY-SA 3.0', licenciaUrl: 'http://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Glassnijder.jpg' },
+      credito: { autor: 'Rasbak', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Glassnijder.jpg' },
     },
     {
       tipo: 'pasos',

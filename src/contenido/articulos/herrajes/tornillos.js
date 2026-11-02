@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-30',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/martillos-destornilladores', 'electricas/taladros', 'herrajes/desmontables', 'madera/tableros'],
   bloques: [
     { tipo: 'p', texto: 'Un tornillo une con fuerza, aprieta las piezas mientras fragua la cola y se puede quitar. Para que agarre sin rajar la madera ni romperse, hay que elegir el tipo y el largo, y pretaladrar los agujeros correctos.' },

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/especies', 'madera/defectos', 'diseno/estructura', 'madera/frondosas-coniferas'],
   bloques: [
     { tipo: 'p', texto: 'Las fichas de madera están llenas de números: densidad, dureza, módulo de elasticidad, resistencia a flexión. Este artículo explica qué mide cada uno, en qué unidades se da y para qué sirve al elegir una madera.' },
@@ -33,7 +33,7 @@ export default {
 
     { tipo: 'h2', texto: 'Cómo trabaja una pieza' },
     { tipo: 'p', texto: 'Una pieza de madera puede recibir esfuerzos de distintos tipos, y su resistencia a cada uno depende muchísimo de la dirección de la veta:' },
-    { tipo: 'figura', id: 'esfuerzos', pie: 'Los esfuerzos básicos. "A lo largo" significa en la dirección de la veta; "a lo ancho", perpendicular a ella.' },
+    { tipo: 'figura', id: 'esfuerzos', pie: 'Los esfuerzos básicos. «A lo largo» significa en la dirección de la veta; «a lo ancho», perpendicular a ella.' },
     {
       tipo: 'lista',
       items: [

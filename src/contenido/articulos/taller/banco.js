@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['taller/sujecion-banco', 'diseno/ergonomia', 'herramientas-manuales/cepillos', 'uniones/cantos'],
   bloques: [
     { tipo: 'p', texto: 'El banco es la herramienta más importante del taller de mano. Tiene que ser pesado para no moverse al cepillar, plano para servir de referencia, firme para golpear sobre él y capaz de sujetar la pieza en cualquier posición. Un buen banco dura toda la vida, y muchos carpinteros lo construyen como su primer gran proyecto.' },
@@ -35,7 +35,7 @@ export default {
       tipo: 'foto', src: 'fotos/taller/banco-siglo-xix.jpg', ancho: 1000, alto: 633,
       alt: 'Banco de carpintero antiguo de madera oscura en una sala de museo',
       pie: 'Banco de carpintero del siglo XIX, con un tornillo en cada extremo, en un museo técnico de Nizhni Nóvgorod (Rusia).',
-      credito: { autor: 'Лапоть', licencia: 'CC0', licenciaUrl: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Joinery_workbench_1_-_19c_-_Technical_museum,_Nizhny_Novgorod.jpg' },
+      credito: { autor: 'Лапоть', licencia: 'CC0', licenciaUrl: 'https://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Joinery_workbench_1_-_19c_-_Technical_museum,_Nizhny_Novgorod.jpg' },
     },
     {
       tipo: 'tabla',

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/afilado', 'herramientas-manuales/escofinas-rascadores', 'madera/defectos', 'electricas/cepillo-electrico'],
   bloques: [
     { tipo: 'p', texto: 'Un cepillo bien afilado y ajustado deja una superficie que ninguna lija iguala: lisa, brillante y con los poros cortados limpios. También es la herramienta para aplanar, escuadrar y ajustar piezas a mano cuando no hay máquinas, o cuando la pieza es demasiado grande o delicada para ellas.' },
@@ -55,7 +55,7 @@ export default {
     { tipo: 'aviso', nivel: 'consejo', texto: 'Ajusta siempre el último movimiento de la rueda hacia adelante: así se elimina la holgura del mecanismo y la cuchilla no retrocede al trabajar.' },
 
     { tipo: 'h2', texto: 'Cepillar a favor de la veta' },
-    { tipo: 'p', texto: 'Las fibras casi nunca son paralelas a la cara. Si se cepilla en el sentido en que "suben", el filo las levanta y arranca [[repelos|repelo]]. Hay que mirar el canto de la tabla: las líneas de la veta indican hacia dónde cepillar, como si se acariciara un perro a favor del pelo.' },
+    { tipo: 'p', texto: 'Las fibras casi nunca son paralelas a la cara. Si se cepilla en el sentido en que «suben», el filo las levanta y arranca [[repelos|repelo]]. Hay que mirar el canto de la tabla: las líneas de la veta indican hacia dónde cepillar, como si se acariciara un perro a favor del pelo.' },
     {
       tipo: 'lista',
       items: [

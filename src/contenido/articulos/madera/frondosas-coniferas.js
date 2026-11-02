@@ -1,8 +1,8 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/crecimiento', 'madera/especies', 'madera/propiedades', 'acabados/preparacion'],
   bloques: [
-    { tipo: 'p', texto: 'Toda la madera que se usa en carpintería sale de dos grandes grupos de árboles: las [[coníferas|conifera]] y las [[frondosas|frondosa]]. En el comercio se las llama "maderas blandas" y "maderas duras", pero esos nombres hablan de botánica, no de dureza: hay frondosas muy blandas y coníferas bastante duras.' },
+    { tipo: 'p', texto: 'Toda la madera que se usa en carpintería sale de dos grandes grupos de árboles: las [[coníferas|conifera]] y las [[frondosas|frondosa]]. En el comercio se las llama «maderas blandas» y «maderas duras», pero esos nombres hablan de botánica, no de dureza: hay frondosas muy blandas y coníferas bastante duras.' },
 
     { tipo: 'h2', texto: 'Dos familias de árboles' },
     {
@@ -45,7 +45,7 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'El tamaño de los poros define la **textura**. Una madera de *textura gruesa* o *abierta*, como el roble o el fresno, deja hoyos en la superficie que hay que rellenar con tapaporos si se busca un acabado liso y brillante. Una de *textura fina*, como el arce o el cerezo, queda lisa con poco trabajo. Se explica en [Preparar la superficie](#/acabados/preparacion).' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'En maderas de porosidad en anillo, los poros grandes forman en la cara de la tabla líneas o "arcos" muy visibles. Un tinte se acumula en ellos y los oscurece más que el resto: prueba siempre en un recorte antes de teñir la pieza.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'En maderas de porosidad en anillo, los poros grandes forman en la cara de la tabla líneas o «arcos» muy visibles. Un tinte se acumula en ellos y los oscurece más que el resto: prueba siempre en un recorte antes de teñir la pieza.' },
 
     { tipo: 'h2', texto: 'Blanda y dura: lo que significa de verdad' },
     { tipo: 'p', texto: 'La dureza depende sobre todo de la [[densidad]], y la densidad varía muchísimo dentro de cada grupo:' },
@@ -71,7 +71,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Coníferas:** en general cortan rápido y se clavan sin pretaladrar. La diferencia de dureza entre la madera temprana y la tardía hace que el cepillo o la lija "bajen" más la temprana y la veta quede en relieve. La resina embota las cuchillas y puede rezumar a través del acabado.',
+        '**Coníferas:** en general cortan rápido y se clavan sin pretaladrar. La diferencia de dureza entre la madera temprana y la tardía hace que el cepillo o la lija «bajen» más la temprana y la veta quede en relieve. La resina embota las cuchillas y puede rezumar a través del acabado.',
         '**Frondosas:** más variadas. Las densas exigen herramientas bien afiladas, pretaladrar para clavos y tornillos, y a veces cuchillas de metal duro. Muchas tienen la veta entrelazada y se repelan al cepillar.',
       ],
     },

@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-27',
+  actualizado: '2026-11-02',
   relacionados: ['madera/secado', 'madera/movimiento', 'madera/crecimiento', 'diseno/lista-corte'],
   bloques: [
     { tipo: 'p', texto: 'Ninguna tabla es perfecta. Algunos defectos solo cambian el aspecto y pueden incluso aprovecharse; otros debilitan la pieza o la hacen inestable y obligan a descartarla. Saber reconocerlos antes de comprar ahorra dinero y disgustos.' },
@@ -79,7 +79,7 @@ export default {
         '**Calcula de más:** compra entre un 15 y un 30 % más de lo que indica la lista de corte.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Lleva tu lista de corte al aserradero. Con ella puedes aprovechar una tabla con un nudo grande para dos piezas cortas, o una con gema para piezas estrechas, y pagar menos que por madera "perfecta".' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Lleva tu lista de corte al aserradero. Con ella puedes aprovechar una tabla con un nudo grande para dos piezas cortas, o una con gema para piezas estrechas, y pagar menos que por madera «perfecta».' },
 
     { tipo: 'h2', texto: 'Clasificación comercial' },
     { tipo: 'p', texto: 'Las maderas se venden clasificadas por calidad según reglas que cambian con el país y el uso. Hay dos tipos principales:' },

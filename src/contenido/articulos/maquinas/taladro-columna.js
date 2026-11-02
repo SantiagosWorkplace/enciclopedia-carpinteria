@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-29',
+  actualizado: '2026-11-02',
   relacionados: ['herramientas-manuales/taladros-manuales', 'electricas/taladros', 'herrajes/bisagras', 'maquinas/seguridad-maquinas'],
   bloques: [
     { tipo: 'p', texto: 'El taladro de columna hace lo que a mano es difícil: agujeros perfectamente perpendiculares, a una profundidad exacta y repetibles cientos de veces. Es la herramienta para las cazoletas de bisagras, los agujeros de clavijas, los vaciados con brocas Forstner y los agujeros en ángulo con una mesa inclinada.' },

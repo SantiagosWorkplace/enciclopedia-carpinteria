@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-30',
+  actualizado: '2026-11-02',
   relacionados: ['diseno/sillas', 'diseno/ergonomia', 'herrajes/adhesivos', 'taller/salud-seguridad'],
   bloques: [
     { tipo: 'p', texto: 'Un asiento tapizado o una tapa forrada en cuero completan muchos muebles de madera. El tapizado tradicional, con muelles y crin, es un oficio aparte. Pero un asiento suelto con espuma, o una tapa de escritorio forrada, están al alcance de cualquier taller con una grapadora y paciencia.' },

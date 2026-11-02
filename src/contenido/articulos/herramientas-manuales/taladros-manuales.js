@@ -1,5 +1,5 @@
 export default {
-  actualizado: '2026-10-28',
+  actualizado: '2026-11-02',
   relacionados: ['electricas/taladros', 'herrajes/tornillos', 'uniones/clavijas-galletas', 'maquinas/taladro-columna'],
   bloques: [
     { tipo: 'p', texto: 'Los taladros manuales parecen cosa del pasado, pero siguen siendo útiles: no necesitan enchufe ni batería, son silenciosos y dan un control muy fino de la profundidad. Además, las brocas que se usan con ellos y con los taladros eléctricos son en buena parte las mismas.' },
@@ -9,7 +9,7 @@ export default {
       tipo: 'foto', src: 'fotos/herramientas-manuales/berbiqui.jpg', ancho: 1000, alto: 527,
       alt: 'Berbiquí antiguo de metal con una broca colocada',
       pie: 'Berbiquí antiguo con su broca, de la colección del Museo de Arte de Cleveland. El brazo curvo da mucha fuerza de giro.',
-      credito: { autor: 'Museo de Arte de Cleveland', licencia: 'CC0', licenciaUrl: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Unknown_artist_-_Brace_and_Bit_-_1920.71_-_Cleveland_Museum_of_Art.jpg' },
+      credito: { autor: 'Museo de Arte de Cleveland', licencia: 'CC0', licenciaUrl: 'https://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Unknown_artist_-_Brace_and_Bit_-_1920.71_-_Cleveland_Museum_of_Art.jpg' },
     },
     {
       tipo: 'lista',
