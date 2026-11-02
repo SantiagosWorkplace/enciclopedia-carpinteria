@@ -472,6 +472,7 @@ section.alt .notas-build { background: var(--card); }
 .foto .credito { display: block; font-size: .75rem; margin-top: .25rem; opacity: .85; }
 .foto .credito a { color: inherit; }
 .galeria-grilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: .75rem; }
+.galeria-grilla:has(> :nth-child(4):last-child) { grid-template-columns: repeat(2, 1fr); }
 .galeria-grilla figure { margin: 0; }
 .galeria-grilla img { aspect-ratio: 4 / 3; max-height: none; object-fit: cover; }
 .galeria-grilla figcaption { margin-top: .35rem; }
