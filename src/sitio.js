@@ -2,6 +2,7 @@
 
 export const SITIO = 'Taller Atenea'
 export const AUTOR = 'Santiago Lucero'
+export const GITHUB = 'https://github.com/SantiagosWorkplace'
 
 // El correo se arma al mostrarlo, para que no quede escrito entero en el código.
 export const correo = () => ['santiagolucero00trabajo', 'gmail.com'].join('@')

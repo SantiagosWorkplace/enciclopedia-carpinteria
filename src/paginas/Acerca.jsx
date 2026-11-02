@@ -1,6 +1,6 @@
 import Migas from '../components/Migas.jsx'
 import Donacion from '../components/Donacion.jsx'
-import { AUTOR, SITIO, correo } from '../sitio.js'
+import { AUTOR, GITHUB, SITIO, correo } from '../sitio.js'
 
 const fuentes = [
   {
@@ -59,7 +59,8 @@ export default function Acerca() {
         <h2>Autor y contacto</h2>
         <p>
           El sitio lo escribe y lo mantiene <strong>{AUTOR}</strong>, su único autor. Para avisar de un error, proponer
-          un tema o hacer una consulta, escribe a <a href={`mailto:${mail}`}>{mail}</a>.
+          un tema o hacer una consulta, escribe a <a href={`mailto:${mail}`}>{mail}</a>. Sus otros proyectos están
+          en <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>.
         </p>
       </section>
 

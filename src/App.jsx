@@ -9,7 +9,7 @@ import Buscar from './paginas/Buscar.jsx'
 import Buscador from './components/Buscador.jsx'
 import Acerca from './paginas/Acerca.jsx'
 import Donacion from './components/Donacion.jsx'
-import { SITIO, correo } from './sitio.js'
+import { GITHUB, SITIO, correo } from './sitio.js'
 
 const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
 
@@ -64,7 +64,7 @@ export default function App() {
 
       <footer>
         <p>Medir dos veces, cortar una. · Contenido original, medidas en sistema métrico.</p>
-        <p className="pie-enlaces"><a href="#/acerca">Acerca y fuentes</a> · <a href={`mailto:${correo()}`}>Contacto</a></p>
+        <p className="pie-enlaces"><a href="#/acerca">Acerca y fuentes</a> · <a href={`mailto:${correo()}`}>Contacto</a> · <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a></p>
         <Donacion compacta />
       </footer>
     </>
