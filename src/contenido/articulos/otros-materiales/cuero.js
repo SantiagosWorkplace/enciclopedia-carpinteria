@@ -21,6 +21,12 @@ export default {
     },
     { tipo: 'aviso', nivel: 'verificar', texto: 'Para asientos se suele recomendar espuma de ≈ 30 kg/m³ o más; los proveedores la clasifican por densidad y firmeza. Pide la ficha y, si el mueble es para un lugar público, espuma con tratamiento ignífugo.' },
     { tipo: 'p', texto: 'En sillas sin tablero, el asiento se arma sobre [[cinchas|cincha]] tensadas sobre el bastidor, entrecruzadas, que sostienen la espuma con más elasticidad. Las medidas de un asiento cómodo se explican en [Ergonomía y medidas del cuerpo](#/diseno/ergonomia).' },
+    {
+      tipo: 'foto', src: 'fotos/otros-materiales/cinchas.jpg', ancho: 1000, alto: 692,
+      alt: 'Bastidor de madera de un asiento con cinchas negras entrecruzadas y muelles en zigzag',
+      pie: 'Bastidor de un asiento con cinchas entrecruzadas sobre muelles en zigzag, antes de colocar la espuma.',
+      credito: { autor: 'Eugenepik', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Leather_chair_upholstery_by_Eugene_Pik_(2022)_04.jpg' },
+    },
 
     { tipo: 'h2', texto: 'Paso a paso' },
     {

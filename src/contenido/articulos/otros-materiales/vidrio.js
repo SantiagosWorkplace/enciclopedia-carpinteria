@@ -72,6 +72,12 @@ export default {
     { tipo: 'h2', texto: 'Cortar vidrio común' },
     { tipo: 'p', texto: 'Un vidrio común fino se puede cortar en el taller. El cortavidrios no corta: raya la superficie, y el vidrio se parte por esa raya.' },
     {
+      tipo: 'foto', src: 'fotos/otros-materiales/cortavidrios.jpg', ancho: 1000, alto: 404,
+      alt: 'Cortavidrios con mango de madera y una ruedita en la punta',
+      pie: 'Cortavidrios: la ruedita de la punta raya el vidrio. Las muescas del cabezal sirven para partir tiras finas.',
+      credito: { autor: 'Rasbak', licencia: 'CC BY-SA 3.0', licenciaUrl: 'http://creativecommons.org/licenses/by-sa/3.0/', fuente: 'https://commons.wikimedia.org/wiki/File:Glassnijder.jpg' },
+    },
+    {
       tipo: 'pasos',
       items: [
         'Limpia el vidrio y apóyalo sobre una superficie plana cubierta con una manta o un fieltro.',
