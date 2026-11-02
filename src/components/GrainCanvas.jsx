@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react'
 
 // Fondo animado: vetas de madera que ondulan y forman un nudo donde está el ratón.
-// En pantallas táctiles, sin ratón, el nudo pasea solo por la pantalla y va hacia
-// donde se toca.
+// En pantallas táctiles, sin ratón, el nudo pasea solo por la pantalla: ahí los
+// toques son para desplazarse, así que no lo mueven.
 export default function GrainCanvas() {
   const ref = useRef(null)
 
@@ -68,22 +68,12 @@ export default function GrainCanvas() {
       mouse = { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height }
       if (reduce) draw()
     }
-    const onTouch = (e) => {
-      const r = canvas.getBoundingClientRect()
-      const p = e.touches[0]
-      if (!p) return
-      const x = (p.clientX - r.left) / r.width
-      const y = (p.clientY - r.top) / r.height
-      if (x >= 0 && x <= 1 && y >= 0 && y <= 1) destino = { x, y }
-    }
 
     resize()
     draw()
     window.addEventListener('resize', resize)
-    if (tactil) window.addEventListener('touchstart', onTouch, { passive: true })
-    else window.addEventListener('mousemove', onMove)
+    if (!tactil) window.addEventListener('mousemove', onMove)
     return () => {
-      window.removeEventListener('touchstart', onTouch)
       cancelAnimationFrame(raf)
       window.removeEventListener('resize', resize)
       window.removeEventListener('mousemove', onMove)
