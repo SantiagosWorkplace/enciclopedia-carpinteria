@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Sierra circular' },
     {
+      tipo: 'foto', src: 'fotos/electricas/sierra-circular.jpg', ancho: 1000, alto: 669,
+      alt: 'Mano que guía una sierra circular a batería sobre un tablero',
+      pie: 'Sierra circular a batería cortando un tablero apoyado en el banco.',
+      credito: { autor: 'Mark Hunter', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:DeWalt_circular_saw.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Disco:** los diámetros más comunes son de 165 a 190 mm, que cortan entre ≈ 55 y 70 mm de profundidad a 90°. La base se inclina hasta 45° o más para cortes en bisel.',
@@ -43,6 +49,12 @@ export default {
     { tipo: 'aviso', nivel: 'seguridad', texto: 'Párate a un costado de la línea de corte, nunca detrás de la sierra: si hay rechazo, la herramienta salta hacia atrás. Mantén las dos manos en las empuñaduras y nunca pases la mano por debajo de la pieza.' },
 
     { tipo: 'h2', texto: 'Caladora' },
+    {
+      tipo: 'foto', src: 'fotos/electricas/caladora.jpg', ancho: 1000, alto: 750,
+      alt: 'Caladora a batería vista de costado, con la hoja montada',
+      pie: 'Caladora a batería de 18 V, con la hoja montada debajo de la base.',
+      credito: { autor: 'Widar23', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Makita_DJV181.jpg' },
+    },
     { tipo: 'p', texto: 'La caladora mueve una hoja estrecha hacia arriba y hacia abajo. Es la herramienta portátil para curvas, para aberturas en el medio de un tablero y para cortes cortos en piezas delgadas.' },
     {
       tipo: 'lista',

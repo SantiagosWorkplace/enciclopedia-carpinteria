@@ -19,6 +19,12 @@ export default {
 
     { tipo: 'h2', texto: 'Cómo se usa' },
     {
+      tipo: 'foto', src: 'fotos/electricas/galletera.jpg', ancho: 1000, alto: 667,
+      alt: 'Galletera apoyada sobre una tabla en un banco de trabajo',
+      pie: 'Galletera apoyada sobre una tabla, lista para cortar la ranura.',
+      credito: { autor: 'David W. Hogg', licencia: 'CC BY-SA 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Biscuit_cutter.jpg' },
+    },
+    {
       tipo: 'pasos',
       items: [
         'Junta las piezas en su posición final y marca con lápiz una línea que cruce la unión en el lugar de cada galleta.',

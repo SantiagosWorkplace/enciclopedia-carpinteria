@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Tipos de lijadora' },
     { tipo: 'figura', id: 'lijadoras', pie: 'Vistas desde abajo. En rojo, el movimiento de la lija.' },
     {
+      tipo: 'foto', src: 'fotos/electricas/lijadora-excentrica.jpg', ancho: 1000, alto: 706,
+      alt: 'Lijadora excéntrica con cable y tres discos de lija amarillos',
+      pie: 'Lijadora excéntrica y discos de lija con agujeros para aspirar el polvo.',
+      credito: { autor: 'Dave Pape', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Random_orbit_sander.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Cuál usar',
       columnas: ['Lijadora', 'Movimiento', 'Ventajas', 'Limitaciones'],

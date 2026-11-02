@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos' },
     {
+      tipo: 'foto', src: 'fotos/electricas/taladro-atornillador.jpg', ancho: 900, alto: 973,
+      alt: 'Taladro atornillador rojo con su batería, dentro de un maletín',
+      pie: 'Taladro atornillador de 18 V con batería de litio, guardado en su maletín.',
+      credito: { autor: 'Gisling', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Drill-driver.JPG' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Qué hace cada uno',
       columnas: ['Herramienta', 'Cómo trabaja', 'Uso principal'],

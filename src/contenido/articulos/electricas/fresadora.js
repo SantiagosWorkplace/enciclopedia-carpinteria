@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos' },
     {
+      tipo: 'foto', src: 'fotos/electricas/fresadora.jpg', ancho: 1000, alto: 593,
+      alt: 'Tres vistas de una fresadora con base de inmersión sobre un tablero perforado',
+      pie: 'Fresadora de superficie con base de inmersión, vista desde tres ángulos.',
+      credito: { autor: 'D-Platoon', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Oberfraese_Tauchkorb_1.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Fresadoras',
       columnas: ['Tipo', 'Características', 'Uso'],

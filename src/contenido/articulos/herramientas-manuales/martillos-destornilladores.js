@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Martillos y mazos' },
     {
+      tipo: 'foto', src: 'fotos/herramientas-manuales/martillo-una.jpg', ancho: 800, alto: 600,
+      alt: 'Martillo de carpintero con mango de madera',
+      pie: 'Martillo de orejas o de uña: la uña curva sirve para sacar clavos.',
+      credito: { autor: 'Shakespeare at en.wikipedia', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Claw_hammer-1.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Para qué sirve cada uno',
       columnas: ['Herramienta', 'Peso', 'Uso'],
