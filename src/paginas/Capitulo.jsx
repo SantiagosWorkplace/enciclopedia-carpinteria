@@ -10,7 +10,7 @@ export default function Capitulo({ capitulo }) {
         <span className="cap-num">{capitulo.numero}</span>
         <div>
           <span className="eyebrow">Capítulo {capitulo.numero} · {capitulo.subtitulo}</span>
-          <h1>{capitulo.icono} {capitulo.titulo}</h1>
+          <h1>{capitulo.titulo} <span aria-hidden="true">{capitulo.icono}</span></h1>
           <p className="lead">{capitulo.intro}</p>
         </div>
       </header>

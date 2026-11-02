@@ -45,8 +45,7 @@ export default function Portada({ query }) {
                 <a className="indice-cap-head" href={enlace(c.id)}>
                   <span className="indice-num">{c.numero}</span>
                   <span>
-                    <span className="indice-icono" aria-hidden="true">{c.icono}</span>
-                    <strong>{c.titulo}</strong>
+                    <strong>{c.titulo} <span className="indice-icono" aria-hidden="true">{c.icono}</span></strong>
                     <em>{c.subtitulo}</em>
                   </span>
                 </a>
@@ -71,8 +70,7 @@ export default function Portada({ query }) {
               <a className="indice-cap-head" href="#/glosario">
                 <span className="indice-num">A–Z</span>
                 <span>
-                  <span className="indice-icono" aria-hidden="true">📖</span>
-                  <strong>Glosario</strong>
+                  <strong>Glosario <span className="indice-icono" aria-hidden="true">📖</span></strong>
                   <em>Términos del oficio</em>
                 </span>
               </a>
