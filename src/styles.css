@@ -608,3 +608,14 @@ footer { text-align: center; padding: 3rem 1rem; color: var(--muted); border-top
 .sug-tipo { grid-row: span 2; align-self: start; font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); padding-top: .2rem; min-width: 4.6rem; }
 .sug-detalle { grid-column: 2; font-size: .8rem; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .sugerencias .sug-todo { display: block; font-size: .85rem; color: var(--accent-dark); border-top: 1px solid var(--line); margin-top: .25rem; border-radius: 0 0 10px 10px; }
+
+/* Acerca y fuentes, pie y donación */
+.acerca section { margin: 2rem 0; max-width: 720px; }
+.acerca ul, .acerca ol { padding-left: 1.2rem; }
+.acerca li { margin: .45rem 0; }
+.fuentes .fuente-uso { display: block; color: var(--muted); font-size: .9rem; margin-top: .15rem; }
+.pie-enlaces { margin-top: .5rem; font-size: .9rem; }
+.pie-enlaces a { color: inherit; }
+.donacion { margin: 2.5rem 0; padding: 1.25rem; border: 1px solid var(--line); border-radius: 16px; background: var(--card); text-align: center; }
+.donacion p { margin: 0 0 .9rem; color: var(--muted); }
+.donacion-compacta { margin: 1rem auto 0; padding: 0; border: 0; background: none; }

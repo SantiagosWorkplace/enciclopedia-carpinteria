@@ -7,8 +7,10 @@ import Articulo from './paginas/Articulo.jsx'
 import Glosario from './paginas/Glosario.jsx'
 import Buscar from './paginas/Buscar.jsx'
 import Buscador from './components/Buscador.jsx'
+import Acerca from './paginas/Acerca.jsx'
+import Donacion from './components/Donacion.jsx'
+import { SITIO, correo } from './sitio.js'
 
-const SITIO = 'Taller Atenea'
 const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
 
 export default function App() {
@@ -37,7 +39,7 @@ export default function App() {
     const [p0, p1] = partes
     const capitulo = capitulos.find((c) => c.id === p0)
     const articulo = capitulo && p1 ? buscarArticulo(p0, p1).articulo : null
-    const titulo = articulo?.titulo || capitulo?.titulo || { glosario: 'Glosario', buscar: 'Búsqueda' }[p0]
+    const titulo = articulo?.titulo || capitulo?.titulo || { glosario: 'Glosario', buscar: 'Búsqueda', acerca: 'Acerca y fuentes' }[p0]
     document.title = titulo ? `${titulo} · ${SITIO}` : `${SITIO} · Enciclopedia de carpintería`
     const descripcion = articulo?.resumen || capitulo?.intro || DESCRIPCION
     document.querySelector('meta[name="description"]')?.setAttribute('content', descripcion)
@@ -62,6 +64,8 @@ export default function App() {
 
       <footer>
         <p>Medir dos veces, cortar una. · Contenido original, medidas en sistema métrico.</p>
+        <p className="pie-enlaces"><a href="#/acerca">Acerca y fuentes</a> · <a href={`mailto:${correo()}`}>Contacto</a></p>
+        <Donacion compacta />
       </footer>
     </>
   )
@@ -72,6 +76,7 @@ function Pagina({ partes, query }) {
   if (!p0) return <Portada query={query} />
   if (p0 === 'glosario') return <Glosario query={query} />
   if (p0 === 'buscar') return <Buscar query={query} />
+  if (p0 === 'acerca') return <Acerca />
 
   const capitulo = capitulos.find((c) => c.id === p0)
   if (capitulo && !p1) return <Capitulo capitulo={capitulo} />
