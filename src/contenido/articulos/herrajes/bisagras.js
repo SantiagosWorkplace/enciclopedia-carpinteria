@@ -22,6 +22,12 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Bisagra de libro' },
+    {
+      tipo: 'foto', src: 'fotos/herrajes/rebaje-bisagra.jpg', ancho: 727, alto: 603,
+      alt: 'Rebaje vacío para una bisagra y, debajo, una bisagra atornillada en su rebaje',
+      pie: 'Rebajes de una bisagra de libro: arriba, recién vaciado con el formón; abajo, con la bisagra atornillada.',
+      credito: { autor: 'Tomwsulcer', licencia: 'CC0', licenciaUrl: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:After_using_a_butt_marker_to_chisel_out_hole_for_door_hinge.JPG' },
+    },
     { tipo: 'p', texto: 'Se embute en un rebaje poco profundo en el canto de la puerta y del mueble. La profundidad de los dos rebajes, sumada, fija la separación entre la puerta y el mueble.' },
     {
       tipo: 'pasos',

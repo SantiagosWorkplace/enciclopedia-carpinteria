@@ -32,6 +32,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos de banco' },
     {
+      tipo: 'foto', src: 'fotos/taller/banco-siglo-xix.jpg', ancho: 1000, alto: 633,
+      alt: 'Banco de carpintero antiguo de madera oscura en una sala de museo',
+      pie: 'Banco de carpintero del siglo XIX, con un tornillo en cada extremo, en un museo técnico de Nizhni Nóvgorod (Rusia).',
+      credito: { autor: 'Лапоть', licencia: 'CC0', licenciaUrl: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en', fuente: 'https://commons.wikimedia.org/wiki/File:Joinery_workbench_1_-_19c_-_Technical_museum,_Nizhny_Novgorod.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Bancos más comunes',
       columnas: ['Tipo', 'Características'],

@@ -7,6 +7,14 @@ export default {
     { tipo: 'h2', texto: 'Cuatro formas básicas' },
     { tipo: 'figura', id: 'sujecion-banco', pie: 'Las flechas rojas muestran hacia dónde empuja la herramienta o el tornillo.' },
     {
+      tipo: 'galeria',
+      pie: 'Gato y perros en bancos reales.',
+      fotos: [
+        { src: 'fotos/taller/gato.jpg', alt: 'Gato de hierro colocado en un agujero de la tapa del banco', pie: 'Gato: el gancho de hierro entra en un agujero de la tapa y aprieta la pieza.', ancho: 800, alto: 600, credito: { autor: 'Bob Key', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Holdfast.jpg' } },
+        { src: 'fotos/taller/perros.jpg', alt: 'Dos perros de madera asomando de la tapa junto a un tornillo metálico', pie: 'Dos perros asomando de la tapa, junto a un tornillo de pecho metálico.', ancho: 700, alto: 933, credito: { autor: 'Bob Key', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Twobenchdogs.jpg' } },
+      ],
+    },
+    {
       tipo: 'lista',
       items: [
         '**Perros y tornillo de cola:** la pieza queda entre un perro fijo y otro en el tornillo, que aprieta. Ideal para cepillar caras de tablas.',
@@ -17,6 +25,12 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Tornillos de banco' },
+    {
+      tipo: 'foto', src: 'fotos/taller/tornillo-dos-husillos.jpg', ancho: 640, alto: 480,
+      alt: 'Banco de madera clara con un tornillo de dos husillos en el frente',
+      pie: 'Banco con un tornillo de pecho de dos husillos en el frente.',
+      credito: { autor: 'Bob Key', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Twinscrewvise.jpg' },
+    },
     {
       tipo: 'tabla',
       titulo: 'Tipos de tornillo',

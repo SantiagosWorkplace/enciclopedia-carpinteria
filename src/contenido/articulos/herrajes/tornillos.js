@@ -19,6 +19,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos' },
     {
+      tipo: 'foto', src: 'fotos/herrajes/tornillo-madera.jpg', ancho: 1000, alto: 379,
+      alt: 'Tornillo para madera plateado sobre fondo gris',
+      pie: 'Tornillo para madera de cabeza avellanada, con la rosca casi hasta la cabeza.',
+      credito: { autor: 'Dmitry Makeev', licencia: 'CC BY 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Wood_screws.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Tornillos frecuentes',
       columnas: ['Tornillo', 'Cómo es', 'Uso'],
