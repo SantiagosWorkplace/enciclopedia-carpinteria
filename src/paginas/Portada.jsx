@@ -20,7 +20,7 @@ export default function Portada({ query }) {
       <header className="hero" id="top">
         <GrainCanvas />
         <div className="hero-content">
-          <span className="eyebrow">Enciclopedia interactiva</span>
+          <span className="eyebrow">Enciclopedia interactiva<span className="eyebrow-sub">gratuita</span></span>
           <h1>El oficio de la <span className="accent">madera</span></h1>
           <p>Materiales, diseño, herramientas, uniones, acabados y construcción, explicados como en un manual de taller y con todas las medidas en sistema métrico.</p>
           <button className="btn" onClick={irAlIndice}>Ver el índice ↓</button>
