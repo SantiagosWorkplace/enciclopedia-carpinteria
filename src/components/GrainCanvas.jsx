@@ -17,6 +17,10 @@ export default function GrainCanvas() {
     // Punto al que se dirige el nudo, siempre dentro de un margen de la pantalla.
     const nuevoDestino = () => ({ x: 0.12 + Math.random() * 0.76, y: 0.15 + Math.random() * 0.7 })
     let destino = nuevoDestino()
+    // El nudo avanza a velocidad constante y su rumbo gira de a poco hacia el
+    // destino, así dibuja curvas en vez de ir en línea recta.
+    let rumbo = Math.random() * Math.PI * 2
+    let cuadro = 0
 
     const resize = () => {
       const dpr = window.devicePixelRatio || 1
@@ -50,12 +54,13 @@ export default function GrainCanvas() {
         const dx = destino.x - mouse.x
         const dy = destino.y - mouse.y
         const d = Math.hypot(dx, dy)
-        if (d < 0.01) destino = nuevoDestino()
-        else {
-          // Avanza hacia el destino con velocidad suave, más lenta al llegar.
-          const paso = Math.min(d, 0.0008 + d * 0.004)
-          mouse = { x: mouse.x + (dx / d) * paso, y: mouse.y + (dy / d) * paso }
-        }
+        if (d < 0.05) destino = nuevoDestino()
+        const giroMax = d < 0.15 ? 0.06 : 0.03
+        const objetivo = Math.atan2(dy, dx)
+        const desvio = Math.atan2(Math.sin(objetivo - rumbo), Math.cos(objetivo - rumbo))
+        cuadro++
+        rumbo += Math.max(-giroMax, Math.min(giroMax, desvio)) + Math.sin(cuadro * 0.013) * 0.004
+        mouse = { x: mouse.x + Math.cos(rumbo) * 0.0015, y: mouse.y + Math.sin(rumbo) * 0.0015 }
       }
       if (!reduce) {
         t += 0.004
