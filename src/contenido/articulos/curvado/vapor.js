@@ -32,6 +32,12 @@ export default {
 
     { tipo: 'h2', texto: 'Cómo se curva' },
     {
+      tipo: 'foto', src: 'fotos/curvado/curvado-molde.jpg', ancho: 1000, alto: 750,
+      alt: 'Pieza de madera curvada en círculo y sujeta a un molde con muchas prensas',
+      pie: 'Pieza recién curvada al vapor, sujeta contra un molde circular con muchas prensas mientras se enfría y se seca.',
+      credito: { autor: 'Terasaface', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Steam_bending_a_piece_of_wood_with_clamps.jpg' },
+    },
+    {
       tipo: 'pasos',
       items: [
         'Prepara todo antes de abrir la caja: el molde sujeto al banco, el fleje, las prensas abiertas, cuñas y guantes a mano. Ensaya los movimientos en frío.',

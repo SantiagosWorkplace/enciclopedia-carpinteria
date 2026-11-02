@@ -8,6 +8,12 @@ export default {
     { tipo: 'h2', texto: 'Cuatro uniones básicas' },
     { tipo: 'figura', id: 'empalmes-estructura', pie: 'Vistas de costado. Los trazos gruesos son pernos. En la boca de pájaro, la solera se ve de testa.' },
     {
+      tipo: 'foto', src: 'fotos/uniones/techo-entramado.jpg', ancho: 900, alto: 1200,
+      alt: 'Techo interior de una casa con estructura de vigas de madera a la vista',
+      pie: 'Techo de entramado de madera a la vista: vigas, pares y tornapuntas unidos con ensambles.',
+      credito: { autor: 'Bpickartz', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Goshen_timber_frame_roof_system.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Uniones de estructura',
       columnas: ['Unión', 'Qué hace', 'Detalles'],

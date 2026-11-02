@@ -19,6 +19,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tres maneras de curvar' },
     {
+      tipo: 'foto', src: 'fotos/curvado/mecedora-thonet.jpg', ancho: 1000, alto: 750,
+      alt: 'Mecedora de madera curvada con asiento y respaldo de rejilla',
+      pie: 'Mecedora de madera curvada al vapor, de las fábricas Thonet y Mundus, en la Galería de Moravia (Brno).',
+      credito: { autor: 'Dominik Matus', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Moravsk%C3%A1_galerie_02_-_Thonet-Mundus_k%C5%99eslo.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Métodos de curvado',
       columnas: ['Método', 'Cómo funciona', 'Mejor para'],

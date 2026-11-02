@@ -35,6 +35,12 @@ export default {
 
     { tipo: 'h2', texto: 'Galletas' },
     { tipo: 'figura', id: 'galletas', pie: 'Las galletas más comunes, a escala, y una unión de canto con una galleta en sección.' },
+    {
+      tipo: 'foto', src: 'fotos/uniones/galleta.jpg', ancho: 1060, alto: 702,
+      alt: 'Galleta de madera colocada en su ranura de media luna en el canto de un tablero',
+      pie: 'Galleta en su ranura de media luna. La ranura es algo más larga que la galleta, y eso permite ajustar las piezas antes de prensar.',
+      credito: { autor: 'Billbeee at en.wikipedia', licencia: 'CC BY 2.5', licenciaUrl: 'https://creativecommons.org/licenses/by/2.5', fuente: 'https://commons.wikimedia.org/wiki/File:Biscuit-joint.jpg' },
+    },
     { tipo: 'p', texto: 'La [[galleta]] se encola en dos ranuras de media luna cortadas con la galletera. Las ranuras son algo más largas que la galleta, y eso deja ajustar las piezas unos milímetros a lo largo antes de prensar. Por eso es la forma más rápida y tolerante de unir tableros, cantos y cajas. Ver [Galletera y espigadoras](#/electricas/galletera).' },
 
     { tipo: 'h2', texto: 'Espigas planas sueltas' },
