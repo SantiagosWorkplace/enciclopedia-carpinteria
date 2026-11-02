@@ -73,6 +73,8 @@ button { font: inherit; cursor: pointer; }
 .nav a:hover::after { transform: scaleX(1); transform-origin: left; }
 .nav .logo { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; margin: 0; white-space: nowrap; }
 .nav .logo::after { display: none; }
+.nav .logo { display: inline-flex; align-items: center; gap: .4rem; }
+.nav .logo img { height: 1.9em; width: auto; }
 
 /* Hero */
 .hero {

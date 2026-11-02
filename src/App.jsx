@@ -48,7 +48,7 @@ export default function App() {
     <>
       <div className="read-progress" style={{ transform: `scaleX(${scroll})` }} />
       <nav className="nav">
-        <a href="#/" className="logo">⟁ Taller Atenea</a>
+        <a href="#/" className="logo"><img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="28" height="28" />Taller Atenea</a>
         <div className="nav-links">
           <a href="#/?ir=indice">Índice</a>
           <a href="#/glosario">Glosario</a>
