@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Tipos' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/ingletadora.jpg', ancho: 1000, alto: 750,
+      alt: 'Ingletadora sobre una mesa al aire libre, con un listón en la mesa giratoria',
+      pie: 'Ingletadora con un listón sobre la mesa giratoria; la escala del frente marca el ángulo de inglete.',
+      credito: { autor: 'Santeri Viinamäki', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Black_%26_Decker_miter_saw.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Ingletadoras',
       columnas: ['Tipo', 'Qué hace'],

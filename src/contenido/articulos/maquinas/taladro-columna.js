@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Partes' },
     { tipo: 'figura', id: 'taladro-columna', pie: 'Un taladro de columna de banco visto de costado. La mesa auxiliar de madera protege la mesa metálica y lleva una guía para repetir agujeros.' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/taladro-columna.jpg', ancho: 1000, alto: 667,
+      alt: 'Hombre trabajando con un taladro de columna de pie en un taller',
+      pie: 'Taladro de columna de pie en un taller: la pieza va sujeta en una mordaza sobre la mesa.',
+      credito: { autor: 'LHOON', licencia: 'CC BY-SA 2.5', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/2.5', fuente: 'https://commons.wikimedia.org/wiki/File:Drillpress.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Cabezal:** el motor y el husillo con el portabrocas, que bajan con una palanca de tres brazos.',

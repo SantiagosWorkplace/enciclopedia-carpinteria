@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Cómo trabajan' },
     { tipo: 'figura', id: 'cepilladora-regruesadora', pie: 'De costado, en sección. La pieza avanza de izquierda a derecha.' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/cepilladora.jpg', ancho: 1000, alto: 772,
+      alt: 'Cepilladora de pie con dos mesas largas y una guía',
+      pie: 'Cepilladora de pie: dos mesas largas y la guía. Entre las mesas gira el rodillo de cuchillas.',
+      credito: { autor: 'Jeff Easter from San Francisco, America', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Powermatic_jointer_(2).jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Cepilladora:** el rodillo portacuchillas está entre dos mesas. La de salida queda exactamente a la altura del filo; la de entrada, más baja, tanto como la profundidad de pasada. Lo que la cuchilla quita de la cara de abajo es lo que baja la mesa de entrada.',

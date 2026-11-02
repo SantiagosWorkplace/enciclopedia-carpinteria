@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Partes' },
     { tipo: 'figura', id: 'partes-torno', pie: 'Torno de frente con una pieza entre puntas. La línea roja es el eje de giro.' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/torno.jpg', ancho: 1000, alto: 750,
+      alt: 'Torno para madera verde en un taller, con virutas en el suelo',
+      pie: 'Torno para madera en un taller, con la bancada larga y el cabezal a la izquierda.',
+      credito: { autor: 'Hubsing', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Holzdrehbank.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Cabezal:** lleva el motor y el husillo, donde se montan la punta de arrastre o el plato.',

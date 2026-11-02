@@ -49,6 +49,12 @@ export default {
     { tipo: 'h2', texto: 'Accesorios de seguridad' },
     { tipo: 'figura', id: 'accesorios-seguridad', pie: 'El empujador y el bloque de empuje, de costado, llevan la pieza hasta el final del corte. El peine de presión, visto desde arriba, tiene los dedos inclinados hacia el avance: deja pasar la pieza y frena su retroceso.' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/peine-presion.jpg', ancho: 1000, alto: 750,
+      alt: 'Peine de presión de madera fijado a la mesa de una sierra junto a la guía',
+      pie: 'Peine de presión fijado a la mesa con un pomo: sus dedos flexibles aprietan la pieza contra la guía.',
+      credito: { autor: 'Mitch Barrie', licencia: 'CC BY-SA 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Table_saw_featherboard.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Accesorios',
       columnas: ['Accesorio', 'Para qué'],

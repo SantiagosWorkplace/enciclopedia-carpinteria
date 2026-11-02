@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Partes' },
     { tipo: 'figura', id: 'sierra-mesa', pie: 'Vista desde arriba durante un corte al hilo. La pieza avanza alejándose del operario, que se para a un costado de la hoja.' },
     {
+      tipo: 'foto', src: 'fotos/maquinas/protector-sierra-mesa.jpg', ancho: 1000, alto: 667,
+      alt: 'Disco de una sierra de mesa cubierto por un protector transparente',
+      pie: 'Protector transparente sobre el disco: cubre los dientes y deja ver la línea de corte.',
+      credito: { autor: 'Patrick Fitzgerald', licencia: 'CC BY 2.0', licenciaUrl: 'https://creativecommons.org/licenses/by/2.0', fuente: 'https://commons.wikimedia.org/wiki/File:Table_saw_blade_guard.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Hoja:** de 250 mm en la mayoría de las sierras de taller; de 210 mm o menos en las de obra. Sube, baja y se inclina hasta 45°.',
