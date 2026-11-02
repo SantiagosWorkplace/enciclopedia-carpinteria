@@ -35,6 +35,12 @@ export default {
 
     { tipo: 'h2', texto: 'Un juego para empezar' },
     {
+      tipo: 'foto', src: 'fotos/talla/gubias.jpg', ancho: 932, alto: 699,
+      alt: 'Varias gubias y formones de talla con mango de madera sobre un banco',
+      pie: 'Gubias y formones de talla de distintas formas sobre el banco. Los números grabados en el mango indican el barrido y el ancho.',
+      credito: { autor: 'David Adam Kess', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Topmast_Studio_(WORKSHOP)_Swiss_Tools_at_the_workbench_Pfeil_Wood_Carving_Tools_Gouges,_Chisels,_Carving_Sets_(pic.1a).jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Juego básico de talla',
       columnas: ['Herramienta', 'Medida orientativa', 'Para qué'],

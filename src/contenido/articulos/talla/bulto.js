@@ -6,6 +6,12 @@ export default {
 
     { tipo: 'h2', texto: 'Antes de cortar' },
     {
+      tipo: 'foto', src: 'fotos/talla/talla-bulto.jpg', ancho: 1000, alto: 750,
+      alt: 'Talla de madera de un hombre con un caballo que tira de un trineo cargado',
+      pie: 'Talla de bulto popular: un hombre con un caballo que tira de un trineo cargado. Museo de Arte Popular Bielorruso de Raubichi.',
+      credito: { autor: 'Tess Mattew', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:2024.11.03_Traditional_Wood_Carving_in_Museum_Belarusian_Folk_Art_in_Raubichi.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Modelo:** un dibujo de frente y de costado a tamaño real, o mejor, un modelo pequeño de plastilina o arcilla. Es mucho más fácil corregir el modelo que la madera.',

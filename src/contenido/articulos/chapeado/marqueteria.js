@@ -7,6 +7,12 @@ export default {
     { tipo: 'h2', texto: 'Tres técnicas' },
     { tipo: 'figura', id: 'marqueteria', pie: 'En la ventana, la línea de trazos es el contorno de la pieza que va detrás. En el corte en paquete, la pieza oscura de arriba encaja en el fondo claro de abajo.' },
     {
+      tipo: 'foto', src: 'fotos/chapeado/arcon-marqueteria.jpg', ancho: 1000, alto: 667,
+      alt: 'Arcón antiguo de madera con un paisaje de marquetería en el frente',
+      pie: 'Arcón con marquetería en el frente: un paisaje hecho con chapas de distintos colores. Museo de la Obra de Notre-Dame, Estrasburgo.',
+      credito: { autor: 'Ji-Elle', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Coffre_%C3%A0_marqueterie-Mus%C3%A9e_de_l%27%C5%92uvre_Notre-Dame.jpg' },
+    },
+    {
       tipo: 'tabla',
       titulo: 'Métodos de corte',
       columnas: ['Método', 'Cómo es', 'Para qué'],

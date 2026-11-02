@@ -33,6 +33,12 @@ export default {
 
     { tipo: 'h2', texto: 'Cómo sostener el cuchillo' },
     {
+      tipo: 'foto', src: 'fotos/talla/talla-geometrica.jpg', ancho: 1000, alto: 666,
+      alt: 'Manos que tallan muescas en una tabla clara con un cuchillo corto',
+      pie: 'Talla geométrica: el cuchillo corto saca pequeñas muescas triangulares. El pulgar de la otra mano empuja la hoja.',
+      credito: { autor: 'Jonathunder', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:ChipCarving.JPG' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**Primera posición:** el cuchillo en la mano como para pelar una papa, con el nudillo del pulgar apoyado en la madera. La mano y el pulgar se mueven juntos; el pulgar hace de tope.',
