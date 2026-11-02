@@ -6,7 +6,6 @@ const clave = (cap, art) => `./contenido/articulos/${cap}/${art}.js`
 
 export const disponible = (cap, art) => clave(cap, art) in modulos
 export const cargarArticulo = async (cap, art) => (await modulos[clave(cap, art)]()).default
-export const totalDisponibles = Object.keys(modulos).length
 
 // Minutos de lectura aproximados (≈ 200 palabras por minuto).
 export function minutosLectura(bloques) {

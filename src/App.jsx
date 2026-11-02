@@ -7,6 +7,9 @@ import Articulo from './paginas/Articulo.jsx'
 import Glosario from './paginas/Glosario.jsx'
 import Buscar from './paginas/Buscar.jsx'
 
+const SITIO = 'Enciclopedia de Carpintería'
+const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
+
 export default function App() {
   const { partes, query } = useRuta()
   const [scroll, setScroll] = useState(0)
@@ -26,6 +29,19 @@ export default function App() {
   useEffect(() => {
     if (!query.ir && !query.t) window.scrollTo(0, 0)
   }, [claveRuta])
+
+  // Título de la pestaña y descripción propios de cada página. La casilla de
+  // búsqueda muestra la consulta solo en la página de resultados.
+  useEffect(() => {
+    const [p0, p1] = partes
+    const capitulo = capitulos.find((c) => c.id === p0)
+    const articulo = capitulo && p1 ? buscarArticulo(p0, p1).articulo : null
+    const titulo = articulo?.titulo || capitulo?.titulo || { glosario: 'Glosario', buscar: 'Búsqueda' }[p0]
+    document.title = titulo ? `${titulo} · ${SITIO}` : `${SITIO} · El oficio de la madera`
+    const descripcion = articulo?.resumen || capitulo?.intro || DESCRIPCION
+    document.querySelector('meta[name="description"]')?.setAttribute('content', descripcion)
+    setQ(p0 === 'buscar' ? query.q || '' : '')
+  }, [claveRuta, query.q])
 
   const buscar = (e) => {
     e.preventDefault()

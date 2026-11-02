@@ -1,20 +1,31 @@
+import { Fragment, useEffect, useState } from 'react'
 import Migas from '../components/Migas.jsx'
-import { capitulos } from '../contenido/indice.js'
 import { glosario } from '../contenido/glosario.js'
-import { disponible } from '../articulos.js'
 import { enlace } from '../router.js'
+import { buscar, cargarIndice, normalizar, resaltar, terminos } from '../busqueda.js'
 
-const normalizar = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+function Resaltado({ texto, q }) {
+  return resaltar(texto, q).map(([t, marca], i) => (marca ? <mark key={i}>{t}</mark> : <Fragment key={i}>{t}</Fragment>))
+}
 
 export default function Buscar({ query }) {
   const q = (query.q || '').trim()
-  const n = normalizar(q)
-  const coincide = (...textos) => n && textos.some((t) => normalizar(t).includes(n))
+  const [indice, setIndice] = useState(null)
 
-  const articulos = capitulos.flatMap((c) =>
-    c.articulos.filter((a) => coincide(a.titulo, a.resumen, c.titulo)).map((a) => ({ c, a }))
-  )
-  const terminos = glosario.filter((g) => coincide(g.termino, g.definicion))
+  useEffect(() => {
+    let vivo = true
+    cargarIndice().then((i) => vivo && setIndice(i))
+    return () => { vivo = false }
+  }, [])
+
+  const ts = terminos(q)
+  const articulos = indice ? buscar(indice, q) : []
+  const terminosGlos = ts.length
+    ? glosario.filter((g) => {
+        const n = normalizar(`${g.termino} ${g.definicion}`)
+        return ts.every((alternativas) => alternativas.some((t) => n.includes(t)))
+      })
+    : []
 
   return (
     <div className="pagina">
@@ -22,39 +33,43 @@ export default function Buscar({ query }) {
       <header className="art-head">
         <span className="eyebrow">Búsqueda</span>
         <h1>{q ? `Resultados para «${q}»` : 'Buscar en la enciclopedia'}</h1>
-        {q && (
+        {q && indice && (
           <p className="lead">
-            {articulos.length} {articulos.length === 1 ? 'artículo' : 'artículos'} y {terminos.length} {terminos.length === 1 ? 'término' : 'términos'} del glosario.
+            {articulos.length} {articulos.length === 1 ? 'artículo' : 'artículos'} y {terminosGlos.length} {terminosGlos.length === 1 ? 'término' : 'términos'} del glosario.
           </p>
         )}
+        {q && !indice && <p className="lead">Buscando en todos los artículos…</p>}
       </header>
 
       {articulos.length > 0 && (
-        <ol className="cap-lista">
-          {articulos.map(({ c, a }) => (
+        <ol className="cap-lista resultados">
+          {articulos.map(({ c, a, fragmento }) => (
             <li key={c.id + a.id}>
-              <a href={enlace(c.id, a.id)} className={disponible(c.id, a.id) ? 'listo' : 'pendiente'}>
+              <a href={enlace(c.id, a.id)} className="listo">
                 <span className="indice-ref">{c.numero}.{c.articulos.indexOf(a) + 1}</span>
-                <span><strong>{a.titulo}</strong><span>{c.titulo} · {a.resumen}</span></span>
-                <span className="badge">{disponible(c.id, a.id) ? 'Disponible' : 'En preparación'}</span>
+                <span>
+                  <strong><Resaltado texto={a.titulo} q={q} /></strong>
+                  <span>{c.titulo} · {a.resumen}</span>
+                  {fragmento && <span className="fragmento">«<Resaltado texto={fragmento} q={q} />»</span>}
+                </span>
               </a>
             </li>
           ))}
         </ol>
       )}
 
-      {terminos.length > 0 && (
+      {terminosGlos.length > 0 && (
         <>
           <h2 className="buscar-sub">Glosario</h2>
           <ul className="buscar-glos">
-            {terminos.map((g) => (
+            {terminosGlos.map((g) => (
               <li key={g.id}><a href={`#/glosario?t=${g.id}`}><strong>{g.termino}</strong></a> — {g.definicion}</li>
             ))}
           </ul>
         </>
       )}
 
-      {q && articulos.length === 0 && terminos.length === 0 && (
+      {q && indice && articulos.length === 0 && terminosGlos.length === 0 && (
         <p className="empty">No hay resultados. Prueba con otra palabra o revisa el <a href="#/?ir=indice">índice</a>.</p>
       )}
     </div>

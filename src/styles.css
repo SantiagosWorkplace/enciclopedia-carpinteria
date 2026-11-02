@@ -422,6 +422,8 @@ section.alt .notas-build { background: var(--card); }
 .cap-lista a > span:nth-child(2) span { color: var(--muted); font-size: .88rem; }
 .cap-lista a.listo .badge { background: #e3efd9; color: #3f6431; }
 .cap-lista a.pendiente strong { color: var(--muted); }
+.resultados .fragmento { font-style: italic; margin-top: .2rem; }
+.resultados mark { background: #fde7b0; color: inherit; border-radius: 3px; padding: 0 .1em; }
 
 .art-head { max-width: 760px; margin-bottom: 2rem; }
 .art-meta { color: var(--muted); font-size: .85rem; }
@@ -565,6 +567,15 @@ footer { text-align: center; padding: 3rem 1rem; color: var(--muted); border-top
   .art-nav { grid-template-columns: 1fr; }
   .art-nav .siguiente { grid-column: 1; }
   .nav a { margin-left: .75rem; font-size: .9rem; }
+}
+
+/* En pantallas angostas las figuras no se achican por debajo de 460 px, para que
+   sus textos sigan legibles: se desplazan de costado dentro de su recuadro. */
+@media (max-width: 500px) {
+  .figura { padding: .75rem; }
+  .figura-lienzo { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .figura-lienzo svg { min-width: 460px; }
+  .figura:has(.figura-lienzo) figcaption::before { content: '← Desliza para ver toda la figura →'; display: block; font-size: .75rem; margin-bottom: .35rem; opacity: .8; }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -2,7 +2,8 @@ import { useEffect } from 'react'
 import GrainCanvas from '../components/GrainCanvas.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { capitulos } from '../contenido/indice.js'
-import { disponible, totalDisponibles } from '../articulos.js'
+import { disponible } from '../articulos.js'
+import { glosario } from '../contenido/glosario.js'
 import { enlace } from '../router.js'
 
 const totalArticulos = capitulos.reduce((n, c) => n + c.articulos.length, 0)
@@ -26,7 +27,7 @@ export default function Portada({ query }) {
           <div className="hero-stats">
             <span><strong>{capitulos.length}</strong> capítulos</span>
             <span><strong>{totalArticulos}</strong> artículos</span>
-            <span><strong>{totalDisponibles}</strong> ya disponibles</span>
+            <span><strong>{glosario.length}</strong> términos en el glosario</span>
           </div>
         </div>
       </header>
@@ -57,7 +58,6 @@ export default function Portada({ query }) {
                         <a href={enlace(c.id, a.id)}>
                           <span className="indice-ref">{c.numero}.{j + 1}</span>
                           <span>{a.titulo}</span>
-                          <span className="estado" title={listo ? 'Disponible' : 'En preparación'}>{listo ? '●' : '○'}</span>
                         </a>
                       </li>
                     )

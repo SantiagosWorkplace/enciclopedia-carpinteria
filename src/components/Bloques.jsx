@@ -103,7 +103,7 @@ export default function Bloques({ bloques, query }) {
         const Figura = figuras[b.id]
         return (
           <figure key={i} className="figura">
-            {Figura ? <Figura /> : <div className="figura-falta">Figura «{b.id}» pendiente</div>}
+            {Figura ? <div className="figura-lienzo"><Figura /></div> : <div className="figura-falta">Figura «{b.id}» pendiente</div>}
             {b.pie && <figcaption><Texto>{b.pie}</Texto></figcaption>}
           </figure>
         )

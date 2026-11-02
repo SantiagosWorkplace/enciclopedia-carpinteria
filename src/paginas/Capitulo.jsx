@@ -25,7 +25,7 @@ export default function Capitulo({ capitulo }) {
                   <strong>{a.titulo}</strong>
                   <span>{a.resumen}</span>
                 </span>
-                <span className="badge">{listo ? 'Disponible' : 'En preparación'}</span>
+                {!listo && <span className="badge">En preparación</span>}
               </a>
             </li>
           )

@@ -14,7 +14,7 @@ export const capitulos = [
     intro: 'Conocer el material es la base de todo lo demás: cómo crece, cómo se corta y se seca, por qué se mueve y cómo elegir la pieza correcta para cada trabajo.',
     articulos: [
       a('crecimiento', 'Cómo crece un árbol', 'Anillos de crecimiento, albura, duramen y radios: la anatomía que explica el comportamiento de la madera.'),
-      a('frondosas-coniferas', 'Frondosas y coníferas', 'Las dos grandes familias de madera, sus diferencias de estructura y por qué "dura" y "blanda" no siempre significan lo que parece.'),
+      a('frondosas-coniferas', 'Frondosas y coníferas', 'Las dos grandes familias de madera, sus diferencias de estructura y por qué «dura» y «blanda» no siempre significan lo que parece.'),
       a('aserrado', 'Del tronco a la tabla', 'Formas de aserrar un tronco (tangencial, radial y mixto) y cómo cada corte cambia el aspecto y la estabilidad.'),
       a('secado', 'Secado de la madera', 'Secado al aire y en horno, contenido de humedad y cómo saber si una tabla está lista para trabajar.'),
       a('movimiento', 'El movimiento de la madera', 'Por qué la madera se hincha y se contrae, cuánto se mueve y cómo diseñar para que no se raje ni se tuerza.'),
