@@ -43,6 +43,12 @@ export default {
     { tipo: 'p', texto: 'Antes de pintar, prueba sobre un cartón. El abanico debe ser un óvalo de bordes suaves, con el producto repartido de forma pareja. Si se carga en el centro, sube la presión del aire o diluye más. Si se carga en los extremos y el centro queda flaco, baja la presión del aire o aumenta el caudal de producto.' },
 
     { tipo: 'h2', texto: 'Técnica' },
+    {
+      tipo: 'foto', src: 'fotos/acabados/acabado-pistola.jpg', ancho: 1000, alto: 1046,
+      alt: 'Operario con capucha aplicando un acabado con pistola sobre vigas de madera',
+      pie: 'Acabado a pistola sobre las vigas de una estructura de madera, con el operario cubierto de pies a cabeza.',
+      credito: { autor: 'Vermont Timber Works Inc.', licencia: 'CC BY-SA 3.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/3.0', fuente: 'https://commons.wikimedia.org/wiki/File:Worker_Applying_a_Wood_Finish.jpg' },
+    },
     { tipo: 'figura', id: 'pistola-pasadas', pie: 'A la izquierda, la pistola de costado: siempre perpendicular y a la misma distancia. A la derecha, la pieza vista de frente con las pasadas.' },
     {
       tipo: 'pasos',

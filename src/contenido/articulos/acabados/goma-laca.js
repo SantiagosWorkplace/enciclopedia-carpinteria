@@ -17,6 +17,12 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'Se vende en escamas, que se disuelven en el taller, o ya disuelta en lata. Las escamas duran años en un frasco cerrado y fresco. La goma laca disuelta pierde calidad con el tiempo: si no seca dura en pocas horas, hay que tirarla.' },
+    {
+      tipo: 'foto', src: 'fotos/acabados/escamas-goma-laca.png', ancho: 800, alto: 491,
+      alt: 'Cinco montoncitos de escamas de goma laca, de color ámbar claro a rojo oscuro',
+      pie: 'Escamas de goma laca de distintos colores, del ámbar claro al rojo oscuro. Se disuelven en alcohol en el taller.',
+      credito: { autor: 'Nuberger13 at en.wikipedia', licencia: 'Dominio público', licenciaUrl: 'https://creativecommons.org/publicdomain/mark/1.0/deed.es', fuente: 'https://commons.wikimedia.org/wiki/File:Shellac_varities.png' },
+    },
 
     { tipo: 'h2', texto: 'Preparación' },
     {

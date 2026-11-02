@@ -25,6 +25,12 @@ export default {
 
     { tipo: 'h2', texto: 'Aplicación' },
     {
+      tipo: 'foto', src: 'fotos/acabados/aceite-linaza.jpg', ancho: 1000, alto: 750,
+      alt: 'Caja de madera de pino recién aceitada junto a un frasco de aceite de linaza',
+      pie: 'Caja de pino aceitada con aceite de linaza: el aceite oscurece y aviva la veta. Al lado, el frasco.',
+      credito: { autor: 'Ylænelle', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Application_of_linseed_oil.jpg' },
+    },
+    {
       tipo: 'pasos',
       items: [
         'Lija hasta grano ≈ 180 – 220 y quita el polvo.',

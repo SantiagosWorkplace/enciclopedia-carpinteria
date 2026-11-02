@@ -34,6 +34,12 @@ export default {
 
     { tipo: 'h2', texto: 'A pincel' },
     {
+      tipo: 'foto', src: 'fotos/acabados/barniz-pincel.jpg', ancho: 1000, alto: 745,
+      alt: 'Luthier con guantes barnizando un violín con un pincel',
+      pie: 'Barnizado a pincel de un violín sin terminar. Los guantes protegen la piel del barniz.',
+      credito: { autor: 'Ronaldmoretto', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:Applying_Varnish_on_Unfinished_Violin.jpg' },
+    },
+    {
       tipo: 'lista',
       items: [
         '**El pincel:** de cerda natural para barnices al disolvente; de fibra sintética para los barnices al agua.',
