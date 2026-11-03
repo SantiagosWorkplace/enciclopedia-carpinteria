@@ -9,4 +9,4 @@ export const correo = () => ['santiagolucero00trabajo', 'gmail.com'].join('@')
 
 // Enlace público de donaciones (Cafecito, Mercado Pago, Ko-fi, PayPal…).
 // Mientras esté vacío, la caja de donación no se muestra.
-export const DONACION = ''
+export const DONACION = 'https://cafecito.app/taller_atenea'
