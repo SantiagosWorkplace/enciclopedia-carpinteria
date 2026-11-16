@@ -101,7 +101,7 @@ export default function Buscador({ q, setQ }) {
       <input
         ref={caja}
         type="search"
-        placeholder="Buscar…"
+        placeholder="Buscar"
         value={q}
         onChange={(e) => { setQ(e.target.value); setAbierto(true); setActivo(-1) }}
         onFocus={() => setAbierto(true)}

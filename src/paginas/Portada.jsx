@@ -36,7 +36,7 @@ export default function Portada({ query }) {
         <Reveal>
           <span className="eyebrow">Índice</span>
           <h2>Contenido</h2>
-          <p className="lead">Cada título lleva a su artículo. Los marcados con ● ya están escritos; el resto está en preparación.</p>
+          <p className="lead">Cada título lleva a su artículo, y se pueden leer en cualquier orden.</p>
         </Reveal>
         <div className="indice-grid">
           {capitulos.map((c, i) => (
