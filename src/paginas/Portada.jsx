@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import GrainCanvas from '../components/GrainCanvas.jsx'
-import HerramientasAscii from '../components/HerramientasAscii.jsx'
 import Reveal from '../components/Reveal.jsx'
 import { capitulos } from '../contenido/indice.js'
 import { disponible } from '../articulos.js'
@@ -21,7 +20,6 @@ export default function Portada({ query }) {
       <header className="hero" id="top">
         <GrainCanvas />
         <div className="hero-content">
-          <HerramientasAscii lugar="portada" />
           <span className="eyebrow">Enciclopedia interactiva<span className="eyebrow-sub">gratuita</span></span>
           <h1>El oficio de la <span className="accent">madera</span></h1>
           <p>Materiales, diseño, herramientas, uniones, acabados y construcción, explicados como en un manual de taller y con todas las medidas en sistema métrico.</p>

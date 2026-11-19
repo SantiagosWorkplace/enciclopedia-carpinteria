@@ -9,7 +9,6 @@ import Buscar from './paginas/Buscar.jsx'
 import Buscador from './components/Buscador.jsx'
 import Acerca from './paginas/Acerca.jsx'
 import Donacion from './components/Donacion.jsx'
-import HerramientasAscii from './components/HerramientasAscii.jsx'
 import { GITHUB, SITIO, correo } from './sitio.js'
 
 const DESCRIPCION = 'Enciclopedia de carpintería en español: madera, herramientas, uniones, acabados y construcción, con medidas en sistema métrico.'
@@ -51,10 +50,7 @@ export default function App() {
     <>
       <div className="read-progress" style={{ transform: `scaleX(${scroll})` }} />
       <nav className="nav">
-        <div className="marca">
-          <a href="#/" className="logo"><img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="28" height="28" />Taller Atenea</a>
-          <HerramientasAscii />
-        </div>
+        <a href="#/" className="logo"><img src={`${import.meta.env.BASE_URL}logo.svg`} alt="" width="28" height="28" />Taller Atenea</a>
         <div className="nav-links">
           <a href="#/?ir=indice">Índice</a>
           <a href="#/glosario">Glosario</a>
