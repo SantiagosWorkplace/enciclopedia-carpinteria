@@ -28,7 +28,7 @@ export default {
         ['19 – 25 mm', 'Solo rectos', 'Reaserrado'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los radios mínimos son orientativos y dependen del triscado de la hoja. Consulta la tabla del fabricante.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los radios mínimos son orientativos y dependen del triscado de la hoja. Consultá la tabla del fabricante.' },
     {
       tipo: 'lista',
       items: [
@@ -42,11 +42,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Con la máquina desconectada, coloca la hoja con los dientes hacia ti y apuntando hacia abajo.',
-        'Tensa la hoja según la escala de la máquina para ese ancho, o hasta que al empujarla de costado ceda solo unos milímetros.',
-        'Gira el volante superior con la mano y ajusta su inclinación hasta que la hoja corra centrada en la banda del volante.',
-        'Acerca las guías laterales hasta casi tocar la hoja, justo por detrás de los dientes, y el rodamiento trasero a una fracción de milímetro de su lomo.',
-        'Baja la guía superior a 5 – 10 mm por encima de la pieza en cada corte.',
+        'Con la máquina desconectada, colocá la hoja con los dientes hacia vos y apuntando hacia abajo.',
+        'Tensá la hoja según la escala de la máquina para ese ancho, o hasta que al empujarla de costado ceda solo unos milímetros.',
+        'Girá el volante superior con la mano y ajustá su inclinación hasta que la hoja corra centrada en la banda del volante.',
+        'Acercá las guías laterales hasta casi tocar la hoja, justo por detrás de los dientes, y el rodamiento trasero a una fracción de milímetro de su lomo.',
+        'Bajá la guía superior a 5 – 10 mm por encima de la pieza en cada corte.',
       ],
     },
 
@@ -54,10 +54,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Traza la curva y planifica el orden de los cortes para no quedar encerrado.',
-        'En curvas cerradas, haz primero **cortes de alivio** desde el borde hasta casi la línea: el desperdicio se va soltando en trozos y la hoja no se traba.',
-        'Corta con avance suave y deja la línea en la pieza para lijar después.',
-        'Evita retroceder en curvas largas: la hoja puede salirse de los volantes. Si debes hacerlo, apaga y espera.',
+        'Trazá la curva y planificá el orden de los cortes para no quedar encerrado.',
+        'En curvas cerradas, hacé primero **cortes de alivio** desde el borde hasta casi la línea: el desperdicio se va soltando en trozos y la hoja no se traba.',
+        'Cortá con avance suave y dejá la línea en la pieza para lijar después.',
+        'Evitá retroceder en curvas largas: la hoja puede salirse de los volantes. Si debés hacerlo, apagá y esperá.',
       ],
     },
 
@@ -66,11 +66,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Usa una hoja ancha y de dientes gruesos, bien afilada.',
-        'Corrige la [[deriva]]: traza una línea paralela al canto en un recorte, córtala a pulso siguiendo la línea y observa con qué ángulo tienes que avanzar. Ajusta la guía a ese ángulo.',
-        'Apoya la tabla con un canto recto contra una guía alta y la cara bien apoyada.',
-        'Avanza despacio y parejo, con un empujador al final del corte.',
-        'Deja las tablas reaserradas unos días con separadores antes de cepillarlas: al liberar tensiones, pueden curvarse.',
+        'Usá una hoja ancha y de dientes gruesos, bien afilada.',
+        'Corregí la [[deriva]]: trazá una línea paralela al canto en un recorte, cortala a pulso siguiendo la línea y observa con qué ángulo tenés que avanzar. Ajustá la guía a ese ángulo.',
+        'Apoyá la tabla con un canto recto contra una guía alta y la cara bien apoyada.',
+        'Avanzá despacio y parejo, con un empujador al final del corte.',
+        'Dejá las tablas reaserradas unos días con separadores antes de cepillarlas: al liberar tensiones, pueden curvarse.',
       ],
     },
     { tipo: 'aviso', nivel: 'seguridad', texto: 'Aunque casi no rechaza, la hoja de una sierra de cinta corta dedos con la misma facilidad que la madera. Nunca pongas la mano delante de la hoja, ni siquiera con la máquina frenando.' },

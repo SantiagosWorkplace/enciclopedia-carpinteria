@@ -29,7 +29,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Gatillo:** cuanto más se aprieta, más rápido gira. Empieza siempre despacio.',
+        '**Gatillo:** cuanto más se aprieta, más rápido gira. Empezá siempre despacio.',
         '**Selector de velocidad:** la 1.ª es lenta y con mucha fuerza, para atornillar y para brocas grandes; la 2.ª es rápida, para brocas finas.',
         '**Anillo del embrague:** números del 1 al 20 o más. Con número bajo, el embrague salta enseguida y no deja pasar el tornillo; para taladrar, se pone en la posición del dibujo de la broca, que lo anula.',
         '**Sentido de giro:** un botón cambia de atornillar a desatornillar.',
@@ -44,21 +44,21 @@ export default {
       items: [
         '**Brocas finas (hasta ≈ 6 mm):** alta velocidad.',
         '**Brocas medianas y de punta:** velocidad media.',
-        '**Pala, Forstner y sierras de copa grandes:** baja velocidad y firmeza. Una broca grande a alta velocidad quema la madera y puede trabarse y retorcer la muñeca.',
-        '**En metal:** baja velocidad y, en acero, unas gotas de aceite.',
+        '**Pala, Forstner y sierras de copa grandes:** bajá velocidad y firmeza. Una broca grande a alta velocidad quema la madera y puede trabarse y retorcer la muñeca.',
+        '**En metal:** bajá velocidad y, en acero, unas gotas de aceite.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Con brocas grandes, sujeta el taladro con las dos manos y usa la empuñadura lateral si la tiene. Si la broca se traba, el taladro gira con fuerza y puede lastimar la muñeca o golpear la cara.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Con brocas grandes, sujetá el taladro con las dos manos y usá la empuñadura lateral si la tiene. Si la broca se traba, el taladro gira con fuerza y puede lastimar la muñeca o golpear la cara.' },
 
     { tipo: 'h2', texto: 'Atornillar sin pasar el tornillo' },
     {
       tipo: 'pasos',
       items: [
-        'Haz el agujero guía y, si hace falta, el de paso y el avellanado. Las medidas están en [Taladros manuales y barrenas](#/herramientas-manuales/taladros-manuales).',
-        'Usa la punta exacta para la cabeza del tornillo y mantenla alineada con él.',
-        'Pon el embrague en un número bajo y súbelo de a poco hasta que el tornillo quede a ras.',
-        'Usa la 1.ª velocidad y aprieta el gatillo de forma progresiva.',
-        'En tableros de aglomerado o MDF, deja de apretar en cuanto la cabeza toca la superficie: un giro de más destruye la rosca.',
+        'Hacé el agujero guía y, si hace falta, el de paso y el avellanado. Las medidas están en [Taladros manuales y barrenas](#/herramientas-manuales/taladros-manuales).',
+        'Usá la punta exacta para la cabeza del tornillo y mantenla alineada con él.',
+        'Poné el embrague en un número bajo y subilo de a poco hasta que el tornillo quede a ras.',
+        'Usá la 1.ª velocidad y apretá el gatillo de forma progresiva.',
+        'En tableros de aglomerado o MDF, dejá de apretar en cuanto la cabeza toca la superficie: un giro de más destruye la rosca.',
       ],
     },
 
@@ -66,7 +66,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**A escuadra:** usa una guía de taladrar o un taco con un agujero recto como plantilla. Para muchos agujeros iguales, un [taladro de columna](#/maquinas/taladro-columna).',
+        '**A escuadra:** usá una guía de taladrar o un taco con un agujero recto como plantilla. Para muchos agujeros iguales, un [taladro de columna](#/maquinas/taladro-columna).',
         '**Profundidad:** tope de collarín en la broca o cinta de pintor como marca.',
         '**Sin astillas a la salida:** taco de desecho bien apretado detrás de la pieza.',
         '**Agujeros para clavijas:** con una plantilla de clavijas, que guía la broca a la distancia correcta del canto.',

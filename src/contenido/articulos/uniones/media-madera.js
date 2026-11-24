@@ -24,16 +24,16 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Marca las caras de referencia de las dos piezas. Todas las medidas de profundidad se toman desde ellas.',
-        'Apoya una pieza sobre la otra y marca con la cuchilla el ancho exacto de la muesca. Es más preciso que medir.',
-        'Ajusta el [[gramil]] a la mitad del espesor y marca la profundidad en los dos cantos de las dos piezas, desde la cara de referencia. Un mismo ajuste deja las caras a ras aunque la mitad no sea exacta.',
-        'Sierra los dos hombros por el lado del desperdicio, hasta la línea del gramil.',
-        'Haz varios cortes intermedios a la misma profundidad. El desperdicio sale en trozos con el formón.',
-        'Aplana el fondo con el formón, trabajando desde los dos cantos hacia el centro, o con una guimbarda.',
-        'Prueba en seco. Debe entrar con presión de la mano, sin golpes, y quedar a ras.',
+        'Marcá las caras de referencia de las dos piezas. Todas las medidas de profundidad se toman desde ellas.',
+        'Apoyá una pieza sobre la otra y marcá con la cuchilla el ancho exacto de la muesca. Es más preciso que medir.',
+        'Ajustá el [[gramil]] a la mitad del espesor y marcá la profundidad en los dos cantos de las dos piezas, desde la cara de referencia. Un mismo ajuste deja las caras a ras aunque la mitad no sea exacta.',
+        'Aserrá los dos hombros por el lado del desperdicio, hasta la línea del gramil.',
+        'Hacé varios cortes intermedios a la misma profundidad. El desperdicio sale en trozos con el formón.',
+        'Aplaná el fondo con el formón, trabajando desde los dos cantos hacia el centro, o con una guimbarda.',
+        'Probá en seco. Debe entrar con presión de la mano, sin golpes, y quedar a ras.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Con máquinas, la sierra de mesa con varias pasadas o la fresadora con una guía cortan muchas muescas iguales. Ajusta la profundidad en un recorte del mismo espesor antes de cortar las piezas.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Con máquinas, la sierra de mesa con varias pasadas o la fresadora con una guía cortan muchas muescas iguales. Ajustá la profundidad en un recorte del mismo espesor antes de cortar las piezas.' },
 
     { tipo: 'h2', texto: 'Resistencia' },
     {

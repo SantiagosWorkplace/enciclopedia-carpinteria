@@ -18,7 +18,7 @@ export default {
         ['Latón y bronce', 'Color dorado; se trabajan bien y se oscurecen con el tiempo', 'Tiradores, bisagras finas, incrustaciones'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas, espesores y largos de barra cambian entre comercios y países. Pide la tabla de perfiles del proveedor, que suele indicar también el peso por metro.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas, espesores y largos de barra cambian entre comercios y países. Pedí la tabla de perfiles del proveedor, que suele indicar también el peso por metro.' },
 
     { tipo: 'h2', texto: 'Cortar y taladrar' },
     {
@@ -27,12 +27,12 @@ export default {
         '**Sierra de arco:** con hoja para metal de dientes finos. Al menos tres dientes deben apoyar en el espesor de la pared; si no, la hoja se engancha y se rompen dientes.',
         '**Amoladora con disco de corte:** rápida en acero; deja rebabas y produce muchas chispas.',
         '**Sierra de cinta o tronzadora para metal:** cortes rectos y a escuadra en tubos y perfiles.',
-        '**Aluminio:** se corta con la ingletadora o la sierra de mesa solo con un disco específico para aluminio y la pieza bien sujeta. Ver [Ingletadora](#/maquinas/ingletadora).',
-        '**Taladrar:** marca el centro con un [[granete]] para que la broca no resbale. Usa brocas de [[acero rápido|hss]], velocidad baja, presión firme y unas gotas de aceite de corte en el acero. Sujeta siempre la pieza con una prensa.',
-        '**Rebabas:** quítalas con una lima o una broca más grande girada a mano. Cortan como un cuchillo.',
+        '**Aluminio:** se corta con la ingleteadora o la sierra de mesa solo con un disco específico para aluminio y la pieza bien sujeta. Ver [Ingleteadora](#/maquinas/ingletadora).',
+        '**Taladrar:** marcá el centro con un [[granete]] para que la broca no resbale. Usá brocas de [[acero rápido|hss]], velocidad baja, presión firme y unas gotas de aceite de corte en el acero. Sujetá siempre la pieza con una prensa.',
+        '**Rebabas:** quitalas con una lima o una broca más grande girada a mano. Cortan como un cuchillo.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las chispas de la amoladora pueden encender el aserrín y el polvo del aspirador. Corta metal lejos de la zona de madera, con el suelo barrido, y nunca aspires limaduras calientes con el sistema de extracción de polvo. Usa gafas, guantes y protección auditiva. Ver [Prevención de incendios](#/taller/incendios).' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las chispas de la amoladora pueden encender el aserrín y el polvo del aspirador. Cortá metal lejos de la zona de madera, con el suelo barrido, y nunca aspires limaduras calientes con el sistema de extracción de polvo. Usá anteojos, guantes y protección auditiva. Ver [Prevención de incendios](#/taller/incendios).' },
 
     { tipo: 'h2', texto: 'Unir metal y madera' },
     { tipo: 'figura', id: 'fijar-metal', pie: 'A la izquierda y en el centro, secciones: el perno rosca en una pieza metálica fijada a la madera. A la derecha, vista desde abajo: la pletina lleva agujeros ovalados en el sentido en que se mueve la madera.' },
@@ -48,8 +48,8 @@ export default {
         ['Adhesivo epoxi', 'Pega metal y madera rellenando huecos', 'Incrustaciones y piezas pequeñas, no uniones estructurales grandes'],
       ],
     },
-    { tipo: 'p', texto: 'La madera se hincha y se contrae a lo ancho con la humedad; el metal casi no cambia. Si un bastidor metálico sujeta una tapa ancha con tornillos en agujeros redondos, la tapa se raja o se arquea. Haz los agujeros del metal ovalados en el sentido del ancho de la tapa y pon el tornillo en el centro, con arandela. Ver [El movimiento de la madera](#/madera/movimiento).' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Pide al herrero los agujeros y los ovalados ya hechos, y una pletina soldada en cada punto donde vayas a atornillar la madera. Taladrar un bastidor ya pintado es mucho más difícil.' },
+    { tipo: 'p', texto: 'La madera se hincha y se contrae a lo ancho con la humedad; el metal casi no cambia. Si un bastidor metálico sujeta una tapa ancha con tornillos en agujeros redondos, la tapa se raja o se arquea. Hacé los agujeros del metal ovalados en el sentido del ancho de la tapa y poné el tornillo en el centro, con arandela. Ver [El movimiento de la madera](#/madera/movimiento).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Pedí al herrero los agujeros y los ovalados ya hechos, y una pletina soldada en cada punto donde vayas a atornillar la madera. Taladrar un bastidor ya pintado es mucho más difícil.' },
 
     { tipo: 'h2', texto: 'Proteger el metal' },
     {
@@ -64,8 +64,8 @@ export default {
         ['[[Pavonado|pavonado]]', 'Capa oscura y fina formada sobre el acero', 'Herrajes y piezas pequeñas de interior'],
       ],
     },
-    { tipo: 'aviso', nivel: 'nota', texto: 'El hierro y la humedad dejan manchas negras en las maderas ricas en taninos, como el roble o el castaño. Usa tornillería inoxidable o protegida, y no uses lana de acero con productos al agua sobre esas maderas: las partículas que quedan manchan.' },
-    { tipo: 'p', texto: 'Dos metales distintos en contacto y con humedad se corroen entre sí: es la [[corrosión galvánica|corrosion-galvanica]]. Al exterior, usa tornillos del mismo metal que la pieza o separa los metales con arandelas de nailon.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'El hierro y la humedad dejan manchas negras en las maderas ricas en taninos, como el roble o el castaño. Usá tornillería inoxidable o protegida, y no uses lana de acero con productos al agua sobre esas maderas: las partículas que quedan manchan.' },
+    { tipo: 'p', texto: 'Dos metales distintos en contacto y con humedad se corroen entre sí: es la [[corrosión galvánica|corrosion-galvanica]]. Al exterior, usá tornillos del mismo metal que la pieza o separá los metales con arandelas de nailon.' },
 
     { tipo: 'h2', texto: 'Soldar' },
     { tipo: 'p', texto: 'La soldadura es un oficio aparte y necesita equipo y protección propios. Para un mueble, lo habitual es dibujar el bastidor con todas las medidas y encargarlo a un herrero, indicando el perfil, dónde van las pletinas y los agujeros, y el acabado.' },

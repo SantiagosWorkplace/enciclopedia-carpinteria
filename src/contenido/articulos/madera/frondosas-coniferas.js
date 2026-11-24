@@ -45,7 +45,7 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'El tamaño de los poros define la **textura**. Una madera de *textura gruesa* o *abierta*, como el roble o el fresno, deja hoyos en la superficie que hay que rellenar con tapaporos si se busca un acabado liso y brillante. Una de *textura fina*, como el arce o el cerezo, queda lisa con poco trabajo. Se explica en [Preparar la superficie](#/acabados/preparacion).' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'En maderas de porosidad en anillo, los poros grandes forman en la cara de la tabla líneas o «arcos» muy visibles. Un tinte se acumula en ellos y los oscurece más que el resto: prueba siempre en un recorte antes de teñir la pieza.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'En maderas de porosidad en anillo, los poros grandes forman en la cara de la tabla líneas o «arcos» muy visibles. Un tinte se acumula en ellos y los oscurece más que el resto: probá siempre en un recorte antes de teñir la pieza.' },
 
     { tipo: 'h2', texto: 'Blanda y dura: lo que significa de verdad' },
     { tipo: 'p', texto: 'La dureza depende sobre todo de la [[densidad]], y la densidad varía muchísimo dentro de cada grupo:' },
@@ -65,7 +65,7 @@ export default {
       ],
       nota: 'La balsa, la madera comercial más liviana, es una frondosa. El tejo, una conífera, es más denso que muchas frondosas.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las densidades son rangos orientativos y cambian con la procedencia y la velocidad de crecimiento. Para cálculos usa la ficha técnica del proveedor o una base de datos de especies.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las densidades son rangos orientativos y cambian con la procedencia y la velocidad de crecimiento. Para cálculos usá la ficha técnica del proveedor o una base de datos de especies.' },
 
     { tipo: 'h2', texto: 'Cómo se trabajan' },
     {

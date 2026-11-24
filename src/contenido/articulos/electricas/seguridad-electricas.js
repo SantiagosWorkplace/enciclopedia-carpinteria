@@ -10,28 +10,28 @@ export default {
       titulo: 'Equipo de protección',
       columnas: ['Riesgo', 'Protección', 'Cuándo'],
       filas: [
-        ['Astillas y virutas en los ojos', 'Gafas o pantalla facial', 'Siempre, con cualquier herramienta eléctrica'],
+        ['Astillas y virutas en los ojos', 'Anteojos o pantalla facial', 'Siempre, con cualquier herramienta eléctrica'],
         ['Ruido', 'Protectores auditivos o tapones', 'Sierras, fresadoras, cepillos y lijadoras: casi todas superan el nivel que daña el oído'],
-        ['Polvo', 'Mascarilla FFP2 o FFP3 y aspiración', 'Al lijar, fresar y cortar tableros'],
+        ['Polvo', 'Barbijo FFP2 o FFP3 y aspiración', 'Al lijar, fresar y cortar tableros'],
         ['Atrapamiento', 'Ropa ajustada, mangas recogidas, pelo atado, sin anillos ni pulseras', 'Siempre'],
         ['Cortes al manipular', 'Guantes', 'Al mover tableros o cambiar hojas, **nunca** al usar herramientas que giran'],
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de madera es un riesgo para la salud a largo plazo: el de maderas duras está clasificado como cancerígeno para las vías respiratorias. Aspira en la fuente, ventila y usa mascarilla aunque el trabajo sea corto.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de madera es un riesgo para la salud a largo plazo: el de maderas duras está clasificado como cancerígeno para las vías respiratorias. Aspirá en la fuente, ventilá y usá barbijo aunque el trabajo sea corto.' },
     { tipo: 'aviso', nivel: 'verificar', texto: 'Los límites de exposición al polvo de madera y los niveles de ruido que obligan a usar protección están fijados por la normativa laboral de cada país.' },
 
     { tipo: 'h2', texto: 'Reglas básicas' },
     {
       tipo: 'pasos',
       items: [
-        '**Lee el manual** de cada herramienta nueva. Cada una tiene sus propios riesgos y ajustes.',
-        '**Sujeta la pieza** con prensas o en el banco. Una mano sosteniendo la pieza es una mano cerca de la cuchilla.',
-        '**Desconecta** la herramienta o quita la batería antes de cambiar una hoja, una broca o una fresa, o de hacer cualquier ajuste.',
-        '**Revisa** el cable, el enchufe, las protecciones y que la hoja o la fresa estén bien sujetas.',
-        '**Planifica el corte:** que el cable y tu cuerpo queden fuera del recorrido de la herramienta, y que la pieza no caiga al final del corte.',
+        '**Leé el manual** de cada herramienta nueva. Cada una tiene sus propios riesgos y ajustes.',
+        '**Sujetá la pieza** con prensas o en el banco. Una mano sosteniendo la pieza es una mano cerca de la cuchilla.',
+        '**Desconectá** la herramienta o quitá la batería antes de cambiar una hoja, una broca o una fresa, o de hacer cualquier ajuste.',
+        '**Revisá** el cable, el enchufe, las protecciones y que la hoja o la fresa estén bien sujetas.',
+        '**Planificá el corte:** que el cable y tu cuerpo queden fuera del recorrido de la herramienta, y que la pieza no caiga al final del corte.',
         '**No fuerces:** si la herramienta se frena, la hoja está desafilada o el avance es demasiado rápido.',
-        '**Espera a que se detenga** del todo antes de apoyarla o retirarla de la pieza.',
-        '**Trabaja descansado y concentrado.** El cansancio, el apuro y las distracciones están detrás de muchos accidentes.',
+        '**Esperá a que se detenga** del todo antes de apoyarla o retirarla de la pieza.',
+        '**Trabajá descansado y concentrado.** El cansancio, el apuro y las distracciones están detrás de muchos accidentes.',
       ],
     },
 
@@ -54,7 +54,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Diferencial:** conecta las herramientas a un circuito protegido por un interruptor diferencial de 30 mA.',
+        '**Diferencial:** conectá las herramientas a un circuito protegido por un interruptor diferencial de 30 mA.',
         '**Doble aislamiento:** las herramientas marcadas con un cuadrado dentro de otro no necesitan conexión a tierra; las demás, sí.',
         '**Prolongadores:** de sección suficiente para la potencia y la longitud, desenrollados del todo para que no se calienten.',
         '**Humedad:** no uses herramientas con cable bajo la lluvia ni sobre suelos mojados.',

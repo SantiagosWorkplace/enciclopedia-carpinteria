@@ -32,7 +32,7 @@ function Trazar() {
   )
 }
 
-function Serrar() {
+function Aserrar() {
   return (
     <>
       <rect x="12" y="24" width="90" height="80" {...madera} />
@@ -79,14 +79,14 @@ function MarcarEspigas() {
 
 const paneles = [
   { titulo: 'Trazar', nota: 'Con falsa escuadra', C: Trazar },
-  { titulo: 'Serrar', nota: 'Por el desperdicio', C: Serrar },
+  { titulo: 'Aserrar', nota: 'Por el desperdicio', C: Aserrar },
   { titulo: 'Vaciar', nota: 'Desde las dos caras', C: Vaciar },
   { titulo: 'Marcar espigas', nota: 'Cuchilla en las colas', C: MarcarEspigas },
 ]
 
 export default function PasosColaMilano() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos de una cola de milano a mano: trazar las colas con falsa escuadra y gramil, serrar por el lado del desperdicio, vaciar con el formón y marcar las espigas con una cuchilla apoyando la pieza de colas sobre la testa de la otra">
+    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos de una cola de milano a mano: trazar las colas con falsa escuadra y gramil, aserrar por el lado del desperdicio, vaciar con el formón y marcar las espigas con una cuchilla apoyando la pieza de colas sobre la testa de la otra">
       {paneles.map(({ titulo, nota, C }, i) => (
         <g key={titulo} transform={`translate(${4 + i * 118} 6)`}>
           <C />

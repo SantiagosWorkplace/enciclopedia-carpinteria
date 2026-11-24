@@ -18,7 +18,7 @@ export default {
         ['Pasador', 'Un cerrojo que se desliza a mano', 'La puerta fija de un par de puertas, por dentro'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Coloca el imán un poco hundido respecto del frente, pega la contraplaca sobre él, cierra la puerta con fuerza para que la contraplaca marque su posición y después atorníllala. Así coinciden exactamente.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Colocá el imán un poco hundido respecto del frente, pegá la contraplaca sobre él, cerrá la puerta con fuerza para que la contraplaca marque su posición y después atornillala. Así coinciden exactamente.' },
 
     { tipo: 'h2', texto: 'Frenar el cierre' },
     { tipo: 'p', texto: 'Un [[amortiguador]] frena la puerta o el cajón en los últimos centímetros: cierra sin golpe ni ruido, aunque se empuje con fuerza. Hay amortiguadores que se embuten en un agujero del lateral, otros que se atornillan en la cara interior, y muchas bisagras de cazoleta y correderas que ya los traen incorporados. Uno por puerta suele bastar; en puertas grandes o pesadas, dos.' },
@@ -40,13 +40,13 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Elige la cerradura antes de construir: la distancia entre la bocallave y el borde de la cerradura fija dónde va el agujero en el frente.',
-        'Marca el centro del agujero de la llave y taládralo; dale la forma de la bocallave con una sierra fina y una lima.',
-        'Traza el contorno de la cerradura sobre la cara interior y rebaja la madera con el formón por capas, probando hasta que entre al ras.',
-        'Atornilla la cerradura, prueba la llave y marca dónde golpea el pestillo, para tallar su alojamiento en el mueble.',
-        'Coloca el escudo de la bocallave por fuera, si lleva.',
+        'Elegí la cerradura antes de construir: la distancia entre la bocallave y el borde de la cerradura fija dónde va el agujero en el frente.',
+        'Marcá el centro del agujero de la llave y taladralo; dale la forma de la bocallave con una sierra fina y una lima.',
+        'Trazá el contorno de la cerradura sobre la cara interior y rebajá la madera con el formón por capas, probando hasta que entre al ras.',
+        'Atornillá la cerradura, probá la llave y marcá dónde golpea el pestillo, para tallar su alojamiento en el mueble.',
+        'Colocá el escudo de la bocallave por fuera, si lleva.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los muebles que pueden encerrar a un niño, como baúles y arcones, no deben llevar cierres que traben solos. Usa soportes de tapa que la mantengan abierta y que no la dejen caer de golpe. Ver [Diseñar muebles seguros](#/diseno/seguridad-diseno).' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los muebles que pueden encerrar a un niño, como baúles y arcones, no deben llevar cierres que traben solos. Usá soportes de tapa que la mantengan abierta y que no la dejen caer de golpe. Ver [Diseñar muebles seguros](#/diseno/seguridad-diseno).' },
   ],
 }

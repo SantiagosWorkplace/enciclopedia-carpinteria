@@ -23,12 +23,12 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Pega la chapa del campo con cola caliente, cubriendo todo el tablero.',
-        'Marca el ancho de la cenefa con un gramil de corte apoyado en el canto y corta la chapa del campo por esa línea. Ablanda la cola de la franja con una plancha y retírala con un formón.',
-        'Corta las tiras de la cenefa a lo ancho de una hoja, todas del mismo ancho, y pégalas una junto a otra alrededor del campo.',
-        'Resuelve las esquinas con un inglete: superpone las tiras en la esquina, corta las dos juntas a 45° y retira los sobrantes.',
-        'Corta con el gramil una ranura poco profunda entre el campo y la cenefa, del ancho del filete, y encola el filete.',
-        'Deja secar y nivela con un rascador, siempre del filete hacia afuera para no levantarlo.',
+        'Pegá la chapa del campo con cola caliente, cubriendo todo el tablero.',
+        'Marcá el ancho de la cenefa con un gramil de corte apoyado en el canto y cortá la chapa del campo por esa línea. Ablandá la cola de la franja con una plancha y retirala con un formón.',
+        'Cortá las tiras de la cenefa a lo ancho de una hoja, todas del mismo ancho, y pegalas una junto a otra alrededor del campo.',
+        'Resolvé las esquinas con un inglete: superponé las tiras en la esquina, cortá las dos juntas a 45° y retirá los sobrantes.',
+        'Cortá con el gramil una ranura poco profunda entre el campo y la cenefa, del ancho del filete, y encolá el filete.',
+        'Dejá secar y nivelá con un rascador, siempre del filete hacia afuera para no levantarlo.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'En tableros nuevos, es más sencillo armar el campo, el filete y la cenefa sobre la mesa de trabajo, unidos con cinta engomada, y prensar todo de una vez.' },

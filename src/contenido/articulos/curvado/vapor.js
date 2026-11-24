@@ -16,7 +16,7 @@ export default {
         '**Tapa** fácil de abrir con guantes, en un extremo.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El vapor quema al instante y no se ve bien. Usa guantes gruesos y manga larga, abre la tapa apartando la cara y nunca cierres la caja herméticamente: si la presión sube, puede reventar.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El vapor quema al instante y no se ve bien. Usá guantes gruesos y manga larga, abrí la tapa apartando la cara y nunca cierres la caja herméticamente: si la presión sube, puede reventar.' },
 
     { tipo: 'h2', texto: 'Cuánto tiempo' },
     {
@@ -28,7 +28,7 @@ export default {
         ['Tiempo en el molde', 'Desde unas horas hasta que la pieza se enfría; luego, en una forma de secado, hasta que se seca'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La regla de una hora por cada 25 mm es una referencia de taller. La madera secada en horno suele necesitar más tiempo, y demasiado vapor la deja quebradiza. Ajusta el tiempo con piezas de prueba.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La regla de una hora por cada 25 mm es una referencia de taller. La madera secada en horno suele necesitar más tiempo, y demasiado vapor la deja quebradiza. Ajustá el tiempo con piezas de prueba.' },
 
     { tipo: 'h2', texto: 'Cómo se curva' },
     {
@@ -40,15 +40,15 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Prepara todo antes de abrir la caja: el molde sujeto al banco, el fleje, las prensas abiertas, cuñas y guantes a mano. Ensaya los movimientos en frío.',
-        'Saca la pieza y colócala enseguida en el fleje, entre sus topes, con la cara que quedará por fuera contra el metal.',
-        'Sujeta el centro de la pieza al molde y dóblala con un movimiento continuo y firme hacia los extremos. No te detengas a mitad de la curva.',
-        'Fija los extremos con prensas o cuñas, con el fleje todavía puesto.',
-        'Deja la pieza en el molde hasta que se enfríe. Después pásala a una forma de secado o átala con una cuerda para que no se abra.',
-        'Déjala secar hasta la humedad de uso, a veces durante días, antes de trabajarla.',
+        'Prepará todo antes de abrir la caja: el molde sujeto al banco, el fleje, las prensas abiertas, cuñas y guantes a mano. Ensayá los movimientos en frío.',
+        'Sacá la pieza y colocala enseguida en el fleje, entre sus topes, con la cara que quedará por fuera contra el metal.',
+        'Sujetá el centro de la pieza al molde y doblala con un movimiento continuo y firme hacia los extremos. No te detengas a mitad de la curva.',
+        'Fijá los extremos con prensas o cuñas, con el fleje todavía puesto.',
+        'Dejá la pieza en el molde hasta que se enfríe. Después pasala a una forma de secado o átala con una cuerda para que no se abra.',
+        'Dejala secar hasta la humedad de uso, a veces durante días, antes de trabajarla.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Prepara un par de piezas de más. Incluso con buena madera y buena técnica, una de cada pocas puede rajarse o arrugarse al curvar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Prepará un par de piezas de más. Incluso con buena madera y buena técnica, una de cada pocas puede rajarse o arrugarse al curvar.' },
 
     { tipo: 'h2', texto: 'Problemas comunes' },
     {

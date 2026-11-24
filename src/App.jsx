@@ -86,7 +86,7 @@ function Pagina({ partes, query }) {
   return (
     <div className="pagina">
       <h1>Página no encontrada</h1>
-      <p>Esa dirección no existe. Vuelve al <a href="#/?ir=indice">índice</a>.</p>
+      <p>Esa dirección no existe. Volvé al <a href="#/?ir=indice">índice</a>.</p>
     </div>
   )
 }

@@ -47,7 +47,7 @@ export default {
       ],
       nota: 'Por laminado se puede curvar casi cualquier especie, porque cada lámina se dobla poco.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Dentro de una misma especie hay grandes diferencias entre árboles. Haz siempre una prueba con un recorte de la misma tabla antes de preparar todas las piezas.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Dentro de una misma especie hay grandes diferencias entre árboles. Hacé siempre una prueba con un recorte de la misma tabla antes de preparar todas las piezas.' },
 
     { tipo: 'h2', texto: 'Elegir la pieza' },
     {
@@ -55,7 +55,7 @@ export default {
       items: [
         '**Veta recta** de punta a punta, sin [[fibra revirada|fibra-revirada]]. Donde la veta sale a la cara, la pieza se astilla al curvar.',
         '**Sin nudos, grietas ni [[acebolladuras|acebolladura]].** Cualquier defecto es el punto donde empieza la rotura.',
-        '**Madera rajada** a lo largo de la veta en lugar de aserrada: sigue la dirección natural de las fibras.',
+        '**Madera rajada** a lo largo de la veta en lugar de aserrada: seguí la dirección natural de las fibras.',
         '**Humedad:** para vapor, mejor madera secada al aire, con un 15 – 20 % de humedad, que madera secada en horno. La madera verde se curva todavía mejor, pero encoge después.',
         '**Algo más larga** de lo necesario: los extremos se marcan con los topes y se cortan al final.',
       ],

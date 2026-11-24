@@ -19,7 +19,7 @@ export default function Glosario({ query }) {
       <header className="art-head">
         <span className="eyebrow">Referencia</span>
         <h1>Glosario</h1>
-        <p className="lead">Términos del oficio. En los artículos, las palabras subrayadas con puntos muestran su definición al pasar el ratón y enlazan aquí.</p>
+        <p className="lead">Términos del oficio. En los artículos, las palabras subrayadas con puntos muestran su definición al pasar el mouse y enlazan aquí.</p>
       </header>
       <nav className="letras" aria-label="Letras">
         {letras.map((l) => (

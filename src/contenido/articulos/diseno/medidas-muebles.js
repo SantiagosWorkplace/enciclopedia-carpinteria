@@ -3,7 +3,7 @@ export default {
   relacionados: ['diseno/ergonomia', 'diseno/mesas', 'diseno/armarios', 'diseno/sillas'],
   bloques: [
     { tipo: 'p', texto: 'Estas tablas reúnen medidas de referencia en centímetros para los muebles más comunes. Son un punto de partida: después hay que ajustarlas al espacio, a las personas que los van a usar y a los objetos que se van a guardar.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Alto se mide desde el suelo hasta la superficie de uso. Las medidas de colchones y electrodomésticos cambian según el país: mide siempre los objetos reales antes de diseñar alrededor de ellos.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Alto se mide desde el suelo hasta la superficie de uso. Las medidas de colchones y electrodomésticos cambian según el país: medí siempre los objetos reales antes de diseñar alrededor de ellos.' },
 
     { tipo: 'h2', texto: 'Mesas' },
     {
@@ -50,7 +50,7 @@ export default {
         ['Queen', '150 – 160 × 190 – 200'],
         ['King', '180 – 200 × 200'],
       ],
-      nota: 'Cada país y cada fabricante tiene sus propios formatos. Diseña la cama alrededor del colchón real, dejando ≈ 1 – 2 cm de holgura por lado.',
+      nota: 'Cada país y cada fabricante tiene sus propios formatos. Diseñá la cama alrededor del colchón real, dejando ≈ 1 – 2 cm de holgura por lado.',
     },
     {
       tipo: 'lista',
@@ -76,7 +76,7 @@ export default {
         ['Zapatero', '30 – 35', 'Entre estantes 15 – 20; botas 40 – 50'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Cuánto puede medir de largo un estante sin curvarse depende del material, del espesor y de la carga. Calcúlalo con la calculadora de [Cómo trabaja una estructura](#/diseno/estructura).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Cuánto puede medir de largo un estante sin curvarse depende del material, del espesor y de la carga. Calculalo con la calculadora de [Cómo trabaja una estructura](#/diseno/estructura).' },
 
     { tipo: 'h2', texto: 'Escaleras y escalones' },
     { tipo: 'p', texto: 'Una escalera cómoda cumple la regla de Blondel: dos contrahuellas más una huella suman entre 60 y 65 cm, que es lo que mide un paso normal.' },

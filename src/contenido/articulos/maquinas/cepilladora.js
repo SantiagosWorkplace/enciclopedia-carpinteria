@@ -25,12 +25,12 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        '**Corta las piezas en bruto** un poco más largas y anchas de lo necesario. Las tablas cortas se aplanan mejor que las largas.',
+        '**Cortá las piezas en bruto** un poco más largas y anchas de lo necesario. Las tablas cortas se aplanan mejor que las largas.',
         '**Cara de referencia:** en la cepilladora, con la cara cóncava hacia abajo, hasta que quede plana en toda su superficie.',
         '**Canto de referencia:** en la cepilladora, con la cara recién cepillada apoyada contra la guía a 90°.',
         '**Espesor:** en la regruesadora, con la cara de referencia hacia abajo. Pasadas finas, dando vuelta la pieza solo si ambas caras ya están planas.',
         '**Ancho:** en la sierra de mesa, con el canto de referencia contra la guía. Un último repaso en la cepilladora quita las marcas de la sierra.',
-        '**Largo:** al final, en la ingletadora o en el carro de la sierra.',
+        '**Largo:** al final, en la ingleteadora o en el carro de la sierra.',
       ],
     },
 
@@ -38,22 +38,22 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Usa siempre el protector del rodillo y ajústalo a la pieza.',
-        'Empuja con **bloques de empuje** con suela antideslizante, nunca con los dedos sobre el rodillo.',
+        'Usá siempre el protector del rodillo y ajustalo a la pieza.',
+        'Empujá con **bloques de empuje** con suela antideslizante, nunca con los dedos sobre el rodillo.',
         'Profundidad de pasada pequeña, ≈ 1 mm o menos, sobre todo en piezas anchas o duras.',
         'No cepilles piezas más cortas que lo que indica el fabricante, en general ≈ 30 cm, ni más delgadas de ≈ 10 – 12 mm.',
         'Nunca cepilles testas: las fibras saltan y la pieza puede romperse.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'La cepilladora es la máquina con más accidentes en los dedos después de la sierra de mesa. El peligro está en el momento en que la mano pasa sobre el rodillo: usa siempre los bloques de empuje y deja que el protector cubra el rodillo al pasar la pieza.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'La cepilladora es la máquina con más accidentes en los dedos después de la sierra de mesa. El peligro está en el momento en que la mano pasa sobre el rodillo: usá siempre los bloques de empuje y dejá que el protector cubra el rodillo al pasar la pieza.' },
 
     { tipo: 'h2', texto: 'La regruesadora' },
     {
       tipo: 'lista',
       items: [
-        'Cepilla a favor de la veta para evitar repelos: mira el canto antes de entrar.',
-        'Quita como máximo 1 – 2 mm por pasada, menos en piezas anchas.',
-        'Alterna el extremo que entra primero entre pasadas para repartir el desgaste de las cuchillas, siempre respetando la veta.',
+        'Cepillá a favor de la veta para evitar repelos: mirá el canto antes de entrar.',
+        'Quitá como máximo 1 – 2 mm por pasada, menos en piezas anchas.',
+        'Alterná el extremo que entra primero entre pasadas para repartir el desgaste de las cuchillas, siempre respetando la veta.',
         'No pases piezas más cortas que la distancia entre los rodillos de arrastre.',
       ],
     },
@@ -62,9 +62,9 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Sostén la tabla horizontal a la entrada y a la salida, con soportes o levantando apenas el extremo.',
-        'Pasa varias piezas seguidas, tocándose por los extremos.',
-        'Deja las piezas un poco más largas y recorta los extremos después.',
+        'Sostené la tabla horizontal a la entrada y a la salida, con soportes o levantando apenas el extremo.',
+        'Pasá varias piezas seguidas, tocándose por los extremos.',
+        'Dejá las piezas un poco más largas y recortá los extremos después.',
       ],
     },
   ],

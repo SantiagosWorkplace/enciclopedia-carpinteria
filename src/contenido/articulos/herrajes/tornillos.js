@@ -37,7 +37,7 @@ export default {
         ['Para chapa', 'Rosca fina en todo el largo', 'Herrajes metálicos; no para madera'],
       ],
     },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Los tornillos de acero templado son duros pero frágiles: con mucho par se cortan en vez de doblarse. Los de latón son blandos: para no partirlos, pon primero un tornillo de acero de la misma medida, sácalo y después pon el de latón.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Los tornillos de acero templado son duros pero frágiles: con mucho par se cortan en vez de doblarse. Los de latón son blandos: para no partirlos, poné primero un tornillo de acero de la misma medida, sacalo y después poné el de latón.' },
 
     { tipo: 'h2', texto: 'Pretaladrar' },
     { tipo: 'figura', id: 'pretaladrar', pie: 'Los tres agujeros de un tornillo, en sección. Con el agujero de paso en la pieza de arriba, la rosca agarra solo en la de abajo y la junta se cierra.' },
@@ -63,29 +63,29 @@ export default {
       ],
       nota: 'Hay brocas que hacen los tres agujeros a la vez, con un avellanador regulable. Son muy prácticas para un mismo tamaño de tornillo.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'El piloto depende de la rosca de cada marca y de la dureza de la madera. Prueba en un recorte: el tornillo debe entrar firme, sin forzar el destornillador ni rajar la madera.' },
-    { tipo: 'p', texto: 'En tableros, cerca de los cantos y en maderas duras, pretaladra siempre. En madera blanda, un tornillo de tablero con punta autoperforante puede ir sin piloto, lejos de los extremos.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'El piloto depende de la rosca de cada marca y de la dureza de la madera. Probá en un recorte: el tornillo debe entrar firme, sin forzar el destornillador ni rajar la madera.' },
+    { tipo: 'p', texto: 'En tableros, cerca de los cantos y en maderas duras, pretaladrá siempre. En madera blanda, un tornillo de tablero con punta autoperforante puede ir sin piloto, lejos de los extremos.' },
 
     { tipo: 'h2', texto: 'Largo y posición' },
     {
       tipo: 'lista',
       items: [
         '**Largo:** como regla práctica, al menos unas dos terceras partes del tornillo deben entrar en la pieza de abajo.',
-        '**Testa:** un tornillo en la testa agarra poco, porque la rosca corta las fibras en vez de atraparlas. Usa tornillos más largos, o una clavija cruzada que dé madera de veta lateral a la rosca.',
+        '**Testa:** un tornillo en la testa agarra poco, porque la rosca corta las fibras en vez de atraparlas. Usá tornillos más largos, o una clavija cruzada que dé madera de veta lateral a la rosca.',
         '**Distancia a los bordes:** lejos de los extremos y de los cantos, y nunca en línea sobre la misma veta, para no rajar.',
-        '**Movimiento:** en tapas de madera maciza, fija con agujeros ovalados o con herrajes que permitan el movimiento. Ver [El movimiento de la madera](#/madera/movimiento).',
+        '**Movimiento:** en tapas de madera maciza, fijá con agujeros ovalados o con herrajes que permitan el movimiento. Ver [El movimiento de la madera](#/madera/movimiento).',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La regla de las dos terceras partes es orientativa. En tableros de partículas y en testas, la resistencia es menor: busca la carga que admite cada tornillo en la ficha del fabricante.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La regla de las dos terceras partes es orientativa. En tableros de partículas y en testas, la resistencia es menor: buscá la carga que admite cada tornillo en la ficha del fabricante.' },
 
     { tipo: 'h2', texto: 'Atornillar' },
     {
       tipo: 'lista',
       items: [
-        '**Punta justa:** usa la punta que corresponde a la cabeza. Ver [Martillos, mazos y destornilladores](#/herramientas-manuales/martillos-destornilladores).',
-        '**Embrague:** con atornillador, regula el embrague para que no hunda la cabeza ni pase de rosca. Ver [Taladros y atornilladores](#/electricas/taladros).',
+        '**Punta justa:** usá la punta que corresponde a la cabeza. Ver [Martillos, mazos y destornilladores](#/herramientas-manuales/martillos-destornilladores).',
+        '**Embrague:** con atornillador, regulá el embrague para que no hunda la cabeza ni pase de rosca. Ver [Taladros y atornilladores](#/electricas/taladros).',
         '**Cera:** una pasada de cera o jabón seco en la rosca ayuda en maderas duras.',
-        '**Pasado de rosca:** si el tornillo gira sin apretar, la rosca de la madera se rompió. Rellena el agujero con una clavija encolada o con palillos y cola, deja secar y vuelve a pretaladrar.',
+        '**Pasado de rosca:** si el tornillo gira sin apretar, la rosca de la madera se rompió. Rellená el agujero con una clavija encolada o con palillos y cola, dejá secar y volvé a pretaladrar.',
       ],
     },
   ],

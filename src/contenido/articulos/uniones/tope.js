@@ -9,7 +9,7 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Testa a escuadra** en los dos sentidos, a lo ancho y a lo grueso. Compruébala con la escuadra contra la cara y contra el canto.',
+        '**Testa a escuadra** en los dos sentidos, a lo ancho y a lo grueso. Comprobala con la escuadra contra la cara y contra el canto.',
         '**Largo exacto:** las piezas iguales se cortan juntas o con un tope, nunca midiendo una por una.',
         '**Testa limpia:** un disco de dientes finos o un repaso con la tabla de refrentar dejan la testa lisa. Una testa astillada muestra luz en la junta.',
       ],
@@ -34,15 +34,15 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Tornillos en la testa:** agarran mucho menos que en la veta lateral, porque la rosca corta las fibras en lugar de abrazarlas. Usa tornillos más largos y no los aprietes de más.',
-        '**Tableros de partículas y MDF:** usa tornillos para aglomerado, de rosca gruesa, y pretaladra siempre. Atornillar cerca del canto sin pretaladro lo abre en capas.',
+        '**Tornillos en la testa:** agarran mucho menos que en la veta lateral, porque la rosca corta las fibras en lugar de abrazarlas. Usá tornillos más largos y no los aprietes de más.',
+        '**Tableros de partículas y MDF:** usá tornillos para aglomerado, de rosca gruesa, y pretaladrá siempre. Atornillar cerca del canto sin pretaladro lo abre en capas.',
         '**Clavijas y galletas:** quedan ocultas y convierten la unión en una de las más prácticas para muebles de tablero. Ver [Clavijas, galletas y espigas planas](#/uniones/clavijas-galletas).',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Una testa absorbe la cola y queda seca. Pasa una mano de cola diluida en la testa, espera unos minutos y vuelve a encolar antes de armar: la segunda mano queda en la superficie.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Una testa absorbe la cola y queda seca. Pasá una mano de cola diluida en la testa, esperá unos minutos y volvé a encolar antes de armar: la segunda mano queda en la superficie.' },
 
     { tipo: 'h2', texto: 'Tope por el canto' },
     { tipo: 'p', texto: 'Cuando dos tablas se unen canto con canto, la unión a tope es en realidad muy fuerte: encola veta larga con veta larga. Es la forma de hacer tableros anchos. Ver [Unión de tablas por el canto](#/uniones/cantos).' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'El largo de tornillo y el diámetro de pretaladro dependen del tornillo y del material. Sigue las indicaciones del fabricante y prueba en un recorte.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'El largo de tornillo y el diámetro de pretaladro dependen del tornillo y del material. Seguí las indicaciones del fabricante y probá en un recorte.' },
   ],
 }

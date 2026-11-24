@@ -24,11 +24,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Dibuja en una plantilla de MDF fino la curva interior de la pieza: la del macho.',
-        'Traza la curva de la hembra con un compás o un disco separador del espesor de la pieza que ruede sobre la curva del macho.',
-        'Corta las dos curvas en la sierra de cinta, por fuera de la línea.',
-        'Lleva cada plantilla a la línea con escofina y lija, hasta que la curva quede suave y continua.',
-        'Copia la plantilla en las capas del molde con una fresa copiadora, y encola las capas hasta el ancho de la pieza más un margen.',
+        'Dibujá en una plantilla de MDF fino la curva interior de la pieza: la del macho.',
+        'Trazá la curva de la hembra con un compás o un disco separador del espesor de la pieza que ruede sobre la curva del macho.',
+        'Cortá las dos curvas en la sierra de cinta, por fuera de la línea.',
+        'Llevá cada plantilla a la línea con escofina y lijá, hasta que la curva quede suave y continua.',
+        'Copiá la plantilla en las capas del molde con una fresa copiadora, y encolá las capas hasta el ancho de la pieza más un margen.',
       ],
     },
 
@@ -42,7 +42,7 @@ export default {
         '**En vapor,** la pieza que seca atada o en una forma de secado recupera mucho menos.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La recuperación depende de la especie, del espesor, del número de láminas, de la cola y del tiempo en el molde. No hay una cifra general: guarda las medidas de cada pieza de prueba para la próxima vez.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La recuperación depende de la especie, del espesor, del número de láminas, de la cola y del tiempo en el molde. No hay una cifra general: guardá las medidas de cada pieza de prueba para la próxima vez.' },
 
     { tipo: 'h2', texto: 'Detalles que ahorran problemas' },
     {
@@ -51,7 +51,7 @@ export default {
         '**Agujeros o ranuras** a lo largo del molde para pasar las mordazas de las prensas.',
         '**Cinta de embalar o cera** en las caras del molde que tocan la cola.',
         '**Una línea de referencia** marcada en el molde y en la pieza para ubicarla siempre igual.',
-        '**Moldes para vapor resistentes:** la fuerza para doblar una pieza maciza es grande. Atornilla el molde a una base gruesa o al banco.',
+        '**Moldes para vapor resistentes:** la fuerza para doblar una pieza maciza es grande. Atornillá el molde a una base gruesa o al banco.',
       ],
     },
   ],

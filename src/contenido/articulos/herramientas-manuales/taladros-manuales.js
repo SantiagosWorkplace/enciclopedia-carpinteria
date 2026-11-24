@@ -17,7 +17,7 @@ export default {
         '**[[Berbiquí|berbiqui]]:** manubrio en forma de manivela con una pieza para apoyar el pecho o la mano. Hace agujeros grandes, de 6 a 40 mm o más, con brocas de barrena. Tiene mucha fuerza y muy buen control.',
         '**Taladro de mano o de engranajes:** una manivela que hace girar el mandril a través de un engranaje. Para brocas helicoidales finas, hasta unos 8 mm.',
         '**Barrena de mano:** una pequeña broca con un mango en T, para iniciar agujeros de tornillos.',
-        '**Punzón o lezna:** marca y empieza el agujero de un tornillo pequeño o un clavo, apartando las fibras sin cortarlas.',
+        '**Punzón o lezna:** marcá y empezá el agujero de un tornillo pequeño o un clavo, apartando las fibras sin cortarlas.',
       ],
     },
 
@@ -52,19 +52,19 @@ export default {
       ],
       nota: 'Regla general: en madera dura, la guía es casi igual al núcleo del tornillo; en madera blanda, algo menor.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los diámetros dependen de la forma de la rosca y del tipo de tornillo. Prueba siempre en un recorte de la misma madera, sobre todo con maderas duras y cerca de las testas.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los diámetros dependen de la forma de la rosca y del tipo de tornillo. Probá siempre en un recorte de la misma madera, sobre todo con maderas duras y cerca de las testas.' },
 
     { tipo: 'h2', texto: 'Técnica' },
     {
       tipo: 'pasos',
       items: [
-        'Marca el centro con un punzón: la punta de la broca encuentra el lugar sola.',
-        'Para un agujero a escuadra, coloca una escuadra junto a la broca, o pide a alguien que mire de costado. Con práctica, basta con comprobarlo desde dos direcciones a 90°.',
-        'Para controlar la profundidad, envuelve la broca con cinta de pintor o usa un tope de collarín.',
-        'Para que el agujero no se astille al salir, taladra hasta que asome la punta y termina desde el otro lado, o apoya la pieza sobre un taco de desecho bien apretado.',
-        'Saca la broca de vez en cuando para limpiar la viruta, sobre todo en agujeros profundos.',
+        'Marcá el centro con un punzón: la punta de la broca encuentra el lugar sola.',
+        'Para un agujero a escuadra, colocá una escuadra junto a la broca, o pedí a alguien que mire de costado. Con práctica, basta con comprobarlo desde dos direcciones a 90°.',
+        'Para controlar la profundidad, envuelve la broca con cinta de pintor o usá un tope de collarín.',
+        'Para que el agujero no se astille al salir, taladrá hasta que asome la punta y terminá desde el otro lado, o apoyá la pieza sobre un taco de desecho bien apretado.',
+        'Sacá la broca de vez en cuando para limpiar la viruta, sobre todo en agujeros profundos.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para agujeros en ángulo, como los de las patas de una silla, taladra primero un taco con el ángulo correcto y úsalo como guía.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para agujeros en ángulo, como los de las patas de una silla, taladrá primero un taco con el ángulo correcto y usalo como guía.' },
   ],
 }

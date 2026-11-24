@@ -55,7 +55,7 @@ export const capitulos = [
     intro: 'Las herramientas manuales siguen siendo las más precisas para trazar, ajustar y terminar. Conocerlas y mantenerlas afiladas cambia el resultado.',
     articulos: [
       a('medir-trazar', 'Medir y trazar', 'Cinta, escuadra, gramil, falsa escuadra y cuchilla de marcar: trazar bien es la mitad de una buena unión.'),
-      a('sierras', 'Serruchos y sierras', 'Tipos de dientes, sierras occidentales y japonesas, y cómo serrar recto.'),
+      a('sierras', 'Serruchos y sierras', 'Tipos de dientes, sierras occidentales y japonesas, y cómo aserrar recto.'),
       a('cepillos', 'Cepillos', 'Partes del cepillo, ajuste de la cuchilla y técnica para aplanar y escuadrar a mano.'),
       a('formones-gubias', 'Formones y gubias', 'Tipos, usos y técnica segura de corte.'),
       a('afilado', 'Afilado', 'Piedras, ángulos de bisel, rebaba y asentado: cómo dejar un filo que corte de verdad.'),
@@ -95,7 +95,7 @@ export const capitulos = [
     articulos: [
       a('seguridad-maquinas', 'Seguridad en máquinas', 'Protectores, empujadores, retroceso y distancias seguras.'),
       a('sierra-mesa', 'Sierra de mesa', 'Ajustes, cortes al hilo y transversales, y cómo evitar el retroceso.'),
-      a('ingletadora', 'Ingletadora', 'Cortes a inglete, bisel y compuestos.'),
+      a('ingletadora', 'Ingleteadora', 'Cortes a inglete, bisel y compuestos.'),
       a('sierra-cinta', 'Sierra de cinta', 'Cortes curvos, reaserrado y ajuste de la hoja.'),
       a('cepilladora', 'Cepilladora y regruesadora', 'Cómo dejar una pieza plana, escuadrada y a espesor.'),
       a('taladro-columna', 'Taladro de columna', 'Perforaciones precisas y repetibles.'),

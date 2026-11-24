@@ -23,7 +23,7 @@ export default {
       tipo: 'lista',
       items: [
         '**Diluir:** casi todos los productos se diluyen para la pistola, con el disolvente que indique el fabricante. La medida es la viscosidad, que se comprueba con una copa de viscosidad: se cuentan los segundos que tarda en vaciarse.',
-        '**Colar:** pasa siempre el producto por un filtro de pintura antes de cargar la pistola. Un grumo tapa la boquilla.',
+        '**Colar:** pasá siempre el producto por un filtro de pintura antes de cargar la pistola. Un grumo tapa la boquilla.',
         '**Boquilla:** se elige según el producto: más fina para tintes y lacas, más gruesa para fondos y esmaltes.',
       ],
     },
@@ -40,7 +40,7 @@ export default {
     { tipo: 'aviso', nivel: 'verificar', texto: 'Los diámetros, la presión y la dilución dependen de la pistola y del producto. La ficha técnica del acabado suele indicar la boquilla, la presión y la viscosidad recomendadas.' },
 
     { tipo: 'h2', texto: 'Ajustar' },
-    { tipo: 'p', texto: 'Antes de pintar, prueba sobre un cartón. El abanico debe ser un óvalo de bordes suaves, con el producto repartido de forma pareja. Si se carga en el centro, sube la presión del aire o diluye más. Si se carga en los extremos y el centro queda flaco, baja la presión del aire o aumenta el caudal de producto.' },
+    { tipo: 'p', texto: 'Antes de pintar, probá sobre un cartón. El abanico debe ser un óvalo de bordes suaves, con el producto repartido de forma pareja. Si se carga en el centro, subí la presión del aire o diluí más. Si se carga en los extremos y el centro queda flaco, bajá la presión del aire o aumentá el caudal de producto.' },
 
     { tipo: 'h2', texto: 'Técnica' },
     {
@@ -53,12 +53,12 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Sostén la pistola perpendicular a la superficie, a una distancia constante: en general ≈ 15 – 20 cm con HVLP y ≈ 20 – 25 cm con una convencional.',
-        'Mueve todo el brazo, no la muñeca. Si la muñeca gira, la pistola dibuja un arco y la película queda más gruesa en el centro.',
-        'Aprieta el gatillo antes de llegar a la pieza y suéltalo después de salir. Así la pasada empieza y termina pareja.',
-        'Solapa cada pasada la mitad de la anterior, a velocidad constante.',
-        'Pinta primero los cantos y los rincones, después las superficies grandes.',
-        'En superficies verticales, aplica manos finas: una mano gruesa chorrea.',
+        'Sostené la pistola perpendicular a la superficie, a una distancia constante: en general ≈ 15 – 20 cm con HVLP y ≈ 20 – 25 cm con una convencional.',
+        'Mové todo el brazo, no la muñeca. Si la muñeca gira, la pistola dibuja un arco y la película queda más gruesa en el centro.',
+        'Apretá el gatillo antes de llegar a la pieza y soltalo después de salir. Así la pasada empieza y termina pareja.',
+        'Solapá cada pasada la mitad de la anterior, a velocidad constante.',
+        'Pintá primero los cantos y los rincones, después las superficies grandes.',
+        'En superficies verticales, aplicá manos finas: una mano gruesa chorrea.',
       ],
     },
     {
@@ -74,7 +74,7 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Limpieza y seguridad' },
-    { tipo: 'p', texto: 'Limpia la pistola en cuanto termines, con el disolvente del producto: desarma la boquilla y la aguja y pásales un cepillo. Un resto seco arruina el abanico de la próxima vez.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'La niebla de pulverizado es inflamable y se respira. Pinta con extracción o al aire libre, con respirador para vapores orgánicos y partículas, lejos de motores, estufas y llamas. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados).' },
+    { tipo: 'p', texto: 'Limpiá la pistola en cuanto termines, con el disolvente del producto: desarmá la boquilla y la aguja y pasales un cepillo. Un resto seco arruina el abanico de la próxima vez.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'La niebla de pulverizado es inflamable y se respira. Pintá con extracción o al aire libre, con respirador para vapores orgánicos y partículas, lejos de motores, estufas y llamas. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados).' },
   ],
 }

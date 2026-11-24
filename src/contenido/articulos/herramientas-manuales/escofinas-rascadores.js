@@ -34,14 +34,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Sujeta la pieza firme y a la altura del codo o algo más baja.',
-        'Empuja la escofina con las dos manos: una en el mango y otra en la punta. Cortan solo al avanzar; no presiones al volver.',
-        'Trabaja en diagonal a la veta, cruzando las pasadas, para no hacer surcos.',
-        'Pasa a una lima o escofina más fina cuando la forma esté casi lista, y termina con lija o cuchilla de rascar.',
-        'Limpia los dientes a menudo con un cepillo de alambre o una carda.',
+        'Sujetá la pieza firme y a la altura del codo o algo más baja.',
+        'Empujá la escofina con las dos manos: una en el mango y otra en la punta. Cortan solo al avanzar; no presiones al volver.',
+        'Trabajá en diagonal a la veta, cruzando las pasadas, para no hacer surcos.',
+        'Pasá a una lima o escofina más fina cuando la forma esté casi lista, y terminá con lija o cuchilla de rascar.',
+        'Limpiá los dientes a menudo con un cepillo de alambre o una carda.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Usa siempre escofinas y limas con mango. La espiga de una lima sin mango puede clavarse en la palma de la mano.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Usá siempre escofinas y limas con mango. La espiga de una lima sin mango puede clavarse en la palma de la mano.' },
 
     { tipo: 'h2', texto: 'La cuchilla de rascar' },
     { tipo: 'p', texto: 'La [[cuchilla de rascar|rascador]] es una plancha de acero de 0,5 a 1 mm de espesor, con una pequeña rebaba vuelta en el canto. Esa rebaba funciona como un cepillo diminuto: saca virutas finísimas y, como corta casi sin ángulo de ataque, no levanta las fibras ni en las maderas de veta más rebelde.' },
@@ -57,11 +57,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Lima el canto plano y a escuadra con una lima plana fina, sujetando la cuchilla en el tornillo de banco.',
-        'Pule el canto y las caras junto al canto sobre una piedra fina hasta quitar las marcas de la lima.',
-        'Con la cuchilla plana sobre el banco, pasa un bruñidor de acero duro sobre la cara, junto al canto, con presión firme: estira el acero hacia afuera.',
-        'Con la cuchilla en el tornillo, pasa el bruñidor por el canto, primero a 90° y luego inclinándolo unos pocos grados, para volcar la rebaba hacia la cara.',
-        'Repite en los cuatro bordes largos: una cuchilla tiene cuatro filos.',
+        'Limá el canto plano y a escuadra con una lima plana fina, sujetando la cuchilla en el tornillo de banco.',
+        'Pulí el canto y las caras junto al canto sobre una piedra fina hasta quitar las marcas de la lima.',
+        'Con la cuchilla plana sobre el banco, pasá un bruñidor de acero duro sobre la cara, junto al canto, con presión firme: estirá el acero hacia afuera.',
+        'Con la cuchilla en el tornillo, pasá el bruñidor por el canto, primero a 90° y luego inclinándolo unos pocos grados, para volcar la rebaba hacia la cara.',
+        'Repetí en los cuatro bordes largos: una cuchilla tiene cuatro filos.',
       ],
     },
     { tipo: 'figura', id: 'rebaba-rascador', pie: 'Secciones del canto, muy ampliadas. La rebaba es un gancho diminuto que se vuelca hacia la cara con el bruñidor; con ella, la cuchilla saca virutas en vez de polvo.' },
@@ -69,12 +69,12 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Sostén la cuchilla con las dos manos y cúrvala ligeramente con los pulgares por detrás.',
-        'Inclínala hacia adelante, a unos 45 – 60°, y empújala. Busca el ángulo en que salen virutas, no polvo.',
-        'Si solo hace polvo, la rebaba se gastó: vuelve a bruñirla, o a prepararla desde el limado si ya no responde.',
+        'Sostené la cuchilla con las dos manos y curvala ligeramente con los pulgares por detrás.',
+        'Inclinala hacia adelante, a unos 45 – 60°, y empujala. Buscá el ángulo en que salen virutas, no polvo.',
+        'Si solo hace polvo, la rebaba se gastó: volvé a bruñirla, o a prepararla desde el limado si ya no responde.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'La cuchilla se calienta con el roce y puede quemar los pulgares en trabajos largos. Una tira de cinta o un imán pegado detrás ayuda; o usa un cepillo rascador.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'La cuchilla se calienta con el roce y puede quemar los pulgares en trabajos largos. Una tira de cinta o un imán pegado detrás ayuda; o usá un cepillo rascador.' },
     { tipo: 'p', texto: 'Una superficie terminada con cuchilla de rascar suele necesitar muy poca lija antes del acabado. Ver [Preparar la superficie](#/acabados/preparacion).' },
   ],
 }

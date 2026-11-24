@@ -25,11 +25,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Deja en la base de la pieza una zona de desperdicio, o elige una cara que vaya a quedar oculta.',
-        'Haz un agujero guía del diámetro que indique el fabricante del tornillo y enrosca la punta de rosca para madera.',
-        'Pasa el otro extremo por un agujero del banco.',
-        'Coloca la arandela y aprieta la tuerca de mariposa desde abajo.',
-        'Para girar la pieza, afloja la tuerca, gírala y vuelve a apretar.',
+        'Dejá en la base de la pieza una zona de desperdicio, o elegí una cara que vaya a quedar oculta.',
+        'Hacé un agujero guía del diámetro que indique el fabricante del tornillo y enrosca la punta de rosca para madera.',
+        'Pasá el otro extremo por un agujero del banco.',
+        'Colocá la arandela y apretá la tuerca de mariposa desde abajo.',
+        'Para girar la pieza, aflojá la tuerca, girala y volvé a apretar.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Un taco de madera con la base plana entre la pieza y el banco eleva la talla y deja espacio para las manos y la herramienta en la parte de abajo.' },
@@ -39,14 +39,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Pon cola en el tablero auxiliar y apoya una hoja de papel de diario o de papel de estraza.',
-        'Pon cola sobre el papel, coloca la pieza y prensa.',
-        'Deja secar el tiempo completo que indique la cola.',
-        'Al terminar, mete una espátula o un formón ancho en la junta y haz palanca con cuidado: el papel se parte por la mitad.',
-        'Quita los restos de papel y de cola con un rascador o con agua tibia.',
+        'Poné cola en el tablero auxiliar y apoyá una hoja de papel de diario o de papel de estraza.',
+        'Poné cola sobre el papel, colocá la pieza y prensá.',
+        'Dejá secar el tiempo completo que indique la cola.',
+        'Al terminar, meté una espátula o un formón ancho en la junta y hacé palanca con cuidado: el papel se parte por la mitad.',
+        'Quitá los restos de papel y de cola con un rascador o con agua tibia.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La fuerza de la unión depende de la cola y del papel. Haz una prueba en un recorte: si cuesta separarlo, usa un papel más fino o menos cola.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La fuerza de la unión depende de la cola y del papel. Hacé una prueba en un recorte: si cuesta separarlo, usá un papel más fino o menos cola.' },
 
     { tipo: 'h2', texto: 'El banco de tallista' },
     {
@@ -58,6 +58,6 @@ export default {
         '**Luz lateral:** una lámpara baja de un costado marca las formas con sombras. Ver [Talla en relieve](#/talla/relieve).',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'No sostengas la pieza con una mano mientras empujas una gubia con la otra: si la gubia resbala, va derecho a la mano. Si tienes que tallar con la pieza en la mano, usa un cuchillo, un guante anticorte en la mano que la sostiene y cortes cortos y controlados.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'No sostengas la pieza con una mano mientras empujás una gubia con la otra: si la gubia resbala, va derecho a la mano. Si tenés que tallar con la pieza en la mano, usá un cuchillo, un guante anticorte en la mano que la sostiene y cortes cortos y controlados.' },
   ],
 }

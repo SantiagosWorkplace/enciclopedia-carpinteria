@@ -51,7 +51,7 @@ export const herramientas = [
   h('Motosierra', 'Corte', 'Combustión', 'Móvil', '⚙️', ['troncos', 'pilotes', 'fachwerk'], 'Tala, troceado y tallado de troncos. Exige casco con protector facial, guantes y pantalón anticorte.'),
   h('Sierra de cadena para carpintería', 'Corte', 'Eléctrica', 'Móvil', '⚙️', ['fachwerk', 'japon', 'sip', 'clt'], 'Sierra de espada con guía que corta vigas y paneles gruesos en una sola pasada.'),
   h('Amoladora angular', 'Corte', 'Eléctrica', 'Móvil', '⚙️', ['steel', 'clt'], 'Con disco abrasivo corta y rebarba perfiles y varillas. Nunca montarle discos dentados para madera.'),
-  h('Ingletadora telescópica', 'Corte', 'Eléctrica', 'Estacionaria', '⚙️', ['platform', 'chiloe', 'sip'], 'Cortes repetibles a 90°, ingletes y biseles. La telescópica corta tablas de hasta ≈ 30 cm de ancho.'),
+  h('Ingleteadora telescópica', 'Corte', 'Eléctrica', 'Estacionaria', '⚙️', ['platform', 'chiloe', 'sip'], 'Cortes repetibles a 90°, ingletes y biseles. La telescópica corta tablas de hasta ≈ 30 cm de ancho.'),
   h('Sierra de mesa', 'Corte', 'Eléctrica', 'Estacionaria', '⚙️', ['platform', 'chiloe', 'china'], 'Cortes rectos repetibles. Usar siempre cuchillo divisor, protector y empujador.'),
   h('Sierra de cinta', 'Corte', 'Eléctrica', 'Estacionaria', '⚙️', ['china', 'chiloe', 'fachwerk', 'japon'], 'Cortes curvos y reaserrado de tablones, como las piezas curvas del techo chino.'),
   h('Tronzadora de metal', 'Corte', 'Eléctrica', 'Estacionaria', '⚙️', ['steel'], 'Corta perfiles a medida con disco abrasivo o de carburo; más precisa que la amoladora para cortes en serie.'),
@@ -87,7 +87,7 @@ export const herramientas = [
   h('Martillo de carpintero', 'Fijación', 'Manual', 'Móvil', '🔨', ['platform', 'pilotes', 'chiloe', 'troncos', 'sip', 'fachwerk'], 'Cabeza de 450 – 650 g con uña para arrancar clavos. Golpear con la cara plana, nunca con el costado.'),
   h('Pinza punzonadora', 'Fijación', 'Manual', 'Móvil', '🔧', ['drywall'], 'Une soleras y montantes de chapa punzonándolos, sin tornillos, en tabiques livianos.'),
   h('Llaves de vaso y torquímetro', 'Fijación', 'Manual', 'Móvil', '🔧', ['clt', 'steel', 'platform'], 'Aprietan pernos y anclajes al par indicado por el cálculo estructural.'),
-  h('Clavadora neumática', 'Fijación', 'Neumática', 'Móvil', '🔩', ['platform', 'sip', 'chiloe'], 'Clava en tiras clavos de 50 – 90 mm en una fracción de segundo. Funciona con compresor; usar siempre gafas.'),
+  h('Clavadora neumática', 'Fijación', 'Neumática', 'Móvil', '🔩', ['platform', 'sip', 'chiloe'], 'Clava en tiras clavos de 50 – 90 mm en una fracción de segundo. Funciona con compresor; usar siempre anteojos.'),
   h('Grapadora neumática', 'Fijación', 'Neumática', 'Móvil', '🔩', ['platform', 'sip', 'steel'], 'Fija barreras de vapor, membranas y mallas.'),
   h('Clavadora a batería', 'Fijación', 'Eléctrica', 'Móvil', '🔩', ['platform', 'sip', 'chiloe'], 'Como la neumática pero sin manguera ni compresor.'),
   h('Compresor de aire', 'Fijación', 'Eléctrica', 'Móvil', '💨', ['platform', 'sip', 'chiloe', 'steel'], 'Alimenta clavadoras y grapadoras neumáticas. Para obra, de 24 – 50 L.'),
@@ -111,7 +111,7 @@ export const herramientas = [
   h('Lijadora de paredes (jirafa)', 'Lijado y acabado', 'Eléctrica', 'Móvil', '⚙️', ['drywall'], 'Lijadora de brazo largo con aspiración para lijar masilla en paredes y techos.'),
 
   // Seguridad
-  h('Equipo de protección personal', 'Seguridad', 'Manual', 'Móvil', '🦺', TODAS, 'Gafas, protección auditiva, guantes, mascarilla para polvo y calzado de seguridad.'),
+  h('Equipo de protección personal', 'Seguridad', 'Manual', 'Móvil', '🦺', TODAS, 'Anteojos, protección auditiva, guantes, barbijo para polvo y calzado de seguridad.'),
   h('Arnés y línea de vida', 'Seguridad', 'Manual', 'Móvil', '🦺', ['platform', 'clt', 'steel', 'sip', 'japon', 'fachwerk', 'china'], 'Para trabajos en altura, en general desde ≈ 2 m, anclado a un punto resistente.'),
   h('Aspirador de obra', 'Seguridad', 'Eléctrica', 'Móvil', '🧹', ['drywall', 'clt', 'platform', 'sip', 'chiloe'], 'Conectado a lijadoras y sierras reduce el polvo fino, dañino para los pulmones.'),
 ]

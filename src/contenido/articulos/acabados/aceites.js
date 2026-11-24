@@ -21,7 +21,7 @@ export default {
       ],
     },
     { tipo: 'aviso', nivel: 'nota', texto: 'Los aceites de cocina, como el de oliva o el de girasol, no curan bien y se ponen rancios con el tiempo. No sirven como acabado.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los nombres comerciales no indican qué hay dentro de la lata: un «aceite de tung» puede ser una mezcla con barniz. Lee la ficha técnica para saber la composición y los tiempos.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los nombres comerciales no indican qué hay dentro de la lata: un «aceite de tung» puede ser una mezcla con barniz. Leé la ficha técnica para saber la composición y los tiempos.' },
 
     { tipo: 'h2', texto: 'Aplicación' },
     {
@@ -33,25 +33,25 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Lija hasta grano ≈ 180 – 220 y quita el polvo.',
-        'Moja bien la superficie con un trapo o un pincel. Mantenla mojada unos 10 – 20 minutos, agregando aceite donde se absorba.',
-        'Retira todo el sobrante con trapos limpios, frotando a favor de la veta. Lo que queda encima se vuelve pegajoso.',
-        'Repasa una hora después: el aceite suele volver a salir de los poros. Límpialo.',
-        'Deja curar al menos un día, o lo que indique el fabricante.',
-        'Lija muy suave con grano ≈ 320 – 400 o una esponja abrasiva fina, quita el polvo y aplica otra mano. Entre 3 y 5 manos suelen bastar.',
+        'Lijá hasta grano ≈ 180 – 220 y quitá el polvo.',
+        'Mojá bien la superficie con un trapo o un pincel. Mantenla mojada unos 10 – 20 minutos, agregando aceite donde se absorba.',
+        'Retirá todo el sobrante con trapos limpios, frotando a favor de la veta. Lo que queda encima se vuelve pegajoso.',
+        'Repasá una hora después: el aceite suele volver a salir de los poros. Limpialo.',
+        'Dejá curar al menos un día, o lo que indique el fabricante.',
+        'Lijá muy suave con grano ≈ 320 – 400 o una esponja abrasiva fina, quitá el polvo y aplicá otra mano. Entre 3 y 5 manos suelen bastar.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'En la segunda o tercera mano, lija con la superficie mojada de aceite, usando lija al agua de grano ≈ 400. El polvo de madera y el aceite forman una pasta que rellena los poros, y la superficie queda muy lisa. Retira bien la pasta, a través de la veta.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'En la segunda o tercera mano, lijá con la superficie mojada de aceite, usando lija al agua de grano ≈ 400. El polvo de madera y el aceite forman una pasta que rellena los poros, y la superficie queda muy lisa. Retirá bien la pasta, a través de la veta.' },
 
     { tipo: 'h2', texto: 'Mantenimiento' },
     {
       tipo: 'lista',
       items: [
-        '**Renovar:** cuando la madera se vea seca o mate, limpia y aplica una mano fina. No hace falta lijar ni quitar el aceite viejo.',
+        '**Renovar:** cuando la madera se vea seca o mate, limpiá y aplicá una mano fina. No hace falta lijar ni quitar el aceite viejo.',
         '**Reparar:** una raya o una mancha se lija en la zona y se vuelve a aceitar; no queda una marca de reparación como con un barniz.',
-        '**Contacto con alimentos:** la mayoría de los aceites secantes, una vez curados, son seguros. Respeta el tiempo de curado. Ver [Diseñar muebles seguros](#/diseno/seguridad-diseno).',
+        '**Contacto con alimentos:** la mayoría de los aceites secantes, una vez curados, son seguros. Respetá el tiempo de curado. Ver [Diseñar muebles seguros](#/diseno/seguridad-diseno).',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los trapos con aceite secante pueden encenderse solos al curar. Extiéndelos de a uno al aire libre o guárdalos en una lata metálica con agua y tapa. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados) y [Prevención de incendios](#/taller/incendios).' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los trapos con aceite secante pueden encenderse solos al curar. Extendelos de a uno al aire libre o guardalos en una lata metálica con agua y tapa. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados) y [Prevención de incendios](#/taller/incendios).' },
   ],
 }

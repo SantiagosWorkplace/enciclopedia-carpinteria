@@ -54,7 +54,7 @@ export default {
         '**HDF:** versión de alta densidad, de pocos milímetros, para fondos de muebles, cajones y suelos laminados.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de MDF es muy fino y contiene resina. Córtalo y líjalo con aspiración y una mascarilla FFP2 o mejor, aunque sean pocos cortes.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de MDF es muy fino y contiene resina. Cortalo y lijalo con aspiración y un barbijo FFP2 o mejor, aunque sean pocos cortes.' },
 
     { tipo: 'h3', texto: 'OSB' },
     { tipo: 'p', texto: 'El [[OSB|osb]] se fabrica con virutas largas y planas, orientadas en capas: las de las caras van a lo largo del tablero y las del centro, cruzadas o al azar. Es resistente y económico, y es el tablero estructural más usado para cerramientos, techos y suelos en la [construcción en seco](#/construccion/en-seco).' },
@@ -77,7 +77,7 @@ export default {
         ['Tablero duro', '≈ 900 kg/m³ o más', 'No se atornilla de canto', 'Mal', 'Fondos y bases de cajón'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las densidades y comportamientos son orientativos y varían mucho entre fabricantes. Consulta la ficha técnica del tablero concreto.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las densidades y comportamientos son orientativos y varían mucho entre fabricantes. Consultá la ficha técnica del tablero concreto.' },
 
     { tipo: 'h2', texto: 'Medidas habituales' },
     {
@@ -92,7 +92,7 @@ export default {
       ],
       nota: 'Los formatos cambian según el país y el fabricante. El formato de 2440 × 1220 mm viene de las medidas imperiales de 8 × 4 pies.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Mide siempre el espesor real del tablero antes de cortar ranuras y encastres: un contrachapado «de 18» puede tener 17,5 mm o 18,5 mm.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Medí siempre el espesor real del tablero antes de cortar ranuras y encastres: un contrachapado «de 18» puede tener 17,5 mm o 18,5 mm.' },
 
     { tipo: 'h2', texto: 'Tableros con acabado' },
     {
@@ -116,20 +116,20 @@ export default {
         '**Sin formaldehído añadido:** tableros con colas que no lo contienen, marcados como NAF o similares.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los límites y la denominación de las clases cambian según el país y se han endurecido en los últimos años. Comprueba la clase en la etiqueta o la ficha del tablero y la norma vigente en tu país.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Sellar todas las caras y los cantos de un tablero con barniz o pintura reduce mucho sus emisiones. Ventila bien los muebles nuevos durante las primeras semanas.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los límites y la denominación de las clases cambian según el país y se han endurecido en los últimos años. Comprobá la clase en la etiqueta o la ficha del tablero y la norma vigente en tu país.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Sellar todas las caras y los cantos de un tablero con barniz o pintura reduce mucho sus emisiones. Ventilá bien los muebles nuevos durante las primeras semanas.' },
 
     { tipo: 'h2', texto: 'Trabajar con tableros' },
     {
       tipo: 'lista',
       items: [
-        '**Corte limpio:** usa discos de metal duro con muchos dientes. La cara buena va **hacia abajo** con sierra circular portátil y caladora, porque los dientes cortan subiendo, y **hacia arriba** en la sierra de mesa, donde cortan bajando.',
-        '**Melamina:** para que no se astille, marca el corte con una cuchilla, pon cinta de papel en la línea o usa una sierra con disco incisor.',
-        '**Tornillos:** en aglomerado y MDF usa tornillos específicos, pretaladra siempre y aléjate del extremo. Para cajas de melamina se usan tornillos tipo confirmat de 7 × 50 mm con su broca escalonada.',
-        '**Cantos:** cúbrelos con tapacantos de melamina, PVC o chapa, o pega un listón de madera maciza que proteja el canto y permita moldurarlo.',
-        '**Almacenaje:** guárdalos en horizontal sobre apoyos parejos y poco separados, o de pie apoyados en toda su superficie. Apoyados en ángulo contra una pared, se curvan.',
+        '**Corte limpio:** usá discos de metal duro con muchos dientes. La cara buena va **hacia abajo** con sierra circular portátil y caladora, porque los dientes cortan subiendo, y **hacia arriba** en la sierra de mesa, donde cortan bajando.',
+        '**Melamina:** para que no se astille, marcá el corte con una cuchilla, poné cinta de papel en la línea o usá una sierra con disco incisor.',
+        '**Tornillos:** en aglomerado y MDF usá tornillos específicos, pretaladrá siempre y alejate del extremo. Para cajas de melamina se usan tornillos tipo confirmat de 7 × 50 mm con su broca escalonada.',
+        '**Cantos:** cubrilos con tapacantos de melamina, PVC o chapa, o pegá un listón de madera maciza que proteja el canto y permita moldurarlo.',
+        '**Almacenaje:** guardalos en horizontal sobre apoyos parejos y poco separados, o de pie apoyados en toda su superficie. Apoyados en ángulo contra una pared, se curvan.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Una placa de MDF de 18 mm pesa entre ≈ 40 y 70 kg según el formato. Muévelas entre dos personas o con un carro y lleva guantes: los cantos de melamina cortan.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Una placa de MDF de 18 mm pesa entre ≈ 40 y 70 kg según el formato. Movelas entre dos personas o con un carro y llevá guantes: los cantos de melamina cortan.' },
   ],
 }

@@ -32,14 +32,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Marca la posición sobre la puerta: en general, a una distancia del borde superior e inferior parecida al ancho del travesaño, o a un sexto o un séptimo de la altura.',
-        'Apoya la bisagra y traza su contorno con una cuchilla. Marca la profundidad con el [[gramil]]: el espesor de una hoja, para que el eje sobresalga del canto.',
-        'Vacía el rebaje con el formón o con la fresadora y una guía, y comprueba que la hoja entre al ras.',
-        'Atornilla la bisagra a la puerta con un solo tornillo por hoja, presenta la puerta y marca las posiciones en el mueble.',
-        'Rebaja el mueble, cuelga la puerta y prueba. Cuando todo cierre bien, pon el resto de los tornillos.',
+        'Marcá la posición sobre la puerta: en general, a una distancia del borde superior e inferior parecida al ancho del travesaño, o a un sexto o un séptimo de la altura.',
+        'Apoyá la bisagra y trazá su contorno con una cuchilla. Marcá la profundidad con el [[gramil]]: el espesor de una hoja, para que el eje sobresalga del canto.',
+        'Vaciá el rebaje con el formón o con la fresadora y una guía, y comprobá que la hoja entre al ras.',
+        'Atornillá la bisagra a la puerta con un solo tornillo por hoja, presentá la puerta y marcá las posiciones en el mueble.',
+        'Rebajá el mueble, colgá la puerta y probá. Cuando todo cierre bien, poné el resto de los tornillos.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Pretaladra con una broca centradora para que el tornillo entre centrado en el agujero de la bisagra: si queda corrido, arrastra la bisagra al apretar y la puerta se desplaza.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Pretaladrá con una broca centradora para que el tornillo entre centrado en el agujero de la bisagra: si queda corrido, arrastra la bisagra al apretar y la puerta se desplaza.' },
 
     { tipo: 'h2', texto: 'Bisagra de cazoleta' },
     { tipo: 'p', texto: 'Es la bisagra de casi todos los muebles de cocina. La copa entra en un agujero ciego en la puerta y el brazo se engancha en una placa atornillada al lateral. Unos tornillos de regulación mueven la puerta hacia los costados, hacia arriba o abajo y hacia adentro o afuera, para alinearla después de colgada.' },
@@ -53,7 +53,7 @@ export default {
         ['Cuántas', 'Dos hasta ≈ 90 cm de altura; tres o más en puertas más altas o pesadas'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de la copa, la distancia al canto y el número de bisagras dependen del fabricante, del espesor y del peso de la puerta. Usa la plantilla y la tabla de cada marca.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de la copa, la distancia al canto y el número de bisagras dependen del fabricante, del espesor y del peso de la puerta. Usá la plantilla y la tabla de cada marca.' },
     { tipo: 'p', texto: 'El agujero de la copa se hace con una broca de fondo plano de 35 mm, en el taladro de columna o con una guía. Los muebles de tablero suelen usar el [[sistema 32|sistema-32]], con filas de agujeros cada 32 mm para placas, estantes y herrajes.' },
 
     { tipo: 'h2', texto: 'Colocación' },

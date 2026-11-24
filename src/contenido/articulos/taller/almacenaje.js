@@ -12,11 +12,11 @@ export default {
         '**Tablas en horizontal,** sobre brazos o ménsulas cada 60 – 80 cm, para que no se comben por su propio peso.',
         '**Madera que todavía no está seca:** con [[separadores|separador]] entre capas, como en una pila de secado. Ver [Secado de la madera](#/madera/secado).',
         '**Tableros:** lo mejor es en horizontal, apilados sobre apoyos parejos y poco separados. Si van de pie, casi verticales, apoyados en toda su superficie contra una pared o un bastidor y sobre un taco que los separe del suelo.',
-        '**Recortes:** en cajones o tachos verticales clasificados por tamaño o especie. Tira lo que no vas a usar: un taller lleno de recortes inútiles ocupa el lugar de los útiles.',
+        '**Recortes:** en cajones o tachos verticales clasificados por tamaño o especie. Tirá lo que no vas a usar: un taller lleno de recortes inútiles ocupa el lugar de los útiles.',
         '**Lejos de la humedad y del sol:** no contra una pared exterior fría, ni junto a una estufa, ni bajo una ventana con sol directo.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Lleva la madera al taller una o dos semanas antes de usarla para que se aclimate. Guárdala en el mismo ambiente donde la vas a trabajar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Llevá la madera al taller una o dos semanas antes de usarla para que se aclimate. Guardala en el mismo ambiente donde la vas a trabajar.' },
 
     { tipo: 'h2', texto: 'Herramientas' },
     {
@@ -33,10 +33,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Mantén la humedad del taller estable y, si es alta, usa un deshumidificador.',
-        'Pasa una capa fina de cera o aceite en las superficies de hierro: mesas de máquinas, cepillos, formones.',
+        'Mantené la humedad del taller estable y, si es alta, usá un deshumidificador.',
+        'Pasá una capa fina de cera o aceite en las superficies de hierro: mesas de máquinas, cepillos, formones.',
         'No dejes herramientas sobre el suelo de hormigón: absorbe la humedad y la transmite al metal.',
-        'Guarda el papel de lija y las piedras al agua lejos de las herramientas.',
+        'Guardá el papel de lija y las piedras al agua lejos de las herramientas.',
       ],
     },
 

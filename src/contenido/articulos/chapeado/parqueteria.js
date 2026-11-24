@@ -24,11 +24,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Corta tiras del mismo ancho de dos chapas de color distinto, contra una regla y con un tope para que todas sean iguales.',
-        'Une las tiras alternando colores, con cinta engomada por la cara vista.',
-        'Corta la lámina resultante a lo ancho, en tiras del mismo ancho que las primeras.',
-        'Corre una de cada dos tiras un cuadro, de modo que los colores se alternen también en esa dirección.',
-        'Une las tiras con cinta y pega el conjunto como una sola hoja.',
+        'Cortá tiras del mismo ancho de dos chapas de color distinto, contra una regla y con un tope para que todas sean iguales.',
+        'Uní las tiras alternando colores, con cinta engomada por la cara vista.',
+        'Cortá la lámina resultante a lo ancho, en tiras del mismo ancho que las primeras.',
+        'Corré una de cada dos tiras un cuadro, de modo que los colores se alternen también en esa dirección.',
+        'Uní las tiras con cinta y pegá el conjunto como una sola hoja.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Para los cubos se usa el mismo método, pero las tiras se cortan a 60°. Un listón guía con el ángulo exacto, fijado al tablero de corte, mantiene todas las piezas iguales.' },
@@ -37,8 +37,8 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Los errores se suman:** medio milímetro de diferencia en cada pieza se convierte en un centímetro después de veinte piezas. Mide con el tope, no con la regla.',
-        '**Empieza por el centro** y trabaja hacia los bordes, para que los errores queden repartidos y el dibujo quede centrado.',
+        '**Los errores se suman:** medio milímetro de diferencia en cada pieza se convierte en un centímetro después de veinte piezas. Medí con el tope, no con la regla.',
+        '**Empezá por el centro** y trabajá hacia los bordes, para que los errores queden repartidos y el dibujo quede centrado.',
         '**Un borde perimetral** de cenefa o filete enmarca la composición y absorbe las diferencias en los bordes.',
         '**Veta y luz:** cambiar la dirección de la veta de una misma especie produce un dibujo que aparece y desaparece al moverse alrededor del mueble.',
       ],

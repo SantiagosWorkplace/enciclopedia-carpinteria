@@ -45,23 +45,23 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Afila la cuchilla. Un cepillo desafilado no se arregla con ningún ajuste. Ver [Afilado](#/herramientas-manuales/afilado).',
-        'Coloca el contrahierro a ≈ 0,5 – 1 mm del filo para trabajo fino; a 1,5 – 2 mm para desbastar.',
-        'Monta la cuchilla, aprieta la palanca de cierre con firmeza moderada y retrae el filo con la rueda.',
-        'Mirando a lo largo de la suela contra una luz, avanza la cuchilla hasta que apenas asome y centra el filo con la palanca lateral.',
-        'Prueba en un recorte. La viruta debe salir pareja, del mismo espesor en todo su ancho. Ajusta hasta lograrlo.',
+        'Afilá la cuchilla. Un cepillo desafilado no se arregla con ningún ajuste. Ver [Afilado](#/herramientas-manuales/afilado).',
+        'Colocá el contrahierro a ≈ 0,5 – 1 mm del filo para trabajo fino; a 1,5 – 2 mm para desbastar.',
+        'Montá la cuchilla, apretá la palanca de cierre con firmeza moderada y retrae el filo con la rueda.',
+        'Mirando a lo largo de la suela contra una luz, avanzá la cuchilla hasta que apenas asome y centrá el filo con la palanca lateral.',
+        'Probá en un recorte. La viruta debe salir pareja, del mismo espesor en todo su ancho. Ajustá hasta lograrlo.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Ajusta siempre el último movimiento de la rueda hacia adelante: así se elimina la holgura del mecanismo y la cuchilla no retrocede al trabajar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Ajustá siempre el último movimiento de la rueda hacia adelante: así se elimina la holgura del mecanismo y la cuchilla no retrocede al trabajar.' },
 
     { tipo: 'h2', texto: 'Cepillar a favor de la veta' },
     { tipo: 'p', texto: 'Las fibras casi nunca son paralelas a la cara. Si se cepilla en el sentido en que «suben», el filo las levanta y arranca [[repelos|repelo]]. Hay que mirar el canto de la tabla: las líneas de la veta indican hacia dónde cepillar, como si se acariciara un perro a favor del pelo.' },
     {
       tipo: 'lista',
       items: [
-        'Si aparecen repelos, da vuelta la pieza y cepilla en el otro sentido.',
-        'En maderas de veta entrelazada, cierra la boca, acerca el contrahierro, toma pasadas muy finas y lleva el cepillo un poco en diagonal.',
-        'Si aun así hay repelos, termina con una [cuchilla de rascar](#/herramientas-manuales/escofinas-rascadores).',
+        'Si aparecen repelos, dá vuelta la pieza y cepillá en el otro sentido.',
+        'En maderas de veta entrelazada, cerrá la boca, acercá el contrahierro, tomá pasadas muy finas y llevá el cepillo un poco en diagonal.',
+        'Si aun así hay repelos, terminá con una [cuchilla de rascar](#/herramientas-manuales/escofinas-rascadores).',
       ],
     },
 
@@ -69,13 +69,13 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        '**Cara de referencia:** detecta los puntos altos con una regla de canto y dos listones paralelos puestos a los extremos, que muestran el alabeo. Cepilla en diagonal en los dos sentidos y termina a lo largo.',
-        '**Canto de referencia:** cepíllalo recto y a escuadra con la cara; compruébalo con la escuadra en varios puntos.',
-        '**Espesor:** traza con el gramil la línea de espesor en todos los cantos, desde la cara de referencia, y cepilla hasta ella.',
-        '**Ancho:** traza con el gramil desde el canto de referencia y cepilla el canto opuesto hasta la línea.',
-        '**Testas:** cepíllalas sobre una tabla de refrentar, que mantiene el cepillo a escuadra. Si no, trabaja desde los dos extremos hacia el centro para no astillar la esquina.',
+        '**Cara de referencia:** detecta los puntos altos con una regla de canto y dos listones paralelos puestos a los extremos, que muestran el alabeo. Cepillá en diagonal en los dos sentidos y terminá a lo largo.',
+        '**Canto de referencia:** cepillalo recto y a escuadra con la cara; comprobalo con la escuadra en varios puntos.',
+        '**Espesor:** trazá con el gramil la línea de espesor en todos los cantos, desde la cara de referencia, y cepillá hasta ella.',
+        '**Ancho:** trazá con el gramil desde el canto de referencia y cepillá el canto opuesto hasta la línea.',
+        '**Testas:** cepillalas sobre una tabla de refrentar, que mantiene el cepillo a escuadra. Si no, trabajá desde los dos extremos hacia el centro para no astillar la esquina.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Al terminar, apoya el cepillo de costado o con la punta sobre un listón: nunca con la cuchilla apoyada sobre el banco, donde se mella.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Al terminar, apoyá el cepillo de costado o con la punta sobre un listón: nunca con la cuchilla apoyada sobre el banco, donde se mella.' },
   ],
 }

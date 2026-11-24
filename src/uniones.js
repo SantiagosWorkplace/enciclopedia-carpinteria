@@ -16,7 +16,7 @@ export const uniones = [
       'Marcar con gramil el grosor de la espiga: aproximadamente 1/3 del espesor de la pieza.',
       'Trazar la caja con el mismo ajuste del gramil, para que ambas piezas coincidan.',
       'Vaciar la caja con formón o taladro, trabajando desde el centro hacia las líneas.',
-      'Serrar las mejillas de la espiga por el lado de desperdicio de la línea.',
+      'Aserrar las mejillas de la espiga por el lado de desperdicio de la línea.',
       'Ajustar con formón o guillame hasta que entre con presión de la mano, sin martillo.',
       'Encolar ambas superficies y apretar con sargentos comprobando la escuadra.',
     ],
@@ -39,9 +39,9 @@ export const uniones = [
     pasos: [
       'Marcar la línea base con gramil en ambas piezas, igual al espesor de la otra.',
       'Trazar las colas con una pendiente de 1:6 (blandas) o 1:8 (duras).',
-      'Serrar las colas respetando el lado de desperdicio.',
+      'Aserrar las colas respetando el lado de desperdicio.',
       'Usar las colas como plantilla para marcar las espigas en la otra pieza.',
-      'Serrar y vaciar las espigas con formón, cortando desde ambas caras.',
+      'Aserrar y vaciar las espigas con formón, cortando desde ambas caras.',
       'Probar en seco, ajustar y encolar.',
     ],
     // Vista de las colas: la pieza de espigas entra perpendicular al dibujo,
@@ -63,7 +63,7 @@ export const uniones = [
     descripcion: 'Dos piezas cortadas a 45° que forman una esquina de 90° sin mostrar la testa. Típica de marcos y molduras.',
     pasos: [
       'Marcar la longitud por el canto largo de cada pieza.',
-      'Cortar a 45° con caja de ingletes o ingletadora, siempre del lado de desperdicio.',
+      'Cortar a 45° con caja de ingletes o ingleteadora, siempre del lado de desperdicio.',
       'Probar en seco: ambos cortes deben sumar 90°; corregir con cepillo y tabla de ingletes.',
       'La testa absorbe mucha cola: dar una primera mano diluida y dejar orear.',
       'Prensar con sargento de esquina y reforzar con galletas, clavijas o lengüetas si soporta carga.',
@@ -111,7 +111,7 @@ export const uniones = [
     pasos: [
       'Definir la longitud del bisel: entre 4 y 8 veces el canto de la viga.',
       'Marcar el bisel y los topes en ambas piezas a partir de la misma plantilla.',
-      'Serrar el bisel por el lado de desperdicio y los topes a escuadra.',
+      'Aserrar el bisel por el lado de desperdicio y los topes a escuadra.',
       'Ajustar con formón y cepillo hasta que las caras asienten sin luz.',
       'Encolar y asegurar con clavijas o pernos pasantes perpendiculares al bisel.',
     ],
@@ -181,7 +181,7 @@ export const uniones = [
     pasos: [
       'Marcar el ancho exacto usando la propia pieza del estante.',
       'Ajustar la profundidad: alrededor de 1/3 del espesor del lateral.',
-      'Fresar o serrar los laterales y vaciar el centro.',
+      'Fresar o aserrar los laterales y vaciar el centro.',
       'Limpiar el fondo con guillame para un apoyo plano.',
       'Encolar y prensar.',
     ],

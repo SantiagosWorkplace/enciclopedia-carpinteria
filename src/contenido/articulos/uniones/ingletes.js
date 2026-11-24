@@ -30,7 +30,7 @@ export default {
         '**El ángulo de corte** es 180° dividido por el número de lados: 45° en un marco de cuatro lados, 30° en uno de seis, 22,5° en uno de ocho.',
         '**Los errores se multiplican:** un marco de cuatro lados tiene ocho cortes. Medio grado de error en cada uno deja una abertura de 4° en la última esquina.',
         '**Lados opuestos iguales:** en un marco, los dos lados opuestos se cortan juntos o con un tope. Una diferencia de un milímetro abre una esquina.',
-        '**Prueba antes:** corta cuatro recortes, arma el marco con cinta y revisa las esquinas. Corrige el ángulo antes de cortar la moldura buena.',
+        '**Probá antes:** cortá cuatro recortes, armá el marco con cinta y revisá las esquinas. Corregí el ángulo antes de cortar la moldura buena.',
       ],
     },
     {
@@ -40,7 +40,7 @@ export default {
       filas: [
         ['Caja de ingletes y serrucho', 'Media', 'Barata; las ranuras se gastan con el uso'],
         ['Sierra de ingletes manual', 'Buena', 'Guía metálica regulable con una sierra de costilla'],
-        ['Ingletadora', 'Muy buena', 'Rápida; ajusta los topes de 45° y 90° con una escuadra'],
+        ['Ingleteadora', 'Muy buena', 'Rápida; ajustá los topes de 45° y 90° con una escuadra'],
         ['Sierra de mesa con guía de ingletes', 'Muy buena', 'Para piezas anchas y cajas'],
         ['Tabla de refrentar a 45°', 'Excelente', 'Se usa con un cepillo para repasar el corte y ajustar a la décima'],
       ],
@@ -51,13 +51,13 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Pasa una mano de cola en las testas y espera unos minutos a que se absorba. Luego pon la segunda mano y arma.',
-        'Aprieta con una prensa de cinta alrededor del marco o con prensas de esquina. En cajas, usa tacos encolados con papel en las esquinas para tener dónde apoyar las prensas.',
-        'Mide las diagonales: si son iguales, el marco está a escuadra.',
-        'Cuando la cola fragua, agrega los refuerzos que no se pusieron al armar, como chavetas o grapas.',
+        'Pasá una mano de cola en las testas y esperá unos minutos a que se absorba. Luego poné la segunda mano y armá.',
+        'Apretá con una prensa de cinta alrededor del marco o con prensas de esquina. En cajas, usá tacos encolados con papel en las esquinas para tener dónde apoyar las prensas.',
+        'Medí las diagonales: si son iguales, el marco está a escuadra.',
+        'Cuando la cola fragua, agregá los refuerzos que no se pusieron al armar, como chavetas o grapas.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Si una esquina queda con una pequeña abertura, frótala con la caña de un destornillador. La madera de los bordes se dobla un poco y cierra la luz. Sirve para décimas de milímetro, no para errores de corte.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los ángulos del inglete compuesto dependen de la inclinación de los lados y del número de lados. Calcúlalos con una tabla o una calculadora de ingletes compuestos y prueba siempre en recortes.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Si una esquina queda con una pequeña abertura, frotala con la caña de un destornillador. La madera de los bordes se dobla un poco y cierra la luz. Sirve para décimas de milímetro, no para errores de corte.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los ángulos del inglete compuesto dependen de la inclinación de los lados y del número de lados. Calculalos con una tabla o una calculadora de ingletes compuestos y probá siempre en recortes.' },
   ],
 }

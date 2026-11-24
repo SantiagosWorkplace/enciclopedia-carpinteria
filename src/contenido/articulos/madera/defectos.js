@@ -21,7 +21,7 @@ export default {
     { tipo: 'h3', texto: 'Por qué conviene cortar antes de cepillar' },
     { tipo: 'p', texto: 'La flecha de una curva crece con el cuadrado del largo. Una tabla de 2 m con 6 mm de arqueado, cortada en dos piezas de 1 m, deja en cada una solo 6 ÷ 4 = **1,5 mm**. Cepillar dos piezas cortas hace perder mucha menos madera que aplanar la tabla entera.' },
     { tipo: 'p', texto: 'Con el abarquillado pasa lo mismo a lo ancho: una tabla de 200 mm que se cortó en dos de 100 mm pierde mucho menos espesor al aplanarse.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Las tablas alabeadas son las peores: el alabeo no se reduce cortando a lo largo y se lleva mucho espesor. Si la pieza tiene que quedar larga y gruesa, descártala.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Las tablas alabeadas son las peores: el alabeo no se reduce cortando a lo largo y se lleva mucho espesor. Si la pieza tiene que quedar larga y gruesa, descartala.' },
 
     { tipo: 'h2', texto: 'Defectos naturales' },
     {
@@ -29,7 +29,7 @@ export default {
       items: [
         '**[[Nudos|nudo]] sanos o vivos:** la rama estaba viva cuando el tronco la envolvió, así que la madera del nudo está unida al resto. Son firmes y pueden ser decorativos, pero son más duros y desvían la veta a su alrededor.',
         '**Nudos muertos o saltadizos:** la rama estaba muerta y el tronco la rodeó sin unirse a ella. Suelen tener un anillo oscuro alrededor y pueden caerse, dejando un agujero.',
-        '**Nudos en el canto o la arista:** son los que más debilitan una pieza que trabaja a flexión, como un estante o una viga. Evítalos en la zona central de la pieza.',
+        '**Nudos en el canto o la arista:** son los que más debilitan una pieza que trabaja a flexión, como un estante o una viga. Evitalos en la zona central de la pieza.',
         '**[[Fibra revirada|fibra-revirada]] o inclinada:** las fibras corren en hélice o en diagonal respecto de la pieza. La resistencia baja mucho y la pieza tiende a torcerse. Se detecta siguiendo las grietas finas de la superficie o rasgando la cara con un punzón: la raya sigue la fibra.',
         '**Bolsas de resina:** cavidades llenas de resina en coníferas. Rezuman a través del acabado; hay que vaciarlas, limpiarlas con alcohol y sellarlas.',
         '**[[Acebolladura|acebolladura]]:** separación entre anillos, visible como una grieta curva en la testa. La pieza puede abrirse en capas.',
@@ -57,29 +57,29 @@ export default {
       filas: [
         ['Pudrición', 'Madera blanda, que se hunde con un punzón; color pardo con grietas en cubos, o blanquecina y fibrosa; olor a humedad', 'Grave: la resistencia desaparece. Descartar'],
         ['[[Azulado|azulado]]', 'Manchas grises o azuladas en la albura', 'Estética: casi no afecta a la resistencia, pero indica que la madera estuvo húmeda'],
-        ['Carcoma', 'Agujeros redondos de 1 a 2 mm y serrín fino que cae', 'Grave si está activa: el serrín fresco y claro lo indica'],
+        ['Carcoma', 'Agujeros redondos de 1 a 2 mm y aserrín fino que cae', 'Grave si está activa: el aserrín fresco y claro lo indica'],
         ['Polilla de la albura', 'Agujeros muy pequeños y polvo como harina en la albura de frondosas', 'Grave en la albura; el duramen suele quedar sano'],
         ['Termitas', 'Galerías internas siguiendo la veta; la superficie puede parecer sana', 'Muy grave; requiere tratamiento profesional del edificio'],
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'No metas en el taller madera con insectos activos: pueden pasar a otras piezas y a la estructura de la casa. Si debes recuperarla, trátala o déjala aislada.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'No metas en el taller madera con insectos activos: pueden pasar a otras piezas y a la estructura de la casa. Si debés recuperarla, tratala o dejala aislada.' },
 
     { tipo: 'h2', texto: 'Cómo elegir una tabla' },
     {
       tipo: 'pasos',
       items: [
-        '**Mira la testa:** el ángulo de los anillos dice si es tangencial o radial. Busca la médula, fendas y acebolladuras.',
-        '**Mira a lo largo de cada canto,** con un ojo cerrado y desde un extremo: así se ven el combado y el arqueado.',
-        '**Apóyala en el suelo o en una mesa plana:** si cojea en diagonal está alabeada.',
-        '**Pon una regla de canto** sobre la cara, a lo ancho, para ver el abarquillado.',
-        '**Revisa los nudos:** que estén firmes y lejos de los cantos y de donde irán las uniones.',
-        '**Sigue la veta:** que corra paralela a los cantos y no salga en diagonal por la cara.',
-        '**Sopésala:** una tabla mucho más pesada que otras de igual medida está más húmeda. Si puedes, mide su humedad.',
-        '**Busca agujeros y serrín** de insectos y zonas blandas o manchadas.',
-        '**Calcula de más:** compra entre un 15 y un 30 % más de lo que indica la lista de corte.',
+        '**Mirá la testa:** el ángulo de los anillos dice si es tangencial o radial. Buscá la médula, fendas y acebolladuras.',
+        '**Mirá a lo largo de cada canto,** con un ojo cerrado y desde un extremo: así se ven el combado y el arqueado.',
+        '**Apoyala en el suelo o en una mesa plana:** si cojea en diagonal está alabeada.',
+        '**Poné una regla de canto** sobre la cara, a lo ancho, para ver el abarquillado.',
+        '**Revisá los nudos:** que estén firmes y lejos de los cantos y de donde irán las uniones.',
+        '**Seguí la veta:** que corra paralela a los cantos y no salga en diagonal por la cara.',
+        '**Sopésala:** una tabla mucho más pesada que otras de igual medida está más húmeda. Si podés, medí su humedad.',
+        '**Buscá agujeros y aserrín** de insectos y zonas blandas o manchadas.',
+        '**Calculá de más:** comprá entre un 15 y un 30 % más de lo que indica la lista de corte.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Lleva tu lista de corte al aserradero. Con ella puedes aprovechar una tabla con un nudo grande para dos piezas cortas, o una con gema para piezas estrechas, y pagar menos que por madera «perfecta».' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Llevá tu lista de corte al aserradero. Con ella podés aprovechar una tabla con un nudo grande para dos piezas cortas, o una con gema para piezas estrechas, y pagar menos que por madera «perfecta».' },
 
     { tipo: 'h2', texto: 'Clasificación comercial' },
     { tipo: 'p', texto: 'Las maderas se venden clasificadas por calidad según reglas que cambian con el país y el uso. Hay dos tipos principales:' },
@@ -90,6 +90,6 @@ export default {
         '**Estructural:** para construcción. Se clasifica por los defectos que reducen la resistencia, a ojo o con máquina, y se asigna una clase resistente, como C24. Ver [Propiedades mecánicas](#/madera/propiedades).',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Cada país tiene sus propias normas de clasificación estructural (por ejemplo UNE 56544 en España o la serie IRAM 9662 en Argentina). Consulta la norma vigente antes de usar madera en una estructura.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Cada país tiene sus propias normas de clasificación estructural (por ejemplo UNE 56544 en España o la serie IRAM 9662 en Argentina). Consultá la norma vigente antes de usar madera en una estructura.' },
   ],
 }

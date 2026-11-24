@@ -18,8 +18,8 @@ export default {
       tipo: 'lista',
       items: [
         '**Perros y tornillo de cola:** la pieza queda entre un perro fijo y otro en el tornillo, que aprieta. Ideal para cepillar caras de tablas.',
-        '**[[Gato|gato]]:** un gancho de hierro que se mete en un agujero de la tapa. Un golpe de mazo arriba lo traba y aprieta la pieza; un golpe atrás lo suelta. Es rapidísimo para tallar, formonear o serrar.',
-        '**[[Gancho de banco|gancho-banco]]:** se engancha en el canto del banco y la pieza se apoya contra su taco superior. Para serrar al través y ajustar con el formón.',
+        '**[[Gato|gato]]:** un gancho de hierro que se mete en un agujero de la tapa. Un golpe de mazo arriba lo traba y aprieta la pieza; un golpe atrás lo suelta. Es rapidísimo para tallar, formonear o aserrar.',
+        '**[[Gancho de banco|gancho-banco]]:** se engancha en el canto del banco y la pieza se apoya contra su taco superior. Para aserrar al través y ajustar con el formón.',
         '**Tope de cepillar:** un taco que sobresale unos milímetros de la tapa. La pieza se apoya contra él y el propio cepillo la empuja.',
       ],
     },
@@ -36,14 +36,14 @@ export default {
       titulo: 'Tipos de tornillo',
       columnas: ['Tornillo', 'Uso'],
       filas: [
-        ['De pecho', 'En el frente del banco; sujeta piezas de canto para cepillar cantos o de punta para serrar espigas y colas'],
+        ['De pecho', 'En el frente del banco; sujeta piezas de canto para cepillar cantos o de punta para aserrar espigas y colas'],
         ['De cola', 'En el extremo; aprieta piezas entre perros a lo largo de la tapa'],
         ['De pierna', 'Una mordaza larga que baja hasta el suelo con un pasador abajo; sujeta tablas anchas de canto'],
-        ['Doble (tipo Moxon)', 'Dos husillos; se coloca sobre el banco y eleva la pieza a la altura de los ojos para serrar colas de milano'],
+        ['Doble (tipo Moxon)', 'Dos husillos; se coloca sobre el banco y eleva la pieza a la altura de los ojos para aserrar colas de milano'],
         ['Metálico de ajustador', 'Mordazas de hierro; mejor reservarlo para metal o forrar las mordazas con madera'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Forra las mordazas de cualquier tornillo con madera blanda o cuero. Protegen la pieza y agarran mejor que el metal.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Forrá las mordazas de cualquier tornillo con madera blanda o cuero. Protegen la pieza y agarran mejor que el metal.' },
 
     { tipo: 'h2', texto: 'Otros recursos' },
     {

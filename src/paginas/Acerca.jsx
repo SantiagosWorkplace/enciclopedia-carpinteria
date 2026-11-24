@@ -24,7 +24,7 @@ const fuentes = [
     obra: 'NIMF 15, Convención Internacional de Protección Fitosanitaria (FAO)',
     datos: 'Norma para el tratamiento del embalaje de madera.',
     url: 'https://www.ippc.int/',
-    uso: 'Marcado y tratamiento de palés y embalajes.',
+    uso: 'Marcado y tratamiento de pallets y embalajes.',
   },
   {
     obra: 'FSC y PEFC',
@@ -59,7 +59,7 @@ export default function Acerca() {
         <h2>Autor y contacto</h2>
         <p>
           El sitio lo escribe y lo mantiene <strong>{AUTOR}</strong>, su único autor. Para avisar de un error, proponer
-          un tema o hacer una consulta, escribe a <a href={`mailto:${mail}`}>{mail}</a>. Sus otros proyectos están
+          un tema o hacer una consulta, escribí a <a href={`mailto:${mail}`}>{mail}</a>. Sus otros proyectos están
           en <a href={GITHUB} target="_blank" rel="noopener noreferrer">GitHub</a>.
         </p>
       </section>

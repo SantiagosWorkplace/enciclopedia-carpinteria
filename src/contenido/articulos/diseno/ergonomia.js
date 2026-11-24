@@ -3,7 +3,7 @@ export default {
   relacionados: ['diseno/medidas-muebles', 'diseno/sillas', 'diseno/mesas', 'taller/banco'],
   bloques: [
     { tipo: 'p', texto: 'La ergonomía estudia cómo adaptar los objetos al cuerpo. En un mueble, eso se traduce en unas pocas medidas que deciden si es cómodo o no: la altura del asiento, la distancia entre el asiento y la mesa, la altura de trabajo y hasta dónde llega la mano sin esforzarse.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Las medidas de este artículo están en centímetros y son valores para un adulto medio. Si el mueble es para una persona concreta, mide a esa persona: es la mejor referencia posible.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Las medidas de este artículo están en centímetros y son valores para un adulto medio. Si el mueble es para una persona concreta, medí a esa persona: es la mejor referencia posible.' },
 
     { tipo: 'h2', texto: 'Sentado a una mesa' },
     { tipo: 'figura', id: 'medidas-cuerpo', pie: 'Alturas de referencia, a escala. La línea roja marca la altura del codo de una persona de pie de unos 170 cm.' },
@@ -12,12 +12,12 @@ export default {
       items: [
         ['Altura del asiento', '43 – 46 cm. Los pies apoyan en el suelo y el muslo queda horizontal.'],
         ['Altura de la mesa', '72 – 76 cm.'],
-        ['Asiento → mesa', '27 – 30 cm de diferencia. Es la medida más importante: si cambias una altura, cambia la otra.'],
+        ['Asiento → mesa', '27 – 30 cm de diferencia. Es la medida más importante: si cambiás una altura, cambiá la otra.'],
         ['Espacio para las piernas', 'Al menos 18 – 20 cm entre el asiento y la parte de abajo del faldón; en la práctica, faldón a ≈ 63 – 65 cm del suelo o más.'],
         ['Fondo del asiento', '40 – 45 cm. Más profundo, la espalda no llega al respaldo.'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para comprobar la relación entre una silla y una mesa, siéntate con los brazos relajados: los antebrazos deben quedar a la altura de la mesa o apenas por encima, con los hombros sueltos.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para comprobar la relación entre una silla y una mesa, sentate con los brazos relajados: los antebrazos deben quedar a la altura de la mesa o apenas por encima, con los hombros sueltos.' },
 
     { tipo: 'h2', texto: 'Trabajar de pie' },
     { tipo: 'p', texto: 'La altura cómoda de una superficie de trabajo depende del tipo de tarea y se mide respecto del codo, no del suelo:' },
@@ -28,7 +28,7 @@ export default {
       filas: [
         ['De precisión, mirando de cerca', '5 – 10 cm por encima del codo', '≈ 110 – 115 cm'],
         ['Liviano: cocinar, montar piezas', '10 – 15 cm por debajo del codo', '≈ 90 – 95 cm'],
-        ['Con fuerza: cepillar, serrar, amasar', '15 – 40 cm por debajo del codo', '≈ 65 – 90 cm'],
+        ['Con fuerza: cepillar, aserrar, amasar', '15 – 40 cm por debajo del codo', '≈ 65 – 90 cm'],
       ],
       nota: 'Por eso un banco de carpintero suele ser más bajo que una mesada de cocina: para cepillar se usa el peso del cuerpo.',
     },
@@ -71,6 +71,6 @@ export default {
         '**Tiradores:** los de barra o de asa se usan con toda la mano y son más fáciles que los pomos pequeños.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de accesibilidad están reguladas en muchos países por normas de edificación. Consulta la norma local si el mueble es para un espacio público o adaptado.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de accesibilidad están reguladas en muchos países por normas de edificación. Consultá la norma local si el mueble es para un espacio público o adaptado.' },
   ],
 }

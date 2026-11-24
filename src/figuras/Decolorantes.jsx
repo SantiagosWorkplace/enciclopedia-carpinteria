@@ -24,7 +24,7 @@ const paneles = [
   },
   { titulo: 'Dos componentes', nota: 'Aclara el color natural', antes: '#8a5530', despues: '#e3c393' },
   {
-    titulo: 'Lejía de cloro', nota: 'Quita el color de un tinte',
+    titulo: 'Lavandina', nota: 'Quita el color de un tinte',
     antes: '#d4a96c', despues: '#d4a96c',
     manchas: <rect width="56" height="86" fill="#991b1b" opacity="0.55" />,
   },
@@ -32,7 +32,7 @@ const paneles = [
 
 export default function Decolorantes() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 152" role="img" aria-label="Decolorantes: ácido oxálico para manchas negras, decolorante de dos componentes para aclarar la madera y lejía para quitar tintes">
+    <svg className="fig-leyenda" viewBox="0 0 480 152" role="img" aria-label="Decolorantes: ácido oxálico para manchas negras, decolorante de dos componentes para aclarar la madera y lavandina para quitar tintes">
       <defs>
         <marker id="dc-f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
           <path d="M0 0 L10 5 L0 10 Z" fill="#b45309" />

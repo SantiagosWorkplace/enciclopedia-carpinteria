@@ -46,17 +46,17 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Escuadra y alisa las testas. Marca con el gramil la línea base en las dos caras y los dos cantos de cada pieza, a la medida del espesor de la otra.',
-        'Traza las colas en la pieza de colas con una falsa escuadra o una plantilla de pendiente. Marca con una cruz el desperdicio.',
-        'Sierra las colas con una sierra de costilla, por el lado del desperdicio, hasta la línea base sin pasarla.',
-        'Quita las medias espigas de los bordes con la sierra y el desperdicio entre colas con el formón, cortando desde las dos caras hasta la mitad.',
-        'Apoya la pieza de colas sobre la testa de la de espigas, alineada, y marca las espigas con la punta de una cuchilla dentro de las colas.',
-        'Sierra las espigas por el lado del desperdicio, conservando la línea marcada, y vacía con el formón desde las dos caras.',
-        'Prueba en seco empujando con la mano o con golpes suaves sobre un taco. Si traba, busca el brillo de roce y rebaja solo ahí.',
-        'Encola los costados de colas y espigas, arma y comprueba la escuadra de la caja midiendo las diagonales.',
+        'Escuadrá y alisá las testas. Marcá con el gramil la línea base en las dos caras y los dos cantos de cada pieza, a la medida del espesor de la otra.',
+        'Trazá las colas en la pieza de colas con una falsa escuadra o una plantilla de pendiente. Marcá con una cruz el desperdicio.',
+        'Aserrá las colas con una sierra de costilla, por el lado del desperdicio, hasta la línea base sin pasarla.',
+        'Quitá las medias espigas de los bordes con la sierra y el desperdicio entre colas con el formón, cortando desde las dos caras hasta la mitad.',
+        'Apoyá la pieza de colas sobre la testa de la de espigas, alineada, y marcá las espigas con la punta de una cuchilla dentro de las colas.',
+        'Aserrá las espigas por el lado del desperdicio, conservando la línea marcada, y vaciá con el formón desde las dos caras.',
+        'Probá en seco empujando con la mano o con golpes suaves sobre un taco. Si traba, buscá el brillo de roce y rebajá solo ahí.',
+        'Encolá los costados de colas y espigas, armá y comprobá la escuadra de la caja midiendo las diagonales.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para empezar, practica en pino de 18 – 20 mm con tres colas grandes. Lo difícil no es serrar sino serrar recto y en ángulo a la vez: dedica una tarde a cortes de práctica sobre líneas marcadas.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para empezar, practicá en pino de 18 – 20 mm con tres colas grandes. Lo difícil no es aserrar sino aserrar recto y en ángulo a la vez: dedica una tarde a cortes de práctica sobre líneas marcadas.' },
 
     { tipo: 'h2', texto: 'Con máquina' },
     {
@@ -67,6 +67,6 @@ export default {
         '**Sierra de cinta y sierra de mesa:** se usan para acelerar los cortes de las colas, que luego se terminan a mano.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'La fresa de cola de milano no admite pasadas sucesivas de profundidad: corta todo el perfil de una vez. Vacía antes la mayor parte de la ranura con una fresa recta y avanza despacio.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'La fresa de cola de milano no admite pasadas sucesivas de profundidad: cortá todo el perfil de una vez. Vaciá antes la mayor parte de la ranura con una fresa recta y avanzá despacio.' },
   ],
 }

@@ -35,9 +35,9 @@ export default {
         ['Europeo (primer diedro)', 'Debajo del alzado', 'A la derecha del alzado', 'Europa y gran parte de América Latina'],
         ['Americano (tercer diedro)', 'Encima del alzado', 'A la izquierda del alzado', 'Estados Unidos y Canadá'],
       ],
-      nota: 'Para no confundir, indica el sistema en el plano. En la norma ISO se representa con un pequeño símbolo de un cono truncado.',
+      nota: 'Para no confundir, indicá el sistema en el plano. En la norma ISO se representa con un pequeño símbolo de un cono truncado.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Muchos planos de carpintería en revistas y webs usan el sistema americano o una mezcla. Antes de cortar, comprueba en qué lado está cada vista mirando una pieza que sea fácil de reconocer.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Muchos planos de carpintería en revistas y webs usan el sistema americano o una mezcla. Antes de cortar, comprobá en qué lado está cada vista mirando una pieza que sea fácil de reconocer.' },
 
     { tipo: 'h2', texto: 'Cortes y secciones' },
     { tipo: 'p', texto: 'Para mostrar lo que hay dentro, como un rebajo, una ranura o el interior de un cajón, se dibuja la pieza como si se la hubiera cortado con un plano imaginario. La parte cortada se raya con líneas finas a 45°, y la posición del corte se marca en otra vista con una línea de trazo y punto y dos letras, por ejemplo A-A.' },
@@ -77,10 +77,10 @@ export default {
       items: [
         'Cada medida aparece **una sola vez** en todo el plano, en la vista donde mejor se entiende.',
         'Las cotas van fuera de la pieza siempre que se pueda, con líneas auxiliares que no tocan el dibujo.',
-        'Acota desde una misma referencia, como el suelo o un costado, para que los errores no se sumen.',
-        'Indica las medidas totales además de las parciales: es lo primero que se busca.',
+        'Acotá desde una misma referencia, como el suelo o un costado, para que los errores no se sumen.',
+        'Indicá las medidas totales además de las parciales: es lo primero que se busca.',
         'Los agujeros se acotan por su centro y con su diámetro (Ø).',
-        'Escribe las cifras para que se lean desde abajo o desde la derecha de la hoja.',
+        'Escribí las cifras para que se lean desde abajo o desde la derecha de la hoja.',
       ],
     },
 
@@ -93,6 +93,6 @@ export default {
         '**Programas de dibujo:** FreeCAD, SketchUp, Fusion o QCAD permiten dibujar en 3D o 2D, sacar vistas automáticamente y hasta generar la lista de corte.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Aunque dibujes en la computadora, imprime el plano y llévalo al banco. Anota en él cada cambio que hagas al fabricar: la próxima vez tendrás un plano probado.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Aunque dibujes en la computadora, imprime el plano y llevalo al banco. Anotá en él cada cambio que hagas al fabricar: la próxima vez tendrás un plano probado.' },
   ],
 }

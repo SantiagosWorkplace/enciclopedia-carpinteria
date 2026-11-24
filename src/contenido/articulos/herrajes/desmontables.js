@@ -24,10 +24,10 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Taladra el alojamiento de la leva en la cara del estante, con una broca de fondo plano, a la distancia del canto que indique el fabricante.',
-        'Taladra en el canto del estante un agujero que llegue hasta el alojamiento, para el paso del perno.',
-        'Taladra el lateral y enrosca el perno, hasta el tope.',
-        'Mete la leva con la abertura hacia el canto, presenta el estante y gira la leva media vuelta con un destornillador hasta que apriete.',
+        'Taladrá el alojamiento de la leva en la cara del estante, con una broca de fondo plano, a la distancia del canto que indique el fabricante.',
+        'Taladrá en el canto del estante un agujero que llegue hasta el alojamiento, para el paso del perno.',
+        'Taladrá el lateral y enrosca el perno, hasta el tope.',
+        'Meté la leva con la abertura hacia el canto, presentá el estante y girá la leva media vuelta con un destornillador hasta que apriete.',
       ],
     },
     {
@@ -38,15 +38,15 @@ export default {
         ['Tablero', 'Hay levas para cada espesor: la profundidad del alojamiento cambia'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas cambian entre fabricantes y modelos. Usa la ficha y, mejor aún, una plantilla de taladrado de la misma marca que los herrajes.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Combina las excéntricas con clavijas de madera, sin cola o encoladas solo en una pieza. Las clavijas alinean y soportan el peso; la excéntrica solo mantiene la unión cerrada. Ver [Clavijas, galletas y espigas planas](#/uniones/clavijas-galletas).' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas cambian entre fabricantes y modelos. Usá la ficha y, mejor aún, una plantilla de taladrado de la misma marca que los herrajes.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Combiná las excéntricas con clavijas de madera, sin cola o encoladas solo en una pieza. Las clavijas alinean y soportan el peso; la excéntrica solo mantiene la unión cerrada. Ver [Clavijas, galletas y espigas planas](#/uniones/clavijas-galletas).' },
 
     { tipo: 'h2', texto: 'El confirmat' },
     { tipo: 'p', texto: 'Se pone con una broca escalonada que hace en una pasada el agujero de paso en el lateral, el piloto en el canto del otro tablero y el avellanado. El más común mide 7 × 50 mm. Agarra mucho mejor en el canto de un tablero que un tornillo común, pero solo admite unos pocos desarmes: cada vez que se saca, la rosca del tablero se gasta.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'El diámetro del piloto y del agujero de paso depende del modelo de confirmat. Comprueba la broca recomendada y prueba en un recorte del mismo tablero.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'El diámetro del piloto y del agujero de paso depende del modelo de confirmat. Comprobá la broca recomendada y probá en un recorte del mismo tablero.' },
 
     { tipo: 'h2', texto: 'En madera maciza' },
     { tipo: 'p', texto: 'Para camas, mesas grandes y bancos, el perno con tuerca de barril es la opción clásica: el perno entra por un agujero en el poste o en la pata y rosca en una tuerca cilíndrica metida en un agujero cruzado del larguero. Aprieta mucho y se puede desarmar sin desgaste. La tuerca necesita una distancia mínima a la testa del larguero para que la madera no se rompa al apretar.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'La madera se contrae con el tiempo y los pernos se aflojan. Revisa y aprieta los herrajes de camas y mesas una o dos veces al año.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'La madera se contrae con el tiempo y los pernos se aflojan. Revisá y apretá los herrajes de camas y mesas una o dos veces al año.' },
   ],
 }

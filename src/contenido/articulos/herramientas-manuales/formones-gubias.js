@@ -42,24 +42,24 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Sujeta siempre la pieza al banco: así las dos manos quedan libres para el formón.',
+        'Sujetá siempre la pieza al banco: así las dos manos quedan libres para el formón.',
         'Una mano empuja el mango; la otra guía la hoja cerca del filo, apoyada en la pieza, frenando y dirigiendo.',
-        'Primero corta a través de la veta, en las líneas trazadas con la cuchilla de marcar, y después quita el desperdicio a lo largo de la veta.',
-        'Trabaja en pasadas pequeñas. Un corte grueso desvía el formón siguiendo la veta, más allá de la línea.',
+        'Primero cortá a través de la veta, en las líneas trazadas con la cuchilla de marcar, y después quitá el desperdicio a lo largo de la veta.',
+        'Trabajá en pasadas pequeñas. Un corte grueso desvía el formón siguiendo la veta, más allá de la línea.',
         'Para rebajar plano, el bisel va hacia arriba y la espalda apoyada en la pieza. Para vaciar o sacar viruta en curva, el bisel va hacia abajo.',
-        'Para golpear usa un mazo de madera o de plástico, no un martillo de acero, salvo en formones japoneses o con virola de acero.',
+        'Para golpear usá un mazo de madera o de plástico, no un martillo de acero, salvo en formones japoneses o con virola de acero.',
       ],
     },
     { tipo: 'aviso', nivel: 'seguridad', texto: 'Nunca pongas una mano delante del filo ni cortes hacia tu cuerpo. La mayoría de los cortes con formón se producen cuando la herramienta resbala de golpe por un corte que se soltó.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'No uses un formón de banco como palanca ni como destornillador: la hoja se quiebra o se mella. Para sacar el desperdicio de una caja profunda, usa un formón de mortajar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'No uses un formón de banco como palanca ni como destornillador: la hoja se quiebra o se mella. Para sacar el desperdicio de una caja profunda, usá un formón de mortajar.' },
 
     { tipo: 'h2', texto: 'Cuidado' },
     {
       tipo: 'lista',
       items: [
-        'Guarda los formones con protectores en el filo o en un estante con ranuras, sin que se toquen entre sí.',
-        'Repasa el filo en la piedra fina o en el cuero en cuanto deje de cortar limpio: es mucho más rápido que reafilarlo desde cero.',
-        'Protege el acero del óxido con una capa fina de aceite o cera, sobre todo en talleres húmedos.',
+        'Guardá los formones con protectores en el filo o en un estante con ranuras, sin que se toquen entre sí.',
+        'Repasá el filo en la piedra fina o en el cuero en cuanto deje de cortar limpio: es mucho más rápido que reafilarlo desde cero.',
+        'Protegé el acero del óxido con una capa fina de aceite o cera, sobre todo en talleres húmedos.',
       ],
     },
   ],

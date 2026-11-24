@@ -33,7 +33,7 @@ export default {
         '**Estilo:** ¿con qué otros muebles va a convivir?',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Escribe las respuestas en una hoja y tenla a mano durante todo el diseño. Cuando dudes entre dos opciones, la hoja suele decidir por ti.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Escribí las respuestas en una hoja y tenela a mano durante todo el diseño. Cuando dudes entre dos opciones, la hoja suele decidir por vos.' },
 
     { tipo: 'h2', texto: 'Bocetos y proporciones' },
     { tipo: 'p', texto: 'Un boceto no tiene que ser bonito: tiene que ser rápido. Dibujar diez versiones en lugar de una ayuda a no enamorarse de la primera idea. Conviene dibujar el mueble de frente, de costado y en perspectiva, y con una figura humana al lado para comprobar la escala.' },
@@ -58,13 +58,13 @@ export default {
         '**A tamaño real,** con madera barata, recortes de tablero o cartón grueso, unidos con tornillos o cinta. Es imprescindible en sillas y en todo lo que se usa con el cuerpo: sentarse en el prototipo dice más que cualquier tabla de medidas.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Antes de construir un mueble grande, marca su silueta en el suelo y en la pared con cinta de pintor. Déjala unos días: verás si estorba el paso o si la altura funciona.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Antes de construir un mueble grande, marcá su silueta en el suelo y en la pared con cinta de pintor. Dejala unos días: verás si estorba el paso o si la altura funciona.' },
 
     { tipo: 'h2', texto: 'Elegir el material' },
     {
       tipo: 'tabla',
       titulo: 'Criterios para elegir',
-      columnas: ['Si necesitas…', 'Considera…'],
+      columnas: ['Si necesitás…', 'Considerá…'],
       filas: [
         ['Superficies grandes y estables', 'Tablero chapado o contrachapado; o madera maciza con uniones que permitan el movimiento'],
         ['Piezas que trabajan mucho (patas, sillas)', 'Frondosas densas y de veta recta: roble, fresno, haya, arce'],
@@ -77,6 +77,6 @@ export default {
     { tipo: 'p', texto: 'Más detalles en los artículos [Especies de madera](#/madera/especies), [Tableros manufacturados](#/madera/tableros) y [El movimiento de la madera](#/madera/movimiento).' },
 
     { tipo: 'h2', texto: 'Del diseño al taller' },
-    { tipo: 'p', texto: 'El diseño termina cuando cualquier persona del taller podría fabricar el mueble solo con los papeles: un [plano](#/diseno/planos) completo, una [lista de corte](#/diseno/lista-corte) y una lista de herrajes y acabados. Si al fabricar aparece una duda, anota la respuesta en el plano: es el registro para la próxima vez.' },
+    { tipo: 'p', texto: 'El diseño termina cuando cualquier persona del taller podría fabricar el mueble solo con los papeles: un [plano](#/diseno/planos) completo, una [lista de corte](#/diseno/lista-corte) y una lista de herrajes y acabados. Si al fabricar aparece una duda, anotá la respuesta en el plano: es el registro para la próxima vez.' },
   ],
 }

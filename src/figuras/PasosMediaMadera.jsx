@@ -20,7 +20,7 @@ function Marcar() {
   )
 }
 
-function Serrar() {
+function Aserrar() {
   return (
     <>
       <rect x="4" y="54" width="104" height="30" {...madera} />
@@ -60,14 +60,14 @@ function Probar() {
 
 const paneles = [
   { titulo: 'Marcar', nota: 'Cuchilla y gramil', C: Marcar },
-  { titulo: 'Serrar', nota: 'Cortes intermedios', C: Serrar },
+  { titulo: 'Aserrar', nota: 'Cortes intermedios', C: Aserrar },
   { titulo: 'Vaciar', nota: 'Desde los dos cantos', C: Vaciar },
   { titulo: 'Probar', nota: 'Debe quedar a ras', C: Probar },
 ]
 
 export default function PasosMediaMadera() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos de una media madera: marcar el ancho con la otra pieza y la mitad del espesor con el gramil, serrar los hombros y cortes intermedios, vaciar con el formón desde los dos cantos y comprobar que las piezas quedan a ras">
+    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos de una media madera: marcar el ancho con la otra pieza y la mitad del espesor con el gramil, aserrar los hombros y cortes intermedios, vaciar con el formón desde los dos cantos y comprobar que las piezas quedan a ras">
       <defs>
         <marker id="pmm-f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
           <path d="M0 0 L10 5 L0 10 Z" fill="#15803d" />

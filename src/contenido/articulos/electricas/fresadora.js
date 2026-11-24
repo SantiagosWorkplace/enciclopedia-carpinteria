@@ -45,7 +45,7 @@ export default {
     { tipo: 'h2', texto: 'Velocidad según el diámetro' },
     { tipo: 'p', texto: 'Cuanto más grande es la fresa, más rápido corre su filo a las mismas revoluciones. Las fresas grandes deben girar más despacio:' },
     { tipo: 'interactivo', id: 'calculadora-fresa' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los límites de la calculadora son una guía general. Respeta siempre la velocidad máxima marcada en la fresa o indicada por su fabricante.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los límites de la calculadora son una guía general. Respetá siempre la velocidad máxima marcada en la fresa o indicada por su fabricante.' },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Si la madera se quema, la velocidad es demasiado alta para el avance o la fresa está desafilada o sucia de resina. Si la superficie queda ondulada o astillada, la velocidad es baja o el avance demasiado rápido.' },
 
     { tipo: 'h2', texto: 'Sentido de avance' },
@@ -54,12 +54,12 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Canto de frente a ti:** de izquierda a derecha.',
+        '**Canto de frente a vos:** de izquierda a derecha.',
         '**En la mesa de fresar,** con la fresa hacia arriba, la pieza avanza de derecha a izquierda contra la guía.',
         'Avanzar a favor del giro, el llamado fresado en concordancia, hace que la fresadora «salga corriendo» a lo largo de la pieza. Solo lo usan profesionales en pasadas finísimas para evitar astillas.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Sujeta la pieza con prensas y la fresadora con las dos manos. Espera a que la fresa se detenga del todo antes de levantarla de la pieza o apoyarla en el banco.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Sujetá la pieza con prensas y la fresadora con las dos manos. Esperá a que la fresa se detenga del todo antes de levantarla de la pieza o apoyarla en el banco.' },
 
     { tipo: 'h2', texto: 'Guías' },
     {
@@ -77,9 +77,9 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Coloca la fresa con al menos ¾ del vástago dentro de la pinza, separada 1 – 2 mm del fondo. Nunca aprietes la pinza sin fresa.',
-        'Haz las ranuras y los rebajos profundos en varias pasadas: como guía, cada pasada no debería ser más profunda que el diámetro de la fresa, y bastante menos en maderas duras.',
-        'Prueba el ajuste en un recorte del mismo espesor antes de pasar a la pieza.',
+        'Colocá la fresa con al menos ¾ del vástago dentro de la pinza, separada 1 – 2 mm del fondo. Nunca aprietes la pinza sin fresa.',
+        'Hacé las ranuras y los rebajos profundos en varias pasadas: como guía, cada pasada no debería ser más profunda que el diámetro de la fresa, y bastante menos en maderas duras.',
+        'Probá el ajuste en un recorte del mismo espesor antes de pasar a la pieza.',
         'En molduras de canto, fresa primero las testas y después los cantos largos: las astillas de las esquinas se van con la última pasada.',
       ],
     },

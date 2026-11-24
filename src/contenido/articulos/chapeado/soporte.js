@@ -36,13 +36,13 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Corta el soporte a medida final o con un margen pequeño, según cómo se vayan a terminar los cantos.',
-        'Si los cantos van con madera maciza, pégala antes de chapear y llévala a ras de las caras: la chapa la cubre y la junta no se ve.',
-        'Comprueba que esté plano con una regla en varias direcciones. Los resaltos se lijan; los huecos se rellenan con masilla dura y se lijan.',
-        'Lija toda la superficie con grano 80 – 120 para abrir el poro y quitar el brillo de fábrica del MDF.',
-        'Aspira y limpia el polvo justo antes de encolar.',
+        'Cortá el soporte a medida final o con un margen pequeño, según cómo se vayan a terminar los cantos.',
+        'Si los cantos van con madera maciza, pegala antes de chapear y llevala a ras de las caras: la chapa la cubre y la junta no se ve.',
+        'Comprobá que esté plano con una regla en varias direcciones. Los resaltos se lijan; los huecos se rellenan con masilla dura y se lijan.',
+        'Lijá toda la superficie con grano 80 – 120 para abrir el poro y quitar el brillo de fábrica del MDF.',
+        'Aspirá y limpiá el polvo justo antes de encolar.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los fabricantes de cola recomiendan a veces un grano de lija o un tratamiento previo del soporte. Revisa la ficha técnica de la cola que vas a usar.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los fabricantes de cola recomiendan a veces un grano de lija o un tratamiento previo del soporte. Revisá la ficha técnica de la cola que vas a usar.' },
   ],
 }

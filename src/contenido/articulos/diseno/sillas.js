@@ -30,7 +30,7 @@ export default {
         ['Apoyo lumbar', 'El respaldo sostiene la zona lumbar a ≈ 20 – 25 cm sobre el asiento'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Un respaldo plano y vertical es incómodo aunque las medidas sean correctas. Inclínalo y, si puedes, curva ligeramente las tablillas o el travesaño para que acompañen la espalda.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Un respaldo plano y vertical es incómodo aunque las medidas sean correctas. Inclinalo y, si podés, curva ligeramente las tablillas o el travesaño para que acompañen la espalda.' },
 
     { tipo: 'h2', texto: 'Tipos de construcción' },
     {
@@ -63,11 +63,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Dibuja la silla a tamaño real en un tablero: de frente, de costado y en planta.',
-        'Mide los ángulos directamente sobre el dibujo con una falsa escuadra y anótalos.',
-        'Prepara plantillas o calzos de cada ángulo para taladrar y cortar siempre igual.',
-        'Arma la silla en seco, sin cola, y comprueba que asienta en las cuatro patas.',
-        'Encola por etapas: primero el frente y la trasera como dos marcos, después los laterales.',
+        'Dibujá la silla a tamaño real en un tablero: de frente, de costado y en planta.',
+        'Medí los ángulos directamente sobre el dibujo con una falsa escuadra y anotalos.',
+        'Prepará plantillas o calzos de cada ángulo para taladrar y cortar siempre igual.',
+        'Armá la silla en seco, sin cola, y comprobá que asienta en las cuatro patas.',
+        'Encolá por etapas: primero el frente y la trasera como dos marcos, después los laterales.',
       ],
     },
 
@@ -75,10 +75,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Siéntate en ella al menos un rato, como si comieras y como si charlaras.',
-        'Comprueba que no cojea en un suelo plano. Si cojea, se corrige recortando la pata más larga con la silla sobre una superficie plana.',
-        'Revisa que no haya aristas vivas en el borde delantero del asiento, donde apoyan los muslos.',
-        'Ponle conteras de fieltro o de plástico para que las patas no rayen el suelo ni absorban humedad por la testa.',
+        'Sentate en ella al menos un rato, como si comieras y como si charlaras.',
+        'Comprobá que no cojea en un suelo plano. Si cojea, se corrige recortando la pata más larga con la silla sobre una superficie plana.',
+        'Revisá que no haya aristas vivas en el borde delantero del asiento, donde apoyan los muslos.',
+        'Ponele conteras de fieltro o de plástico para que las patas no rayen el suelo ni absorban humedad por la testa.',
       ],
     },
   ],

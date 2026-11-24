@@ -36,8 +36,8 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Elige una marca con buena oferta de herramientas en el voltaje que te interesa y con repuestos en tu país.',
-        'Compra al menos dos baterías: una se carga mientras usas la otra.',
+        'Elegí una marca con buena oferta de herramientas en el voltaje que te interesa y con repuestos en tu país.',
+        'Comprá al menos dos baterías: una se carga mientras usás la otra.',
         'Las baterías de mayor capacidad pesan más; para atornillar en altura, una compacta es más cómoda.',
       ],
     },
@@ -50,13 +50,13 @@ export default {
       tipo: 'lista',
       items: [
         'No tienen efecto memoria: se pueden cargar en cualquier momento, sin esperar a que se agoten.',
-        'Guárdalas a media carga si no las vas a usar por semanas, en un lugar fresco y seco.',
+        'Guardalas a media carga si no las vas a usar por semanas, en un lugar fresco y seco.',
         'No las dejes al sol, dentro de un auto caliente ni cargándolas sobre superficies que ardan.',
-        'Si una batería se golpeó fuerte, se hinchó, huele raro o se calienta sin uso, deja de usarla y llévala a un punto de reciclaje.',
-        'Usa solo el cargador de la marca.',
+        'Si una batería se golpeó fuerte, se hinchó, huele raro o se calienta sin uso, dejá de usarla y llevala a un punto de reciclaje.',
+        'Usá solo el cargador de la marca.',
       ],
     },
     { tipo: 'aviso', nivel: 'seguridad', texto: 'Una batería de litio dañada puede incendiarse. Nunca la abras, la perfores ni la tires a la basura común.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las aerolíneas limitan el transporte de baterías de litio según su energía en Wh, y en general no permiten llevarlas en el equipaje despachado. Consulta las reglas vigentes antes de viajar con ellas.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las aerolíneas limitan el transporte de baterías de litio según su energía en Wh, y en general no permiten llevarlas en el equipaje despachado. Consultá las reglas vigentes antes de viajar con ellas.' },
   ],
 }

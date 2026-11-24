@@ -10,7 +10,7 @@ export default {
       tipo: 'pasos',
       items: [
         '**Almacén:** cerca de la puerta, para descargar la madera sin cruzar el taller.',
-        '**Corte en bruto:** la sierra o la ingletadora, cerca del almacén.',
+        '**Corte en bruto:** la sierra o la ingleteadora, cerca del almacén.',
         '**Cepillado:** cepilladora y regruesadora, que generan mucha viruta: cerca de la aspiración.',
         '**Banco y mecanizado:** el corazón del taller, con buena luz y las herramientas de mano a su alrededor.',
         '**Armado:** una mesa baja y amplia donde encolar y montar.',
@@ -23,10 +23,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Alinea las máquinas que trabajan a lo largo, como la sierra de mesa y la cepilladora, en la misma dirección, para que compartan el espacio libre.',
-        'Deja la ingletadora contra una pared larga, con soportes a los lados.',
-        'Haz que la mesa de armado tenga la misma altura que la mesa de la sierra: sirve de mesa de salida.',
-        'Si el espacio no alcanza, aprovecha puertas o ventanas: una tabla larga puede asomar por ellas al cortar.',
+        'Alineá las máquinas que trabajan a lo largo, como la sierra de mesa y la cepilladora, en la misma dirección, para que compartan el espacio libre.',
+        'Dejá la ingleteadora contra una pared larga, con soportes a los lados.',
+        'Hacé que la mesa de armado tenga la misma altura que la mesa de la sierra: sirve de mesa de salida.',
+        'Si el espacio no alcanza, aprovechá puertas o ventanas: una tabla larga puede asomar por ellas al cortar.',
       ],
     },
 
@@ -44,10 +44,10 @@ export default {
         ['Suelo', 'Firme y nivelado; hormigón con una alfombra de goma o tarima en las zonas de pie'],
         ['Humedad', 'Lo más estable posible: ≈ 40 – 60 % de humedad relativa. Ver [El movimiento de la madera](#/madera/movimiento)'],
         ['Temperatura', 'Las colas y los acabados necesitan en general más de 10 – 15 °C'],
-        ['Ruido', 'Las máquinas superan los 90 dB: piensa en los vecinos y en el horario'],
+        ['Ruido', 'Las máquinas superan los 90 dB: pensá en los vecinos y en el horario'],
         ['Electricidad', 'Circuitos suficientes para las máquinas. Ver [Electricidad e iluminación](#/taller/electricidad-luz)'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Antes de comprar o mover una máquina, dibuja la planta del taller a escala en papel cuadriculado y recorta las máquinas también a escala, con su espacio de entrada y salida. Prueba distribuciones moviendo los recortes.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Antes de comprar o mover una máquina, dibujá la planta del taller a escala en papel cuadriculado y recortá las máquinas también a escala, con su espacio de entrada y salida. Probá distribuciones moviendo los recortes.' },
   ],
 }

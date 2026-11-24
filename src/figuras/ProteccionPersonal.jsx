@@ -1,14 +1,14 @@
 // Cabeza de perfil con la protección personal básica del taller.
 // Dibujo original.
 const etiquetas = [
-  { titulo: 'Gafas o pantalla', nota: 'Siempre con máquinas', x: 300, y: 40, desde: [254, 56], hasta: [296, 38] },
-  { titulo: 'Mascarilla FFP2 o FFP3', nota: 'Bien ajustada a la cara', x: 300, y: 100, desde: [258, 88], hasta: [296, 98] },
+  { titulo: 'Anteojos o pantalla', nota: 'Siempre con máquinas', x: 300, y: 40, desde: [254, 56], hasta: [296, 38] },
+  { titulo: 'Barbijo FFP2 o FFP3', nota: 'Bien ajustado a la cara', x: 300, y: 100, desde: [258, 88], hasta: [296, 98] },
   { titulo: 'Protección auditiva', nota: 'El daño no se recupera', x: 10, y: 66, desde: [184, 72], hasta: [152, 62] },
 ]
 
 export default function ProteccionPersonal() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 170" role="img" aria-label="Cabeza de perfil con gafas de seguridad, protector auditivo de copa y mascarilla contra el polvo">
+    <svg className="fig-leyenda" viewBox="0 0 480 170" role="img" aria-label="Cabeza de perfil con anteojos de seguridad, protector auditivo de copa y barbijo contra el polvo">
       <path d="M170 40 Q172 16 204 14 Q238 12 248 38 Q252 50 251 60 L260 76 Q262 81 255 82 L254 92 Q254 100 246 102 L238 104 Q234 116 222 118 L214 118 L214 140 L168 140 L172 112 Q158 96 158 70 Q158 50 170 40 Z" fill="#f5d0a9" stroke="#92400e" strokeWidth="1.2" strokeLinejoin="round" />
       <path d="M170 40 Q172 16 204 14 Q238 12 248 38 Q228 30 204 34 Q184 38 176 56 Q166 50 170 40 Z" fill="#78350f" />
       <path d="M200 50 Q186 14 226 14" fill="none" stroke="#b91c1c" strokeWidth="5" strokeLinecap="round" />

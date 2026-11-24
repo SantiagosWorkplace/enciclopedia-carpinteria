@@ -5,15 +5,15 @@ export default {
     { tipo: 'p', texto: 'La carpintería es un oficio para toda la vida, y para disfrutarlo hay que llegar a viejo con los diez dedos, buena vista, buen oído y pulmones sanos. La mayoría de los daños no vienen de un accidente espectacular sino de exposiciones pequeñas y repetidas: polvo, ruido, posturas y productos químicos.' },
 
     { tipo: 'h2', texto: 'Protección personal' },
-    { tipo: 'figura', id: 'proteccion-personal', pie: 'La protección básica para la cabeza: gafas, protección auditiva y mascarilla contra el polvo. Para vapores de acabados hace falta un respirador con filtros.' },
+    { tipo: 'figura', id: 'proteccion-personal', pie: 'La protección básica para la cabeza: anteojos, protección auditiva y barbijo contra el polvo. Para vapores de acabados hace falta un respirador con filtros.' },
     {
       tipo: 'tabla',
       titulo: 'Qué usar y cuándo',
       columnas: ['Protección', 'Para qué', 'Detalles'],
       filas: [
-        ['Gafas o pantalla facial', 'Astillas, viruta, polvo, salpicaduras', 'Siempre con máquinas, herramientas eléctricas, cinceles y químicos. Pantalla completa en el torno'],
+        ['Anteojos o pantalla facial', 'Astillas, viruta, polvo, salpicaduras', 'Siempre con máquinas, herramientas eléctricas, cinceles y químicos. Pantalla completa en el torno'],
         ['Protección auditiva', 'Ruido', 'Tapones o protectores con máquinas y herramientas eléctricas; el daño del oído es acumulativo y no se recupera'],
-        ['Mascarilla FFP2 o FFP3', 'Polvo fino', 'Bien ajustada a la cara; se cambia cuando cuesta respirar'],
+        ['Barbijo FFP2 o FFP3', 'Polvo fino', 'Bien ajustada a la cara; se cambia cuando cuesta respirar'],
         ['Respirador con filtros para vapores', 'Solventes y acabados', 'Filtros del tipo indicado por el fabricante del producto'],
         ['Guantes', 'Astillas, químicos, cantos', 'Al manipular y al aplicar acabados; **nunca** con máquinas que giran'],
         ['Calzado cerrado y firme', 'Golpes y caídas de piezas', 'Con puntera si se manipulan piezas pesadas'],
@@ -45,7 +45,7 @@ export default {
         '**Wengué:** dermatitis; sus astillas se infectan con facilidad.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La sensibilidad varía mucho entre personas. Si trabajas con una especie nueva, infórmate sobre su toxicidad en una base de datos de especies y extrema la aspiración.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La sensibilidad varía mucho entre personas. Si trabajás con una especie nueva, infórmate sobre su toxicidad en una base de datos de especies y extrema la aspiración.' },
 
     { tipo: 'h2', texto: 'Primeros auxilios' },
     {
@@ -59,17 +59,17 @@ export default {
         '**Astillas en la piel:** con pinzas limpias, en la dirección en que entraron; desinfectar.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Ten un botiquín completo a la vista, un teléfono a mano y los números de emergencia anotados. Si trabajas solo con máquinas, avisa a alguien antes de empezar y al terminar.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Tené un botiquín completo a la vista, un teléfono a mano y los números de emergencia anotados. Si trabajás solo con máquinas, avisá a alguien antes de empezar y al terminar.' },
 
     { tipo: 'h2', texto: 'Hábitos que protegen' },
     {
       tipo: 'lista',
       items: [
         'No trabajes cansado, apurado, enojado ni después de tomar alcohol o medicamentos que den sueño.',
-        'Levanta las piezas pesadas con las piernas, no con la espalda, y pide ayuda con las placas.',
-        'Haz pausas en trabajos repetitivos y con herramientas que vibran.',
-        'Mantén el suelo libre de recortes, cables y virutas.',
-        'Si algo te parece peligroso, probablemente lo sea: busca otra forma de hacerlo.',
+        'Levantá las piezas pesadas con las piernas, no con la espalda, y pedí ayuda con las placas.',
+        'Hacé pausas en trabajos repetitivos y con herramientas que vibran.',
+        'Mantené el suelo libre de recortes, cables y virutas.',
+        'Si algo te parece peligroso, probablemente lo sea: buscá otra forma de hacerlo.',
       ],
     },
   ],

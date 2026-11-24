@@ -8,12 +8,12 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        '**Reparar:** levanta las abolladuras, rellena grietas y agujeros y quita los restos de cola.',
-        '**Alisar:** cepilla o pasa la [[cuchilla de rascar|rascador]] para borrar las marcas de máquina. Lijar desde un grano grueso lleva mucho más tiempo.',
+        '**Reparar:** levantá las abolladuras, rellená grietas y agujeros y quitá los restos de cola.',
+        '**Alisar:** cepillá o pasá la [[cuchilla de rascar|rascador]] para borrar las marcas de máquina. Lijar desde un grano grueso lleva mucho más tiempo.',
         '**Lijar** por granos, a favor de la veta, hasta el grano final que pida el acabado.',
         '**Levantar la fibra** si el producto es al agua.',
         '**Quitar el polvo** de la superficie, de los poros y de los rincones.',
-        '**Tapar los poros** solo si quieres una superficie de vidrio en una madera de poro abierto.',
+        '**Tapar los poros** solo si querés una superficie de vidrio en una madera de poro abierto.',
       ],
     },
 
@@ -21,10 +21,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Abolladuras:** pon una gota de agua en el golpe, cúbrelo con un paño húmedo y apoya la punta de una plancha caliente unos segundos. El vapor hincha las fibras aplastadas y las levanta. No sirve si las fibras están cortadas.',
-        '**Restos de cola:** la cola seca no deja entrar el tinte ni el aceite, y aparece como una mancha clara. Ráspala con un formón o una cuchilla y lija la zona. Para encontrarla, pasa un trapo apenas húmedo con alcohol: la cola queda mate.',
-        '**Grietas y agujeros:** con masilla para madera del color más parecido. Prueba antes cómo queda bajo el acabado, porque la masilla no cambia de color como la madera.',
-        '**Grietas finas:** una mezcla de cola y polvo de lija de la misma madera. Bajo el acabado queda más oscura que la madera; úsala solo en grietas muy finas.',
+        '**Abolladuras:** poné una gota de agua en el golpe, cubrilo con un paño húmedo y apoyá la punta de una plancha caliente unos segundos. El vapor hincha las fibras aplastadas y las levanta. No sirve si las fibras están cortadas.',
+        '**Restos de cola:** la cola seca no deja entrar el tinte ni el aceite, y aparece como una mancha clara. Raspala con un formón o una cuchilla y lijá la zona. Para encontrarla, pasá un trapo apenas húmedo con alcohol: la cola queda mate.',
+        '**Grietas y agujeros:** con masilla para madera del color más parecido. Probá antes cómo queda bajo el acabado, porque la masilla no cambia de color como la madera.',
+        '**Grietas finas:** una mezcla de cola y polvo de lija de la misma madera. Bajo el acabado queda más oscura que la madera; usala solo en grietas muy finas.',
       ],
     },
 
@@ -40,15 +40,15 @@ export default {
         ['Barniz, laca, goma laca', '≈ 180 – 220', 'La película cubre las rayas finas; entre manos se lija más fino'],
         ['Pintura', '≈ 120 – 180', 'Un grano algo grueso ayuda a que se agarre la imprimación'],
       ],
-      nota: 'Lija las testas un grano más fino que las caras: absorben más y quedan más oscuras.',
+      nota: 'Lijá las testas un grano más fino que las caras: absorben más y quedan más oscuras.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los granos son orientativos y cambian con la especie y con el producto. Prueba siempre en un recorte de la misma madera, lijado igual que la pieza, y con el acabado completo encima.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los granos son orientativos y cambian con la especie y con el producto. Probá siempre en un recorte de la misma madera, lijado igual que la pieza, y con el acabado completo encima.' },
     {
       tipo: 'lista',
       items: [
-        '**Cantos y aristas:** lija con un taco duro para no redondearlos sin querer. Después, rompe las aristas vivas con una pasada suave de lija fina: el acabado se agarra mal en un filo.',
+        '**Cantos y aristas:** lijá con un taco duro para no redondearlos sin querer. Después, rompé las aristas vivas con una pasada suave de lija fina: el acabado se agarra mal en un filo.',
         '**Curvas:** con una almohadilla blanda o con la lija envuelta en un taco de la forma de la curva.',
-        '**Para revisar:** usa una [[luz rasante|luz-rasante]] o pasa un trapo húmedo con alcohol. Las rayas de lija aparecen al instante.',
+        '**Para revisar:** usá una [[luz rasante|luz-rasante]] o pasá un trapo húmedo con alcohol. Las rayas de lija aparecen al instante.',
       ],
     },
 
@@ -58,9 +58,9 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Pasa una esponja o un trapo apenas húmedo por toda la superficie, sin empapar.',
-        'Deja secar por completo, en general unas horas.',
-        'Lija muy suave con el grano final, solo para cortar las fibras levantadas. Si lijas fuerte, abres fibras nuevas.',
+        'Pasá una esponja o un trapo apenas húmedo por toda la superficie, sin empapar.',
+        'Dejá secar por completo, en general unas horas.',
+        'Lijá muy suave con el grano final, solo para cortar las fibras levantadas. Si lijás fuerte, abrís fibras nuevas.',
       ],
     },
 
@@ -69,15 +69,15 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Si vas a teñir, tiñe antes o usa un tapaporos del color elegido.',
-        'Extiende la pasta en sentido transversal a la veta, con una espátula de plástico o un trapo de arpillera, para que entre en los poros.',
-        'Cuando empieza a opacarse, retira el sobrante, también a través de la veta, para no sacarla de los poros.',
-        'Deja secar el tiempo que indique el fabricante y lija suave con grano fino.',
+        'Si vas a teñir, teñí antes o usá un tapaporos del color elegido.',
+        'Extendé la pasta en sentido transversal a la veta, con una espátula de plástico o un trapo de arpillera, para que entre en los poros.',
+        'Cuando empieza a opacarse, retirá el sobrante, también a través de la veta, para no sacarla de los poros.',
+        'Dejá secar el tiempo que indique el fabricante y lijá suave con grano fino.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Sin tapaporos se logra el mismo efecto con varias manos de barniz o laca, lijando entre manos hasta que la superficie quede plana. Lleva más tiempo y más producto.' },
 
     { tipo: 'h2', texto: 'Quitar el polvo' },
-    { tipo: 'p', texto: 'Aspira la pieza con un cepillo suave, sopla los poros y los rincones y pasa por último un trapo de algodón apenas húmedo con el disolvente del acabado. Si vas a usar un producto al agua, el trapo va con agua. Termina de lijar en otro lugar, o espera a que el polvo se asiente, antes de abrir la lata.' },
+    { tipo: 'p', texto: 'Aspirá la pieza con un cepillo suave, soplá los poros y los rincones y pasá por último un trapo de algodón apenas húmedo con el disolvente del acabado. Si vas a usar un producto al agua, el trapo va con agua. Terminá de lijar en otro lugar, o esperá a que el polvo se asiente, antes de abrir la lata.' },
   ],
 }

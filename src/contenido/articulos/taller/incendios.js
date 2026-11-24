@@ -12,9 +12,9 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Al terminar, extiende los trapos de a uno, sin pliegues, al aire libre o sobre una superficie no combustible, hasta que se sequen y endurezcan del todo.',
-        'O sumérgelos en agua dentro de un recipiente metálico con tapa.',
-        'Una vez secos y duros, deséchalos según las indicaciones locales para residuos.',
+        'Al terminar, extendé los trapos de a uno, sin pliegues, al aire libre o sobre una superficie no combustible, hasta que se sequen y endurezcan del todo.',
+        'O sumergilos en agua dentro de un recipiente metálico con tapa.',
+        'Una vez secos y duros, desechalos según las indicaciones locales para residuos.',
         '**Nunca** los dejes en un tacho de basura, una bolsa, un cajón ni amontonados en el banco.',
       ],
     },
@@ -24,8 +24,8 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Polvo y viruta acumulados:** sobre todo cerca de motores, enchufes y lámparas. Limpia a diario con aspirador.',
-        '**Chispas:** las de una amoladora o una soldadura encienden la viruta con facilidad. Trabaja el metal en otro lugar o limpia todo antes.',
+        '**Polvo y viruta acumulados:** sobre todo cerca de motores, enchufes y lámparas. Limpiá a diario con aspirador.',
+        '**Chispas:** las de una amoladora o una soldadura encienden la viruta con facilidad. Trabajá el metal en otro lugar o limpiá todo antes.',
         '**Estufas:** nada de estufas de llama abierta o de resistencia a la vista en una zona con polvo o vapores.',
         '**Instalación eléctrica:** enchufes sobrecargados, prolongadores enrollados que se calientan, motores con polvo dentro.',
         '**Colectores de polvo:** un fragmento de metal que entra al tubo puede producir una chispa dentro del filtro.',
@@ -49,13 +49,13 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Cuelga el extintor junto a la salida, a la vista y sin obstáculos.',
-        'Aprende a usarlo antes de necesitarlo y revísalo según indique el fabricante.',
-        'Instala un detector: de calor mejor que de humo en la zona de máquinas, porque el polvo dispara los detectores de humo.',
-        'Mantén despejado el camino a la salida.',
+        'Colgá el extintor junto a la salida, a la vista y sin obstáculos.',
+        'Aprendé a usarlo antes de necesitarlo y revisalo según indique el fabricante.',
+        'Instalá un detector: de calor mejor que de humo en la zona de máquinas, porque el polvo dispara los detectores de humo.',
+        'Mantené despejado el camino a la salida.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Si el fuego no se apaga en los primeros segundos o el humo llena el lugar, sal, cierra la puerta y llama a los bomberos. Ningún mueble vale el riesgo.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Si el fuego no se apaga en los primeros segundos o el humo llena el lugar, salí, cerrá la puerta y llamá a los bomberos. Ningún mueble vale el riesgo.' },
     { tipo: 'aviso', nivel: 'verificar', texto: 'La clasificación de los fuegos, los tipos de extintor obligatorios y su mantenimiento están regulados por la normativa de cada país.' },
   ],
 }

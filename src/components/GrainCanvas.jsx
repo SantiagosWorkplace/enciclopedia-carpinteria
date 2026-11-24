@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 
-// Fondo animado: vetas de madera que ondulan y forman un nudo donde está el ratón.
-// En pantallas táctiles, sin ratón, el nudo pasea solo por la pantalla: ahí los
+// Fondo animado: vetas de madera que ondulan y forman un nudo donde está el mouse.
+// En pantallas táctiles, sin mouse, el nudo pasea solo por la pantalla: ahí los
 // toques son para desplazarse, así que no lo mueven.
 export default function GrainCanvas() {
   const ref = useRef(null)

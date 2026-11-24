@@ -18,21 +18,21 @@ export default {
         ['De pigmento, en gel', 'Mancha poco en maderas difíciles; color parejo', 'Tapa algo la veta; se acumula en los poros y rincones'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Un tinte se disuelve otra vez con su propio disolvente. Si tiñes al alcohol y aplicas goma laca a pincel, que también es al alcohol, el pincel arrastra el color. La primera mano del acabado debe ser de otro disolvente, o aplicarse muy rápido o a pistola, sin repasar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Un tinte se disuelve otra vez con su propio disolvente. Si teñís al alcohol y aplicás goma laca a pincel, que también es al alcohol, el pincel arrastra el color. La primera mano del acabado debe ser de otro disolvente, o aplicarse muy rápido o a pistola, sin repasar.' },
 
     { tipo: 'h2', texto: 'Paso a paso' },
     {
       tipo: 'pasos',
       items: [
-        '**Prueba:** tiñe un recorte de la misma madera, lijado igual que la pieza, y ponle el acabado encima. El color cambia mucho con el acabado y al secar.',
-        '**Preparar:** con tintes al agua, [[levanta la fibra|levantar-fibra]] antes. Quita el polvo.',
+        '**Prueba:** teñí un recorte de la misma madera, lijado igual que la pieza, y ponele el acabado encima. El color cambia mucho con el acabado y al secar.',
+        '**Preparar:** con tintes al agua, [[levanta la fibra|levantar-fibra]] antes. Quitá el polvo.',
         '**Aplicar** con un trapo, una esponja o un pincel, mojando bien toda la superficie, sin dejar que se seque un borde antes de seguir con el resto.',
         '**Retirar** el sobrante con un trapo limpio, a favor de la veta, antes de que empiece a secar. El tinte que queda encima se ve como manchas.',
         '**Secar** el tiempo que indique el fabricante antes del acabado.',
         '**Corregir:** para oscurecer, otra mano. Para aclarar un tinte al agua todavía húmedo, un trapo con agua.',
       ],
     },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Las testas absorben mucho más tinte y quedan casi negras. Pasa antes una mano de acabado muy diluido solo en las testas, o lija las testas un grano más fino.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Las testas absorben mucho más tinte y quedan casi negras. Pasá antes una mano de acabado muy diluido solo en las testas, o lijá las testas un grano más fino.' },
 
     { tipo: 'h2', texto: 'Maderas que manchan' },
     { tipo: 'p', texto: 'El pino, el cerezo, el abedul y el arce absorben el tinte de forma muy desigual y quedan con manchas oscuras. Tres soluciones:' },
@@ -47,6 +47,6 @@ export default {
 
     { tipo: 'h2', texto: 'Teñido químico' },
     { tipo: 'p', texto: 'Algunas maderas cambian de color por una reacción química con sus taninos. El caso clásico es el roble expuesto a vapores de amoníaco, que se oscurece de forma pareja y profunda. Es un proceso con productos peligrosos, que se hace en una cámara cerrada y con protección respiratoria.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El amoníaco concentrado es corrosivo y sus vapores dañan los ojos y los pulmones. No lo mezcles nunca con lejía de cloro: desprende gases tóxicos. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados).' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El amoníaco concentrado es corrosivo y sus vapores dañan los ojos y los pulmones. No lo mezcles nunca con lavandina: desprende gases tóxicos. Ver [Seguridad con productos de acabado](#/acabados/seguridad-acabados).' },
   ],
 }

@@ -41,7 +41,7 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'Una misma tabla puede tener partes de cada tipo: una tabla ancha que pasa cerca de la médula suele ser radial en el centro y tangencial en los cantos.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para un tablero de mesa, une tablas del mismo tipo de corte y alterna o no el sentido de los anillos según el aspecto que busques. Lo que más importa es que estén bien secas y que el tablero pueda moverse sin trabas; se explica en [El movimiento de la madera](#/madera/movimiento).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para un tablero de mesa, uní tablas del mismo tipo de corte y alterná o no el sentido de los anillos según el aspecto que busques. Lo que más importa es que estén bien secas y que el tablero pueda moverse sin trabas; se explica en [El movimiento de la madera](#/madera/movimiento).' },
 
     { tipo: 'h2', texto: 'Cómo se vende la madera' },
     { tipo: 'p', texto: 'Los nombres de las piezas cambian de un país a otro, y conviene confirmar con el proveedor lo que entiende por cada uno. Como orientación:' },
@@ -57,11 +57,11 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'En muchos países las medidas todavía se nombran en pulgadas (1" = 25,4 mm). La medida nombrada suele ser la de la pieza en bruto: una tabla «de 1 pulgada», una vez cepillada, queda más delgada.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Cuánto pierde una pieza al cepillarse depende del país y del aserradero. Una tabla de 1" en bruto suele quedar entre ≈ 19 y 22 mm. Pide siempre las medidas reales en milímetros.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Cuánto pierde una pieza al cepillarse depende del país y del aserradero. Una tabla de 1" en bruto suele quedar entre ≈ 19 y 22 mm. Pedí siempre las medidas reales en milímetros.' },
     { tipo: 'h3', texto: 'Volumen: metros cúbicos y pies tablares' },
     { tipo: 'p', texto: 'La madera se cobra por volumen. El sistema métrico usa el metro cúbico (m³). En Argentina, Uruguay, Estados Unidos y otros países también se usa el [[pie tablar|pie-tablar]]: un pie por un pie por una pulgada, equivalente a ≈ 2,36 litros, es decir, 0,00236 m³.' },
     { tipo: 'datos', items: [['Ejemplo', 'Una tabla de 2,4 m × 150 mm × 25 mm tiene 2,4 × 0,15 × 0,025 = 0,009 m³, unos 3,8 pies tablares.']] },
     { tipo: 'interactivo', id: 'calculadora-volumen' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Al comprar, suma entre un 15 y un 30 % al volumen que indica tu lista de corte para cubrir defectos, gemas y errores. Se detalla en [Lista de corte y cálculo de material](#/diseno/lista-corte).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Al comprar, sumá entre un 15 y un 30 % al volumen que indica tu lista de corte para cubrir defectos, gemas y errores. Se detalla en [Lista de corte y cálculo de material](#/diseno/lista-corte).' },
   ],
 }

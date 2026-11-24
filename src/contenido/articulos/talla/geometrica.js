@@ -21,14 +21,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Traza el triángulo y marca su centro.',
-        'Haz los tres [[cortes de parada|corte-parada]]: clava la punta del cuchillo en el centro, con la hoja vertical, y llévala hacia cada vértice, cada vez menos hondo, hasta salir en la superficie en el vértice.',
-        'Haz el primer corte de rebanado: con la hoja inclinada, corta a lo largo de un lado, de modo que llegue al fondo justo en el centro.',
-        'Repite en los otros dos lados, siempre con la misma inclinación. La viruta debe salir entera y sola.',
-        'Si la viruta no sale, no hagas palanca: vuelve a pasar los cortes de parada y el último corte, un poco más hondos.',
+        'Trazá el triángulo y marcá su centro.',
+        'Hacé los tres [[cortes de parada|corte-parada]]: clavá la punta del cuchillo en el centro, con la hoja vertical, y llevala hacia cada vértice, cada vez menos hondo, hasta salir en la superficie en el vértice.',
+        'Hacé el primer corte de rebanado: con la hoja inclinada, cortá a lo largo de un lado, de modo que llegue al fondo justo en el centro.',
+        'Repetí en los otros dos lados, siempre con la misma inclinación. La viruta debe salir entera y sola.',
+        'Si la viruta no sale, no hagas palanca: volvé a pasar los cortes de parada y el último corte, un poco más hondos.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Para practicar, empieza con triángulos de unos 10 a 20 mm de lado, que quedan de unos 2 a 4 mm de hondo. Los métodos varían entre escuelas: con práctica, muchos tallistas quitan la muesca con solo tres cortes inclinados, sin cortes de parada.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Para practicar, empezá con triángulos de unos 10 a 20 mm de lado, que quedan de unos 2 a 4 mm de hondo. Los métodos varían entre escuelas: con práctica, muchos tallistas quitan la muesca con solo tres cortes inclinados, sin cortes de parada.' },
     { tipo: 'aviso', nivel: 'consejo', texto: 'El secreto es mantener siempre la misma inclinación de la hoja. Así las facetas de todas las muescas reflejan la luz igual y el diseño se ve parejo.' },
 
     { tipo: 'h2', texto: 'Cómo sostener el cuchillo' },
@@ -43,7 +43,7 @@ export default {
       items: [
         '**Primera posición:** el cuchillo en la mano como para pelar una papa, con el nudillo del pulgar apoyado en la madera. La mano y el pulgar se mueven juntos; el pulgar hace de tope.',
         '**Segunda posición:** el cuchillo al revés, con el pulgar apoyado en el lomo de la hoja. Sirve para los cortes en sentido contrario sin tener que girar la pieza.',
-        '**La pieza gira:** en lugar de cambiar la mano a posiciones incómodas, gira la tabla para que cada corte vaya a favor de la veta.',
+        '**La pieza gira:** en lugar de cambiar la mano a posiciones incómodas, girá la tabla para que cada corte vaya a favor de la veta.',
       ],
     },
 
@@ -62,14 +62,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Para trazar una roseta de seis pétalos, dibuja un círculo con el compás.',
-        'Sin cambiar la abertura del compás, apoya la punta en cualquier punto del círculo y traza un arco de borde a borde que pase por el centro.',
-        'Apoya la punta donde ese arco cortó el círculo y repite. Seis arcos forman los seis pétalos.',
+        'Para trazar una roseta de seis pétalos, dibujá un círculo con el compás.',
+        'Sin cambiar la abertura del compás, apoyá la punta en cualquier punto del círculo y trazá un arco de borde a borde que pase por el centro.',
+        'Apoyá la punta donde ese arco cortó el círculo y repetí. Seis arcos forman los seis pétalos.',
       ],
     },
 
     { tipo: 'h2', texto: 'Terminar' },
-    { tipo: 'p', texto: 'Borra las líneas de lápiz que queden con una goma suave, sin lijar: la lija redondea las aristas de las facetas, y la gracia de la talla está en esas aristas vivas. Como acabado se usa un aceite ligero, cera o un barniz muy fino. Un acabado grueso se acumula en el fondo de las muescas y apaga el dibujo.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'La mano que sostiene la pieza nunca debe estar delante del recorrido de la hoja. Protege el pulgar que hace de tope con cinta o con un dedal de cuero.' },
+    { tipo: 'p', texto: 'Borrá las líneas de lápiz que queden con una goma suave, sin lijar: la lija redondea las aristas de las facetas, y la gracia de la talla está en esas aristas vivas. Como acabado se usa un aceite ligero, cera o un barniz muy fino. Un acabado grueso se acumula en el fondo de las muescas y apaga el dibujo.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'La mano que sostiene la pieza nunca debe estar delante del recorrido de la hoja. Protegé el pulgar que hace de tope con cinta o con un dedal de cuero.' },
   ],
 }

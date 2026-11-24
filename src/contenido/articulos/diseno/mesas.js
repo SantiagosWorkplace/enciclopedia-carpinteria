@@ -29,15 +29,15 @@ export default {
         '**Tablero:** tablas encoladas por el canto o un tablero chapado.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Recuerda dejar espacio para las piernas: con una mesa a 75 cm y un tablero de 2,5 cm, un faldón de 10 cm deja ≈ 62 cm libres. Si el asiento está a 45 cm, quedan solo 17 cm para los muslos. Ajusta el alto del faldón o el de la mesa.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Recordá dejar espacio para las piernas: con una mesa a 75 cm y un tablero de 2,5 cm, un faldón de 10 cm deja ≈ 62 cm libres. Si el asiento está a 45 cm, quedan solo 17 cm para los muslos. Ajustá el alto del faldón o el de la mesa.' },
 
     { tipo: 'h2', texto: 'El tablero' },
     { tipo: 'p', texto: 'Para un tablero de madera maciza se encolan tablas por el canto. Algunas pautas:' },
     {
       tipo: 'lista',
       items: [
-        'Usa tablas bien secas y aclimatadas, de anchos parecidos, entre 8 y 15 cm si son tangenciales.',
-        'Ordénalas por el color y la veta antes de encolar, y marca el orden con un triángulo de carpintero.',
+        'Usá tablas bien secas y aclimatadas, de anchos parecidos, entre 8 y 15 cm si son tangenciales.',
+        'Ordenalas por el color y la veta antes de encolar, y marcá el orden con un triángulo de carpintero.',
         'Que la veta de todas corra en el mismo sentido para cepillar el tablero sin que se repele.',
         'Alternar o no la curva de los anillos es una discusión antigua: lo decisivo es que la madera esté bien seca y que el tablero quede fijado de forma que pueda moverse.',
       ],
@@ -57,8 +57,8 @@ export default {
         ['Clips metálicos', 'Herrajes en forma de Z que se enganchan en una ranura', 'Producción en serie'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Fija el tablero rígido solo en el centro de cada faldón largo. Así se mueve la mitad hacia cada lado y el voladizo se mantiene parejo en los dos costados.' },
-    { tipo: 'aviso', nivel: 'nota', texto: 'Para calcular cuánto se mueve tu tablero según la especie, el ancho y la humedad, usa la calculadora de [El movimiento de la madera](#/madera/movimiento).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Fijá el tablero rígido solo en el centro de cada faldón largo. Así se mueve la mitad hacia cada lado y el voladizo se mantiene parejo en los dos costados.' },
+    { tipo: 'aviso', nivel: 'nota', texto: 'Para calcular cuánto se mueve tu tablero según la especie, el ancho y la humedad, usá la calculadora de [El movimiento de la madera](#/madera/movimiento).' },
 
     { tipo: 'h2', texto: 'Cabezales en los extremos' },
     { tipo: 'p', texto: 'Un cabezal es una pieza atravesada en el extremo del tablero, con la veta perpendicular, que lo mantiene plano y oculta la testa. Como el tablero se mueve a lo ancho y el cabezal casi no cambia de largo, se une así:' },
@@ -77,8 +77,8 @@ export default {
       tipo: 'lista',
       items: [
         'Cuanto más vuela el tablero más allá de las patas, más fácil es que la mesa vuelque si alguien se apoya en el borde. Como orientación, no pases de ≈ 30 – 35 cm en una mesa de comedor.',
-        'En mesas de pie central, las patas de la base deben extenderse lo más cerca posible del borde del tablero. Prueba la estabilidad apoyando peso en el borde antes de terminarla.',
-        'Si la mesa cojea, coloca regatones regulables en las patas o recórtalas sobre una superficie plana.',
+        'En mesas de pie central, las patas de la base deben extenderse lo más cerca posible del borde del tablero. Probá la estabilidad apoyando peso en el borde antes de terminarla.',
+        'Si la mesa cojea, colocá regatones regulables en las patas o recortalas sobre una superficie plana.',
       ],
     },
   ],

@@ -28,7 +28,7 @@ const paneles = [
     ),
   },
   {
-    titulo: 'Gancho de banco', nota: 'Para serrar al través',
+    titulo: 'Gancho de banco', nota: 'Para aserrar al través',
     d: (
       <>
         <rect x="40" y="60" width="160" height="16" {...banco} />

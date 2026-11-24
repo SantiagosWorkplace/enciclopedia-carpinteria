@@ -30,15 +30,15 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Corta una rebanada de unos 25 mm a lo largo de la veta, al menos a 30 cm del extremo de la tabla: la testa se seca antes y daría un valor bajo.',
-        'Quítale las astillas sueltas y pésala enseguida con una balanza de 0,1 g.',
-        'Sécala en un horno a 103 ± 2 °C. Pésala cada pocas horas hasta que deje de perder peso: ese es el peso anhidro.',
-        'Calcula el CH con la fórmula de arriba.',
+        'Cortá una rebanada de unos 25 mm a lo largo de la veta, al menos a 30 cm del extremo de la tabla: la testa se seca antes y daría un valor bajo.',
+        'Quitale las astillas sueltas y pesala enseguida con una balanza de 0,1 g.',
+        'Secala en un horno a 103 ± 2 °C. Pesala cada pocas horas hasta que deje de perder peso: ese es el peso anhidro.',
+        'Calculá el CH con la fórmula de arriba.',
       ],
     },
     { tipo: 'interactivo', id: 'calculadora-humedad' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para seguir el secado de una pila sin cortar cada vez, elige una tabla testigo. Calcula su peso anhidro estimado a partir del CH de una rebanada cortada de ella y pésala cada semana: la calculadora indica cuánto deberá pesar cuando llegue a la humedad que buscas.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'No uses el horno de la cocina con madera tratada, con resinas o con pinturas. Ventila bien y no dejes el horno funcionando sin vigilancia.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para seguir el secado de una pila sin cortar cada vez, elegí una tabla testigo. Calculá su peso anhidro estimado a partir del CH de una rebanada cortada de ella y pesala cada semana: la calculadora indica cuánto deberá pesar cuando llegue a la humedad que buscás.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'No uses el horno de la cocina con madera tratada, con resinas o con pinturas. Ventilá bien y no dejes el horno funcionando sin vigilancia.' },
     { tipo: 'h3', texto: 'Con un medidor electrónico' },
     {
       tipo: 'lista',
@@ -47,7 +47,7 @@ export default {
         '**Sin púas (capacitivos):** se apoyan sobre la cara y miden unos milímetros de profundidad sin marcar la pieza. Hay que indicarles la densidad de la especie, y leen mal sobre superficies irregulares.',
       ],
     },
-    { tipo: 'p', texto: 'Mide en varios puntos y en el centro de la tabla, nunca en la testa. Por encima del punto de saturación de las fibras, ningún medidor portátil es preciso.' },
+    { tipo: 'p', texto: 'Medí en varios puntos y en el centro de la tabla, nunca en la testa. Por encima del punto de saturación de las fibras, ningún medidor portátil es preciso.' },
 
     { tipo: 'h2', texto: 'Secado al aire' },
     {
@@ -61,18 +61,18 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Sella las [[testas|testa]] apenas cortes las tablas, con parafina, cera, cola blanca o pintura. Por la testa el agua sale diez veces más rápido que por las caras, o más, y se abren [[fendas|fenda]].',
-        'Prepara una base firme y nivelada, al menos a 30 cm del suelo, para que circule el aire y no suba la humedad.',
-        'Coloca [[separadores|separador]] secos, todos del mismo espesor (≈ 20 – 25 mm), cada 40 a 60 cm. Para tablas finas, más juntos.',
-        'Alinea los separadores en vertical, exactamente sobre los apoyos. Si quedan corridos, el peso de arriba dobla las tablas y quedan [[arqueadas|arqueado]].',
-        'Deja unos centímetros entre tablas de la misma capa para que el aire suba.',
-        'Cubre la pila con un techo que sobresalga, para protegerla del sol y la lluvia, y pon peso encima para que las capas superiores no se tuerzan.',
-        'Ubícala en un lugar ventilado y a la sombra, con los costados abiertos.',
+        'Sellá las [[testas|testa]] apenas cortes las tablas, con parafina, cera, cola blanca o pintura. Por la testa el agua sale diez veces más rápido que por las caras, o más, y se abren [[fendas|fenda]].',
+        'Prepará una base firme y nivelada, al menos a 30 cm del suelo, para que circule el aire y no suba la humedad.',
+        'Colocá [[separadores|separador]] secos, todos del mismo espesor (≈ 20 – 25 mm), cada 40 a 60 cm. Para tablas finas, más juntos.',
+        'Alineá los separadores en vertical, exactamente sobre los apoyos. Si quedan corridos, el peso de arriba dobla las tablas y quedan [[arqueadas|arqueado]].',
+        'Dejá unos centímetros entre tablas de la misma capa para que el aire suba.',
+        'Cubrí la pila con un techo que sobresalga, para protegerla del sol y la lluvia, y poné peso encima para que las capas superiores no se tuerzan.',
+        'Ubicala en un lugar ventilado y a la sombra, con los costados abiertos.',
       ],
     },
     { tipo: 'p', texto: 'La regla tradicional dice que hace falta **un año por cada 25 mm de espesor**. Es solo una orientación: una conífera en clima seco y ventoso puede estar lista en pocos meses, y un roble grueso en clima húmedo puede tardar bastante más.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Si los separadores son de una madera rica en taninos o están húmedos, dejan manchas en las tablas. Usa separadores secos de una especie clara o de la misma madera que estás secando.' },
-    { tipo: 'p', texto: 'Para llegar a la humedad de un mueble de interior, termina el secado dentro de un local cerrado o del propio taller durante algunas semanas, con la pila armada de la misma forma.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Si los separadores son de una madera rica en taninos o están húmedos, dejan manchas en las tablas. Usá separadores secos de una especie clara o de la misma madera que estás secando.' },
+    { tipo: 'p', texto: 'Para llegar a la humedad de un mueble de interior, terminá el secado dentro de un local cerrado o del propio taller durante algunas semanas, con la pila armada de la misma forma.' },
 
     { tipo: 'h2', texto: 'Secado en horno' },
     { tipo: 'p', texto: 'En la industria, la madera se seca en cámaras donde se controlan la temperatura, la humedad y la circulación del aire. Se sigue un programa que empieza suave, con aire húmedo, y se vuelve más seco y caliente a medida que baja la humedad de la madera. Así se llega a cualquier humedad final en días o semanas en lugar de meses o años.' },
@@ -85,7 +85,7 @@ export default {
         '**Solar:** una pequeña cámara con techo transparente. Barato y suave, útil para un taller.',
       ],
     },
-    { tipo: 'p', texto: 'El calor del horno mata hongos e insectos. Los palés y embalajes de madera que viajan entre países deben recibir un tratamiento térmico según la norma internacional NIMF 15 y se marcan con las letras **HT**.' },
+    { tipo: 'p', texto: 'El calor del horno mata hongos e insectos. Los pallets y embalajes de madera que viajan entre países deben recibir un tratamiento térmico según la norma internacional NIMF 15 y se marcan con las letras **HT**.' },
 
     { tipo: 'h2', texto: 'Defectos de secado' },
     {
@@ -99,7 +99,7 @@ export default {
         '**[[Endurecimiento superficial|endurecimiento]]:** la tabla parece bien, pero tiene tensiones internas: al aserrarla a lo largo por el canto, las dos mitades se curvan y pueden apretar la hoja de la sierra. Se corrige en el horno con un acondicionado final de aire húmedo.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Si al aserrar una tabla a lo largo el corte se cierra detrás de la hoja, detente: la madera puede aprisionar el disco y provocar un rechazo. Usa siempre el cuchillo divisor de la sierra y abre el corte con una cuña si hace falta.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Si al aserrar una tabla a lo largo el corte se cierra detrás de la hoja, detenete: la madera puede aprisionar el disco y provocar un rechazo. Usá siempre el cuchillo divisor de la sierra y abrí el corte con una cuña si hace falta.' },
 
     { tipo: 'h2', texto: '¿Está lista para trabajar?' },
     {

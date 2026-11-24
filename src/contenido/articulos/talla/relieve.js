@@ -23,16 +23,16 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        '**Dibujo:** pasa el diseño a la tabla con papel de calco, o pégalo y talla a través de él. Marca con lápiz las zonas que van a quedar más altas.',
-        '**Contorno:** recorre el contorno con la gubia en V, por fuera de la línea, sin llegar a ella. También se puede hacer con [[cortes de parada|corte-parada]]: gubias del mismo radio que cada curva, clavadas en vertical con el mazo.',
-        '**Rebajar el fondo:** quita la madera alrededor del motivo con gubias de barrido 5 o 7, en pasadas poco profundas, y vuelve a marcar el contorno a medida que bajas. Hazlo hasta la profundidad elegida.',
-        '**Nivelar el fondo:** empareja el fondo con una gubia de barrido 3 o de cola de pez. Para una profundidad exacta en todo el fondo, usa una [[guimbarda]].',
-        '**Modelar:** da volumen al motivo. Primero define los planos altos y bajos, después redondea. Trabaja todo el relieve a la vez, sin terminar una zona antes que las demás.',
-        '**Socavar:** en un altorrelieve, recorta los bordes del motivo por debajo, en ángulo. Así proyectan sombra y el motivo parece despegarse del fondo.',
+        '**Dibujo:** pasá el diseño a la tabla con papel de calco, o pegalo y talla a través de él. Marcá con lápiz las zonas que van a quedar más altas.',
+        '**Contorno:** recorré el contorno con la gubia en V, por fuera de la línea, sin llegar a ella. También se puede hacer con [[cortes de parada|corte-parada]]: gubias del mismo radio que cada curva, clavadas en vertical con el mazo.',
+        '**Rebajar el fondo:** quitá la madera alrededor del motivo con gubias de barrido 5 o 7, en pasadas poco profundas, y volvé a marcar el contorno a medida que bajás. Hacelo hasta la profundidad elegida.',
+        '**Nivelar el fondo:** emparejá el fondo con una gubia de barrido 3 o de cola de pez. Para una profundidad exacta en todo el fondo, usá una [[guimbarda]].',
+        '**Modelar:** dá volumen al motivo. Primero definí los planos altos y bajos, después redondeá. Trabajá todo el relieve a la vez, sin terminar una zona antes que las demás.',
+        '**Socavar:** en un altorrelieve, recortá los bordes del motivo por debajo, en ángulo. Así proyectan sombra y el motivo parece despegarse del fondo.',
         '**Detalle y textura:** nervaduras, pliegues, ojos. El fondo puede quedar liso, con marcas de gubia o granulado con un punzón.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Mide la profundidad del fondo con un taco atravesado por un clavo o un tornillo que sobresalga lo que quieres rebajar. Al pasarlo por el fondo, marca las zonas que todavía están altas.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Medí la profundidad del fondo con un taco atravesado por un clavo o un tornillo que sobresalga lo que querés rebajar. Al pasarlo por el fondo, marcá las zonas que todavía están altas.' },
 
     { tipo: 'h2', texto: 'La dirección del corte' },
     { tipo: 'figura', id: 'cortar-veta', pie: 'La pieza se ve de costado y la veta corre a lo largo. Las flechas muestran la dirección del corte a favor de la veta.' },
@@ -40,15 +40,15 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Si la madera se levanta o se desgarra,** estás cortando contra la veta: da vuelta la dirección del corte.',
+        '**Si la madera se levanta o se desgarra,** estás cortando contra la veta: dá vuelta la dirección del corte.',
         '**A través de la veta** el corte casi siempre es seguro, aunque deja la superficie un poco más áspera.',
         '**Corte en sesgo:** girar apenas la gubia mientras avanza, en lugar de empujarla derecha, corta las fibras en diagonal y deja un acabado más liso.',
       ],
     },
 
     { tipo: 'h2', texto: 'Luz y acabado' },
-    { tipo: 'p', texto: 'Trabaja con una [[luz rasante|luz-rasante]], una lámpara baja que ilumine la pieza de costado. Las sombras muestran las formas, los desniveles del fondo y las marcas que faltan limpiar. Gira la pieza o la lámpara de vez en cuando para ver el relieve desde otro lado.' },
-    { tipo: 'p', texto: 'Muchos tallistas dejan la superficie tal como sale de la gubia, con sus pequeñas facetas brillantes, porque marcan la forma mejor que el lijado. Si lijas, hazlo al final y con cuidado, para no redondear las aristas. Antes de aplicar el acabado, quita el polvo de los rincones con un pincel.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las astillas saltan con fuerza cuando se golpea con el mazo. Usa gafas de protección y no dejes que nadie se acerque de frente a la herramienta.' },
+    { tipo: 'p', texto: 'Trabajá con una [[luz rasante|luz-rasante]], una lámpara baja que ilumine la pieza de costado. Las sombras muestran las formas, los desniveles del fondo y las marcas que faltan limpiar. Girá la pieza o la lámpara de vez en cuando para ver el relieve desde otro lado.' },
+    { tipo: 'p', texto: 'Muchos tallistas dejan la superficie tal como sale de la gubia, con sus pequeñas facetas brillantes, porque marcan la forma mejor que el lijado. Si lijás, hacelo al final y con cuidado, para no redondear las aristas. Antes de aplicar el acabado, quitá el polvo de los rincones con un pincel.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las astillas saltan con fuerza cuando se golpea con el mazo. Usá anteojos de protección y no dejes que nadie se acerque de frente a la herramienta.' },
   ],
 }

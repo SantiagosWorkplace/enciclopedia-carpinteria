@@ -38,21 +38,21 @@ export default {
         ['Sierra de copa', '300 – 500 rpm', '250 – 400 rpm'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Son valores generales. El fabricante de cada broca suele indicar su velocidad; si la madera humea o la broca chirría, baja la velocidad.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Son valores generales. El fabricante de cada broca suele indicar su velocidad; si la madera humea o la broca chirría, bajá la velocidad.' },
 
     { tipo: 'h2', texto: 'Técnica' },
     {
       tipo: 'pasos',
       items: [
-        'Pon una mesa auxiliar de madera o un taco de desecho bajo la pieza: protege la mesa y evita astillas a la salida.',
-        'Sujeta la pieza a una guía o con prensas. Una broca que se traba hace girar la pieza como una hélice.',
-        'Marca el centro con un punzón y baja la broca apagada para alinearla.',
-        'Fija el tope si el agujero es ciego.',
-        'Baja la broca con avance parejo y súbela a menudo para sacar la viruta en agujeros profundos.',
-        'Para series, prensa un tope en la guía: todas las piezas quedarán iguales.',
+        'Poné una mesa auxiliar de madera o un taco de desecho bajo la pieza: protege la mesa y evita astillas a la salida.',
+        'Sujetá la pieza a una guía o con prensas. Una broca que se traba hace girar la pieza como una hélice.',
+        'Marcá el centro con un punzón y bajá la broca apagada para alinearla.',
+        'Fijá el tope si el agujero es ciego.',
+        'Bajá la broca con avance parejo y subila a menudo para sacar la viruta en agujeros profundos.',
+        'Para series, prensá un tope en la guía: todas las piezas quedarán iguales.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Quita siempre la llave del portabrocas antes de encender, no uses guantes y mantén el pelo recogido. Nunca sujetes con la mano una pieza pequeña: usa una prensa o una mordaza de taladro.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Quitá siempre la llave del portabrocas antes de encender, no uses guantes y mantené el pelo recogido. Nunca sujetes con la mano una pieza pequeña: usá una prensa o una mordaza de taladro.' },
 
     { tipo: 'h2', texto: 'Trabajos especiales' },
     {

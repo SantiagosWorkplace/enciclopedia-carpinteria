@@ -35,7 +35,7 @@ export default {
       items: [
         '**Captar en la fuente:** conectar cada máquina y herramienta a una aspiración. Es lo más eficaz.',
         '**Filtrar el aire del taller:** un filtro de aire en el techo recoge el polvo fino que se escapa.',
-        '**Proteger a la persona:** mascarilla FFP2 o FFP3 bien ajustada, como última barrera, no como única.',
+        '**Proteger a la persona:** barbijo FFP2 o FFP3 bien ajustado, como última barrera, no como única.',
       ],
     },
 
@@ -56,21 +56,21 @@ export default {
       items: [
         '**Filtros:** lo importante es qué tamaño de partícula retienen. Las bolsas de tela comunes dejan pasar el polvo más fino; los cartuchos plisados y los filtros de clase alta lo retienen.',
         '**Tubos:** lisos, cortos y con pocas curvas; en los colectores, la velocidad del aire en los tubos debe rondar los 20 m/s para que el polvo no se deposite.',
-        '**Compuertas:** abre solo la compuerta de la máquina que estás usando.',
-        '**Electricidad estática:** los tubos de plástico se cargan; conéctalos a tierra con un alambre si la instalación es grande.',
+        '**Compuertas:** abrí solo la compuerta de la máquina que estás usando.',
+        '**Electricidad estática:** los tubos de plástico se cargan; conectalos a tierra con un alambre si la instalación es grande.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La velocidad del aire y los diámetros de tubo son valores habituales de diseño. Para una instalación fija, calcula el caudal que necesita cada máquina según su fabricante.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La velocidad del aire y los diámetros de tubo son valores habituales de diseño. Para una instalación fija, calculá el caudal que necesita cada máquina según su fabricante.' },
 
     { tipo: 'h2', texto: 'Hábitos' },
     {
       tipo: 'lista',
       items: [
-        'Limpia con aspirador, nunca con escoba ni con aire comprimido: levantan justamente el polvo más fino.',
-        'Deja funcionando el filtro de aire un rato después de terminar.',
-        'Cámbiate la ropa de trabajo antes de entrar en la casa.',
-        'Mantén la mascarilla puesta mientras haya polvo en el aire, no solo mientras la máquina funciona.',
-        'Si tienes barba, la mascarilla no sella: considera un respirador con suministro de aire o una pantalla con filtro motorizado.',
+        'Limpiá con aspirador, nunca con escoba ni con aire comprimido: levantan justamente el polvo más fino.',
+        'Dejá funcionando el filtro de aire un rato después de terminar.',
+        'Cambiate la ropa de trabajo antes de entrar en la casa.',
+        'Mantené el barbijo puesto mientras haya polvo en el aire, no solo mientras la máquina funciona.',
+        'Si tenés barba, el barbijo no sella: considerá un respirador con suministro de aire o una pantalla con filtro motorizado.',
       ],
     },
   ],

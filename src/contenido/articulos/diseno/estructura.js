@@ -73,8 +73,8 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Orienta la pieza en la tabla para que la veta siga la curva lo más posible.',
-        'Divide la curva en dos o más piezas unidas.',
+        'Orientá la pieza en la tabla para que la veta siga la curva lo más posible.',
+        'Dividí la curva en dos o más piezas unidas.',
         'Curva la madera en lugar de cortarla: con vapor o laminando chapas finas. Ver el capítulo [Curvado](#/curvado/principios-curvado).',
       ],
     },

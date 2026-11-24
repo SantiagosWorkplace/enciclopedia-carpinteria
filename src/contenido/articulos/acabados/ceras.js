@@ -23,18 +23,18 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Aplica una capa muy fina con un paño de algodón o con lana de acero muy fina, en círculos y después a lo largo de la veta.',
-        'Deja que el disolvente se evapore, en general unos 10 – 20 minutos, hasta que la cera se vea opaca.',
-        'Lustra con un paño limpio de algodón o de lana, a favor de la veta, con presión firme. Cambia de cara del paño a menudo.',
-        'Para más brillo, aplica otra capa fina al día siguiente.',
+        'Aplicá una capa muy fina con un paño de algodón o con lana de acero muy fina, en círculos y después a lo largo de la veta.',
+        'Dejá que el disolvente se evapore, en general unos 10 – 20 minutos, hasta que la cera se vea opaca.',
+        'Lustrá con un paño limpio de algodón o de lana, a favor de la veta, con presión firme. Cambiá de cara del paño a menudo.',
+        'Para más brillo, aplicá otra capa fina al día siguiente.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'El error más común es poner mucha cera: el sobrante no se endurece, queda pegajoso y junta polvo. Dos capas finas brillan más que una gruesa.' },
 
     { tipo: 'h2', texto: 'Cera casera' },
     { tipo: 'p', texto: 'Se prepara con cera de abejas rallada y trementina o aguarrás mineral, en partes parecidas en volumen. Se derrite la cera al baño María, fuera del fuego, y se agrega el disolvente revolviendo. Más disolvente da una pasta más blanda. Un poco de carnauba la endurece.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La proporción de cera y disolvente es orientativa. Prueba la consistencia de una cucharada fría antes de envasar todo.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los vapores del disolvente se inflaman. Nunca calientes la mezcla sobre una llama ni en una hornalla: usa agua caliente y trabaja al aire libre o con buena ventilación.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La proporción de cera y disolvente es orientativa. Probá la consistencia de una cucharada fría antes de envasar todo.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Los vapores del disolvente se inflaman. Nunca calientes la mezcla sobre una llama ni en una hornalla: usá agua caliente y trabajá al aire libre o con buena ventilación.' },
 
     { tipo: 'h2', texto: 'Mantenimiento y retirada' },
     {
@@ -42,7 +42,7 @@ export default {
       items: [
         '**Limpieza:** un paño apenas húmedo. Los limpiadores con siliconas dejan brillo rápido pero estropean los acabados futuros.',
         '**Renovar:** una capa fina una o dos veces al año, o cuando pierda el brillo.',
-        '**Antes de otro acabado:** quita toda la cera con aguarrás mineral y trapos limpios, cambiándolos a menudo. Un resto de cera o silicona hace que el barniz se recoja en pequeños cráteres, los [[ojos de pez|ojo-pez]].',
+        '**Antes de otro acabado:** quitá toda la cera con aguarrás mineral y trapos limpios, cambiándolos a menudo. Un resto de cera o silicona hace que el barniz se recoja en pequeños cráteres, los [[ojos de pez|ojo-pez]].',
       ],
     },
   ],

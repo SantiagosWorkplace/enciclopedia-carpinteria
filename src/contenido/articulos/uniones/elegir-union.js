@@ -50,6 +50,6 @@ export default {
         '**Material:** el tablero de partículas y el MDF no admiten uniones talladas. Se unen con clavijas, galletas, rebajos y herrajes.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Si dudas entre dos uniones, hazlas en recortes de la misma madera y rómpelas. Diez minutos de ensayo enseñan más que cualquier tabla.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Si dudas entre dos uniones, hacelas en recortes de la misma madera y rompelas. Diez minutos de ensayo enseñan más que cualquier tabla.' },
   ],
 }

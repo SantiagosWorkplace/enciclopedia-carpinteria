@@ -27,7 +27,11 @@ const raiz = (t) => {
 export const SINONIMOS = {
   pegar: ['peg', 'encol', 'adhesiv'], pegamento: ['adhesiv', 'encol'], cola: ['cola', 'encol', 'adhesiv'],
   pintar: ['pint'], pintura: ['pint'], lijar: ['lij'], lija: ['lij'], lijado: ['lij'],
-  cortar: ['cort', 'serr', 'sierra'], serrar: ['serr', 'sierra'], unir: ['union', 'ensambl'], juntar: ['union', 'ensambl'],
+  cortar: ['cort', 'serr', 'sierra'], serrar: ['serr', 'sierra'], aserrar: ['serr', 'sierra'], unir: ['union', 'ensambl'], juntar: ['union', 'ensambl'],
+  // Palabras de España o de otros países que el sitio dice como en Argentina.
+  gafas: ['anteoj'], antiparras: ['anteoj'], mascarilla: ['barbij'], tapabocas: ['barbij'], lejia: ['lavandin'],
+  ingletadora: ['ingletead'], serrin: ['aserrin'], palets: ['pallet'], terciado: ['contrachap', 'terciad'],
+  multilaminado: ['contrachap', 'multilamin'], fenolico: ['contrachap', 'fenolic'],
 }
 
 // Cada palabra de la consulta da un grupo de alternativas; basta con encontrar una.

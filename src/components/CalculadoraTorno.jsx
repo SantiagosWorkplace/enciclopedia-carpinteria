@@ -33,7 +33,7 @@ export default function CalculadoraTorno() {
       <div className="calc-resultado" aria-live="polite">
         <span>Velocidad orientativa</span>
         <strong>{num(min)} – {num(max)} rpm</strong>
-        <span>Empieza por el valor bajo y sube solo si la pieza gira sin vibrar.</span>
+        <span>Empezá por el valor bajo y subí solo si la pieza gira sin vibrar.</span>
       </div>
     </div>
   )

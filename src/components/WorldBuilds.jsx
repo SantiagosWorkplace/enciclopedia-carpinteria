@@ -91,7 +91,7 @@ export default function WorldBuilds({ grupoInicial = 'todas', onVerHerramientas 
             ))}
           </svg>
           <figcaption>
-            <span>{nombreFoco || 'Pasa el ratón por una pieza o una medida'}</span>
+            <span>{nombreFoco || 'Pasá el mouse por una pieza o una medida'}</span>
             <label>
               <input type="checkbox" checked={verPersona} onChange={(e) => setVerPersona(e.target.checked)} />
               Persona de 1,70 m

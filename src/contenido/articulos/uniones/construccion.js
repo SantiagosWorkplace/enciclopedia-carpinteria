@@ -50,7 +50,7 @@ export default {
         '**Tornillos estructurales:** largos y de alta resistencia, reemplazan pernos en muchas uniones.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Usa siempre los clavos o tornillos que indica el fabricante del herraje, en todos sus agujeros. Un herraje con la mitad de los clavos resiste mucho menos que lo que dice su ficha.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Usá siempre los clavos o tornillos que indica el fabricante del herraje, en todos sus agujeros. Un herraje con la mitad de los clavos resiste mucho menos que lo que dice su ficha.' },
     { tipo: 'p', texto: 'El [Visor de uniones](#/uniones/visor) muestra cómo encajan la boca de pájaro y el empalme en bisel. En [Construcciones del mundo](#/construccion/mundo) se ve cómo combinan estas uniones distintas tradiciones.' },
   ],
 }

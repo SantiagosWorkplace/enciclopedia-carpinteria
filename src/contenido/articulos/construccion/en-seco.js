@@ -11,6 +11,6 @@ export default {
       pie: 'Steel framing en obra: montantes y soleras de chapa de acero galvanizado, antes de colocar las placas.',
       credito: { autor: 'Timothy Gonsalves', licencia: 'CC BY-SA 4.0', licenciaUrl: 'https://creativecommons.org/licenses/by-sa/4.0', fuente: 'https://commons.wikimedia.org/wiki/File:IIT_Mandi_Badminton_Hall_LGSF_Construction_Sep_2014_DSC_5989.jpg' },
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las secciones de perfiles, la separación entre montantes y los espesores de paneles cambian según el fabricante y la norma de cada país. Confírmalos con la documentación técnica antes de construir.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las secciones de perfiles, la separación entre montantes y los espesores de paneles cambian según el fabricante y la norma de cada país. Confirmalos con la documentación técnica antes de construir.' },
   ],
 }

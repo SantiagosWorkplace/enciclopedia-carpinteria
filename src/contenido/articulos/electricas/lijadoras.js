@@ -43,23 +43,23 @@ export default {
         ['Madera cepillada a mano o bien preparada', '120 → 150 → 180'],
         ['Entre manos de barniz o laca', '240 – 320, a mano o con presión mínima'],
       ],
-      nota: 'Lijar más fino que 180 – 220 antes de teñir puede hacer que el tinte penetre menos y quede desparejo. Prueba en un recorte.',
+      nota: 'Lijar más fino que 180 – 220 antes de teñir puede hacer que el tinte penetre menos y quede desparejo. Probá en un recorte.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para ver si quedan rayas del grano anterior, ilumina la superficie con una luz rasante, casi paralela a ella, o pásale un trapo apenas humedecido con alcohol: las rayas aparecen enseguida.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para ver si quedan rayas del grano anterior, ilumina la superficie con una luz rasante, casi paralela a ella, o pasale un trapo apenas humedecido con alcohol: las rayas aparecen enseguida.' },
 
     { tipo: 'h2', texto: 'Técnica' },
     {
       tipo: 'pasos',
       items: [
-        'Conecta el aspirador o la bolsa. Además de cuidar los pulmones, la lija se embota menos y dura más.',
-        'Apoya la lijadora sobre la pieza antes de encenderla y apágala antes de levantarla, para no hacer marcas al aterrizar.',
+        'Conectá el aspirador o la bolsa. Además de cuidar los pulmones, la lija se embota menos y dura más.',
+        'Apoyá la lijadora sobre la pieza antes de encenderla y apagala antes de levantarla, para no hacer marcas al aterrizar.',
         'No presiones: el peso de la máquina y de la mano alcanza. Presionar frena la órbita y raya.',
-        'Muévela despacio, unos centímetros por segundo, en pasadas que se superpongan a la mitad.',
-        'Mantén la base plana. Inclinarla hunde el borde y redondea los cantos.',
-        'Cambia la lija cuando corte menos: una lija gastada calienta y pule en lugar de cortar.',
+        'Movela despacio, unos centímetros por segundo, en pasadas que se superpongan a la mitad.',
+        'Mantené la base plana. Inclinarla hunde el borde y redondea los cantos.',
+        'Cambiá la lija cuando corte menos: una lija gastada calienta y pule en lugar de cortar.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de lijado es el más fino y peligroso del taller. Usa siempre aspiración y mascarilla FFP2 o FFP3, y limpia con aspirador, no con escoba ni con aire comprimido.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de lijado es el más fino y peligroso del taller. Usá siempre aspiración y barbijo FFP2 o FFP3, y limpiá con aspirador, no con escoba ni con aire comprimido.' },
 
     { tipo: 'h2', texto: 'Lija' },
     {

@@ -70,7 +70,7 @@ export default {
       ],
       nota: 'Pinos, robles, nogales y cerezos tienen albura y duramen bien diferenciados. En el abeto, la pícea, la haya o el tilo la diferencia de color es mínima o nula.',
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para exterior, usa duramen de especies durables o madera tratada. «Madera de cedro» o «de lapacho» no garantiza nada si la pieza es de albura: mira el color de los cantos y pregunta al proveedor.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para exterior, usá duramen de especies durables o madera tratada. «Madera de cedro» o «de lapacho» no garantiza nada si la pieza es de albura: mirá el color de los cantos y pregunta al proveedor.' },
 
     { tipo: 'h2', texto: 'Radios medulares' },
     { tipo: 'p', texto: 'Además de las células que corren a lo largo del tronco, hay bandas de células que van de la médula hacia la corteza: los [[radios medulares|radio]]. Transportan y guardan nutrientes en dirección radial.' },

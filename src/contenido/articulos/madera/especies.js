@@ -3,7 +3,7 @@ export default {
   relacionados: ['madera/propiedades', 'madera/frondosas-coniferas', 'madera/movimiento'],
   bloques: [
     { tipo: 'p', texto: 'Cada especie tiene un carácter propio: color, peso, dureza, facilidad para trabajarla y resistencia a la intemperie. Las fichas resumen lo esencial de algunas de las maderas más usadas en carpintería y construcción.' },
-    { tipo: 'p', texto: 'Pasa el ratón sobre una tarjeta para inclinarla y haz clic para ver su ficha. La [[dureza Janka|janka]] se muestra en kilonewtons (kN); al tocar el valor cambia a libras-fuerza (lbf). La densidad está medida con alrededor de un 12 % de [[contenido de humedad|ch]].' },
+    { tipo: 'p', texto: 'Pasá el mouse sobre una tarjeta para inclinarla y hacé clic para ver su ficha. La [[dureza Janka|janka]] se muestra en kilonewtons (kN); al tocar el valor cambia a libras-fuerza (lbf). La densidad está medida con alrededor de un 12 % de [[contenido de humedad|ch]].' },
     { tipo: 'interactivo', id: 'especies' },
     {
       tipo: 'foto', src: 'fotos/madera/16-maderas.jpg', ancho: 700, alto: 862,

@@ -1,4 +1,4 @@
-// Primeras etapas de una talla de bulto: trazar los perfiles en el bloque, serrar
+// Primeras etapas de una talla de bulto: trazar los perfiles en el bloque, aserrar
 // el perfil lateral y redondear la sección. Dibujo original en perspectiva caballera.
 const k = 0.354
 const lapiz = { fill: 'none', stroke: '#374151', strokeWidth: 1.2, strokeDasharray: '3 2' }
@@ -28,7 +28,7 @@ function Bloque() {
   )
 }
 
-function Serrado() {
+function Aserrado() {
   const capas = Array.from({ length: 30 }, (_, i) => 30 - i)
   return (
     <>
@@ -55,13 +55,13 @@ function Redondear() {
 
 const paneles = [
   { titulo: '1 Trazar', nota: 'Perfil lateral y frontal', C: Bloque },
-  { titulo: '2 Serrar', nota: 'Primero el perfil lateral', C: Serrado },
+  { titulo: '2 Aserrar', nota: 'Primero el perfil lateral', C: Aserrado },
   { titulo: '3 Redondear', nota: 'Cuadrado, octógono, curva', C: Redondear },
 ]
 
 export default function EtapasBulto() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 192" role="img" aria-label="Talla de bulto: perfiles trazados en el bloque, perfil lateral serrado y sección redondeada por etapas">
+    <svg className="fig-leyenda" viewBox="0 0 480 192" role="img" aria-label="Talla de bulto: perfiles trazados en el bloque, perfil lateral aserrado y sección redondeada por etapas">
       <defs>
         <marker id="eb-f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
           <path d="M0 0 L10 5 L0 10 Z" fill="#b45309" />

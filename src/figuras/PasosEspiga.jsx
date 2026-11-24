@@ -75,14 +75,14 @@ function Probar() {
 
 const paneles = [
   { titulo: 'Marcar', nota: 'Gramil de dos puntas', C: Marcar },
-  { titulo: 'Serrar mejillas', nota: 'Pieza inclinada', C: SerrarMejillas },
-  { titulo: 'Serrar hombros', nota: 'Con gancho de banco', C: SerrarHombros },
+  { titulo: 'Aserrar mejillas', nota: 'Pieza inclinada', C: SerrarMejillas },
+  { titulo: 'Aserrar hombros', nota: 'Con gancho de banco', C: SerrarHombros },
   { titulo: 'Probar', nota: 'Entra con la mano', C: Probar },
 ]
 
 export default function PasosEspiga() {
   return (
-    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos para cortar una espiga: marcar con un gramil de dos puntas, serrar las mejillas con la pieza inclinada en el tornillo, serrar los hombros sobre un gancho de banco y probar el ajuste en la caja">
+    <svg className="fig-leyenda" viewBox="0 0 480 160" role="img" aria-label="Cuatro pasos para cortar una espiga: marcar con un gramil de dos puntas, aserrar las mejillas con la pieza inclinada en el tornillo, aserrar los hombros sobre un gancho de banco y probar el ajuste en la caja">
       <defs>
         <marker id="pe-f" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
           <path d="M0 0 L10 5 L0 10 Z" fill="#15803d" />

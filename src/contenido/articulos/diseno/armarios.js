@@ -29,7 +29,7 @@ export default {
         ['Tablero con herrajes', 'Melamina, aglomerado, MDF', 'Tornillos confirmat, excéntricas, clavijas', 'Se desarma; ver [Herrajes desmontables](#/herrajes/desmontables)'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'En madera maciza, evita encolar una pieza con la veta cruzada sobre un costado ancho, como un listón frontal a todo el fondo. Encólalo solo en el frente y fíjalo atrás con tornillos en agujeros ovalados.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'En madera maciza, evitá encolar una pieza con la veta cruzada sobre un costado ancho, como un listón frontal a todo el fondo. Encolalo solo en el frente y fijalo atrás con tornillos en agujeros ovalados.' },
 
     { tipo: 'h2', texto: 'Trasera' },
     {
@@ -48,10 +48,10 @@ export default {
       items: [
         '**Fijos,** en ranuras o con espigas: aportan rigidez a la caja.',
         '**Regulables,** sobre soportes en agujeros. En la construcción con tablero se usa el **sistema 32**: agujeros de 5 mm de diámetro cada 32 mm, en una línea a 37 mm del canto delantero.',
-        'Para luces mayores de ≈ 80 cm o cargas pesadas, calcula la [[flecha]] con la calculadora de [Cómo trabaja una estructura](#/diseno/estructura).',
+        'Para luces mayores de ≈ 80 cm o cargas pesadas, calculá la [[flecha]] con la calculadora de [Cómo trabaja una estructura](#/diseno/estructura).',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas del sistema 32 son el estándar más extendido, pero algunos fabricantes de herrajes usan otras distancias al canto. Comprueba las medidas de tus herrajes antes de taladrar.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas del sistema 32 son el estándar más extendido, pero algunos fabricantes de herrajes usan otras distancias al canto. Comprobá las medidas de tus herrajes antes de taladrar.' },
 
     { tipo: 'h2', texto: 'Puertas' },
     {
@@ -86,6 +86,6 @@ export default {
     },
 
     { tipo: 'h2', texto: 'Muebles altos' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Todo mueble alto, y toda cómoda con cajones, puede volcar si se abren varios cajones o si un niño trepa. Fíjalos siempre a la pared. Se explica en [Diseñar muebles seguros](#/diseno/seguridad-diseno).' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Todo mueble alto, y toda cómoda con cajones, puede volcar si se abren varios cajones o si un niño trepa. Fijalos siempre a la pared. Se explica en [Diseñar muebles seguros](#/diseno/seguridad-diseno).' },
   ],
 }

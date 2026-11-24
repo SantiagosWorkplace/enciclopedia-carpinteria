@@ -85,7 +85,7 @@ export default function Buscar({ query }) {
               </ul>
             </>
           ) : (
-            <p>Prueba con otra palabra o revisa el <a href="#/?ir=indice">índice</a>.</p>
+            <p>Probá con otra palabra o revisá el <a href="#/?ir=indice">índice</a>.</p>
           )}
         </>
       )}

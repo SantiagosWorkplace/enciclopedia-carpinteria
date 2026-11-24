@@ -26,7 +26,7 @@ export default {
         '**Herramientas con limitador de pasada:** su forma impide que cada cuchilla tome más de un espesor de viruta determinado. Son mucho más seguras al trabajar a mano y son obligatorias en muchos países.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las normas de seguridad sobre herramientas, protectores y alimentadores de la tupí cambian según el país. Respeta siempre la velocidad máxima marcada en la herramienta.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las normas de seguridad sobre herramientas, protectores y alimentadores de la tupí cambian según el país. Respetá siempre la velocidad máxima marcada en la herramienta.' },
 
     { tipo: 'h2', texto: 'Principios de trabajo' },
     { tipo: 'figura', id: 'tupi-avance', pie: 'Vista desde arriba. La herramienta gira en sentido antihorario y la pieza avanza contra el giro, de derecha a izquierda, apretada contra la guía por un prensor.' },

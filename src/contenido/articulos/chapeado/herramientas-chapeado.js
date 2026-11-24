@@ -21,7 +21,7 @@ export default {
         ['Tablero de corte', 'Base para cortar', 'MDF o una plancha de corte; se reemplaza cuando se marca'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Corta siempre con varias pasadas suaves en lugar de una fuerte. La primera, apenas marcada, guía a las siguientes y evita que la cuchilla siga la veta.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Cortá siempre con varias pasadas suaves en lugar de una fuerte. La primera, apenas marcada, guía a las siguientes y evita que la cuchilla siga la veta.' },
 
     { tipo: 'h2', texto: 'Pegar' },
     {
@@ -30,7 +30,7 @@ export default {
       columnas: ['Herramienta', 'Método', 'Uso'],
       filas: [
         ['[[Martillo de chapear|martillo-chapear]]', 'A mano con cola caliente', 'No golpea: se arrastra apretando para sacar el aire y la cola sobrante'],
-        ['Cazo de cola al baño María', 'A mano con [[cola animal|cola-animal]]', 'Mantiene la cola a temperatura sin hervirla'],
+        ['Olla de cola a baño María', 'A mano con [[cola animal|cola-animal]]', 'Mantiene la cola a temperatura sin hervirla'],
         ['Plancha', 'A mano', 'Reactiva la cola animal o la vinílica seca y aplana'],
         ['Rodillo de goma', 'Reparto de cola y cola de contacto', 'Capa pareja y fina'],
         ['Tableros de presión y travesaños curvos', 'Prensa', 'Reparten la presión de las prensas sobre toda la superficie'],
@@ -38,6 +38,6 @@ export default {
         ['Rascador y taco de lija', 'Terminación', 'Igualan la superficie sin atravesar la chapa'],
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las cuchillas de chapear cortan la piel sin esfuerzo. Mantén la mano que sujeta la regla lejos de la línea de corte, corta alejando la cuchilla del cuerpo y guarda las hojas usadas en un recipiente cerrado.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las cuchillas de chapear cortan la piel sin esfuerzo. Mantené la mano que sujeta la regla lejos de la línea de corte, cortá alejando la cuchilla del cuerpo y guardá las hojas usadas en un recipiente cerrado.' },
   ],
 }

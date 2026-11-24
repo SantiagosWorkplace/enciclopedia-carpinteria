@@ -31,7 +31,7 @@ export default {
         ['Ranura para fondo de cajón', '≈ 6 mm de ancho y de profundidad, a 10 – 12 mm del borde inferior'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los tableros de un mismo espesor nominal suelen medir unas décimas de milímetro menos o más. Mide el tablero real con un calibre antes de elegir la fresa o ajustar la sierra.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los tableros de un mismo espesor nominal suelen medir unas décimas de milímetro menos o más. Medí el tablero real con un calibre antes de elegir la fresa o ajustar la sierra.' },
 
     { tipo: 'h2', texto: 'Cómo se cortan' },
     {
@@ -39,11 +39,11 @@ export default {
       items: [
         '**Fresadora con guía:** una fresa recta del ancho justo, o una más fina en dos pasadas, contra un listón prensado como guía. Es lo más práctico para ranuras en laterales grandes.',
         '**Sierra de mesa:** varias pasadas con el disco, moviendo la guía entre una y otra, o con un juego de discos de ranurar donde la máquina lo admita.',
-        '**A mano:** se sierran los dos costados de la ranura con una sierra de costilla y se vacía con el formón y una guimbarda. Los rebajos se cortan con un guillame.',
+        '**A mano:** se aserran los dos costados de la ranura con una sierra de costilla y se vacía con el formón y una guimbarda. Los rebajos se cortan con un guillame.',
         '**Ranura detenida:** con la fresadora, empezando o terminando el corte contra un tope. El extremo redondeado se escuadra con el formón o se redondea la pieza.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Muchas sierras de mesa no admiten juegos de discos de ranurar, y en algunos países su uso está restringido por norma. Comprueba el manual de tu máquina.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Muchas sierras de mesa no admiten juegos de discos de ranurar, y en algunos países su uso está restringido por norma. Comprobá el manual de tu máquina.' },
 
     { tipo: 'h2', texto: 'Detalles que importan' },
     {

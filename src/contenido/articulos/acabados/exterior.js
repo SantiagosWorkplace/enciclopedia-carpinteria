@@ -38,19 +38,19 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Testas selladas:** la testa absorbe agua como una esponja. Séllala con varias manos de acabado o con un sellador para testas, y protégela con un remate o una tapa.',
+        '**Testas selladas:** la testa absorbe agua como una esponja. Sellala con varias manos de acabado o con un sellador para testas, y protegela con un remate o una tapa.',
         '**Superficies inclinadas:** las tapas de postes, los travesaños y los alféizares deben tener pendiente para que el agua no se acumule.',
         '**[[Goterón|goteron]]:** una ranura bajo el borde de una tapa o un alféizar corta la gota y evita que el agua se deslice hacia la pared o la unión.',
         '**Aristas redondeadas:** una película se mantiene mucho mejor sobre un canto redondeado que sobre un filo.',
         '**Separar del suelo:** los pies y los postes no deben apoyar en la tierra ni en el césped. Un taco o una base metálica deja que sequen.',
-        '**Ventilación:** deja separación entre las tablas y detrás de los revestimientos para que el aire las seque.',
+        '**Ventilación:** dejá separación entre las tablas y detrás de los revestimientos para que el aire las seque.',
         '**Tornillería inoxidable o galvanizada:** el hierro común se oxida, mancha de negro las maderas con taninos y pierde fuerza.',
       ],
     },
 
     { tipo: 'h2', texto: 'Madera durable y tratada' },
     { tipo: 'p', texto: 'Algunas especies, como la teca, el iroko, la robinia o el alerce rico en duramen, resisten la pudrición por sí mismas, sobre todo en su duramen; la albura de casi todas las especies es poco durable. El pino tratado en autoclave lleva un protector inyectado a presión y dura muchos años, incluso en contacto con el suelo si el tratamiento es el adecuado para ese uso.' },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La durabilidad natural cambia mucho entre especies y entre piezas. Consulta la clase de durabilidad y la clase de uso del tratamiento cuando compres madera para exterior.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'La madera tratada contiene biocidas. Usa guantes y mascarilla al cortarla y lijarla, no quemes los recortes ni el aserrín, y no la uses en muebles de interior, juguetes ni tablas de cocina.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La durabilidad natural cambia mucho entre especies y entre piezas. Consultá la clase de durabilidad y la clase de uso del tratamiento cuando compres madera para exterior.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'La madera tratada contiene biocidas. Usá guantes y barbijo al cortarla y lijarla, no quemes los recortes ni el aserrín, y no la uses en muebles de interior, juguetes ni tablas de cocina.' },
   ],
 }

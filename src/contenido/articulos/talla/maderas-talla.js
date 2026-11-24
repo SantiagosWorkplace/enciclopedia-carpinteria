@@ -36,16 +36,16 @@ export default {
       ],
       nota: 'La dureza depende de cada tabla: dentro de una misma especie hay piezas más blandas y más duras. Ver la escala de [[Janka|janka]] en las fichas de [Especies de madera](#/madera/especies).',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Los nombres comunes cambian según el país: «cedro» o «caoba» designan especies distintas en cada región. Algunas, como ciertas caobas y cedros americanos, están protegidas por [[CITES|cites]]. Antes de comprar, pide el nombre científico y el origen de la madera.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Los nombres comunes cambian según el país: «cedro» o «caoba» designan especies distintas en cada región. Algunas, como ciertas caobas y cedros americanos, están protegidas por [[CITES|cites]]. Antes de comprar, pedí el nombre científico y el origen de la madera.' },
 
     { tipo: 'h2', texto: 'Elegir la pieza' },
     {
       tipo: 'pasos',
       items: [
-        'Mira la testa: busca anillos parejos y sin [[fendas|fenda]]. Las grietas en la testa suelen seguir hacia adentro.',
-        'Revisa las caras: sin nudos en la zona del motivo ni bolsas de resina.',
-        'Orienta la veta según la forma: debe correr a lo largo de las partes finas, como patas, picos o colas, para que no queden de [[veta corta|veta-corta]] y se quiebren.',
-        'Comprueba la humedad: para relieves y muebles, entre el 8 y el 12 %.',
+        'Mirá la testa: buscá anillos parejos y sin [[fendas|fenda]]. Las grietas en la testa suelen seguir hacia adentro.',
+        'Revisá las caras: sin nudos en la zona del motivo ni bolsas de resina.',
+        'Orientá la veta según la forma: debe correr a lo largo de las partes finas, como patas, picos o colas, para que no queden de [[veta corta|veta-corta]] y se quiebren.',
+        'Comprobá la humedad: para relieves y muebles, entre el 8 y el 12 %.',
       ],
     },
 
@@ -54,12 +54,12 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Bloque encolado:** tablas secas, encoladas cara contra cara, con la veta en la misma dirección. Coloca las líneas de cola donde no vayan detalles finos ni la cara principal.',
+        '**Bloque encolado:** tablas secas, encoladas cara contra cara, con la veta en la misma dirección. Colocá las líneas de cola donde no vayan detalles finos ni la cara principal.',
         '**Sin médula:** elegir piezas cortadas fuera del centro del tronco.',
         '**Talla en verde:** tallar la madera recién cortada, que es mucho más blanda, y dejar que la pieza ya ahuecada o fina seque despacio. Es la técnica de las cucharas y los cuencos, pero las formas cambian un poco al secar.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Para empezar, consigue una tabla de tilo o de cedro de unos 20 a 25 mm de espesor. Se puede practicar en ella cualquiera de las técnicas de este capítulo.' },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de algunas maderas, sobre todo tropicales, irrita la piel y las vías respiratorias. Al lijar o raspar usa mascarilla. Ver [Salud y seguridad](#/taller/salud-seguridad).' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Para empezar, conseguí una tabla de tilo o de cedro de unos 20 a 25 mm de espesor. Se puede practicar en ella cualquiera de las técnicas de este capítulo.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El polvo de algunas maderas, sobre todo tropicales, irrita la piel y las vías respiratorias. Al lijar o raspar usá barbijo. Ver [Salud y seguridad](#/taller/salud-seguridad).' },
   ],
 }

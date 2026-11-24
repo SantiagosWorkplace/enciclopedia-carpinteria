@@ -17,7 +17,7 @@ export default {
         ['Nivel', 'Horizontales y verticales', 'Imprescindible en carpintería de obra e instalación de muebles'],
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Usa siempre la misma cinta métrica en un trabajo. Dos cintas distintas pueden diferir en uno o dos milímetros a lo largo de un metro.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Usá siempre la misma cinta métrica en un trabajo. Dos cintas distintas pueden diferir en uno o dos milímetros a lo largo de un metro.' },
 
     { tipo: 'h2', texto: 'Herramientas para trazar' },
     {
@@ -44,9 +44,9 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Apoya el cabo en un canto bien recto de una tabla o un tablero y traza una línea fina a lo largo de la hoja.',
-        'Da vuelta la escuadra, como una página, y apóyala en el mismo canto con la hoja en el mismo punto de partida.',
-        'Traza una segunda línea. Si coincide con la primera, la escuadra está a 90°. Si se abren, el error de la escuadra es la mitad de la separación.',
+        'Apoyá el cabo en un canto bien recto de una tabla o un tablero y trazá una línea fina a lo largo de la hoja.',
+        'Dá vuelta la escuadra, como una página, y apoyala en el mismo canto con la hoja en el mismo punto de partida.',
+        'Trazá una segunda línea. Si coincide con la primera, la escuadra está a 90°. Si se abren, el error de la escuadra es la mitad de la separación.',
       ],
     },
 
@@ -55,9 +55,9 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Marca la cara de referencia con un lazo o una línea que llegue al canto de referencia, y el canto con una «V» o una flecha.',
-        'Apoya siempre el cabo de la escuadra y la guía del gramil en la cara o el canto de referencia.',
-        'En piezas que forman un conjunto, como las cuatro patas de una mesa, marca un triángulo de carpintero sobre todas juntas: indica su posición y orientación de un vistazo.',
+        'Marcá la cara de referencia con un lazo o una línea que llegue al canto de referencia, y el canto con una «V» o una flecha.',
+        'Apoyá siempre el cabo de la escuadra y la guía del gramil en la cara o el canto de referencia.',
+        'En piezas que forman un conjunto, como las cuatro patas de una mesa, marcá un triángulo de carpintero sobre todas juntas: indicá su posición y orientación de un vistazo.',
       ],
     },
 
@@ -65,10 +65,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        '**Transfiere en lugar de medir:** para marcar el ancho de una caja, apoya directamente la espiga sobre la pieza y marca a sus lados.',
-        '**Usa el gramil para todo lo repetido:** una vez fijado, la medida es la misma en todas las piezas.',
-        '**Listón de medidas:** marca en un listón las alturas de un mueble a tamaño real y úsalo en lugar de la cinta.',
-        '**Marca el desperdicio:** raya con una cruz la parte que se va a quitar. Evita cortar del lado equivocado de la línea.',
+        '**Transfiere en lugar de medir:** para marcar el ancho de una caja, apoyá directamente la espiga sobre la pieza y marcá a sus lados.',
+        '**Usá el gramil para todo lo repetido:** una vez fijado, la medida es la misma en todas las piezas.',
+        '**Listón de medidas:** marcá en un listón las alturas de un mueble a tamaño real y usalo en lugar de la cinta.',
+        '**Marcá el desperdicio:** raya con una cruz la parte que se va a quitar. Evitá cortar del lado equivocado de la línea.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'Al cortar, la línea es la frontera: la sierra va del lado del desperdicio y «deja» la línea en la pieza. Así siempre queda un poco de material para el ajuste final.' },

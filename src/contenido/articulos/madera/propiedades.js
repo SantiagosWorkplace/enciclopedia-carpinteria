@@ -29,7 +29,7 @@ export default {
         '**Brinell:** se aprieta una bola de 10 mm con una fuerza fija y se mide la huella. Se usa en Europa para suelos de madera y se da en N/mm².',
       ],
     },
-    { tipo: 'p', texto: 'La testa es bastante más dura que las caras, y en una misma tabla la madera tardía es más dura que la temprana. En las [fichas de especies](#/madera/especies) puedes comparar la dureza Janka de cada madera y cambiar la unidad con un clic.' },
+    { tipo: 'p', texto: 'La testa es bastante más dura que las caras, y en una misma tabla la madera tardía es más dura que la temprana. En las [fichas de especies](#/madera/especies) podés comparar la dureza Janka de cada madera y cambiar la unidad con un clic.' },
 
     { tipo: 'h2', texto: 'Cómo trabaja una pieza' },
     { tipo: 'p', texto: 'Una pieza de madera puede recibir esfuerzos de distintos tipos, y su resistencia a cada uno depende muchísimo de la dirección de la veta:' },
@@ -71,7 +71,7 @@ export default {
       ],
       nota: 'Probetas pequeñas, sin nudos ni defectos. Una pieza real tiene valores menores.',
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Valores medios publicados por el Wood Handbook (USDA Forest Products Laboratory) para especies norteamericanas. La densidad está calculada aproximadamente a partir del peso específico. Para otras especies o procedencias, consulta la ficha del proveedor.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Valores medios publicados por el Wood Handbook (USDA Forest Products Laboratory) para especies norteamericanas. La densidad está calculada aproximadamente a partir del peso específico. Para otras especies o procedencias, consultá la ficha del proveedor.' },
     { tipo: 'p', texto: 'Un dato curioso: el pino Oregón tiene un módulo de elasticidad de unos 13 GPa y el acero de unos 200 GPa, quince veces más. Pero el acero pesa unas quince veces más, así que **por cada kilo de material la rigidez a lo largo de la veta es parecida**. Por eso la madera es tan eficiente como material de estructura.' },
 
     { tipo: 'h2', texto: 'Qué cambia la resistencia' },

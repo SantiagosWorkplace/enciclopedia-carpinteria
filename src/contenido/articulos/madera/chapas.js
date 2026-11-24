@@ -50,7 +50,7 @@ export default {
         '**Tableros chapados:** contrachapado, MDF o aglomerado con la chapa ya pegada de fábrica.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Con chapa de 0,6 mm, lija con lija fina (grano 150 o más) y sin presionar en los bordes: es muy fácil atravesarla, y una vez que se ve el tablero de abajo ya no tiene arreglo.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Con chapa de 0,6 mm, lijá con lija fina (grano 150 o más) y sin presionar en los bordes: es muy fácil atravesarla, y una vez que se ve el tablero de abajo ya no tiene arreglo.' },
 
     { tipo: 'h2', texto: 'Dibujos especiales' },
     { tipo: 'p', texto: 'Ciertas zonas del árbol dan dibujos que en macizo serían frágiles o inestables, pero que en chapa se pueden aprovechar:' },

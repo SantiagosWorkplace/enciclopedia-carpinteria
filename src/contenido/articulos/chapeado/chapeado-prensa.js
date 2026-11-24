@@ -14,7 +14,7 @@ export default {
         '**Bolsa de vacío:** la pieza va sobre una base con ranuras y dentro de una bolsa de plástico grueso. La bomba saca el aire y la presión atmosférica aprieta por igual en toda la superficie, plana o curva.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Una bomba de vacío de taller suele llegar a ≈ 0,8 – 0,9 bar de vacío, unas 8 toneladas por metro cuadrado. Es menos que una prensa de platos industrial, pero suficiente para la mayoría de las colas de chapeado. Revisa la presión que pide tu cola.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Una bomba de vacío de taller suele llegar a ≈ 0,8 – 0,9 bar de vacío, unas 8 toneladas por metro cuadrado. Es menos que una prensa de platos industrial, pero suficiente para la mayoría de las colas de chapeado. Revisá la presión que pide tu cola.' },
 
     { tipo: 'h2', texto: 'Qué cola usar' },
     {
@@ -29,20 +29,20 @@ export default {
         ['De contacto', 'Sin prensa', 'Solo para chapa con soporte de papel; con chapa natural se forman burbujas'],
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las colas de urea-formaldehído y epoxi irritan la piel y las vías respiratorias. Usa guantes y trabaja con buena ventilación.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'Las colas de urea-formaldehído y epoxi irritan la piel y las vías respiratorias. Usá guantes y trabajá con buena ventilación.' },
 
     { tipo: 'h2', texto: 'Paso a paso' },
     {
       tipo: 'pasos',
       items: [
-        'Prepara todo: soporte limpio, chapas unidas y con su cinta, tableros de presión cubiertos con plástico o papel para que la cola no los pegue, prensas abiertas.',
-        'Reparte la cola sobre el soporte con un rodillo o una espátula dentada, en una capa pareja. No la pongas sobre la chapa: se ondula al instante.',
-        'Coloca la chapa con la cinta hacia arriba y fíjala con dos o tres tiras de cinta para que no se deslice.',
-        'Da vuelta el tablero, encola la otra cara y coloca la contrachapa.',
-        'Arma el paquete con los tableros de presión y aprieta desde el centro hacia los bordes, o mete todo en la bolsa y enciende la bomba.',
-        'Respeta el tiempo de prensado de la cola. Después deja reposar la pieza un día, separada y con aire en las dos caras.',
-        'Recorta la chapa sobrante con una cuchilla o una fresa de copiar a ras, siempre cortando hacia el tablero para no astillar.',
-        'Quita la cinta humedeciéndola y raspando. Luego lija suave con taco.',
+        'Prepará todo: soporte limpio, chapas unidas y con su cinta, tableros de presión cubiertos con plástico o papel para que la cola no los pegue, prensas abiertas.',
+        'Repartí la cola sobre el soporte con un rodillo o una espátula dentada, en una capa pareja. No la pongas sobre la chapa: se ondula al instante.',
+        'Colocá la chapa con la cinta hacia arriba y fijala con dos o tres tiras de cinta para que no se deslice.',
+        'Dá vuelta el tablero, encolá la otra cara y colocá la contrachapa.',
+        'Armá el paquete con los tableros de presión y apretá desde el centro hacia los bordes, o meté todo en la bolsa y encendé la bomba.',
+        'Respetá el tiempo de prensado de la cola. Después dejá reposar la pieza un día, separada y con aire en las dos caras.',
+        'Recortá la chapa sobrante con una cuchilla o una fresa de copiar a ras, siempre cortando hacia el tablero para no astillar.',
+        'Quitá la cinta humedeciéndola y raspando. Luego lijá suave con taco.',
       ],
     },
 

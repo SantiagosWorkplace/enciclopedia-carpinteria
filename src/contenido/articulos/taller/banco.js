@@ -28,7 +28,7 @@ export default {
       ],
     },
     { tipo: 'p', texto: 'Las medidas del cuerpo y las alturas de trabajo se explican en [Ergonomía y medidas del cuerpo](#/diseno/ergonomia).' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Deja el frente de la tapa, las patas delanteras y el tornillo de pecho en un mismo plano. Así puedes prensar una tabla larga contra el frente del banco para cepillar su canto.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Dejá el frente de la tapa, las patas delanteras y el tornillo de pecho en un mismo plano. Así podés prensar una tabla larga contra el frente del banco para cepillar su canto.' },
 
     { tipo: 'h2', texto: 'Tipos de banco' },
     {
@@ -54,10 +54,10 @@ export default {
     {
       tipo: 'lista',
       items: [
-        'Aplana la tapa cada cierto tiempo con una garlopa: se va hundiendo en el centro con el uso.',
-        'Protégela con aceite o cera, no con barniz: un acabado duro hace resbalar las piezas y se marca.',
-        'Usa un tablero de sacrificio o un cartón al encolar y al teñir.',
-        'No cortes directamente sobre la tapa con sierras o formones: usa un taco de desecho.',
+        'Aplaná la tapa cada cierto tiempo con una garlopa: se va hundiendo en el centro con el uso.',
+        'Protegela con aceite o cera, no con barniz: un acabado duro hace resbalar las piezas y se marca.',
+        'Usá un tablero de sacrificio o un cartón al encolar y al teñir.',
+        'No cortes directamente sobre la tapa con sierras o formones: usá un taco de desecho.',
       ],
     },
     { tipo: 'aviso', nivel: 'nota', texto: 'Además del banco, conviene tener una mesa de armado más baja, ≈ 70 – 75 cm, y amplia: encolar un mueble grande sobre el banco obliga a trabajar con los brazos en alto.' },

@@ -1,4 +1,4 @@
-// Los cuatro cortes de la ingletadora sobre un listón, en perspectiva.
+// Los cuatro cortes de la ingleteadora sobre un listón, en perspectiva.
 // El disco corta por el plano rojo. Dibujo original.
 const L = 120
 const A = 34 // ancho del listón (profundidad del dibujo)

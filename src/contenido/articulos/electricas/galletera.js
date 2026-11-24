@@ -10,12 +10,12 @@ export default {
       tipo: 'lista',
       items: [
         '**Material:** madera de haya comprimida, con la veta en diagonal. Absorbe el agua de la cola, se hincha y ajusta firme en la ranura.',
-        '**Tamaños:** n.º 0, 10 y 20, de menor a mayor. Usa la mayor que entre en el ancho de la pieza.',
+        '**Tamaños:** n.º 0, 10 y 20, de menor a mayor. Usá la mayor que entre en el ancho de la pieza.',
         '**Espesor:** ≈ 4 mm, igual para todos los tamaños.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de cada número pueden variar levemente entre fabricantes. Comprueba la profundidad de corte con una galleta real antes de empezar.' },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Guarda las galletas en un frasco cerrado. Si absorben la humedad del ambiente, se hinchan y ya no entran en la ranura.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las medidas de cada número pueden variar levemente entre fabricantes. Comprobá la profundidad de corte con una galleta real antes de empezar.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Guardá las galletas en un frasco cerrado. Si absorben la humedad del ambiente, se hinchan y ya no entran en la ranura.' },
 
     { tipo: 'h2', texto: 'Cómo se usa' },
     {
@@ -27,11 +27,11 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Junta las piezas en su posición final y marca con lápiz una línea que cruce la unión en el lugar de cada galleta.',
-        'Ajusta la profundidad para el tamaño de galleta y la altura de la guía para que la ranura quede centrada en el espesor.',
-        'Apoya la guía en la cara de referencia de la pieza, alinea la marca central de la máquina con la línea de lápiz y hunde la hoja.',
-        'Repite en la otra pieza, apoyando la guía en la cara que debe quedar a ras.',
-        'Pon cola en las ranuras, no solo en la galleta, y en los cantos. Arma y prensa enseguida: la galleta empieza a hincharse en minutos.',
+        'Junta las piezas en su posición final y marcá con lápiz una línea que cruce la unión en el lugar de cada galleta.',
+        'Ajustá la profundidad para el tamaño de galleta y la altura de la guía para que la ranura quede centrada en el espesor.',
+        'Apoyá la guía en la cara de referencia de la pieza, alineá la marca central de la máquina con la línea de lápiz y hundí la hoja.',
+        'Repetí en la otra pieza, apoyando la guía en la cara que debe quedar a ras.',
+        'Poné cola en las ranuras, no solo en la galleta, y en los cantos. Armá y prensá enseguida: la galleta empieza a hincharse en minutos.',
       ],
     },
     {
@@ -53,7 +53,7 @@ export default {
         ['Encolar tablas por el canto para un tablero', 'Sí: alinean las caras y facilitan el prensado'],
         ['Cajas y muebles de tablero', 'Sí: rápidas y suficientes'],
         ['Ingletes de marcos', 'Sí: refuerzan y alinean'],
-        ['Sillas, mesas y uniones que reciben palanca', 'No: usa caja y espiga o espigas planas'],
+        ['Sillas, mesas y uniones que reciben palanca', 'No: usá caja y espiga o espigas planas'],
         ['Piezas de menos de ≈ 12 mm de espesor', 'No: la ranura las debilita o se marca en la cara'],
       ],
     },

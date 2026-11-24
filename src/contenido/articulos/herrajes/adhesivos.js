@@ -39,16 +39,16 @@ export default {
         ['D4', 'Interior con agua frecuente y exterior a la intemperie, con un buen acabado'],
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'Las clases se miden en ensayos de laboratorio; la duración real al exterior depende del diseño, del acabado y del clima. Para piezas que van a estar mojadas mucho tiempo, como un bote, usa epoxi o una cola específica.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'Las clases se miden en ensayos de laboratorio; la duración real al exterior depende del diseño, del acabado y del clima. Para piezas que van a estar mojadas mucho tiempo, como un bote, usá epoxi o una cola específica.' },
 
     { tipo: 'h2', texto: 'Cómo elegir' },
     {
       tipo: 'lista',
       items: [
-        '**Tiempo para armar:** una vinílica común da pocos minutos de [[tiempo abierto|tiempo-abierto]]. Para armados largos, usa una vinílica lenta, cola animal líquida, epoxi lento o urea.',
+        '**Tiempo para armar:** una vinílica común da pocos minutos de [[tiempo abierto|tiempo-abierto]]. Para armados largos, usá una vinílica lenta, cola animal líquida, epoxi lento o urea.',
         '**Agua:** interior seco, vinílica común; cocina o baño, D3; exterior, D4, poliuretano o epoxi.',
         '**Huecos:** las vinílicas necesitan uniones ajustadas. El epoxi rellena huecos sin perder fuerza; el poliuretano los llena de espuma débil.',
-        '**Fluencia:** las vinílicas ceden un poco bajo carga constante. En piezas curvadas que tiran para volver a su forma, usa urea o epoxi. Ver [Curvado por laminado](#/curvado/laminado).',
+        '**Fluencia:** las vinílicas ceden un poco bajo carga constante. En piezas curvadas que tiran para volver a su forma, usá urea o epoxi. Ver [Curvado por laminado](#/curvado/laminado).',
         '**Reversible:** solo la cola animal se despega con calor y humedad, una ventaja para restaurar.',
         '**Acabado:** la cola que queda en la superficie no deja entrar el tinte ni el aceite. Ver [Preparar la superficie](#/acabados/preparacion).',
       ],
@@ -59,12 +59,12 @@ export default {
       tipo: 'lista',
       items: [
         '**Cantidad:** una capa pareja que cubra toda la superficie. Al prensar debe salir un cordón fino de gotitas; si no sale nada, falta cola.',
-        '**Epoxi:** mide los dos componentes con precisión, en peso o en volumen según indique el fabricante. Una mezcla con proporciones equivocadas no endurece bien.',
-        '**Poliuretano:** humedece apenas una de las caras si la madera está muy seca, y prensa firme: la espuma empuja las piezas.',
-        '**Contacto:** después de unir no se puede corregir la posición. Para ubicar una pieza grande, apoya varillas entre las dos caras y retíralas una por una.',
+        '**Epoxi:** medí los dos componentes con precisión, en peso o en volumen según indique el fabricante. Una mezcla con proporciones equivocadas no endurece bien.',
+        '**Poliuretano:** humedecé apenas una de las caras si la madera está muy seca, y prensá firme: la espuma empuja las piezas.',
+        '**Contacto:** después de unir no se puede corregir la posición. Para ubicar una pieza grande, apoyá varillas entre las dos caras y retiralas una por una.',
         '**Conservación:** la vinílica se arruina si se congela. Las colas tienen fecha de vencimiento: una cola vieja espesa o con grumos no pega bien.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El epoxi y el poliuretano sensibilizan la piel: con el tiempo pueden causar alergia. Usa guantes de nitrilo y lávate con agua y jabón, nunca con disolvente. El cianoacrilato pega la piel en segundos; la cola de contacto con disolvente es inflamable y sus vapores se acumulan. Ventila y lee la [[ficha de seguridad|fds]].' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El epoxi y el poliuretano sensibilizan la piel: con el tiempo pueden causar alergia. Usá guantes de nitrilo y lavate con agua y jabón, nunca con disolvente. El cianoacrilato pega la piel en segundos; la cola de contacto con disolvente es inflamable y sus vapores se acumulan. Ventilá y leé la [[ficha de seguridad|fds]].' },
   ],
 }

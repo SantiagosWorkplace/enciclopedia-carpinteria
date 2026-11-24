@@ -57,7 +57,7 @@ export default function CortesKerf() {
         <path d="M380 170 H456 M380 166 V174 M456 166 V174" stroke={rojo} strokeWidth="1.2" />
         <text x="418" y="184" textAnchor="middle" className="fig-titulo" style={{ fill: rojo }}>R</text>
         <text x="393" y="202" textAnchor="middle" className="fig-titulo">Medir con un corte</text>
-        <text x="393" y="217" textAnchor="middle" className="fig-nota">Levanta el extremo hasta cerrar</text>
+        <text x="393" y="217" textAnchor="middle" className="fig-nota">Levantá el extremo hasta cerrar</text>
         <text x="393" y="230" textAnchor="middle" className="fig-nota">el corte. A la distancia del radio,</text>
         <text x="393" y="243" textAnchor="middle" className="fig-nota">la altura s es la separación.</text>
       </g>

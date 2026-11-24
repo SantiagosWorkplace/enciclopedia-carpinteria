@@ -28,10 +28,10 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        'Pesa las escamas y ponlas en un frasco de vidrio con tapa.',
-        'Agrega alcohol de alta graduación, de 96° o más. El alcohol con agua deja el acabado lechoso.',
-        'Agita de vez en cuando durante un día, hasta que no queden escamas sin disolver.',
-        'Cuela con un trapo fino o un filtro de pintura y anota en la etiqueta la fecha y la concentración.',
+        'Pesá las escamas y ponelas en un frasco de vidrio con tapa.',
+        'Agregá alcohol de alta graduación, de 96° o más. El alcohol con agua deja el acabado lechoso.',
+        'Agitá de vez en cuando durante un día, hasta que no queden escamas sin disolver.',
+        'Colá con un trapo fino o un filtro de pintura y anotá en la etiqueta la fecha y la concentración.',
       ],
     },
     {
@@ -47,7 +47,7 @@ export default {
     { tipo: 'aviso', nivel: 'verificar', texto: 'Las concentraciones son orientativas y cambian según el método de cada taller. En recetas en inglés se expresan en «libras por galón»: una libra por galón equivale a unos 120 g por litro.' },
 
     { tipo: 'h2', texto: 'A pincel' },
-    { tipo: 'p', texto: 'Con un pincel suave y ancho, aplica manos finas a favor de la veta, en una sola pasada y sin volver atrás: la goma laca empieza a secar enseguida y el pincel la arrastra. Entre manos espera una hora y lija apenas con grano ≈ 320 – 400. Tres o cuatro manos dan una película fina y bonita.' },
+    { tipo: 'p', texto: 'Con un pincel suave y ancho, aplicá manos finas a favor de la veta, en una sola pasada y sin volver atrás: la goma laca empieza a secar enseguida y el pincel la arrastra. Entre manos esperá una hora y lijá apenas con grano ≈ 320 – 400. Tres o cuatro manos dan una película fina y bonita.' },
 
     { tipo: 'h2', texto: 'A muñeca' },
     { tipo: 'figura', id: 'muneca', pie: 'La muñeca en sección: un alma de lana o algodón envuelta en una tela lisa que no suelte pelusa. A la derecha, los recorridos sobre la pieza.' },
@@ -55,14 +55,14 @@ export default {
     {
       tipo: 'pasos',
       items: [
-        '**Cargar:** abre la funda y moja el alma con goma laca diluida. Cierra la funda y aprieta la muñeca contra la palma: debe quedar húmeda, no mojada.',
-        '**Lubricar:** si la muñeca empieza a pegarse, pon una gota de aceite de vaselina en la suela.',
-        '**Trabajar:** entra a la pieza en movimiento, con círculos y ochos que cubran toda la superficie, y sal en movimiento. Si la muñeca se detiene sobre la goma laca, deja una marca.',
-        '**Construir:** repite en sesiones cortas, dejando secar entre una y otra. A medida que la película crece, la presión aumenta y la carga disminuye.',
+        '**Cargar:** abrí la funda y mojá el alma con goma laca diluida. Cerrá la funda y apretá la muñeca contra la palma: debe quedar húmeda, no mojada.',
+        '**Lubricar:** si la muñeca empieza a pegarse, poné una gota de aceite de vaselina en la suela.',
+        '**Trabajar:** entrá a la pieza en movimiento, con círculos y ochos que cubran toda la superficie, y salí en movimiento. Si la muñeca se detiene sobre la goma laca, deja una marca.',
+        '**Construir:** repetí en sesiones cortas, dejando secar entre una y otra. A medida que la película crece, la presión aumenta y la carga disminuye.',
         '**Terminar:** con la muñeca apenas mojada con alcohol, en pasadas rectas a lo largo de la veta. Así se quitan las marcas de los círculos y el aceite.',
       ],
     },
-    { tipo: 'aviso', nivel: 'consejo', texto: 'Guarda la muñeca en un frasco de vidrio cerrado: así no se seca y está lista para la siguiente sesión.' },
+    { tipo: 'aviso', nivel: 'consejo', texto: 'Guardá la muñeca en un frasco de vidrio cerrado: así no se seca y está lista para la siguiente sesión.' },
 
     { tipo: 'h2', texto: 'Ventajas y límites' },
     {
@@ -73,6 +73,6 @@ export default {
         '**Punto débil:** el alcohol la disuelve y el calor la marca: un vaso caliente o una bebida alcohólica derramada dejan aros blancos. No es buena para mesas de uso diario sin otra protección.',
       ],
     },
-    { tipo: 'aviso', nivel: 'seguridad', texto: 'El alcohol es muy inflamable y sus vapores se acumulan en lugares cerrados. Trabaja con ventilación, sin llamas cerca, y guarda los frascos bien cerrados.' },
+    { tipo: 'aviso', nivel: 'seguridad', texto: 'El alcohol es muy inflamable y sus vapores se acumulan en lugares cerrados. Trabajá con ventilación, sin llamas cerca, y guardá los frascos bien cerrados.' },
   ],
 }

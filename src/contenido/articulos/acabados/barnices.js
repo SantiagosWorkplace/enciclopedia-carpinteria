@@ -25,12 +25,12 @@ export default {
       tipo: 'pasos',
       items: [
         '**Sellador:** la primera mano, diluida, penetra en la madera y la sella. Puede ser el mismo barniz diluido o un [[sellador]] compatible.',
-        '**Lijar** con grano ≈ 240 – 320, a mano y con presión mínima, solo para quitar el polvo atrapado y las fibras levantadas. Quita bien el polvo.',
+        '**Lijar** con grano ≈ 240 – 320, a mano y con presión mínima, solo para quitar el polvo atrapado y las fibras levantadas. Quitá bien el polvo.',
         '**Segunda y siguientes manos:** finas y parejas, lijando entre una y otra.',
-        '**Mano final:** sin lijar después. Si quieres un brillo perfecto, deja curar varios días y pule con abrasivo muy fino y pasta de pulir.',
+        '**Mano final:** sin lijar después. Si querés un brillo perfecto, dejá curar varios días y pulí con abrasivo muy fino y pasta de pulir.',
       ],
     },
-    { tipo: 'aviso', nivel: 'verificar', texto: 'La dilución de la primera mano, el tiempo entre manos y el número de manos dependen de cada barniz: sigue la ficha técnica. En general se recomiendan 3 manos en muebles y más en superficies de mucho uso.' },
+    { tipo: 'aviso', nivel: 'verificar', texto: 'La dilución de la primera mano, el tiempo entre manos y el número de manos dependen de cada barniz: seguí la ficha técnica. En general se recomiendan 3 manos en muebles y más en superficies de mucho uso.' },
 
     { tipo: 'h2', texto: 'A pincel' },
     {
@@ -43,11 +43,11 @@ export default {
       tipo: 'lista',
       items: [
         '**El pincel:** de cerda natural para barnices al disolvente; de fibra sintética para los barnices al agua.',
-        '**No agites la lata:** revuelve con una varilla. Agitar mete burbujas que quedan en la película.',
-        '**Carga poco** y extiende en pasadas a favor de la veta, primero a lo largo y después repasando con la punta del pincel, apenas apoyado, de un extremo al otro.',
-        '**Borde húmedo:** avanza siempre empalmando con barniz todavía fresco. Si repasas una zona que empezó a secar, quedan marcas.',
-        '**Verticales:** manos más finas, de arriba abajo, y revisa los chorreados unos minutos después.',
-        '**Polvo:** barniza en un lugar limpio, sin corrientes de aire, y con una [[luz rasante|luz-rasante]] para ver la película.',
+        '**No agites la lata:** revolvé con una varilla. Agitar mete burbujas que quedan en la película.',
+        '**Cargá poco** y extendé en pasadas a favor de la veta, primero a lo largo y después repasando con la punta del pincel, apenas apoyado, de un extremo al otro.',
+        '**Borde húmedo:** avanzá siempre empalmando con barniz todavía fresco. Si repasás una zona que empezó a secar, quedan marcas.',
+        '**Verticales:** manos más finas, de arriba abajo, y revisá los chorreados unos minutos después.',
+        '**Polvo:** barnizá en un lugar limpio, sin corrientes de aire, y con una [[luz rasante|luz-rasante]] para ver la película.',
       ],
     },
     { tipo: 'aviso', nivel: 'consejo', texto: 'El barniz frotado es un poliuretano diluido a la mitad con su disolvente, que se aplica con un trapo y se deja secar sin repasar. Cada mano es finísima, casi no deja marcas y no junta polvo. Hacen falta más manos.' },

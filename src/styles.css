@@ -495,7 +495,7 @@ section.alt .notas-build { background: var(--card); }
 .pendiente-box { max-width: 760px; padding: 1.5rem; border: 2px dashed var(--line); border-radius: 16px; background: var(--card); }
 .cargando { color: var(--muted); }
 
-/* Término del glosario con definición al pasar el ratón */
+/* Término del glosario con definición al pasar el mouse */
 .glos { color: inherit; text-decoration: underline dotted var(--accent); text-underline-offset: 3px; position: relative; }
 .glos:hover::after, .glos:focus-visible::after {
   content: attr(data-def); position: absolute; left: 0; top: calc(100% + 6px); z-index: 20;
